@@ -1,0 +1,530 @@
+[
+ {
+  "id": "malt_specialty",
+  "branch": "malt",
+  "nameZh": "特种麦芽学",
+  "cost": 40,
+  "requires": [],
+  "effects": [],
+  "desc": "了解焦糖与结晶麦芽，解锁更多颜色与甜度。"
+ },
+ {
+  "id": "malt_dark",
+  "branch": "malt",
+  "nameZh": "深色烘焙",
+  "cost": 80,
+  "requires": [
+   "malt_specialty"
+  ],
+  "effects": [],
+  "desc": "巧克力麦芽、黑麦芽、烘烤大麦——通往波特与世涛。"
+ },
+ {
+  "id": "malt_wheat_rye",
+  "branch": "malt",
+  "nameZh": "小麦与黑麦",
+  "cost": 60,
+  "requires": [],
+  "effects": [],
+  "desc": "解锁小麦、黑麦等带壳少/蛋白高的谷物。"
+ },
+ {
+  "id": "malt_adjunct",
+  "branch": "malt",
+  "nameZh": "谷物辅料",
+  "cost": 60,
+  "requires": [],
+  "effects": [],
+  "desc": "燕麦、大米、玉米：轻盈或丝滑的酒体。"
+ },
+ {
+  "id": "malt_smoked",
+  "branch": "malt",
+  "nameZh": "烟熏麦芽",
+  "cost": 120,
+  "requires": [
+   "malt_specialty"
+  ],
+  "effects": [],
+  "desc": "山毛榉与橡木烟熏麦芽，班贝格的灵魂。"
+ },
+ {
+  "id": "malt_efficiency",
+  "branch": "malt",
+  "nameZh": "精准糖化",
+  "cost": 150,
+  "requires": [
+   "malt_specialty"
+  ],
+  "effects": [
+   "efficiency:5"
+  ],
+  "desc": "糖化效率 +5%。"
+ },
+ {
+  "id": "hop_us",
+  "branch": "hop",
+  "nameZh": "美式酒花",
+  "cost": 50,
+  "requires": [],
+  "effects": [],
+  "desc": "C 系酒花：柑橘、松针与西柚。"
+ },
+ {
+  "id": "hop_noble",
+  "branch": "hop",
+  "nameZh": "贵族酒花",
+  "cost": 50,
+  "requires": [],
+  "effects": [],
+  "desc": "德捷经典的草本与花香酒花。"
+ },
+ {
+  "id": "hop_southern",
+  "branch": "hop",
+  "nameZh": "南半球酒花",
+  "cost": 150,
+  "requires": [
+   "hop_us"
+  ],
+  "effects": [],
+  "desc": "新西兰与澳大利亚的热带果香酒花。"
+ },
+ {
+  "id": "hop_new",
+  "branch": "hop",
+  "nameZh": "新兴实验酒花",
+  "cost": 300,
+  "requires": [
+   "hop_southern"
+  ],
+  "effects": [
+   "hopAroma:0.1"
+  ],
+  "desc": "育种实验室出品的新品种；酒花香利用率 +10%。"
+ },
+ {
+  "id": "hop_cryo",
+  "branch": "hop",
+  "nameZh": "酒花浓缩技术",
+  "cost": 250,
+  "requires": [
+   "hop_us"
+  ],
+  "effects": [
+   "hopAroma:0.15"
+  ],
+  "desc": "酒花香气利用率 +15%，减少草青味。"
+ },
+ {
+  "id": "yeast_weizen",
+  "branch": "yeast",
+  "nameZh": "小麦酵母",
+  "cost": 60,
+  "requires": [],
+  "effects": [],
+  "desc": "香蕉与丁香的魔法。"
+ },
+ {
+  "id": "yeast_belgian",
+  "branch": "yeast",
+  "nameZh": "比利时酵母",
+  "cost": 80,
+  "requires": [],
+  "effects": [],
+  "desc": "修道院与农舍的复杂酯香和酚类。"
+ },
+ {
+  "id": "yeast_bank",
+  "branch": "yeast",
+  "nameZh": "酵母库",
+  "cost": 150,
+  "requires": [
+   "yeast_belgian"
+  ],
+  "effects": [
+   "quality:2"
+  ],
+  "desc": "更健康的酵母，所有批次品质 +2。"
+ },
+ {
+  "id": "yeast_kveik",
+  "branch": "yeast",
+  "nameZh": "Kveik 农舍酵母",
+  "cost": 200,
+  "requires": [
+   "yeast_belgian"
+  ],
+  "effects": [],
+  "desc": "挪威农舍酵母，高温快速发酵。"
+ },
+ {
+  "id": "water_basic",
+  "branch": "water",
+  "nameZh": "水质入门",
+  "cost": 60,
+  "requires": [],
+  "effects": [
+   "water:presets"
+  ],
+  "desc": "解锁 柔软水 / IPA 水 / 深色啤酒水 / 拉格水 等预设。"
+ },
+ {
+  "id": "water_advanced",
+  "branch": "water",
+  "nameZh": "矿物质调配",
+  "cost": 200,
+  "requires": [
+   "water_basic"
+  ],
+  "effects": [
+   "water:advanced"
+  ],
+  "desc": "自由调整 Ca/Mg/Na/Cl/SO4/HCO3。"
+ },
+ {
+  "id": "ferm_control",
+  "branch": "fermentation",
+  "nameZh": "温控发酵",
+  "cost": 60,
+  "requires": [],
+  "effects": [
+   "fermTemp"
+  ],
+  "desc": "发酵温度更稳定，降低溶剂味风险。"
+ },
+ {
+  "id": "ferm_sanitation",
+  "branch": "fermentation",
+  "nameZh": "卫生管理",
+  "cost": 80,
+  "requires": [],
+  "effects": [
+   "sanitation:0.6"
+  ],
+  "desc": "感染风险大幅降低。"
+ },
+ {
+  "id": "ferm_diacetyl",
+  "branch": "fermentation",
+  "nameZh": "双乙酰休止",
+  "cost": 100,
+  "requires": [
+   "ferm_control"
+  ],
+  "effects": [
+   "diacetyl:0.5"
+  ],
+  "desc": "黄油味风险减半。"
+ },
+ {
+  "id": "ferm_filter",
+  "branch": "fermentation",
+  "nameZh": "过滤技术",
+  "cost": 80,
+  "requires": [],
+  "effects": [
+   "process:filtered"
+  ],
+  "desc": "可选择过滤，获得水晶般清澈的酒液。"
+ },
+ {
+  "id": "ferm_carbonation",
+  "branch": "fermentation",
+  "nameZh": "碳酸化控制",
+  "cost": 60,
+  "requires": [],
+  "effects": [
+   "carbonation"
+  ],
+  "desc": "可将碳酸化调整到 1.2~4.5 vol。"
+ },
+ {
+  "id": "lager_basic",
+  "branch": "lager",
+  "nameZh": "拉格发酵",
+  "cost": 80,
+  "requires": [
+   "ferm_control"
+  ],
+  "effects": [],
+  "desc": "下层发酵酵母与低温熟成。"
+ },
+ {
+  "id": "lager_decoction",
+  "branch": "lager",
+  "nameZh": "煮出糖化",
+  "cost": 150,
+  "requires": [
+   "lager_basic"
+  ],
+  "effects": [
+   "process:decoction"
+  ],
+  "desc": "德捷传统：更深的麦芽风味。"
+ },
+ {
+  "id": "lager_modern",
+  "branch": "lager",
+  "nameZh": "现代拉格",
+  "cost": 200,
+  "requires": [
+   "lager_basic"
+  ],
+  "effects": [
+   "clue:lager"
+  ],
+  "desc": "意式皮尔森、米拉格……获得若干拉格线索。"
+ },
+ {
+  "id": "lager_eis",
+  "branch": "lager",
+  "nameZh": "冰冻浓缩",
+  "cost": 300,
+  "requires": [
+   "lager_decoction"
+  ],
+  "effects": [
+   "process:freeze"
+  ],
+  "desc": "冻掉水分，浓缩出 Eisbock。"
+ },
+ {
+  "id": "ipa_west",
+  "branch": "ipa",
+  "nameZh": "IPA 工艺",
+  "cost": 80,
+  "requires": [
+   "hop_us"
+  ],
+  "effects": [
+   "clue:ipa"
+  ],
+  "desc": "获得若干 IPA 线索。"
+ },
+ {
+  "id": "ipa_hazy",
+  "branch": "ipa",
+  "nameZh": "浑浊 IPA",
+  "cost": 150,
+  "requires": [
+   "ipa_west"
+  ],
+  "effects": [],
+  "desc": "生物转化酵母与大量干投。"
+ },
+ {
+  "id": "ipa_enzyme",
+  "branch": "ipa",
+  "nameZh": "外加酶",
+  "cost": 200,
+  "requires": [
+   "ipa_west"
+  ],
+  "effects": [
+   "process:enzyme"
+  ],
+  "desc": "极干的 Brut IPA。"
+ },
+ {
+  "id": "belgian_abbey",
+  "branch": "belgian",
+  "nameZh": "修道院传统",
+  "cost": 120,
+  "requires": [
+   "yeast_belgian"
+  ],
+  "effects": [
+   "clue:belgian"
+  ],
+  "desc": "糖块与修道院酵母。"
+ },
+ {
+  "id": "belgian_spice",
+  "branch": "belgian",
+  "nameZh": "香料调配",
+  "cost": 80,
+  "requires": [],
+  "effects": [],
+  "desc": "芫荽籽、橙皮与各类香料。"
+ },
+ {
+  "id": "belgian_farmhouse",
+  "branch": "belgian",
+  "nameZh": "农舍艾尔",
+  "cost": 150,
+  "requires": [
+   "yeast_belgian"
+  ],
+  "effects": [
+   "clue:farmhouse"
+  ],
+  "desc": "Saison 与 Bière de Garde 的农舍传统。"
+ },
+ {
+  "id": "sour_kettle",
+  "branch": "sour",
+  "nameZh": "壶内酸化",
+  "cost": 150,
+  "requires": [],
+  "effects": [
+   "process:kettleSour"
+  ],
+  "desc": "乳酸菌快速酸化麦汁。"
+ },
+ {
+  "id": "sour_salt",
+  "branch": "sour",
+  "nameZh": "盐与芫荽",
+  "cost": 100,
+  "requires": [
+   "sour_kettle"
+  ],
+  "effects": [
+   "clue:sour"
+  ],
+  "desc": "古斯（Gose）的咸酸配方。"
+ },
+ {
+  "id": "sour_fruit",
+  "branch": "sour",
+  "nameZh": "水果酸啤",
+  "cost": 150,
+  "requires": [
+   "sour_kettle"
+  ],
+  "effects": [],
+  "desc": "大量水果果泥与二次发酵。"
+ },
+ {
+  "id": "wild_brett",
+  "branch": "wild",
+  "nameZh": "酒香酵母",
+  "cost": 250,
+  "requires": [
+   "sour_kettle"
+  ],
+  "effects": [],
+  "desc": "Brettanomyces 的谷仓与皮革。"
+ },
+ {
+  "id": "wild_mixed",
+  "branch": "wild",
+  "nameZh": "混合菌群",
+  "cost": 300,
+  "requires": [
+   "wild_brett"
+  ],
+  "effects": [],
+  "desc": "片球菌与混合菌群。"
+ },
+ {
+  "id": "wild_coolship",
+  "branch": "wild",
+  "nameZh": "冷却池",
+  "cost": 400,
+  "requires": [
+   "wild_mixed"
+  ],
+  "effects": [
+   "process:coolship"
+  ],
+  "desc": "让空气中的微生物自然接种。"
+ },
+ {
+  "id": "wild_blend",
+  "branch": "wild",
+  "nameZh": "勾兑艺术",
+  "cost": 400,
+  "requires": [
+   "wild_coolship"
+  ],
+  "effects": [
+   "process:blend"
+  ],
+  "desc": "多年份 Lambic 勾兑成 Gueuze。"
+ },
+ {
+  "id": "barrel_cellar",
+  "branch": "barrel",
+  "nameZh": "酒窖",
+  "cost": 300,
+  "requires": [],
+  "effects": [
+   "barrel"
+  ],
+  "desc": "开放木桶陈酿（需购买木桶架）。"
+ },
+ {
+  "id": "barrel_spirit",
+  "branch": "barrel",
+  "nameZh": "烈酒桶",
+  "cost": 300,
+  "requires": [
+   "barrel_cellar"
+  ],
+  "effects": [],
+  "desc": "波本、威士忌、朗姆桶。"
+ },
+ {
+  "id": "barrel_wine",
+  "branch": "barrel",
+  "nameZh": "葡萄酒桶",
+  "cost": 300,
+  "requires": [
+   "barrel_cellar"
+  ],
+  "effects": [],
+  "desc": "红酒桶与雪莉桶。"
+ },
+ {
+  "id": "barrel_speed",
+  "branch": "barrel",
+  "nameZh": "陈酿管理",
+  "cost": 500,
+  "requires": [
+   "barrel_spirit"
+  ],
+  "effects": [
+   "agingSpeed:1.5"
+  ],
+  "desc": "木桶陈酿速度 ×1.5。"
+ },
+ {
+  "id": "history_herbs",
+  "branch": "history",
+  "nameZh": "古代草本",
+  "cost": 200,
+  "requires": [],
+  "effects": [
+   "clue:historical"
+  ],
+  "desc": "杜松、格鲁特草本：北欧与中世纪的配方。"
+ },
+ {
+  "id": "history_noboil",
+  "branch": "history",
+  "nameZh": "不煮沸工艺",
+  "cost": 200,
+  "requires": [
+   "history_herbs"
+  ],
+  "effects": [
+   "process:noBoil"
+  ],
+  "desc": "Sahti 与传统柏林白的古法。"
+ },
+ {
+  "id": "history_hotstone",
+  "branch": "history",
+  "nameZh": "热石煮沸",
+  "cost": 250,
+  "requires": [
+   "history_herbs"
+  ],
+  "effects": [
+   "process:hotStone"
+  ],
+  "desc": "把烧红的石头丢进麦汁！"
+ }
+]

@@ -1,0 +1,4336 @@
+[
+ {
+  "id": "american_light_lager",
+  "name": "American Light Lager",
+  "nameZh": "美式淡色轻拉格",
+  "family": "lager",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "American",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "lager",
+  "abv": {
+   "min": 2.8,
+   "max": 4.2
+  },
+  "ibu": {
+   "min": 6,
+   "max": 14
+  },
+  "color": {
+   "min": 1.5,
+   "max": 3.5
+  },
+  "body": 0.2,
+  "sweetness": 0.5,
+  "bitterness": 0.9,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.2,
+  "malt": 1.3,
+  "caramel": 0,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.4,
+  "tags": [
+   "清爽",
+   "低热量",
+   "超市啤酒",
+   "冰镇"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "flaked_corn",
+   "flaked_rice",
+   "magnum",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "american_lager",
+   "german_leichtbier",
+   "mexican_lager"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "malt",
+    "in": [
+     "flaked_corn",
+     "flaked_rice"
+    ],
+    "minShare": 0.15,
+    "soft": true,
+    "hint": "加入玉米或大米辅料让口感更清爽。"
+   }
+  ],
+  "aromas": [
+   "grain",
+   "corn",
+   "bread"
+  ],
+  "glass": "shaker",
+  "servingTemp": 3,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "这种啤酒在美国的体育场里随处可见。",
+   "颜色极浅，几乎像水一样清澈。",
+   "酒精度和热量都很低。",
+   "玉米或大米让它格外寡淡清爽。"
+  ],
+  "description": "美国大型酒厂为\"低热量\"需求打造的轻型拉格，大量使用玉米或大米辅料。酒体极轻、气泡充足，几乎没有苦味，最适合冰镇后大口畅饮。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 2.1
+    },
+    {
+     "id": "flaked_corn",
+     "kg": 0.9
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 5,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 6,
+     "use": "boil",
+     "time": 10
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "lager",
+   "adjuncts": [],
+   "mashTemp": 63,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 21,
+   "carbonation": 2.9,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "american_lager",
+  "name": "American Lager",
+  "nameZh": "美式拉格",
+  "family": "lager",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "American",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.2,
+   "max": 5.3
+  },
+  "ibu": {
+   "min": 8,
+   "max": 18
+  },
+  "color": {
+   "min": 2,
+   "max": 4
+  },
+  "body": 0.7,
+  "sweetness": 1.1,
+  "bitterness": 1.1,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.2,
+  "malt": 1.7,
+  "caramel": 0,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.4,
+  "tags": [
+   "经典",
+   "清爽",
+   "玉米辅料",
+   "大众"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "flaked_corn",
+   "flaked_rice",
+   "magnum",
+   "hallertau_mittelfruh",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "american_light_lager",
+   "international_pale_lager",
+   "mexican_lager"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "malt",
+    "in": [
+     "flaked_corn",
+     "flaked_rice"
+    ],
+    "minShare": 0.15,
+    "soft": true,
+    "hint": "加入玉米或大米辅料让口感更清爽。"
+   }
+  ],
+  "aromas": [
+   "grain",
+   "corn",
+   "bread"
+  ],
+  "glass": "shaker",
+  "servingTemp": 4,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它是美国最常见的啤酒。",
+   "颜色浅金，非常清澈。",
+   "苦味很轻，口感干爽。",
+   "酿酒师在麦芽之外加了一些玉米。"
+  ],
+  "description": "19 世纪德国移民在美国用本地六棱大麦和玉米改良出的清爽拉格，后来成为全球销量最大的啤酒类型。干净、气泡足、苦度低，带淡淡谷物甜。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 3
+    },
+    {
+     "id": "flaked_corn",
+     "kg": 1
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 7,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 8,
+     "use": "boil",
+     "time": 10
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "lager",
+   "adjuncts": [],
+   "mashTemp": 64,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 21,
+   "carbonation": 2.8,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "international_pale_lager",
+  "name": "International Pale Lager",
+  "nameZh": "国际淡色拉格",
+  "family": "lager",
+  "group": "International",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.6,
+   "max": 6
+  },
+  "ibu": {
+   "min": 18,
+   "max": 25
+  },
+  "color": {
+   "min": 2,
+   "max": 6
+  },
+  "body": 1.1,
+  "sweetness": 1.2,
+  "bitterness": 1.8,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.5,
+  "malt": 2.2,
+  "caramel": 0,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.2,
+  "haze": 0.1,
+  "tags": [
+   "全球化",
+   "清爽",
+   "淡色",
+   "易饮"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "flaked_corn",
+   "warrior",
+   "hallertau_mittelfruh",
+   "saaz",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "american_lager",
+   "german_pils",
+   "munich_helles"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   }
+  ],
+  "aromas": [
+   "grain",
+   "bread",
+   "floral"
+  ],
+  "glass": "pilsner",
+  "servingTemp": 4,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "几乎每个国家都有一款这样的啤酒。",
+   "浅金色，清澈透亮。",
+   "比美式拉格多一点麦芽和苦味。",
+   "有时会加入少量玉米。"
+  ],
+  "description": "以皮尔森为蓝本、在世界各地大规模生产的淡色拉格，从欧洲到亚洲都能见到它的身影。比美式拉格稍浓郁一些，带有轻微的谷物与花香酒花。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 4
+    },
+    {
+     "id": "flaked_corn",
+     "kg": 0.5
+    }
+   ],
+   "hops": [
+    {
+     "id": "warrior",
+     "grams": 10,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 15,
+     "use": "boil",
+     "time": 15
+    },
+    {
+     "id": "saaz",
+     "grams": 12,
+     "use": "boil",
+     "time": 5
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "lager",
+   "adjuncts": [],
+   "mashTemp": 64,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 28,
+   "carbonation": 2.7,
+   "processes": [
+    "filtered"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "international_amber_lager",
+  "name": "International Amber Lager",
+  "nameZh": "国际琥珀拉格",
+  "family": "lager",
+  "group": "International",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.6,
+   "max": 6
+  },
+  "ibu": {
+   "min": 8,
+   "max": 25
+  },
+  "color": {
+   "min": 7,
+   "max": 14
+  },
+  "body": 1.6,
+  "sweetness": 2,
+  "bitterness": 1.1,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.2,
+  "malt": 2.4,
+  "caramel": 1.1,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.1,
+  "haze": 0.4,
+  "tags": [
+   "琥珀色",
+   "焦糖",
+   "易饮"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "vienna_malt",
+   "crystal_60",
+   "flaked_corn",
+   "magnum",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "vienna_lager",
+   "marzen",
+   "international_dark_lager"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   }
+  ],
+  "aromas": [
+   "caramel",
+   "bread",
+   "toast"
+  ],
+  "glass": "shaker",
+  "servingTemp": 5,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它是大众拉格的琥珀色版本。",
+   "颜色像铜一样。",
+   "有一点轻柔的焦糖甜。",
+   "苦度不高，非常好入口。"
+  ],
+  "description": "在淡色拉格基础上加入焦糖麦芽和维也纳麦芽获得琥珀色泽的大众拉格。比维也纳拉格更简单甜美，焦糖香柔和，适合佐餐。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 3
+    },
+    {
+     "id": "vienna_malt",
+     "kg": 0.9
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.3
+    },
+    {
+     "id": "flaked_corn",
+     "kg": 0.4
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 7,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 10,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "lager",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 28,
+   "carbonation": 2.6,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "international_dark_lager",
+  "name": "International Dark Lager",
+  "nameZh": "国际深色拉格",
+  "family": "lager",
+  "group": "International",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.2,
+   "max": 6
+  },
+  "ibu": {
+   "min": 8,
+   "max": 20
+  },
+  "color": {
+   "min": 14,
+   "max": 22
+  },
+  "body": 1.2,
+  "sweetness": 1.5,
+  "bitterness": 1.2,
+  "acidity": 0,
+  "roast": 0.9,
+  "hopAroma": 0.1,
+  "malt": 2,
+  "caramel": 1,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.4,
+  "tags": [
+   "深色",
+   "顺滑",
+   "轻烘烤"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "munich_malt",
+   "crystal_120",
+   "chocolate_malt",
+   "flaked_corn",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "munich_dunkel",
+   "schwarzbier",
+   "international_amber_lager"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   }
+  ],
+  "aromas": [
+   "caramel",
+   "toast",
+   "chocolate"
+  ],
+  "glass": "shaker",
+  "servingTemp": 5,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它看起来很黑，喝起来却很轻。",
+   "颜色接近深棕。",
+   "只有一丝焦糖和烘烤味。",
+   "酒体轻盈，苦度很低。"
+  ],
+  "description": "深色版的大众拉格，用少量焦糖与烘烤麦芽染色，常见于各国大酒厂。外表深沉但口感清淡，略带焦糖甜与淡淡的可可感。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 2.9
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.5
+    },
+    {
+     "id": "crystal_120",
+     "kg": 0.2
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.1
+    },
+    {
+     "id": "flaked_corn",
+     "kg": 0.4
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 7,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 6,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 28,
+   "carbonation": 2.6,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "czech_pale_lager",
+  "name": "Czech Pale Lager",
+  "nameZh": "捷克淡色拉格",
+  "family": "lager",
+  "alsoIn": [
+   "czech"
+  ],
+  "group": "Czech",
+  "country": [
+   "czech"
+  ],
+  "region": "Bohemia",
+  "fermentation": "lager",
+  "abv": {
+   "min": 3,
+   "max": 4.1
+  },
+  "ibu": {
+   "min": 20,
+   "max": 35
+  },
+  "color": {
+   "min": 3,
+   "max": 6
+  },
+  "body": 1.9,
+  "sweetness": 1.2,
+  "bitterness": 2.1,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.8,
+  "malt": 2.7,
+  "caramel": 0.2,
+  "fruity": 0.2,
+  "spicy": 0.1,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.4,
+  "tags": [
+   "捷克",
+   "萨兹",
+   "低酒精",
+   "清新"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "carapils",
+   "saaz",
+   "czech_lager",
+   "bohemian_lager"
+  ],
+  "relatedStyles": [
+   "czech_premium_pale_lager",
+   "german_leichtbier",
+   "munich_helles"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "czech"
+    ],
+    "minShare": 0.7,
+    "hint": "酒花以捷克品种为主（如萨兹）。"
+   },
+   {
+    "type": "yeast",
+    "in": [
+     "czech_lager",
+     "bohemian_lager"
+    ],
+    "soft": true,
+    "hint": "最好使用捷克/波西米亚拉格酵母。"
+   }
+  ],
+  "aromas": [
+   "bread",
+   "spicy",
+   "herbal",
+   "floral"
+  ],
+  "glass": "mug",
+  "servingTemp": 6,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它来自捷克的小酒馆。",
+   "酒精度很低，适合一杯接一杯。",
+   "有明显的辛香草本酒花味。",
+   "使用了极软的水和捷克贵族酒花。"
+  ],
+  "description": "捷克人日常饮用的\"výčepní\"淡色拉格，酒精度通常只有 3~4%。软水与萨兹酒花带来柔和的面包香与清新辛香，口感饱满却不厚重。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 2.7
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.25
+    },
+    {
+     "id": "carapils",
+     "kg": 0.15
+    }
+   ],
+   "hops": [
+    {
+     "id": "saaz",
+     "grams": 40,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "saaz",
+     "grams": 25,
+     "use": "boil",
+     "time": 20
+    },
+    {
+     "id": "saaz",
+     "grams": 20,
+     "use": "boil",
+     "time": 5
+    }
+   ],
+   "yeast": "czech_lager",
+   "water": "soft",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 28,
+   "carbonation": 2.3,
+   "processes": [
+    "decoction"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "czech_premium_pale_lager",
+  "name": "Czech Premium Pale Lager",
+  "nameZh": "捷克皮尔森",
+  "family": "lager",
+  "alsoIn": [
+   "czech"
+  ],
+  "group": "Czech",
+  "country": [
+   "czech"
+  ],
+  "region": "Plzeň",
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.2,
+   "max": 5.8
+  },
+  "ibu": {
+   "min": 30,
+   "max": 45
+  },
+  "color": {
+   "min": 3.5,
+   "max": 6
+  },
+  "body": 2.4,
+  "sweetness": 2.2,
+  "bitterness": 2.4,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 1.2,
+  "malt": 3.1,
+  "caramel": 0.2,
+  "fruity": 0.2,
+  "spicy": 0.1,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.4,
+  "tags": [
+   "皮尔森",
+   "萨兹",
+   "煮出糖化",
+   "金色"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "carapils",
+   "saaz",
+   "bohemian_lager",
+   "czech_lager"
+  ],
+  "relatedStyles": [
+   "german_pils",
+   "czech_pale_lager",
+   "czech_amber_lager"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "czech"
+    ],
+    "minShare": 0.7,
+    "hint": "酒花以捷克品种为主（如萨兹）。"
+   },
+   {
+    "type": "yeast",
+    "in": [
+     "czech_lager",
+     "bohemian_lager"
+    ],
+    "soft": true,
+    "hint": "最好使用捷克/波西米亚拉格酵母。"
+   }
+  ],
+  "aromas": [
+   "bread",
+   "spicy",
+   "herbal",
+   "honey"
+  ],
+  "glass": "pilsner",
+  "servingTemp": 7,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "1842 年，它在一座波西米亚小城诞生。",
+   "它是世界上第一款金色拉格。",
+   "萨兹酒花的辛香与饱满的麦芽平衡。",
+   "酿造时要把一部分麦汁取出煮沸再倒回。"
+  ],
+  "description": "起源于比尔森的原版皮尔森，是所有金色拉格的祖先。煮出糖化带来丰满的面包与蜂蜜麦芽感，大量萨兹酒花赋予持久的辛香苦味。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 4.4
+    },
+    {
+     "id": "carapils",
+     "kg": 0.2
+    }
+   ],
+   "hops": [
+    {
+     "id": "saaz",
+     "grams": 60,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "saaz",
+     "grams": 35,
+     "use": "boil",
+     "time": 20
+    },
+    {
+     "id": "saaz",
+     "grams": 30,
+     "use": "boil",
+     "time": 5
+    }
+   ],
+   "yeast": "bohemian_lager",
+   "water": "soft",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 35,
+   "carbonation": 2.4,
+   "processes": [
+    "decoction"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "czech_amber_lager",
+  "name": "Czech Amber Lager",
+  "nameZh": "捷克琥珀拉格",
+  "family": "lager",
+  "alsoIn": [
+   "czech"
+  ],
+  "group": "Czech",
+  "country": [
+   "czech"
+  ],
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.4,
+   "max": 5.8
+  },
+  "ibu": {
+   "min": 20,
+   "max": 35
+  },
+  "color": {
+   "min": 10,
+   "max": 16
+  },
+  "body": 2.3,
+  "sweetness": 2.6,
+  "bitterness": 1.8,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.4,
+  "malt": 3.8,
+  "caramel": 1.6,
+  "fruity": 0.2,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.4,
+  "tags": [
+   "捷克",
+   "琥珀",
+   "焦糖",
+   "萨兹"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "munich_malt",
+   "caramunich",
+   "saaz",
+   "czech_lager"
+  ],
+  "relatedStyles": [
+   "vienna_lager",
+   "czech_premium_pale_lager",
+   "czech_dark_lager"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "czech"
+    ],
+    "minShare": 0.7,
+    "hint": "酒花以捷克品种为主（如萨兹）。"
+   },
+   {
+    "type": "yeast",
+    "in": [
+     "czech_lager",
+     "bohemian_lager"
+    ],
+    "soft": true,
+    "hint": "最好使用捷克/波西米亚拉格酵母。"
+   }
+  ],
+  "aromas": [
+   "caramel",
+   "bread",
+   "spicy",
+   "toast"
+  ],
+  "glass": "mug",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "捷克人叫它\"polotmavé\"，意思是\"半黑\"。",
+   "颜色呈琥珀到铜红。",
+   "焦糖甜与辛香酒花并存。",
+   "酒花依然来自捷克。"
+  ],
+  "description": "捷克的\"半黑\"拉格，介于皮尔森与黑拉格之间。焦糖麦芽带来面包皮与太妃糖甜，萨兹酒花的辛香让收口清爽。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 3.2
+    },
+    {
+     "id": "munich_malt",
+     "kg": 1
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.4
+    }
+   ],
+   "hops": [
+    {
+     "id": "saaz",
+     "grams": 45,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "saaz",
+     "grams": 25,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "czech_lager",
+   "water": "soft",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 35,
+   "carbonation": 2.4,
+   "processes": [
+    "decoction"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "czech_dark_lager",
+  "name": "Czech Dark Lager",
+  "nameZh": "捷克黑拉格",
+  "family": "lager",
+  "alsoIn": [
+   "czech"
+  ],
+  "group": "Czech",
+  "country": [
+   "czech"
+  ],
+  "region": "Prague",
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.4,
+   "max": 5.8
+  },
+  "ibu": {
+   "min": 18,
+   "max": 34
+  },
+  "color": {
+   "min": 17,
+   "max": 35
+  },
+  "body": 2.1,
+  "sweetness": 2.5,
+  "bitterness": 1.8,
+  "acidity": 0,
+  "roast": 1.2,
+  "hopAroma": 0.3,
+  "malt": 3.6,
+  "caramel": 1.5,
+  "fruity": 0.2,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.4,
+  "tags": [
+   "捷克",
+   "黑拉格",
+   "焦糖",
+   "可可"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "munich_malt",
+   "caramunich",
+   "chocolate_malt",
+   "saaz",
+   "czech_lager"
+  ],
+  "relatedStyles": [
+   "munich_dunkel",
+   "schwarzbier",
+   "czech_amber_lager"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "czech"
+    ],
+    "minShare": 0.7,
+    "hint": "酒花以捷克品种为主（如萨兹）。"
+   },
+   {
+    "type": "yeast",
+    "in": [
+     "czech_lager",
+     "bohemian_lager"
+    ],
+    "soft": true,
+    "hint": "最好使用捷克/波西米亚拉格酵母。"
+   }
+  ],
+  "aromas": [
+   "caramel",
+   "chocolate",
+   "toast",
+   "spicy"
+  ],
+  "glass": "mug",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "布拉格有一家酒馆自 1499 年起就只卖这种啤酒。",
+   "颜色深棕近黑。",
+   "焦糖、可可与面包皮交织，却不苦涩。",
+   "收口仍有捷克酒花的辛香。"
+  ],
+  "description": "捷克的\"tmavé\"黑拉格，以布拉格老酒馆 U Fleků 最为著名。焦糖与轻烘烤带来巧克力、太妃般的甜美，萨兹酒花平衡收口。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 2.4
+    },
+    {
+     "id": "munich_malt",
+     "kg": 1.6
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.35
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.15
+    }
+   ],
+   "hops": [
+    {
+     "id": "saaz",
+     "grams": 40,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "saaz",
+     "grams": 20,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "czech_lager",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 35,
+   "carbonation": 2.4,
+   "processes": [
+    "decoction"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "munich_helles",
+  "name": "Munich Helles",
+  "nameZh": "慕尼黑清亮拉格",
+  "family": "lager",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Munich",
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.7,
+   "max": 5.4
+  },
+  "ibu": {
+   "min": 16,
+   "max": 22
+  },
+  "color": {
+   "min": 3,
+   "max": 5
+  },
+  "body": 1.5,
+  "sweetness": 1.3,
+  "bitterness": 1.4,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.2,
+  "malt": 2.6,
+  "caramel": 0,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.1,
+  "haze": 0.1,
+  "tags": [
+   "慕尼黑",
+   "麦芽",
+   "金色",
+   "柔和"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "munich_malt",
+   "hallertau_mittelfruh",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "german_pils",
+   "helles_exportbier",
+   "festbier"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "germany"
+    ],
+    "minShare": 0.7,
+    "hint": "酒花以德国品种为主。",
+    "soft": true
+   },
+   {
+    "type": "process",
+    "in": [
+     "filtered"
+    ],
+    "soft": true,
+    "hint": "传统上会过滤得晶莹透亮。"
+   }
+  ],
+  "aromas": [
+   "bread",
+   "grain",
+   "floral",
+   "honey"
+  ],
+  "glass": "mug",
+  "servingTemp": 6,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "1894 年，慕尼黑人为了对抗皮尔森而酿造了它。",
+   "颜色浅金，清澈透亮。",
+   "麦芽面包香是主角，苦味很轻。",
+   "使用德国贵族酒花，但只放一点点。"
+  ],
+  "description": "慕尼黑的日常金色拉格，是巴伐利亚啤酒花园的主角。以柔和的面包与谷物麦芽香为核心，苦度低、收口干净，比德式皮尔森更圆润。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 4.2
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.25
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 12,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "soft",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 35,
+   "carbonation": 2.5,
+   "processes": [
+    "filtered"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "german_pils",
+  "name": "German Pils",
+  "nameZh": "德式皮尔森",
+  "family": "lager",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.4,
+   "max": 5.2
+  },
+  "ibu": {
+   "min": 22,
+   "max": 40
+  },
+  "color": {
+   "min": 2,
+   "max": 4.5
+  },
+  "body": 1.2,
+  "sweetness": 0.9,
+  "bitterness": 2.2,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 1.1,
+  "malt": 2.4,
+  "caramel": 0,
+  "fruity": 0.1,
+  "spicy": 0.1,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.1,
+  "tags": [
+   "皮尔森",
+   "苦爽",
+   "贵族酒花",
+   "干净"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "hallertau_mittelfruh",
+   "tettnang",
+   "spalt",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "czech_premium_pale_lager",
+   "munich_helles",
+   "italian_pilsner"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "germany"
+    ],
+    "minShare": 0.7,
+    "hint": "酒花以德国品种为主。"
+   },
+   {
+    "type": "process",
+    "in": [
+     "filtered"
+    ],
+    "soft": true,
+    "hint": "传统上会过滤得晶莹透亮。"
+   }
+  ],
+  "aromas": [
+   "floral",
+   "herbal",
+   "grain",
+   "spicy"
+  ],
+  "glass": "pilsner",
+  "servingTemp": 5,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它是皮尔森在德国的后代。",
+   "颜色非常浅，清澈如水晶。",
+   "比慕尼黑清亮拉格苦得多，收口很干。",
+   "酒花全部来自德国。"
+  ],
+  "description": "德国人对波西米亚皮尔森的诠释，比原版更干、更苦、颜色更浅。贵族酒花的花香草本气息清晰，麦芽干净利落，回味爽脆。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 4.2
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 45,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "tettnang",
+     "grams": 25,
+     "use": "boil",
+     "time": 15
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 25,
+     "use": "boil",
+     "time": 3
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "lager",
+   "adjuncts": [],
+   "mashTemp": 64,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 35,
+   "carbonation": 2.7,
+   "processes": [
+    "filtered"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "german_leichtbier",
+  "name": "German Leichtbier",
+  "nameZh": "德式轻啤",
+  "family": "lager",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "fermentation": "lager",
+  "abv": {
+   "min": 2.4,
+   "max": 3.6
+  },
+  "ibu": {
+   "min": 15,
+   "max": 28
+  },
+  "color": {
+   "min": 2,
+   "max": 5
+  },
+  "body": 1.2,
+  "sweetness": 0.5,
+  "bitterness": 1.7,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.3,
+  "malt": 1.7,
+  "caramel": 0,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.4,
+  "tags": [
+   "低酒精",
+   "清爽",
+   "德国"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "carapils",
+   "hallertau_mittelfruh",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "german_pils",
+   "munich_helles",
+   "american_light_lager"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "germany"
+    ],
+    "minShare": 0.7,
+    "hint": "酒花以德国品种为主。",
+    "soft": true
+   }
+  ],
+  "aromas": [
+   "grain",
+   "floral",
+   "herbal"
+  ],
+  "glass": "mug",
+  "servingTemp": 5,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它是德国人开车或运动后的选择。",
+   "酒精度很低。",
+   "虽然轻，却有贵族酒花的苦味。",
+   "颜色浅金。"
+  ],
+  "description": "德国的低酒精拉格，常被视为皮尔森或清亮拉格的\"轻量版\"。酒体轻盈、气泡活泼，保留了德国酒花的花香与适度苦味。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 2.4
+    },
+    {
+     "id": "carapils",
+     "kg": 0.1
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 15,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "soft",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 28,
+   "carbonation": 2.6,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "helles_exportbier",
+  "name": "Helles Exportbier",
+  "nameZh": "多特蒙德出口啤酒",
+  "family": "lager",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Dortmund",
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.8,
+   "max": 6
+  },
+  "ibu": {
+   "min": 20,
+   "max": 30
+  },
+  "color": {
+   "min": 4,
+   "max": 7
+  },
+  "body": 1.4,
+  "sweetness": 1.4,
+  "bitterness": 2.1,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.6,
+  "malt": 2.6,
+  "caramel": 0.1,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.3,
+  "haze": 0.1,
+  "tags": [
+   "多特蒙德",
+   "出口",
+   "平衡",
+   "硬水"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "munich_malt",
+   "magnum",
+   "hallertau_mittelfruh",
+   "tettnang",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "munich_helles",
+   "german_pils",
+   "festbier"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "germany"
+    ],
+    "minShare": 0.7,
+    "hint": "酒花以德国品种为主。",
+    "soft": true
+   },
+   {
+    "type": "process",
+    "in": [
+     "filtered"
+    ],
+    "soft": true,
+    "hint": "成品需要过滤澄清。"
+   }
+  ],
+  "aromas": [
+   "bread",
+   "grain",
+   "floral",
+   "herbal"
+  ],
+  "glass": "mug",
+  "servingTemp": 6,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它来自德国鲁尔区的工人城市。",
+   "名字里带着\"出口\"。",
+   "比清亮拉格更烈、更苦，比皮尔森更有麦芽感。",
+   "酿造用水矿物质较多。"
+  ],
+  "description": "多特蒙德的煤矿与钢铁工人曾以它解渴，酒精度稍高便于运输\"出口\"。麦芽与苦度在清亮拉格和皮尔森之间取得平衡，矿物感带来干爽收口。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 4.3
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.5
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 12,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 20,
+     "use": "boil",
+     "time": 20
+    },
+    {
+     "id": "tettnang",
+     "grams": 12,
+     "use": "boil",
+     "time": 5
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 35,
+   "carbonation": 2.6,
+   "processes": [
+    "filtered"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "marzen",
+  "name": "Märzen",
+  "nameZh": "三月啤酒",
+  "family": "lager",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Bavaria",
+  "fermentation": "lager",
+  "abv": {
+   "min": 5.6,
+   "max": 6.3
+  },
+  "ibu": {
+   "min": 18,
+   "max": 24
+  },
+  "color": {
+   "min": 8,
+   "max": 17
+  },
+  "body": 2,
+  "sweetness": 2.2,
+  "bitterness": 1.7,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.2,
+  "malt": 4.8,
+  "caramel": 1.1,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.5,
+  "haze": 0.4,
+  "tags": [
+   "十月节",
+   "麦芽",
+   "琥珀",
+   "煮出糖化"
+  ],
+  "ingredients": [
+   "munich_malt",
+   "vienna_malt",
+   "pilsner_malt",
+   "caramunich",
+   "hallertau_mittelfruh",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "festbier",
+   "vienna_lager",
+   "munich_dunkel"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "germany"
+    ],
+    "minShare": 0.7,
+    "hint": "酒花以德国品种为主。",
+    "soft": true
+   }
+  ],
+  "aromas": [
+   "toast",
+   "bread",
+   "caramel"
+  ],
+  "glass": "mug",
+  "servingTemp": 7,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它在三月酿造，一直窖藏到秋天。",
+   "颜色是漂亮的琥珀铜色。",
+   "浓郁的烤面包麦芽香，收口却很干。",
+   "慕尼黑麦芽是主角。"
+  ],
+  "description": "在制冷技术出现前，巴伐利亚人于三月酿造、在冰窖中贮藏整个夏天，秋天开桶庆祝。浓郁的慕尼黑麦芽带来烤面包皮香气，干净而不甜腻。",
+  "example": {
+   "malts": [
+    {
+     "id": "munich_malt",
+     "kg": 2.6
+    },
+    {
+     "id": "vienna_malt",
+     "kg": 1.6
+    },
+    {
+     "id": "pilsner_malt",
+     "kg": 1
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.2
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 38,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "tettnang",
+     "grams": 10,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 42,
+   "carbonation": 2.5,
+   "processes": [
+    "decoction"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "festbier",
+  "name": "Festbier",
+  "nameZh": "十月节啤酒",
+  "family": "lager",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Munich",
+  "fermentation": "lager",
+  "abv": {
+   "min": 5.8,
+   "max": 6.4
+  },
+  "ibu": {
+   "min": 18,
+   "max": 25
+  },
+  "color": {
+   "min": 4,
+   "max": 7
+  },
+  "body": 1.7,
+  "sweetness": 1.7,
+  "bitterness": 1.6,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.2,
+  "malt": 3.2,
+  "caramel": 0.1,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.7,
+  "haze": 0.1,
+  "tags": [
+   "慕尼黑啤酒节",
+   "金色",
+   "烈",
+   "易饮"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "vienna_malt",
+   "munich_malt",
+   "hallertau_mittelfruh",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "marzen",
+   "munich_helles",
+   "helles_exportbier"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "germany"
+    ],
+    "minShare": 0.7,
+    "hint": "酒花以德国品种为主。",
+    "soft": true
+   }
+  ],
+  "aromas": [
+   "bread",
+   "grain",
+   "honey",
+   "floral"
+  ],
+  "glass": "mug",
+  "servingTemp": 6,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "如今慕尼黑啤酒节帐篷里供应的正是它。",
+   "颜色是深金色。",
+   "比清亮拉格更浓更烈，却依然顺口。",
+   "加入了维也纳麦芽。"
+  ],
+  "description": "慕尼黑啤酒节上用一升大杯畅饮的金色节庆拉格，1970 年代起取代了更深的三月啤酒。酒精度较高但口感柔顺，带有面包与轻蜂蜜麦芽香。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 4
+    },
+    {
+     "id": "vienna_malt",
+     "kg": 1
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.3
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 38,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 12,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "soft",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 42,
+   "carbonation": 2.6,
+   "processes": [
+    "filtered"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "kellerbier",
+  "name": "Kellerbier",
+  "nameZh": "窖藏啤酒",
+  "family": "lager",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Franconia",
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.7,
+   "max": 5.4
+  },
+  "ibu": {
+   "min": 20,
+   "max": 35
+  },
+  "color": {
+   "min": 3,
+   "max": 7
+  },
+  "body": 1.8,
+  "sweetness": 1.2,
+  "bitterness": 2,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.7,
+  "malt": 2.4,
+  "caramel": 0.1,
+  "fruity": 0.1,
+  "spicy": 0.1,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.2,
+  "haze": 0.7,
+  "tags": [
+   "未过滤",
+   "浑浊",
+   "弗兰肯",
+   "新鲜"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "munich_malt",
+   "wheat_malt",
+   "hallertau_mittelfruh",
+   "tettnang",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "munich_helles",
+   "german_pils",
+   "festbier"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "filtered"
+    ],
+    "hint": "不要过滤，保留酵母带来的朦胧。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "germany"
+    ],
+    "minShare": 0.7,
+    "hint": "酒花以德国品种为主。",
+    "soft": true
+   }
+  ],
+  "aromas": [
+   "bread",
+   "grain",
+   "floral",
+   "herbal"
+  ],
+  "glass": "mug",
+  "servingTemp": 7,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它来自弗兰肯地区的地窖。",
+   "颜色金黄却有些朦胧。",
+   "酿好后直接从桶里打出，不经过滤。",
+   "气泡比较柔和。"
+  ],
+  "description": "弗兰肯地区的传统未过滤拉格，直接从地窖的木桶中打出饮用。保留的酵母让酒液略显朦胧，口感更饱满新鲜，带面包麦芽与贵族酒花香。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 3.3
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.5
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 0.8
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 35,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "tettnang",
+     "grams": 20,
+     "use": "boil",
+     "time": 15
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 15,
+     "use": "boil",
+     "time": 5
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 21,
+   "carbonation": 2.2,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "munich_dunkel",
+  "name": "Munich Dunkel",
+  "nameZh": "慕尼黑深色拉格",
+  "family": "lager",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Munich",
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.5,
+   "max": 5.6
+  },
+  "ibu": {
+   "min": 18,
+   "max": 28
+  },
+  "color": {
+   "min": 14,
+   "max": 28
+  },
+  "body": 1.7,
+  "sweetness": 1.6,
+  "bitterness": 1.8,
+  "acidity": 0,
+  "roast": 0.5,
+  "hopAroma": 0.2,
+  "malt": 5,
+  "caramel": 0.8,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.1,
+  "haze": 0.4,
+  "tags": [
+   "慕尼黑",
+   "深色",
+   "面包皮",
+   "麦芽"
+  ],
+  "ingredients": [
+   "munich_malt",
+   "dark_munich",
+   "pilsner_malt",
+   "chocolate_malt",
+   "hallertau_mittelfruh",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "schwarzbier",
+   "czech_dark_lager",
+   "marzen"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "maltShare",
+    "category": "base",
+    "min": 0.85,
+    "soft": true,
+    "hint": "颜色主要来自大量慕尼黑麦芽，而非烘烤麦芽。"
+   }
+  ],
+  "aromas": [
+   "toast",
+   "bread",
+   "chocolate",
+   "caramel"
+  ],
+  "glass": "mug",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "在清亮拉格出现之前，慕尼黑人喝的都是它。",
+   "颜色是深红棕色。",
+   "浓郁的面包皮香，几乎没有烘烤苦味。",
+   "慕尼黑麦芽占了绝大部分。"
+  ],
+  "description": "巴伐利亚最古老的拉格之一，曾是慕尼黑的日常啤酒。大量慕尼黑麦芽带来浓郁的烤面包皮与坚果香，搭配富含碳酸盐的水，口感圆润而不甜腻。",
+  "example": {
+   "malts": [
+    {
+     "id": "munich_malt",
+     "kg": 3.6
+    },
+    {
+     "id": "dark_munich",
+     "kg": 0.8
+    },
+    {
+     "id": "pilsner_malt",
+     "kg": 0.3
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.06
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 40,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "tettnang",
+     "grams": 10,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "dark",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 35,
+   "carbonation": 2.4,
+   "processes": [
+    "decoction"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "schwarzbier",
+  "name": "Schwarzbier",
+  "nameZh": "德式黑啤",
+  "family": "lager",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Thuringia",
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.4,
+   "max": 5.4
+  },
+  "ibu": {
+   "min": 20,
+   "max": 35
+  },
+  "color": {
+   "min": 19,
+   "max": 32
+  },
+  "body": 1.2,
+  "sweetness": 1.1,
+  "bitterness": 2.3,
+  "acidity": 0,
+  "roast": 2,
+  "hopAroma": 0.3,
+  "malt": 2.8,
+  "caramel": 0.2,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.4,
+  "tags": [
+   "黑色",
+   "干爽",
+   "轻烘烤",
+   "图林根"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "munich_malt",
+   "chocolate_malt",
+   "black_malt",
+   "hallertau_mittelfruh",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "munich_dunkel",
+   "czech_dark_lager",
+   "international_dark_lager"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "maltShare",
+    "category": "roast",
+    "min": 0.03,
+    "soft": true,
+    "hint": "需要少量烘烤麦芽染黑。"
+   }
+  ],
+  "aromas": [
+   "roast",
+   "chocolate",
+   "coffee",
+   "bread"
+  ],
+  "glass": "pilsner",
+  "servingTemp": 7,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它来自德国东部的图林根。",
+   "颜色几乎全黑，却透着红宝石光泽。",
+   "有柔和的烘烤巧克力味，收口干爽。",
+   "喝起来比看起来轻得多。"
+  ],
+  "description": "德国东部的\"黑色啤酒\"，有时被称作\"黑色的皮尔森\"。少量烘烤麦芽带来柔和的巧克力与咖啡气息，但酒体轻盈、收口干爽，毫无焦苦。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 2.6
+    },
+    {
+     "id": "munich_malt",
+     "kg": 1.4
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.18
+    },
+    {
+     "id": "black_malt",
+     "kg": 0.06
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 50,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "tettnang",
+     "grams": 15,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "dark",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 35,
+   "carbonation": 2.6,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "vienna_lager",
+  "name": "Vienna Lager",
+  "nameZh": "维也纳拉格",
+  "family": "lager",
+  "group": "Austrian",
+  "country": [
+   "austria",
+   "mexico"
+  ],
+  "region": "Vienna",
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.7,
+   "max": 5.5
+  },
+  "ibu": {
+   "min": 18,
+   "max": 30
+  },
+  "color": {
+   "min": 9,
+   "max": 15
+  },
+  "body": 1.8,
+  "sweetness": 2.2,
+  "bitterness": 1.9,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.3,
+  "malt": 3.5,
+  "caramel": 1.4,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.1,
+  "haze": 0.4,
+  "tags": [
+   "维也纳",
+   "琥珀",
+   "烤面包",
+   "优雅"
+  ],
+  "ingredients": [
+   "vienna_malt",
+   "pilsner_malt",
+   "munich_malt",
+   "caramunich",
+   "hallertau_mittelfruh",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "marzen",
+   "international_amber_lager",
+   "czech_amber_lager"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "malt",
+    "in": [
+     "vienna_malt"
+    ],
+    "minShare": 0.5,
+    "soft": true,
+    "hint": "维也纳麦芽应占麦芽的一半以上。"
+   }
+  ],
+  "aromas": [
+   "toast",
+   "bread",
+   "caramel",
+   "floral"
+  ],
+  "glass": "mug",
+  "servingTemp": 7,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它在 1841 年诞生于奥地利首都。",
+   "颜色是红铜色。",
+   "轻柔的烤面包香，收口干爽。",
+   "后来在墨西哥找到了第二个故乡。"
+  ],
+  "description": "1841 年由安东·德雷尔在维也纳首创，后随奥地利移民在墨西哥发扬光大。维也纳麦芽带来优雅的烤面包与轻焦糖香，酒体中等、干净平衡。",
+  "example": {
+   "malts": [
+    {
+     "id": "vienna_malt",
+     "kg": 3.4
+    },
+    {
+     "id": "pilsner_malt",
+     "kg": 0.6
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.4
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.38
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 40,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "tettnang",
+     "grams": 15,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 35,
+   "carbonation": 2.5,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "helles_bock",
+  "name": "Helles Bock",
+  "nameZh": "淡色博克",
+  "family": "lager",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "Bock",
+  "country": [
+   "germany"
+  ],
+  "region": "Munich",
+  "fermentation": "lager",
+  "abv": {
+   "min": 6.3,
+   "max": 7.4
+  },
+  "ibu": {
+   "min": 23,
+   "max": 35
+  },
+  "color": {
+   "min": 6,
+   "max": 11
+  },
+  "body": 2.3,
+  "sweetness": 2.3,
+  "bitterness": 2.2,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.3,
+  "malt": 4.4,
+  "caramel": 0.3,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 1.1,
+  "haze": 0.4,
+  "tags": [
+   "五月博克",
+   "烈",
+   "金色",
+   "麦芽"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "munich_malt",
+   "vienna_malt",
+   "hallertau_mittelfruh",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "festbier",
+   "dunkles_bock",
+   "doppelbock"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   }
+  ],
+  "aromas": [
+   "bread",
+   "toast",
+   "honey",
+   "warming"
+  ],
+  "glass": "tulip",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "每年五月，慕尼黑人用它迎接春天。",
+   "颜色金黄到浅琥珀。",
+   "酒精度明显比普通拉格高。",
+   "浓郁麦芽香之下藏着酒精的温暖。"
+  ],
+  "description": "又称\"五月博克\"（Maibock），是博克家族中颜色最浅的一员，在春季供应。浓郁的面包与蜂蜜麦芽香搭配适度的酒花苦味，酒精温暖却不灼烈。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 4.4
+    },
+    {
+     "id": "munich_malt",
+     "kg": 1.1
+    },
+    {
+     "id": "vienna_malt",
+     "kg": 0.5
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 65,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "tettnang",
+     "grams": 15,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "soft",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 49,
+   "carbonation": 2.4,
+   "processes": [
+    "decoction"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "dunkles_bock",
+  "name": "Dunkles Bock",
+  "nameZh": "深色博克",
+  "family": "lager",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "Bock",
+  "country": [
+   "germany"
+  ],
+  "region": "Einbeck",
+  "fermentation": "lager",
+  "abv": {
+   "min": 6.3,
+   "max": 7.2
+  },
+  "ibu": {
+   "min": 20,
+   "max": 27
+  },
+  "color": {
+   "min": 14,
+   "max": 22
+  },
+  "body": 2.6,
+  "sweetness": 2.8,
+  "bitterness": 1.9,
+  "acidity": 0,
+  "roast": 0.3,
+  "hopAroma": 0.1,
+  "malt": 5,
+  "caramel": 1.6,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.9,
+  "haze": 0.4,
+  "tags": [
+   "博克",
+   "深色",
+   "烤面包",
+   "浓郁"
+  ],
+  "ingredients": [
+   "munich_malt",
+   "dark_munich",
+   "caramunich",
+   "hallertau_mittelfruh",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "doppelbock",
+   "helles_bock",
+   "munich_dunkel"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   }
+  ],
+  "aromas": [
+   "toast",
+   "bread",
+   "caramel",
+   "warming"
+  ],
+  "glass": "tulip",
+  "servingTemp": 9,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它的祖先来自汉萨同盟城市艾因贝克。",
+   "颜色深铜到棕色。",
+   "浓郁的烤面包麦芽，几乎不苦。",
+   "比普通深色拉格更烈。"
+  ],
+  "description": "博克源自中世纪的艾因贝克，后被慕尼黑人发扬（\"Bock\"即\"艾因贝克\"的巴伐利亚口音）。大量慕尼黑麦芽带来厚实的烤面包与焦糖香，酒体饱满。",
+  "example": {
+   "malts": [
+    {
+     "id": "munich_malt",
+     "kg": 5
+    },
+    {
+     "id": "dark_munich",
+     "kg": 1
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.25
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.04
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 60,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "dark",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 49,
+   "carbonation": 2.4,
+   "processes": [
+    "decoction"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "doppelbock",
+  "name": "Doppelbock",
+  "nameZh": "双料博克",
+  "family": "lager",
+  "alsoIn": [
+   "german",
+   "strongAle"
+  ],
+  "group": "Bock",
+  "country": [
+   "germany"
+  ],
+  "region": "Munich",
+  "fermentation": "lager",
+  "abv": {
+   "min": 7,
+   "max": 10
+  },
+  "ibu": {
+   "min": 16,
+   "max": 26
+  },
+  "color": {
+   "min": 6,
+   "max": 25
+  },
+  "body": 3.8,
+  "sweetness": 4.7,
+  "bitterness": 1.6,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.1,
+  "malt": 5,
+  "caramel": 2,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 2.2,
+  "haze": 0.4,
+  "tags": [
+   "液体面包",
+   "修道院",
+   "烈",
+   "麦芽"
+  ],
+  "ingredients": [
+   "munich_malt",
+   "dark_munich",
+   "pilsner_malt",
+   "caramunich",
+   "hallertau_mittelfruh",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "eisbock",
+   "dunkles_bock",
+   "helles_bock"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "freeze"
+    ],
+    "hint": "不需要冰冻浓缩。"
+   }
+  ],
+  "aromas": [
+   "toast",
+   "caramel",
+   "dark_fruit",
+   "warming"
+  ],
+  "glass": "snifter",
+  "servingTemp": 10,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "修道士在斋戒期靠它充饥，称之为\"液体面包\"。",
+   "很多品牌的名字都以\"-ator\"结尾。",
+   "浓郁的麦芽甜与深色水果香。",
+   "酒精度远超普通拉格。"
+  ],
+  "description": "慕尼黑保拉纳修道士为斋戒期酿造的\"液体面包\"，以 Salvator 为祖。极其浓郁的麦芽、焦糖与深色水果风味，伴随明显的酒精温暖。",
+  "example": {
+   "malts": [
+    {
+     "id": "munich_malt",
+     "kg": 5.6
+    },
+    {
+     "id": "dark_munich",
+     "kg": 1.6
+    },
+    {
+     "id": "pilsner_malt",
+     "kg": 1
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.4
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 14,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 30,
+     "use": "boil",
+     "time": 30
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "dark",
+   "adjuncts": [],
+   "mashTemp": 67,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 21,
+   "maturationDays": 60,
+   "carbonation": 2.3,
+   "processes": [
+    "decoction"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "eisbock",
+  "name": "Eisbock",
+  "nameZh": "冰馏博克",
+  "family": "lager",
+  "alsoIn": [
+   "german",
+   "strongAle"
+  ],
+  "group": "Bock",
+  "country": [
+   "germany"
+  ],
+  "region": "Kulmbach",
+  "fermentation": "lager",
+  "abv": {
+   "min": 9,
+   "max": 14
+  },
+  "ibu": {
+   "min": 18,
+   "max": 30
+  },
+  "color": {
+   "min": 18,
+   "max": 32
+  },
+  "body": 5,
+  "sweetness": 5,
+  "bitterness": 1.4,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.1,
+  "malt": 5,
+  "caramel": 2.3,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 3.6,
+  "haze": 0.4,
+  "tags": [
+   "冰冻浓缩",
+   "极烈",
+   "浓郁",
+   "陈年"
+  ],
+  "ingredients": [
+   "munich_malt",
+   "dark_munich",
+   "caramunich",
+   "hallertau_mittelfruh",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "doppelbock",
+   "dunkles_bock"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "process",
+    "in": [
+     "freeze"
+    ],
+    "hint": "把酒冷冻后移除冰块来浓缩。"
+   }
+  ],
+  "aromas": [
+   "dark_fruit",
+   "caramel",
+   "toast",
+   "warming",
+   "plum"
+  ],
+  "glass": "snifter",
+  "servingTemp": 12,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "传说有一桶啤酒在寒冬里被遗忘在室外。",
+   "它来自巴伐利亚北部的库尔姆巴赫。",
+   "浓缩后像甜酒一样浓稠温暖。",
+   "酿酒师把冰块捞走，留下精华。"
+  ],
+  "description": "据说库尔姆巴赫一桶双料博克在冬夜冻结，工人取出剩余的浓缩液后意外发现了它。冰冻浓缩让麦芽、深色水果与酒精都更加强烈，宜慢慢啜饮。",
+  "example": {
+   "malts": [
+    {
+     "id": "munich_malt",
+     "kg": 5.6
+    },
+    {
+     "id": "dark_munich",
+     "kg": 1.6
+    },
+    {
+     "id": "pilsner_malt",
+     "kg": 1
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.4
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 16,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 30,
+     "use": "boil",
+     "time": 30
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "dark",
+   "adjuncts": [],
+   "mashTemp": 67,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 21,
+   "maturationDays": 60,
+   "carbonation": 2,
+   "processes": [
+    "decoction",
+    "freeze"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "rice_lager",
+  "name": "Rice Lager",
+  "nameZh": "大米拉格",
+  "family": "lager",
+  "group": "International",
+  "country": [
+   "japan",
+   "china"
+  ],
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "ibu": {
+   "min": 12,
+   "max": 25
+  },
+  "color": {
+   "min": 1.5,
+   "max": 3.5
+  },
+  "body": 0.3,
+  "sweetness": 0.9,
+  "bitterness": 1.2,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.4,
+  "malt": 1.6,
+  "caramel": 0,
+  "fruity": 0.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.1,
+  "tags": [
+   "大米",
+   "超干",
+   "清爽",
+   "亚洲"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "flaked_rice",
+   "magnum",
+   "hallertau_mittelfruh",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "american_lager",
+   "american_light_lager",
+   "international_pale_lager"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "maltShare",
+    "category": "rice",
+    "min": 0.2,
+    "hint": "大米至少占谷物的两成。"
+   },
+   {
+    "type": "process",
+    "in": [
+     "filtered"
+    ],
+    "soft": true,
+    "hint": "过滤得晶莹剔透。"
+   }
+  ],
+  "aromas": [
+   "rice",
+   "grain",
+   "floral"
+  ],
+  "glass": "pilsner",
+  "servingTemp": 3,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它在东亚的居酒屋和大排档里最常见。",
+   "颜色非常浅，口感极干。",
+   "\"辛口\"是它的卖点。",
+   "酿酒师用了一种亚洲主食。"
+  ],
+  "description": "日本与中国大型酒厂的招牌风格，大量使用大米辅料带来极其干爽、清脆的口感。酒体轻、收口快，非常适合搭配寿司或烧烤。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 2.9
+    },
+    {
+     "id": "flaked_rice",
+     "kg": 1.3
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 7,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 15,
+     "use": "boil",
+     "time": 10
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "soft",
+   "adjuncts": [],
+   "mashTemp": 64,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 28,
+   "carbonation": 2.8,
+   "processes": [
+    "filtered"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "italian_pilsner",
+  "name": "Italian Pilsner",
+  "nameZh": "意式皮尔森",
+  "family": "lager",
+  "group": "Modern Lager",
+  "country": [
+   "italy"
+  ],
+  "region": "Lombardy",
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.5,
+   "max": 5.4
+  },
+  "ibu": {
+   "min": 25,
+   "max": 40
+  },
+  "color": {
+   "min": 2,
+   "max": 4.5
+  },
+  "body": 1.2,
+  "sweetness": 0.9,
+  "bitterness": 2.3,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 3.1,
+  "malt": 2.4,
+  "caramel": 0,
+  "fruity": 0.1,
+  "spicy": 0.3,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.7,
+  "tags": [
+   "干投",
+   "贵族酒花",
+   "花香",
+   "精酿"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "hallertau_mittelfruh",
+   "tettnang",
+   "spalt",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "german_pils",
+   "west_coast_pilsner",
+   "nz_pilsner"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "hint": "用贵族酒花进行干投。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "germany",
+     "czech",
+     "france"
+    ],
+    "minShare": 0.7,
+    "soft": true,
+    "hint": "使用欧洲贵族酒花。"
+   }
+  ],
+  "aromas": [
+   "floral",
+   "herbal",
+   "spicy",
+   "grassy"
+  ],
+  "glass": "pilsner",
+  "servingTemp": 6,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "1996 年，它在意大利北部的一家小酒厂诞生。",
+   "外表就是一杯清澈的金色皮尔森。",
+   "花香和草本香气比德式皮尔森浓郁得多。",
+   "贵族酒花在发酵后又加了一次。"
+  ],
+  "description": "意大利 Birrificio Italiano 的 Tipopils 开创了这一风格：在德式皮尔森基础上用贵族酒花干投。香气充满花朵、草本与胡椒，口感依然干净爽脆。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 4.2
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 55,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "tettnang",
+     "grams": 20,
+     "use": "boil",
+     "time": 10
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 25,
+     "use": "whirlpool"
+    },
+    {
+     "id": "spalt",
+     "grams": 30,
+     "use": "dryHop"
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 30,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "soft",
+   "adjuncts": [],
+   "mashTemp": 64,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 28,
+   "carbonation": 2.7,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "west_coast_pilsner",
+  "name": "West Coast Pilsner",
+  "nameZh": "西海岸皮尔森",
+  "family": "lager",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "Modern Lager",
+  "country": [
+   "usa"
+  ],
+  "region": "California",
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.6,
+   "max": 5.6
+  },
+  "ibu": {
+   "min": 30,
+   "max": 45
+  },
+  "color": {
+   "min": 2,
+   "max": 4.5
+  },
+  "body": 1.2,
+  "sweetness": 0.9,
+  "bitterness": 2.5,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 4.3,
+  "malt": 2.4,
+  "caramel": 0,
+  "fruity": 1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.1,
+  "haze": 0.8,
+  "tags": [
+   "新世界酒花",
+   "干投",
+   "苦爽",
+   "精酿"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "citra",
+   "mosaic",
+   "magnum",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "italian_pilsner",
+   "nz_pilsner",
+   "german_pils"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "usa"
+    ],
+    "minShare": 0.6,
+    "hint": "香气来自美国西海岸酒花。"
+   },
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": true,
+    "hint": "大量干投。"
+   }
+  ],
+  "aromas": [
+   "citrus",
+   "tropical",
+   "grapefruit",
+   "pine"
+  ],
+  "glass": "pilsner",
+  "servingTemp": 5,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它是加州精酿酿酒师的拉格实验。",
+   "外表清澈金黄，像一杯皮尔森。",
+   "一靠近就能闻到柑橘和热带水果。",
+   "用拉格酵母，却用了 IPA 的酒花。"
+  ],
+  "description": "美国精酿酿酒师把西海岸 IPA 的酒花手法嫁接到干净的皮尔森上。清澈爽口的拉格骨架之上，是柑橘、热带水果与松针的奔放香气。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 4.3
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 16,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "citra",
+     "grams": 25,
+     "use": "whirlpool"
+    },
+    {
+     "id": "mosaic",
+     "grams": 20,
+     "use": "whirlpool"
+    },
+    {
+     "id": "citra",
+     "grams": 40,
+     "use": "dryHop"
+    },
+    {
+     "id": "mosaic",
+     "grams": 30,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "lager",
+   "adjuncts": [],
+   "mashTemp": 64,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 28,
+   "carbonation": 2.7,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "mexican_lager",
+  "name": "Mexican-style Lager",
+  "nameZh": "墨西哥拉格",
+  "family": "lager",
+  "group": "International",
+  "country": [
+   "mexico"
+  ],
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.2,
+   "max": 5.2
+  },
+  "ibu": {
+   "min": 10,
+   "max": 20
+  },
+  "color": {
+   "min": 2,
+   "max": 4
+  },
+  "body": 0.6,
+  "sweetness": 1.2,
+  "bitterness": 1.2,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.3,
+  "malt": 1.6,
+  "caramel": 0,
+  "fruity": 0.2,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.1,
+  "tags": [
+   "墨西哥",
+   "玉米",
+   "海滩",
+   "青柠"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "flaked_corn",
+   "magnum",
+   "mexican_lager_yeast"
+  ],
+  "relatedStyles": [
+   "american_lager",
+   "vienna_lager",
+   "american_light_lager"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "yeast",
+    "in": [
+     "mexican_lager_yeast"
+    ],
+    "soft": true,
+    "hint": "使用墨西哥拉格酵母。"
+   },
+   {
+    "type": "malt",
+    "in": [
+     "flaked_corn",
+     "flaked_rice"
+    ],
+    "minShare": 0.15,
+    "soft": true,
+    "hint": "加入玉米或大米辅料让口感更清爽。"
+   }
+  ],
+  "aromas": [
+   "corn",
+   "grain",
+   "lime"
+  ],
+  "glass": "shaker",
+  "servingTemp": 3,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "人们喜欢在瓶口塞一片青柠。",
+   "颜色浅金，清澈。",
+   "带有一丝玉米的甜。",
+   "最适合在海滩上冰镇饮用。"
+  ],
+  "description": "墨西哥的清爽淡色拉格，由 19 世纪德国与奥地利移民的拉格传统演变而来，常加入玉米。口感轻盈、略带谷物甜，配一片青柠和塔可再合适不过。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 3.1
+    },
+    {
+     "id": "flaked_corn",
+     "kg": 1
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 7,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 10,
+     "use": "boil",
+     "time": 10
+    }
+   ],
+   "yeast": "mexican_lager_yeast",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 64,
+   "boilTime": 90,
+   "fermentTemp": 12,
+   "fermentDays": 14,
+   "maturationDays": 21,
+   "carbonation": 2.8,
+   "processes": [
+    "filtered"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "nz_pilsner",
+  "name": "New Zealand Pilsner",
+  "nameZh": "新西兰皮尔森",
+  "family": "lager",
+  "group": "Modern Lager",
+  "country": [
+   "nz"
+  ],
+  "region": "Nelson",
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.5,
+   "max": 5.8
+  },
+  "ibu": {
+   "min": 25,
+   "max": 45
+  },
+  "color": {
+   "min": 2,
+   "max": 6
+  },
+  "body": 1.3,
+  "sweetness": 1,
+  "bitterness": 2.5,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 4.1,
+  "malt": 2.4,
+  "caramel": 0,
+  "fruity": 1.1,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.2,
+  "haze": 0.7,
+  "tags": [
+   "新西兰酒花",
+   "白葡萄",
+   "青柠",
+   "清爽"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "motueka",
+   "nelson_sauvin",
+   "riwaka",
+   "german_lager"
+  ],
+  "relatedStyles": [
+   "west_coast_pilsner",
+   "italian_pilsner",
+   "german_pils"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "需要使用拉格酵母低温发酵。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "nz"
+    ],
+    "minShare": 0.7,
+    "hint": "酒花来自新西兰。"
+   },
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": true,
+    "hint": "发酵后再干投新西兰酒花。"
+   }
+  ],
+  "aromas": [
+   "grape",
+   "lime",
+   "tropical",
+   "citrus"
+  ],
+  "glass": "pilsner",
+  "servingTemp": 5,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它来自南半球的岛国。",
+   "颜色浅金，清澈。",
+   "有白葡萄酒和青柠的香气。",
+   "酒花产自尼尔森地区。"
+  ],
+  "description": "新西兰酿酒师用本地酒花重新诠释的皮尔森。Nelson Sauvin 与 Motueka 带来白葡萄、青柠与热带水果香，拉格骨架依然干净清爽。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 4.4
+    }
+   ],
+   "hops": [
+    {
+     "id": "motueka",
+     "grams": 25,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "motueka",
+     "grams": 25,
+     "use": "boil",
+     "time": 10
+    },
+    {
+     "id": "nelson_sauvin",
+     "grams": 25,
+     "use": "whirlpool"
+    },
+    {
+     "id": "riwaka",
+     "grams": 20,
+     "use": "whirlpool"
+    },
+    {
+     "id": "nelson_sauvin",
+     "grams": 30,
+     "use": "dryHop"
+    },
+    {
+     "id": "motueka",
+     "grams": 25,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "soft",
+   "adjuncts": [],
+   "mashTemp": 64,
+   "boilTime": 90,
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 28,
+   "carbonation": 2.6,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "california_common",
+  "name": "California Common",
+  "nameZh": "加州蒸汽啤酒",
+  "family": "american",
+  "alsoIn": [
+   "lager"
+  ],
+  "group": "Hybrid",
+  "country": [
+   "usa"
+  ],
+  "region": "San Francisco",
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "ibu": {
+   "min": 30,
+   "max": 45
+  },
+  "color": {
+   "min": 9,
+   "max": 14
+  },
+  "body": 2.1,
+  "sweetness": 2.6,
+  "bitterness": 2.5,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.7,
+  "malt": 2.8,
+  "caramel": 1.5,
+  "fruity": 0.5,
+  "spicy": 0.1,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.3,
+  "tags": [
+   "蒸汽啤酒",
+   "旧金山",
+   "琥珀",
+   "木质酒花"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_60",
+   "munich_malt",
+   "perle",
+   "chinook",
+   "california_lager_yeast"
+  ],
+  "relatedStyles": [
+   "vienna_lager",
+   "altbier",
+   "international_amber_lager"
+  ],
+  "requirements": [
+   {
+    "type": "yeast",
+    "in": [
+     "california_lager_yeast"
+    ],
+    "hint": "用耐高温的加州拉格酵母。"
+   },
+   {
+    "type": "fermentTemp",
+    "min": 14,
+    "hint": "在较温暖的温度下发酵。"
+   }
+  ],
+  "aromas": [
+   "caramel",
+   "toast",
+   "pine",
+   "herbal"
+  ],
+  "glass": "shaker",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "淘金热时代的旧金山没有冰块可用。",
+   "酿酒师把麦汁放在屋顶的浅盘里冷却。",
+   "拉格酵母在温暖环境下发酵。",
+   "颜色琥珀，带木质与薄荷般的酒花味。"
+  ],
+  "description": "淘金热时期旧金山的酿酒师缺乏制冷条件，只能在较高温度下用拉格酵母发酵，诞生了\"蒸汽啤酒\"。琥珀色泽、烤面包与焦糖麦芽，配以木质、薄荷感的酒花苦味。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.4
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.3
+    }
+   ],
+   "hops": [
+    {
+     "id": "perle",
+     "grams": 20,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "perle",
+     "grams": 20,
+     "use": "boil",
+     "time": 15
+    },
+    {
+     "id": "chinook",
+     "grams": 15,
+     "use": "boil",
+     "time": 5
+    }
+   ],
+   "yeast": "california_lager_yeast",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 60,
+   "fermentTemp": 17,
+   "fermentDays": 10,
+   "maturationDays": 14,
+   "carbonation": 2.6,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "altbier",
+  "name": "Altbier",
+  "nameZh": "老啤酒",
+  "family": "german",
+  "group": "Rhineland",
+  "country": [
+   "germany"
+  ],
+  "region": "Düsseldorf",
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.3,
+   "max": 5.5
+  },
+  "ibu": {
+   "min": 25,
+   "max": 50
+  },
+  "color": {
+   "min": 9,
+   "max": 17
+  },
+  "body": 1.7,
+  "sweetness": 1.8,
+  "bitterness": 2.7,
+  "acidity": 0,
+  "roast": 0.2,
+  "hopAroma": 0.4,
+  "malt": 3.1,
+  "caramel": 0.8,
+  "fruity": 0.3,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.4,
+  "tags": [
+   "杜塞尔多夫",
+   "上发酵",
+   "冷熟成",
+   "苦"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "munich_malt",
+   "caramunich",
+   "spalt",
+   "altbier_yeast"
+  ],
+  "relatedStyles": [
+   "kolsch",
+   "california_common",
+   "marzen"
+  ],
+  "requirements": [
+   {
+    "type": "yeast",
+    "in": [
+     "altbier_yeast"
+    ],
+    "hint": "使用杜塞尔多夫老啤酒酵母。"
+   },
+   {
+    "type": "process",
+    "in": [
+     "lagering"
+    ],
+    "hint": "低温发酵后再冷藏熟成数周。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "germany"
+    ],
+    "minShare": 0.7,
+    "hint": "酒花以德国品种为主。",
+    "soft": true
+   }
+  ],
+  "aromas": [
+   "toast",
+   "bread",
+   "spicy",
+   "herbal"
+  ],
+  "glass": "stange",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它的名字意为\"老式的\"，来自莱茵河畔。",
+   "颜色是铜棕色。",
+   "用上发酵酵母，却像拉格一样冷藏熟成。",
+   "苦味比看起来更强。"
+  ],
+  "description": "杜塞尔多夫的传统上发酵啤酒，\"Alt\"指在拉格流行前的老式酿法。低温发酵后长期冷藏，兼具拉格的干净与麦芽的浓郁，收口有明显的德国酒花苦味。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 2.4
+    },
+    {
+     "id": "munich_malt",
+     "kg": 1.8
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.2
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.03
+    }
+   ],
+   "hops": [
+    {
+     "id": "spalt",
+     "grams": 55,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "spalt",
+     "grams": 20,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "altbier_yeast",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 90,
+   "fermentTemp": 14,
+   "fermentDays": 10,
+   "maturationDays": 28,
+   "carbonation": 2.5,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "kolsch",
+  "name": "Kölsch",
+  "nameZh": "科隆啤酒",
+  "family": "german",
+  "group": "Rhineland",
+  "country": [
+   "germany"
+  ],
+  "region": "Cologne",
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.4,
+   "max": 5.2
+  },
+  "ibu": {
+   "min": 18,
+   "max": 30
+  },
+  "color": {
+   "min": 3,
+   "max": 5
+  },
+  "body": 1.6,
+  "sweetness": 1.4,
+  "bitterness": 1.8,
+  "acidity": 0,
+  "roast": 0,
+  "hopAroma": 0.4,
+  "malt": 2.3,
+  "caramel": 0,
+  "fruity": 0.5,
+  "spicy": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.1,
+  "tags": [
+   "科隆",
+   "上发酵",
+   "冷熟成",
+   "清爽"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "wheat_malt",
+   "hallertau_mittelfruh",
+   "tettnang",
+   "kolsch_yeast"
+  ],
+  "relatedStyles": [
+   "altbier",
+   "munich_helles",
+   "german_pils"
+  ],
+  "requirements": [
+   {
+    "type": "yeast",
+    "in": [
+     "kolsch_yeast"
+    ],
+    "hint": "使用科隆啤酒酵母。"
+   },
+   {
+    "type": "process",
+    "in": [
+     "lagering"
+    ],
+    "hint": "低温发酵后冷藏熟成。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "germany"
+    ],
+    "minShare": 0.7,
+    "hint": "酒花以德国品种为主。",
+    "soft": true
+   }
+  ],
+  "aromas": [
+   "bread",
+   "pear",
+   "floral",
+   "apple"
+  ],
+  "glass": "stange",
+  "servingTemp": 6,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它只能来自德国的一座大教堂城市。",
+   "服务员会用细长的小杯不停给你续杯。",
+   "颜色浅金，清澈。",
+   "上发酵酵母带来一丝梨子般的果香，却经冷藏熟成。"
+  ],
+  "description": "科隆受原产地保护的金色上发酵啤酒，用细长的 Stange 杯盛装。低温发酵与冷藏熟成让它像拉格一样清爽，又带有淡淡的梨与白葡萄果香。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 3.9
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 0.3
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 40,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "tettnang",
+     "grams": 15,
+     "use": "boil",
+     "time": 10
+    }
+   ],
+   "yeast": "kolsch_yeast",
+   "water": "soft",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 90,
+   "fermentTemp": 14,
+   "fermentDays": 10,
+   "maturationDays": 28,
+   "carbonation": 2.6,
+   "processes": [
+    "filtered"
+   ]
+  },
+  "dbVersion": "2026.1"
+ }
+]

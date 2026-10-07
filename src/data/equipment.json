@@ -1,0 +1,493 @@
+[
+ {
+  "id": "mill_0",
+  "kind": "mill",
+  "tier": 0,
+  "name": "Hand Mill",
+  "nameZh": "手摇研磨机",
+  "price": 0,
+  "stats": {
+   "efficiency": 0.7
+  },
+  "unlock": "start",
+  "desc": "吱呀作响的老家伙，磨得不太均匀。"
+ },
+ {
+  "id": "mill_1",
+  "kind": "mill",
+  "tier": 1,
+  "name": "Two-roller Mill",
+  "nameZh": "电动双辊研磨机",
+  "price": 300,
+  "stats": {
+   "efficiency": 0.72
+  },
+  "unlock": "start",
+  "desc": "颗粒均匀，糖化效率更高。"
+ },
+ {
+  "id": "mill_2",
+  "kind": "mill",
+  "tier": 2,
+  "name": "Three-roller Mill",
+  "nameZh": "专业三辊研磨机",
+  "price": 1200,
+  "stats": {
+   "efficiency": 0.75
+  },
+  "unlock": "rep:3",
+  "desc": "专业酒厂的标配。"
+ },
+ {
+  "id": "mill_3",
+  "kind": "mill",
+  "tier": 3,
+  "name": "Industrial Mill",
+  "nameZh": "工业湿法研磨机",
+  "price": 5000,
+  "stats": {
+   "efficiency": 0.78
+  },
+  "unlock": "rep:5",
+  "desc": "效率拉满。"
+ },
+ {
+  "id": "mashTun_0",
+  "kind": "mashTun",
+  "tier": 0,
+  "name": "Picnic Cooler Tun",
+  "nameZh": "保温箱糖化锅",
+  "price": 0,
+  "stats": {
+   "stability": 0.0,
+   "brewsPerDay": 1,
+   "quality": 0
+  },
+  "unlock": "start",
+  "desc": "用冷藏箱改的糖化锅，温度漂移严重。"
+ },
+ {
+  "id": "mashTun_1",
+  "kind": "mashTun",
+  "tier": 1,
+  "name": "Insulated Mash Tun",
+  "nameZh": "保温糖化锅",
+  "price": 600,
+  "stats": {
+   "stability": 0.3,
+   "brewsPerDay": 2,
+   "quality": 2
+  },
+  "unlock": "start",
+  "desc": "保温层让温度更稳定，每天可酿 2 批。"
+ },
+ {
+  "id": "mashTun_2",
+  "kind": "mashTun",
+  "tier": 2,
+  "name": "Steam Jacketed Tun",
+  "nameZh": "蒸汽夹套糖化锅",
+  "price": 2500,
+  "stats": {
+   "stability": 0.55,
+   "brewsPerDay": 3,
+   "quality": 4
+  },
+  "unlock": "rep:3",
+  "desc": "蒸汽精确控温，每天可酿 3 批。"
+ },
+ {
+  "id": "mashTun_3",
+  "kind": "mashTun",
+  "tier": 3,
+  "name": "Automated Brewhouse",
+  "nameZh": "全自动糖化系统",
+  "price": 9000,
+  "stats": {
+   "stability": 0.8,
+   "brewsPerDay": 4,
+   "quality": 6
+  },
+  "unlock": "rep:5",
+  "desc": "电脑控温，几乎不漂移。"
+ },
+ {
+  "id": "kettle_0",
+  "kind": "kettle",
+  "tier": 0,
+  "name": "Stockpot",
+  "nameZh": "20L 不锈钢煮锅",
+  "price": 0,
+  "stats": {
+   "maxVolume": 20,
+   "dms": 1.0
+  },
+  "unlock": "start",
+  "desc": "厨房级别的大锅。"
+ },
+ {
+  "id": "kettle_1",
+  "kind": "kettle",
+  "tier": 1,
+  "name": "100L Kettle",
+  "nameZh": "100L 煮沸锅",
+  "price": 800,
+  "stats": {
+   "maxVolume": 100,
+   "dms": 0.7
+  },
+  "unlock": "start",
+  "desc": "小型精酿的起点。"
+ },
+ {
+  "id": "kettle_2",
+  "kind": "kettle",
+  "tier": 2,
+  "name": "500L Kettle",
+  "nameZh": "500L 专业煮沸锅",
+  "price": 4000,
+  "stats": {
+   "maxVolume": 500,
+   "dms": 0.4
+  },
+  "unlock": "rep:3",
+  "desc": "强劲沸腾，DMS 风险更低。"
+ },
+ {
+  "id": "kettle_3",
+  "kind": "kettle",
+  "tier": 3,
+  "name": "2000L Kettle",
+  "nameZh": "2000L 工业煮沸锅",
+  "price": 15000,
+  "stats": {
+   "maxVolume": 2000,
+   "dms": 0.2
+  },
+  "unlock": "rep:5",
+  "desc": "工业级产能。"
+ },
+ {
+  "id": "fermenter_0",
+  "kind": "fermenter",
+  "tier": 0,
+  "name": "Small Bucket",
+  "nameZh": "小发酵桶",
+  "price": 60,
+  "stats": {
+   "capacity": 20,
+   "tempControl": 0
+  },
+  "unlock": "start",
+  "desc": "20L 塑料发酵桶。"
+ },
+ {
+  "id": "fermenter_1",
+  "kind": "fermenter",
+  "tier": 1,
+  "name": "Medium Fermenter",
+  "nameZh": "中型发酵罐",
+  "price": 500,
+  "stats": {
+   "capacity": 100,
+   "tempControl": 1
+  },
+  "unlock": "start",
+  "desc": "100L 不锈钢锥形罐，带温控夹套。"
+ },
+ {
+  "id": "fermenter_2",
+  "kind": "fermenter",
+  "tier": 2,
+  "name": "Large Fermenter",
+  "nameZh": "大型发酵罐",
+  "price": 2500,
+  "stats": {
+   "capacity": 500,
+   "tempControl": 1
+  },
+  "unlock": "rep:3",
+  "desc": "500L 锥形发酵罐。"
+ },
+ {
+  "id": "fermenter_3",
+  "kind": "fermenter",
+  "tier": 3,
+  "name": "Industrial Fermenter",
+  "nameZh": "工业发酵罐",
+  "price": 9000,
+  "stats": {
+   "capacity": 2000,
+   "tempControl": 1
+  },
+  "unlock": "rep:5",
+  "desc": "2000L 巨罐。要不要用它专门生产最畅销的 IPA？"
+ },
+ {
+  "id": "brightTank_1",
+  "kind": "brightTank",
+  "tier": 1,
+  "name": "Bright Tank",
+  "nameZh": "清酒罐",
+  "price": 1200,
+  "stats": {
+   "quality": 3,
+   "clarity": 0.8
+  },
+  "unlock": "start",
+  "desc": "碳酸化与澄清，品质 +3。"
+ },
+ {
+  "id": "brightTank_2",
+  "kind": "brightTank",
+  "tier": 2,
+  "name": "Pro Bright Tank",
+  "nameZh": "专业清酒罐",
+  "price": 4000,
+  "stats": {
+   "quality": 5,
+   "clarity": 0.7
+  },
+  "unlock": "rep:3",
+  "desc": "更精确的碳酸化，品质 +5。"
+ },
+ {
+  "id": "brightTank_3",
+  "kind": "brightTank",
+  "tier": 3,
+  "name": "Industrial Bright Tank",
+  "nameZh": "工业清酒罐",
+  "price": 12000,
+  "stats": {
+   "quality": 7,
+   "clarity": 0.6
+  },
+  "unlock": "rep:5",
+  "desc": "品质 +7。"
+ },
+ {
+  "id": "keg_0",
+  "kind": "keg",
+  "tier": 0,
+  "name": "Old Kegs",
+  "nameZh": "6 只旧酒桶",
+  "price": 0,
+  "stats": {
+   "liters": 120
+  },
+  "unlock": "start",
+  "desc": "可存放 120L 成品啤酒。"
+ },
+ {
+  "id": "keg_1",
+  "kind": "keg",
+  "tier": 1,
+  "name": "Keg Set",
+  "nameZh": "12 只不锈钢酒桶",
+  "price": 400,
+  "stats": {
+   "liters": 240
+  },
+  "unlock": "start",
+  "desc": "可存放 240L。"
+ },
+ {
+  "id": "keg_2",
+  "kind": "keg",
+  "tier": 2,
+  "name": "Keg Fleet",
+  "nameZh": "40 只 30L 酒桶",
+  "price": 2000,
+  "stats": {
+   "liters": 1200
+  },
+  "unlock": "rep:2",
+  "desc": "可存放 1200L。"
+ },
+ {
+  "id": "keg_3",
+  "kind": "keg",
+  "tier": 3,
+  "name": "Keg Warehouse",
+  "nameZh": "酒桶仓库",
+  "price": 8000,
+  "stats": {
+   "liters": 5000
+  },
+  "unlock": "rep:4",
+  "desc": "可存放 5000L。"
+ },
+ {
+  "id": "coldStorage_0",
+  "kind": "coldStorage",
+  "tier": 0,
+  "name": "Old Fridge",
+  "nameZh": "旧冰箱",
+  "price": 0,
+  "stats": {
+   "decay": 1.0,
+   "tempControl": 0
+  },
+  "unlock": "start",
+  "desc": "嗡嗡作响，温度固定 4℃。"
+ },
+ {
+  "id": "coldStorage_1",
+  "kind": "coldStorage",
+  "tier": 1,
+  "name": "Beer Cooler",
+  "nameZh": "啤酒冷藏柜",
+  "price": 500,
+  "stats": {
+   "decay": 0.8,
+   "tempControl": 1
+  },
+  "unlock": "start",
+  "desc": "新鲜度衰减 -20%，可为每个酒头设置出酒温度。"
+ },
+ {
+  "id": "coldStorage_2",
+  "kind": "coldStorage",
+  "tier": 2,
+  "name": "Walk-in Cooler",
+  "nameZh": "步入式冷库",
+  "price": 2500,
+  "stats": {
+   "decay": 0.6,
+   "tempControl": 1
+  },
+  "unlock": "rep:3",
+  "desc": "新鲜度衰减 -40%。"
+ },
+ {
+  "id": "coldStorage_3",
+  "kind": "coldStorage",
+  "tier": 3,
+  "name": "Climate Cellar",
+  "nameZh": "恒温恒湿冷库",
+  "price": 8000,
+  "stats": {
+   "decay": 0.45,
+   "tempControl": 1
+  },
+  "unlock": "rep:5",
+  "desc": "新鲜度衰减 -55%。"
+ },
+ {
+  "id": "barrelRack_1",
+  "kind": "barrelRack",
+  "tier": 1,
+  "name": "Small Cellar",
+  "nameZh": "小酒窖",
+  "price": 800,
+  "stats": {
+   "slots": 2
+  },
+  "unlock": "research:barrel_cellar",
+  "desc": "可放 2 只木桶。"
+ },
+ {
+  "id": "barrelRack_2",
+  "kind": "barrelRack",
+  "tier": 2,
+  "name": "Barrel Room",
+  "nameZh": "木桶房",
+  "price": 3000,
+  "stats": {
+   "slots": 6
+  },
+  "unlock": "research:barrel_cellar",
+  "desc": "可放 6 只木桶。"
+ },
+ {
+  "id": "barrelRack_3",
+  "kind": "barrelRack",
+  "tier": 3,
+  "name": "Grand Cellar",
+  "nameZh": "大酒窖",
+  "price": 10000,
+  "stats": {
+   "slots": 16
+  },
+  "unlock": "rep:6",
+  "desc": "可放 16 只木桶。"
+ },
+ {
+  "id": "tap_0",
+  "kind": "tap",
+  "tier": 0,
+  "name": "2 Taps",
+  "nameZh": "2 个酒头",
+  "price": 0,
+  "stats": {
+   "taps": 2
+  },
+  "unlock": "start",
+  "desc": "最初的两个酒头。"
+ },
+ {
+  "id": "tap_1",
+  "kind": "tap",
+  "tier": 1,
+  "name": "4 Taps",
+  "nameZh": "4 个酒头",
+  "price": 300,
+  "stats": {
+   "taps": 4
+  },
+  "unlock": "start",
+  "desc": ""
+ },
+ {
+  "id": "tap_2",
+  "kind": "tap",
+  "tier": 2,
+  "name": "8 Taps",
+  "nameZh": "8 个酒头",
+  "price": 1200,
+  "stats": {
+   "taps": 8
+  },
+  "unlock": "rep:2",
+  "desc": ""
+ },
+ {
+  "id": "tap_3",
+  "kind": "tap",
+  "tier": 3,
+  "name": "12 Taps",
+  "nameZh": "12 个酒头",
+  "price": 3000,
+  "stats": {
+   "taps": 12
+  },
+  "unlock": "rep:4",
+  "desc": ""
+ },
+ {
+  "id": "tap_4",
+  "kind": "tap",
+  "tier": 4,
+  "name": "20 Taps",
+  "nameZh": "20 个酒头",
+  "price": 7000,
+  "stats": {
+   "taps": 20
+  },
+  "unlock": "rep:6",
+  "desc": ""
+ },
+ {
+  "id": "tap_5",
+  "kind": "tap",
+  "tier": 5,
+  "name": "30 Taps",
+  "nameZh": "30 个酒头",
+  "price": 15000,
+  "stats": {
+   "taps": 30
+  },
+  "unlock": "rep:7",
+  "desc": "传说中的酒头墙。"
+ }
+]

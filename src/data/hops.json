@@ -1,0 +1,1064 @@
+[
+  {
+    "id": "citra",
+    "name": "Citra",
+    "nameZh": "西楚",
+    "origin": "usa",
+    "alpha": 12.5,
+    "aromaPower": 1.4,
+    "character": {
+      "citrus": 5,
+      "tropical": 4.5,
+      "floral": 1
+    },
+    "price": 0.13,
+    "aromas": [
+      "grapefruit",
+      "mango",
+      "lime",
+      "passionfruit"
+    ],
+    "unlock": "research:hop_us",
+    "desc": "精酿界最受欢迎的香花之一，带爆炸性的西柚、青柠与热带水果香。"
+  },
+  {
+    "id": "mosaic",
+    "name": "Mosaic",
+    "nameZh": "马赛克",
+    "origin": "usa",
+    "alpha": 12,
+    "aromaPower": 1.35,
+    "character": {
+      "tropical": 4,
+      "berry": 3.5,
+      "citrus": 2.5,
+      "pine": 1.5
+    },
+    "price": 0.12,
+    "aromas": [
+      "blueberry",
+      "mango",
+      "tropical",
+      "pine"
+    ],
+    "unlock": "research:hop_us",
+    "desc": "香气复杂多变，蓝莓、热带水果与松针交织，单一酒花 IPA 的热门选择。"
+  },
+  {
+    "id": "cascade",
+    "name": "Cascade",
+    "nameZh": "卡斯卡特",
+    "origin": "usa",
+    "alpha": 6,
+    "aromaPower": 1,
+    "character": {
+      "citrus": 3.5,
+      "floral": 3,
+      "pine": 1
+    },
+    "price": 0.05,
+    "aromas": [
+      "grapefruit",
+      "floral",
+      "citrus"
+    ],
+    "unlock": "start",
+    "desc": "美式精酿革命的开山酒花，带标志性西柚与花香。美式淡色艾尔的经典。"
+  },
+  {
+    "id": "centennial",
+    "name": "Centennial",
+    "nameZh": "世纪",
+    "origin": "usa",
+    "alpha": 10,
+    "aromaPower": 1.05,
+    "character": {
+      "citrus": 3.5,
+      "floral": 3,
+      "pine": 1.5
+    },
+    "price": 0.06,
+    "aromas": [
+      "citrus",
+      "floral",
+      "lemon"
+    ],
+    "unlock": "start",
+    "desc": "常被称为“超级卡斯卡特”，柑橘与花香更强，苦花香花两用。"
+  },
+  {
+    "id": "simcoe",
+    "name": "Simcoe",
+    "nameZh": "西姆科",
+    "origin": "usa",
+    "alpha": 13,
+    "aromaPower": 1.3,
+    "character": {
+      "pine": 4,
+      "tropical": 3,
+      "citrus": 2,
+      "berry": 1
+    },
+    "price": 0.11,
+    "aromas": [
+      "pine",
+      "resin",
+      "passionfruit"
+    ],
+    "unlock": "research:hop_us",
+    "desc": "带松脂、百香果与一丝猫骚味，西海岸 IPA 的中坚力量。"
+  },
+  {
+    "id": "amarillo",
+    "name": "Amarillo",
+    "nameZh": "亚麻黄",
+    "origin": "usa",
+    "alpha": 9,
+    "aromaPower": 1.15,
+    "character": {
+      "citrus": 4,
+      "floral": 2.5,
+      "tropical": 1.5
+    },
+    "price": 0.09,
+    "aromas": [
+      "orange",
+      "citrus",
+      "floral"
+    ],
+    "unlock": "research:hop_us",
+    "desc": "以橙子与橙花香著称，柔和讨喜，适合淡色艾尔与 IPA。"
+  },
+  {
+    "id": "chinook",
+    "name": "Chinook",
+    "nameZh": "奇努克",
+    "origin": "usa",
+    "alpha": 13,
+    "aromaPower": 0.9,
+    "character": {
+      "pine": 4,
+      "spicy": 2,
+      "citrus": 2
+    },
+    "price": 0.05,
+    "aromas": [
+      "pine",
+      "resin",
+      "grapefruit"
+    ],
+    "unlock": "start",
+    "desc": "松针与树脂感强烈，苦味扎实。传统西海岸 IPA 与美式棕色艾尔常用。"
+  },
+  {
+    "id": "columbus",
+    "name": "Columbus",
+    "nameZh": "哥伦布",
+    "origin": "usa",
+    "alpha": 15,
+    "aromaPower": 0.85,
+    "character": {
+      "pine": 3,
+      "herbal": 3,
+      "citrus": 1.5,
+      "spicy": 1.5
+    },
+    "price": 0.05,
+    "aromas": [
+      "resin",
+      "herbal",
+      "pepper"
+    ],
+    "unlock": "research:hop_us",
+    "desc": "高 α 酸“CTZ”家族成员，苦味强劲，带湿润草本与树脂味。"
+  },
+  {
+    "id": "el_dorado",
+    "name": "El Dorado",
+    "nameZh": "黄金国",
+    "origin": "usa",
+    "alpha": 15,
+    "aromaPower": 1.2,
+    "character": {
+      "tropical": 4,
+      "berry": 2,
+      "citrus": 1.5
+    },
+    "price": 0.1,
+    "aromas": [
+      "pineapple",
+      "watermelon",
+      "tropical"
+    ],
+    "unlock": "research:hop_us",
+    "desc": "带甜美的西瓜、梨与菠萝糖果香，适合果味浓郁的 IPA。"
+  },
+  {
+    "id": "sabro",
+    "name": "Sabro",
+    "nameZh": "萨布罗",
+    "origin": "usa",
+    "alpha": 14,
+    "aromaPower": 1.25,
+    "character": {
+      "tropical": 4,
+      "citrus": 2.5,
+      "herbal": 1.5
+    },
+    "price": 0.12,
+    "aromas": [
+      "coconut",
+      "tropical",
+      "mint"
+    ],
+    "unlock": "research:hop_us",
+    "desc": "罕见的椰子与奶油香调，夹杂柑橘和薄荷。是玩奶昔 IPA 的利器。"
+  },
+  {
+    "id": "strata",
+    "name": "Strata",
+    "nameZh": "斯特拉塔",
+    "origin": "usa",
+    "alpha": 13,
+    "aromaPower": 1.3,
+    "character": {
+      "berry": 3.5,
+      "tropical": 3,
+      "citrus": 2.5,
+      "herbal": 1
+    },
+    "price": 0.13,
+    "aromas": [
+      "strawberry",
+      "passionfruit",
+      "grapefruit"
+    ],
+    "unlock": "research:hop_us",
+    "desc": "俄勒冈新秀，带草莓、百香果与一丝大麻般的草本香。"
+  },
+  {
+    "id": "idaho_7",
+    "name": "Idaho 7",
+    "nameZh": "爱达荷 7 号",
+    "origin": "usa",
+    "alpha": 13,
+    "aromaPower": 1.2,
+    "character": {
+      "tropical": 3.5,
+      "pine": 2.5,
+      "citrus": 2
+    },
+    "price": 0.1,
+    "aromas": [
+      "apricot",
+      "pine",
+      "tropical"
+    ],
+    "unlock": "research:hop_us",
+    "desc": "杏子、热带水果与红茶般的松脂香，适合浑浊 IPA。"
+  },
+  {
+    "id": "warrior",
+    "name": "Warrior",
+    "nameZh": "勇士",
+    "origin": "usa",
+    "alpha": 16,
+    "aromaPower": 0.55,
+    "character": {
+      "herbal": 2,
+      "pine": 1.5
+    },
+    "price": 0.04,
+    "aromas": [
+      "herbal",
+      "resin"
+    ],
+    "unlock": "research:hop_us",
+    "desc": "高 α 酸苦花，苦感干净平顺，几乎不抢香。"
+  },
+  {
+    "id": "azacca",
+    "name": "Azacca",
+    "nameZh": "阿扎卡",
+    "origin": "usa",
+    "alpha": 15,
+    "aromaPower": 1.15,
+    "character": {
+      "tropical": 4,
+      "citrus": 3
+    },
+    "price": 0.1,
+    "aromas": [
+      "mango",
+      "pineapple",
+      "citrus"
+    ],
+    "unlock": "research:hop_us",
+    "desc": "以海地神祇命名，芒果与菠萝香突出，单花也很出彩。"
+  },
+  {
+    "id": "talus",
+    "name": "Talus",
+    "nameZh": "塔勒斯",
+    "origin": "usa",
+    "alpha": 9,
+    "aromaPower": 1.15,
+    "character": {
+      "citrus": 3,
+      "floral": 2.5,
+      "tropical": 2
+    },
+    "price": 0.11,
+    "aromas": [
+      "grapefruit",
+      "rose",
+      "tropical"
+    ],
+    "unlock": "research:hop_us",
+    "desc": "新晋美国香花，带粉色西柚、玫瑰与热带水果香。"
+  },
+  {
+    "id": "nelson_sauvin",
+    "name": "Nelson Sauvin",
+    "nameZh": "尼尔森苏维",
+    "origin": "nz",
+    "alpha": 12,
+    "aromaPower": 1.4,
+    "character": {
+      "grape": 5,
+      "tropical": 3,
+      "citrus": 1.5
+    },
+    "price": 0.14,
+    "aromas": [
+      "wine",
+      "grape",
+      "passionfruit"
+    ],
+    "unlock": "region:nz",
+    "desc": "新西兰明星酒花，带长相思白葡萄酒般的醋栗与葡萄香。"
+  },
+  {
+    "id": "motueka",
+    "name": "Motueka",
+    "nameZh": "莫图依卡",
+    "origin": "nz",
+    "alpha": 7,
+    "aromaPower": 1.1,
+    "character": {
+      "citrus": 4,
+      "tropical": 2,
+      "herbal": 1
+    },
+    "price": 0.11,
+    "aromas": [
+      "lime",
+      "lemon",
+      "tropical"
+    ],
+    "unlock": "region:nz",
+    "desc": "带清新青柠与柠檬皮香，被誉为“莫吉托酒花”。"
+  },
+  {
+    "id": "riwaka",
+    "name": "Riwaka",
+    "nameZh": "里瓦卡",
+    "origin": "nz",
+    "alpha": 5.5,
+    "aromaPower": 1.25,
+    "character": {
+      "citrus": 4,
+      "tropical": 3
+    },
+    "price": 0.14,
+    "aromas": [
+      "grapefruit",
+      "passionfruit",
+      "citrus"
+    ],
+    "unlock": "region:nz",
+    "desc": "产量稀少的新西兰香花，西柚与百香果香浓烈。"
+  },
+  {
+    "id": "wakatu",
+    "name": "Wakatu",
+    "nameZh": "瓦卡图",
+    "origin": "nz",
+    "alpha": 7.5,
+    "aromaPower": 0.95,
+    "character": {
+      "floral": 3,
+      "citrus": 2.5
+    },
+    "price": 0.08,
+    "aromas": [
+      "floral",
+      "lime"
+    ],
+    "unlock": "region:nz",
+    "desc": "源自哈拉道血统，带花香与青柠皮香，适合淡色拉格。"
+  },
+  {
+    "id": "rakau",
+    "name": "Rakau",
+    "nameZh": "拉考",
+    "origin": "nz",
+    "alpha": 11,
+    "aromaPower": 1.1,
+    "character": {
+      "tropical": 3,
+      "berry": 2,
+      "pine": 2
+    },
+    "price": 0.09,
+    "aromas": [
+      "apricot",
+      "passionfruit",
+      "resin"
+    ],
+    "unlock": "region:nz",
+    "desc": "带杏子、百香果与松脂感，风格偏饱满。"
+  },
+  {
+    "id": "nectaron",
+    "name": "Nectaron",
+    "nameZh": "花蜜",
+    "origin": "nz",
+    "alpha": 11.5,
+    "aromaPower": 1.35,
+    "character": {
+      "tropical": 4.5,
+      "citrus": 3
+    },
+    "price": 0.14,
+    "aromas": [
+      "passionfruit",
+      "peach",
+      "pineapple"
+    ],
+    "unlock": "region:nz",
+    "desc": "新西兰新晋爆款，热带水果香浓到像果汁。"
+  },
+  {
+    "id": "moutere",
+    "name": "Moutere",
+    "nameZh": "莫特雷",
+    "origin": "nz",
+    "alpha": 17,
+    "aromaPower": 1.15,
+    "character": {
+      "tropical": 3,
+      "citrus": 2.5,
+      "grape": 1.5
+    },
+    "price": 0.12,
+    "aromas": [
+      "grapefruit",
+      "passionfruit",
+      "tropical"
+    ],
+    "unlock": "region:nz",
+    "desc": "高 α 酸却香气浓郁，带西柚、百香果与果干感。"
+  },
+  {
+    "id": "galaxy",
+    "name": "Galaxy",
+    "nameZh": "银河",
+    "origin": "australia",
+    "alpha": 14,
+    "aromaPower": 1.4,
+    "character": {
+      "tropical": 5,
+      "citrus": 3
+    },
+    "price": 0.14,
+    "aromas": [
+      "passionfruit",
+      "peach",
+      "citrus"
+    ],
+    "unlock": "region:australia",
+    "desc": "澳洲王牌酒花，百香果与桃子香极其浓烈。"
+  },
+  {
+    "id": "vic_secret",
+    "name": "Vic Secret",
+    "nameZh": "维多利亚秘密",
+    "origin": "australia",
+    "alpha": 16,
+    "aromaPower": 1.25,
+    "character": {
+      "tropical": 4,
+      "pine": 2.5,
+      "herbal": 1
+    },
+    "price": 0.12,
+    "aromas": [
+      "pineapple",
+      "resin",
+      "tropical"
+    ],
+    "unlock": "region:australia",
+    "desc": "菠萝、百香果与松脂香并存，适合干投。"
+  },
+  {
+    "id": "enigma",
+    "name": "Enigma",
+    "nameZh": "谜团",
+    "origin": "australia",
+    "alpha": 16,
+    "aromaPower": 1.2,
+    "character": {
+      "berry": 3,
+      "grape": 3,
+      "tropical": 2
+    },
+    "price": 0.12,
+    "aromas": [
+      "raspberry",
+      "grape",
+      "tropical"
+    ],
+    "unlock": "region:australia",
+    "desc": "带覆盆子、红醋栗与白葡萄香，名副其实的神秘酒花。"
+  },
+  {
+    "id": "ella",
+    "name": "Ella",
+    "nameZh": "艾拉",
+    "origin": "australia",
+    "alpha": 15,
+    "aromaPower": 1.05,
+    "character": {
+      "floral": 3,
+      "tropical": 2,
+      "spicy": 1.5
+    },
+    "price": 0.1,
+    "aromas": [
+      "floral",
+      "tropical",
+      "pepper"
+    ],
+    "unlock": "region:australia",
+    "desc": "用量少时花香与八角感，用量多时转为热带水果。"
+  },
+  {
+    "id": "eclipse",
+    "name": "Eclipse",
+    "nameZh": "日食",
+    "origin": "australia",
+    "alpha": 17,
+    "aromaPower": 1.2,
+    "character": {
+      "citrus": 4,
+      "pine": 2
+    },
+    "price": 0.12,
+    "aromas": [
+      "orange",
+      "citrus",
+      "resin"
+    ],
+    "unlock": "region:australia",
+    "desc": "带甜橘子与柑橘皮香，以及清新松针感。"
+  },
+  {
+    "id": "hallertau_mittelfruh",
+    "name": "Hallertauer Mittelfrüh",
+    "nameZh": "哈拉道中早熟",
+    "origin": "germany",
+    "alpha": 4,
+    "aromaPower": 0.8,
+    "character": {
+      "floral": 3,
+      "herbal": 2.5,
+      "spicy": 2
+    },
+    "noble": true,
+    "price": 0.07,
+    "aromas": [
+      "floral",
+      "herbal",
+      "spicy"
+    ],
+    "unlock": "start",
+    "desc": "最经典的德国贵族酒花，带优雅花香与草本辛香。"
+  },
+  {
+    "id": "tettnang",
+    "name": "Tettnanger",
+    "nameZh": "泰特南",
+    "origin": "germany",
+    "alpha": 4.5,
+    "aromaPower": 0.8,
+    "character": {
+      "floral": 2.5,
+      "herbal": 2.5,
+      "spicy": 2
+    },
+    "noble": true,
+    "price": 0.07,
+    "aromas": [
+      "floral",
+      "herbal",
+      "earthy"
+    ],
+    "unlock": "research:hop_noble",
+    "desc": "产自博登湖畔的贵族酒花，花香细腻，带一丝泥土感。"
+  },
+  {
+    "id": "spalt",
+    "name": "Spalter",
+    "nameZh": "斯巴特",
+    "origin": "germany",
+    "alpha": 4.5,
+    "aromaPower": 0.8,
+    "character": {
+      "spicy": 3,
+      "herbal": 2.5,
+      "floral": 1.5
+    },
+    "noble": true,
+    "price": 0.08,
+    "aromas": [
+      "spicy",
+      "herbal",
+      "earthy"
+    ],
+    "unlock": "research:hop_noble",
+    "desc": "德国最古老的贵族酒花之一，辛香温和，适合老啤酒与科隆啤酒。"
+  },
+  {
+    "id": "hersbrucker",
+    "name": "Hersbrucker",
+    "nameZh": "赫斯布鲁克",
+    "origin": "germany",
+    "alpha": 3.5,
+    "aromaPower": 0.75,
+    "character": {
+      "floral": 2.5,
+      "herbal": 2,
+      "spicy": 1.5
+    },
+    "price": 0.06,
+    "aromas": [
+      "floral",
+      "herbal",
+      "grassy"
+    ],
+    "unlock": "region:germany",
+    "desc": "温和的德国香花，带花香与青草感，常用于小麦啤酒与拉格。"
+  },
+  {
+    "id": "perle",
+    "name": "Perle",
+    "nameZh": "珍珠",
+    "origin": "germany",
+    "alpha": 8,
+    "aromaPower": 0.7,
+    "character": {
+      "herbal": 2.5,
+      "spicy": 2,
+      "floral": 1
+    },
+    "price": 0.05,
+    "aromas": [
+      "herbal",
+      "spicy"
+    ],
+    "unlock": "region:germany",
+    "desc": "苦香两用，草本与薄荷般的辛香，德式拉格常客。"
+  },
+  {
+    "id": "magnum",
+    "name": "Magnum",
+    "nameZh": "马格努门",
+    "origin": "germany",
+    "alpha": 13,
+    "aromaPower": 0.55,
+    "character": {
+      "herbal": 1.5,
+      "spicy": 1
+    },
+    "price": 0.04,
+    "aromas": [
+      "herbal",
+      "spicy"
+    ],
+    "unlock": "start",
+    "desc": "德国高 α 酸苦花，苦味纯净柔顺，几乎适用于任何风格。"
+  },
+  {
+    "id": "hallertau_blanc",
+    "name": "Hallertau Blanc",
+    "nameZh": "哈拉道白",
+    "origin": "germany",
+    "alpha": 10,
+    "aromaPower": 1.1,
+    "character": {
+      "grape": 3.5,
+      "tropical": 2.5,
+      "citrus": 1.5
+    },
+    "price": 0.09,
+    "aromas": [
+      "wine",
+      "grape",
+      "pineapple"
+    ],
+    "unlock": "research:hop_noble",
+    "desc": "德国新世界香花，带白葡萄、醋栗与菠萝香。"
+  },
+  {
+    "id": "mandarina_bavaria",
+    "name": "Mandarina Bavaria",
+    "nameZh": "巴伐利亚柑橘",
+    "origin": "germany",
+    "alpha": 8.5,
+    "aromaPower": 1.1,
+    "character": {
+      "citrus": 4,
+      "floral": 1.5
+    },
+    "price": 0.08,
+    "aromas": [
+      "orange",
+      "citrus"
+    ],
+    "unlock": "research:hop_noble",
+    "desc": "卡斯卡特的德国后代，带鲜明的橘子与柑橘皮香。"
+  },
+  {
+    "id": "tradition",
+    "name": "Hallertauer Tradition",
+    "nameZh": "哈拉道传统",
+    "origin": "germany",
+    "alpha": 6,
+    "aromaPower": 0.75,
+    "character": {
+      "floral": 2.5,
+      "herbal": 2,
+      "spicy": 1.5
+    },
+    "price": 0.06,
+    "aromas": [
+      "floral",
+      "herbal"
+    ],
+    "unlock": "region:germany",
+    "desc": "以中早熟为蓝本培育的抗病品种，风味接近贵族酒花。"
+  },
+  {
+    "id": "saaz",
+    "name": "Saaz",
+    "nameZh": "萨兹",
+    "origin": "czech",
+    "alpha": 3.5,
+    "aromaPower": 0.8,
+    "character": {
+      "spicy": 3,
+      "herbal": 2.5,
+      "floral": 2
+    },
+    "noble": true,
+    "price": 0.08,
+    "aromas": [
+      "spicy",
+      "herbal",
+      "earthy"
+    ],
+    "unlock": "start",
+    "desc": "捷克皮尔森的灵魂，带柔和的胡椒辛香与泥土草本感。"
+  },
+  {
+    "id": "kazbek",
+    "name": "Kazbek",
+    "nameZh": "卡兹别克",
+    "origin": "czech",
+    "alpha": 6,
+    "aromaPower": 0.85,
+    "character": {
+      "spicy": 3,
+      "citrus": 2,
+      "herbal": 1.5
+    },
+    "price": 0.07,
+    "aromas": [
+      "lemon",
+      "spicy",
+      "pepper"
+    ],
+    "unlock": "region:czech",
+    "desc": "萨兹的后代，辛香中带柠檬与葡萄柚皮味。"
+  },
+  {
+    "id": "sladek",
+    "name": "Sládek",
+    "nameZh": "斯拉德克",
+    "origin": "czech",
+    "alpha": 7,
+    "aromaPower": 0.8,
+    "character": {
+      "floral": 2.5,
+      "herbal": 2,
+      "citrus": 1
+    },
+    "price": 0.06,
+    "aromas": [
+      "floral",
+      "herbal"
+    ],
+    "unlock": "region:czech",
+    "desc": "捷克苦香两用酒花，带花香与轻柔的水果感。"
+  },
+  {
+    "id": "fuggle",
+    "name": "Fuggle",
+    "nameZh": "法格",
+    "origin": "uk",
+    "alpha": 4.5,
+    "aromaPower": 0.75,
+    "character": {
+      "herbal": 3,
+      "spicy": 1.5,
+      "floral": 1
+    },
+    "price": 0.05,
+    "aromas": [
+      "earthy",
+      "herbal",
+      "wood"
+    ],
+    "unlock": "start",
+    "desc": "英国传统酒花，泥土与木质草本感，英式苦啤和波特的经典。"
+  },
+  {
+    "id": "east_kent_goldings",
+    "name": "East Kent Goldings",
+    "nameZh": "东肯特金",
+    "origin": "uk",
+    "alpha": 5,
+    "aromaPower": 0.8,
+    "character": {
+      "floral": 2.5,
+      "spicy": 2,
+      "herbal": 2
+    },
+    "price": 0.07,
+    "aromas": [
+      "floral",
+      "honey",
+      "spicy"
+    ],
+    "unlock": "start",
+    "desc": "英国最受尊崇的香花，带蜂蜜、薰衣草与温和辛香。"
+  },
+  {
+    "id": "challenger",
+    "name": "Challenger",
+    "nameZh": "挑战者",
+    "origin": "uk",
+    "alpha": 7.5,
+    "aromaPower": 0.7,
+    "character": {
+      "spicy": 2.5,
+      "herbal": 2,
+      "floral": 1
+    },
+    "price": 0.05,
+    "aromas": [
+      "spicy",
+      "herbal",
+      "floral"
+    ],
+    "unlock": "region:uk",
+    "desc": "苦香两用的英国酒花，带雪松与绿茶般的辛香。"
+  },
+  {
+    "id": "target",
+    "name": "Target",
+    "nameZh": "靶心",
+    "origin": "uk",
+    "alpha": 11,
+    "aromaPower": 0.6,
+    "character": {
+      "herbal": 2.5,
+      "spicy": 2
+    },
+    "price": 0.04,
+    "aromas": [
+      "herbal",
+      "spicy"
+    ],
+    "unlock": "region:uk",
+    "desc": "英国高 α 酸苦花，苦味较硬朗，带草本与鼠尾草感。"
+  },
+  {
+    "id": "bramling_cross",
+    "name": "Bramling Cross",
+    "nameZh": "布拉姆林十字",
+    "origin": "uk",
+    "alpha": 6,
+    "aromaPower": 0.95,
+    "character": {
+      "berry": 3,
+      "spicy": 2,
+      "citrus": 1
+    },
+    "price": 0.07,
+    "aromas": [
+      "berry",
+      "spicy"
+    ],
+    "unlock": "region:uk",
+    "desc": "带黑醋栗与黑莓果香的英国酒花，适合波特与冬季啤酒。"
+  },
+  {
+    "id": "northdown",
+    "name": "Northdown",
+    "nameZh": "诺斯当",
+    "origin": "uk",
+    "alpha": 8,
+    "aromaPower": 0.7,
+    "character": {
+      "herbal": 2.5,
+      "spicy": 2,
+      "pine": 1
+    },
+    "price": 0.05,
+    "aromas": [
+      "herbal",
+      "resin",
+      "spicy"
+    ],
+    "unlock": "region:uk",
+    "desc": "苦香两用，带松木与辛香，常用于英式烈性艾尔。"
+  },
+  {
+    "id": "strisselspalt",
+    "name": "Strisselspalt",
+    "nameZh": "斯特里塞尔斯巴特",
+    "origin": "france",
+    "alpha": 2.5,
+    "aromaPower": 0.8,
+    "character": {
+      "floral": 3,
+      "herbal": 2,
+      "spicy": 1.5
+    },
+    "price": 0.08,
+    "aromas": [
+      "floral",
+      "herbal",
+      "spicy"
+    ],
+    "unlock": "region:france",
+    "desc": "阿尔萨斯的传统香花，花香柔美，适合法式农舍与比利时啤酒。"
+  },
+  {
+    "id": "aramis",
+    "name": "Aramis",
+    "nameZh": "阿拉米斯",
+    "origin": "france",
+    "alpha": 7.5,
+    "aromaPower": 0.9,
+    "character": {
+      "spicy": 3,
+      "herbal": 2.5,
+      "citrus": 1.5
+    },
+    "price": 0.08,
+    "aromas": [
+      "spicy",
+      "herbal",
+      "lemon"
+    ],
+    "unlock": "region:france",
+    "desc": "斯特里塞尔斯巴特的后代，辛香与草本更浓，适合塞森。"
+  },
+  {
+    "id": "sorachi_ace",
+    "name": "Sorachi Ace",
+    "nameZh": "空知王牌",
+    "origin": "japan",
+    "alpha": 12,
+    "aromaPower": 1.15,
+    "character": {
+      "citrus": 3.5,
+      "herbal": 3,
+      "spicy": 1.5
+    },
+    "price": 0.11,
+    "aromas": [
+      "lemon",
+      "herbal",
+      "coconut"
+    ],
+    "unlock": "region:japan",
+    "desc": "日本札幌培育，带独特柠檬、莳萝与椰子香，个性鲜明。"
+  },
+  {
+    "id": "qingdao_dahua",
+    "name": "Qingdao Dahua",
+    "nameZh": "青岛大花",
+    "origin": "china",
+    "alpha": 6.5,
+    "aromaPower": 0.8,
+    "character": {
+      "floral": 2.5,
+      "herbal": 2,
+      "spicy": 1.5
+    },
+    "price": 0.04,
+    "aromas": [
+      "floral",
+      "herbal",
+      "grassy"
+    ],
+    "unlock": "region:china",
+    "desc": "中国传统酒花品种，花香与草本感温和，适合清爽的淡色拉格。"
+  },
+  {
+    "id": "hbc_630",
+    "name": "HBC 630",
+    "nameZh": "HBC 630 实验酒花",
+    "origin": "usa",
+    "alpha": 13,
+    "aromaPower": 1.3,
+    "character": {
+      "tropical": 3.5,
+      "berry": 3,
+      "citrus": 2
+    },
+    "price": 0.13,
+    "aromas": [
+      "peach",
+      "berry",
+      "tropical"
+    ],
+    "unlock": "research:hop_new",
+    "desc": "尚未命名的实验品种，带桃子、莓果与热带水果香。"
+  },
+  {
+    "id": "hbc_1019",
+    "name": "HBC 1019",
+    "nameZh": "HBC 1019 实验酒花",
+    "origin": "usa",
+    "alpha": 14,
+    "aromaPower": 1.3,
+    "character": {
+      "citrus": 3.5,
+      "tropical": 3,
+      "grape": 1.5
+    },
+    "price": 0.13,
+    "aromas": [
+      "grapefruit",
+      "melon",
+      "tropical"
+    ],
+    "unlock": "research:hop_new",
+    "desc": "新的实验酒花，带西柚、甜瓜与白葡萄香。"
+  }
+]

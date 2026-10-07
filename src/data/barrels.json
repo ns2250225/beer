@@ -1,0 +1,140 @@
+[
+  {
+    "id": "american_oak",
+    "name": "American Oak Barrel",
+    "nameZh": "美国橡木桶",
+    "price": 180,
+    "effectsPerMonth": {
+      "wood": 0.35,
+      "sweetness": 0.05,
+      "caramel": 0.03
+    },
+    "abvPerMonth": 0,
+    "aromas": [
+      "oak",
+      "vanilla",
+      "wood"
+    ],
+    "unlock": "research:barrel_cellar",
+    "desc": "新美国白橡木桶，香草与椰子般的橡木味来得又快又浓。"
+  },
+  {
+    "id": "french_oak",
+    "name": "French Oak Barrel",
+    "nameZh": "法国橡木桶",
+    "price": 320,
+    "effectsPerMonth": {
+      "wood": 0.25,
+      "spicy": 0.05,
+      "body": 0.02
+    },
+    "abvPerMonth": 0,
+    "aromas": [
+      "oak",
+      "wood",
+      "spicy"
+    ],
+    "unlock": "research:barrel_cellar",
+    "desc": "法国橡木纹理更细密，带来更优雅的单宁与辛香，适合长时间陈酿。"
+  },
+  {
+    "id": "bourbon_barrel",
+    "name": "Bourbon Barrel",
+    "nameZh": "波本威士忌桶",
+    "price": 250,
+    "effectsPerMonth": {
+      "wood": 0.35,
+      "sweetness": 0.12,
+      "alcohol": 0.08,
+      "caramel": 0.06
+    },
+    "abvPerMonth": 0.06,
+    "aromas": [
+      "bourbon",
+      "vanilla",
+      "oak"
+    ],
+    "unlock": "research:barrel_spirit",
+    "desc": "装过波本的烧烤橡木桶，带香草、焦糖与酒精温热，帝国世涛的最佳归宿。"
+  },
+  {
+    "id": "whisky_barrel",
+    "name": "Scotch Whisky Barrel",
+    "nameZh": "苏格兰威士忌桶",
+    "price": 350,
+    "effectsPerMonth": {
+      "wood": 0.3,
+      "smoke": 0.08,
+      "alcohol": 0.07,
+      "malt": 0.05
+    },
+    "abvPerMonth": 0.05,
+    "aromas": [
+      "whisky",
+      "smoke",
+      "oak"
+    ],
+    "unlock": "research:barrel_spirit",
+    "desc": "苏格兰威士忌旧桶，可能带一丝泥煤烟熏，适合苏格兰烈性艾尔。"
+  },
+  {
+    "id": "rum_barrel",
+    "name": "Rum Barrel",
+    "nameZh": "朗姆酒桶",
+    "price": 280,
+    "effectsPerMonth": {
+      "wood": 0.28,
+      "sweetness": 0.1,
+      "fruity": 0.06,
+      "alcohol": 0.07
+    },
+    "abvPerMonth": 0.06,
+    "aromas": [
+      "rum",
+      "molasses",
+      "oak"
+    ],
+    "unlock": "research:barrel_spirit",
+    "desc": "加勒比朗姆旧桶，带糖蜜、香蕉与热带香料风味。"
+  },
+  {
+    "id": "wine_barrel",
+    "name": "Red Wine Barrel",
+    "nameZh": "红葡萄酒桶",
+    "price": 220,
+    "effectsPerMonth": {
+      "wood": 0.25,
+      "acidity": 0.08,
+      "fruity": 0.1
+    },
+    "abvPerMonth": 0.01,
+    "aromas": [
+      "redwine",
+      "oak",
+      "cherry"
+    ],
+    "unlock": "research:barrel_wine",
+    "desc": "装过红葡萄酒的旧桶，带红色水果与单宁，常用来养酸啤和野菌啤酒。"
+  },
+  {
+    "id": "sherry_barrel",
+    "name": "Sherry Barrel",
+    "nameZh": "雪莉酒桶",
+    "price": 550,
+    "effectsPerMonth": {
+      "wood": 0.25,
+      "fruity": 0.1,
+      "sweetness": 0.06,
+      "caramel": 0.04,
+      "alcohol": 0.03
+    },
+    "abvPerMonth": 0.03,
+    "aromas": [
+      "sherry",
+      "raisin",
+      "nut"
+    ],
+    "unlock": "research:barrel_wine",
+    "desc": "西班牙雪莉旧桶，带葡萄干、坚果与氧化甜香，价格昂贵。"
+  }
+]

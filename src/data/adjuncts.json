@@ -1,0 +1,1289 @@
+[
+ {
+  "id": "cherry",
+  "name": "Sour Cherry",
+  "nameZh": "酸樱桃",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 45,
+  "fermentability": 1,
+  "color": 8,
+  "price": 8,
+  "effects": {
+   "fruity": 0.015,
+   "acidity": 0.004
+  },
+  "typical": 3000,
+  "aromas": [
+   "cherry",
+   "berry"
+  ],
+  "unlock": "research:sour_fruit",
+  "desc": "整颗酸樱桃或果泥，比利时樱桃兰比克（Kriek）的灵魂，带明亮的酸甜果香。"
+ },
+ {
+  "id": "raspberry",
+  "name": "Raspberry",
+  "nameZh": "覆盆子",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 40,
+  "fermentability": 1,
+  "color": 6,
+  "price": 12,
+  "effects": {
+   "fruity": 0.016,
+   "acidity": 0.004
+  },
+  "typical": 2500,
+  "aromas": [
+   "raspberry",
+   "berry"
+  ],
+  "unlock": "research:sour_fruit",
+  "desc": "香气浓郁的红色莓果，覆盆子兰比克（Framboise）的主角，酸度鲜明。"
+ },
+ {
+  "id": "strawberry",
+  "name": "Strawberry",
+  "nameZh": "草莓",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 35,
+  "fermentability": 1,
+  "color": 3,
+  "price": 7,
+  "effects": {
+   "fruity": 0.014,
+   "sweetness": 0.003
+  },
+  "typical": 2500,
+  "aromas": [
+   "strawberry",
+   "berry"
+  ],
+  "unlock": "research:sour_fruit",
+  "desc": "香气娇嫩、容易被发酵消耗，适合二次发酵后期加入。"
+ },
+ {
+  "id": "blueberry",
+  "name": "Blueberry",
+  "nameZh": "蓝莓",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 45,
+  "fermentability": 1,
+  "color": 10,
+  "price": 10,
+  "effects": {
+   "fruity": 0.014,
+   "sweetness": 0.002
+  },
+  "typical": 2500,
+  "aromas": [
+   "blueberry",
+   "berry"
+  ],
+  "unlock": "research:sour_fruit",
+  "desc": "风味较含蓄，建议压碎或使用果泥，会带来漂亮的紫红色。"
+ },
+ {
+  "id": "peach",
+  "name": "Peach",
+  "nameZh": "桃子",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 40,
+  "fermentability": 1,
+  "color": 2,
+  "price": 7,
+  "effects": {
+   "fruity": 0.016,
+   "sweetness": 0.003,
+   "haze": 0.002
+  },
+  "typical": 2500,
+  "aromas": [
+   "peach",
+   "apricot"
+  ],
+  "unlock": "research:sour_fruit",
+  "desc": "柔软多汁的核果香，与塞森和酸啤酒都很搭。"
+ },
+ {
+  "id": "apricot",
+  "name": "Apricot",
+  "nameZh": "杏子",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 45,
+  "fermentability": 1,
+  "color": 3,
+  "price": 8,
+  "effects": {
+   "fruity": 0.016,
+   "acidity": 0.002
+  },
+  "typical": 2500,
+  "aromas": [
+   "apricot",
+   "peach"
+  ],
+  "unlock": "research:sour_fruit",
+  "desc": "带酸甜杏肉香，经典的野菌酸啤水果之一。"
+ },
+ {
+  "id": "mango",
+  "name": "Mango Puree",
+  "nameZh": "芒果果泥",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 55,
+  "fermentability": 1,
+  "color": 3,
+  "price": 6,
+  "effects": {
+   "fruity": 0.02,
+   "sweetness": 0.004,
+   "haze": 0.004
+  },
+  "typical": 2000,
+  "aromas": [
+   "mango",
+   "tropical"
+  ],
+  "unlock": "start",
+  "desc": "热带水果之王，加入浑浊 IPA 或酸啤中带来浓稠果汁感。"
+ },
+ {
+  "id": "passionfruit",
+  "name": "Passion Fruit",
+  "nameZh": "百香果",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 45,
+  "fermentability": 1,
+  "color": 3,
+  "price": 12,
+  "effects": {
+   "fruity": 0.04,
+   "acidity": 0.015
+  },
+  "typical": 1000,
+  "aromas": [
+   "passionfruit",
+   "tropical"
+  ],
+  "unlock": "start",
+  "desc": "香气极其奔放、酸度高，少量即可让啤酒充满热带风情。"
+ },
+ {
+  "id": "pineapple",
+  "name": "Pineapple",
+  "nameZh": "菠萝",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 50,
+  "fermentability": 1,
+  "color": 2,
+  "price": 5,
+  "effects": {
+   "fruity": 0.02,
+   "acidity": 0.004
+  },
+  "typical": 2000,
+  "aromas": [
+   "pineapple",
+   "tropical"
+  ],
+  "unlock": "start",
+  "desc": "酸甜明亮的热带水果，与新世界酒花的香气相互呼应。"
+ },
+ {
+  "id": "grape_must",
+  "name": "Grape Must",
+  "nameZh": "葡萄汁（葡萄醪）",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 60,
+  "fermentability": 1,
+  "color": 4,
+  "price": 6,
+  "effects": {
+   "fruity": 0.01,
+   "acidity": 0.002,
+   "alcohol": 0.002
+  },
+  "typical": 4000,
+  "aromas": [
+   "grape",
+   "wine"
+  ],
+  "unlock": "region:italy",
+  "desc": "新鲜压榨的葡萄汁，意大利葡萄艾尔（IGA）的关键原料，带来酒感与葡萄香。"
+ },
+ {
+  "id": "plum",
+  "name": "Plum",
+  "nameZh": "李子",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 50,
+  "fermentability": 1,
+  "color": 6,
+  "price": 6,
+  "effects": {
+   "fruity": 0.014,
+   "sweetness": 0.003
+  },
+  "typical": 3000,
+  "aromas": [
+   "plum",
+   "dark_fruit"
+  ],
+  "unlock": "research:sour_fruit",
+  "desc": "深色核果，适合深色比利时艾尔与冬季啤酒。"
+ },
+ {
+  "id": "yuzu",
+  "name": "Yuzu",
+  "nameZh": "日本柚子",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 25,
+  "fermentability": 1,
+  "color": 1,
+  "price": 30,
+  "effects": {
+   "fruity": 0.1,
+   "acidity": 0.04
+  },
+  "typical": 300,
+  "aromas": [
+   "yuzu",
+   "citrus"
+  ],
+  "unlock": "region:japan",
+  "desc": "日本香橙，香气介于柠檬与橘子之间，清新而优雅。"
+ },
+ {
+  "id": "lemon",
+  "name": "Lemon",
+  "nameZh": "柠檬",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 25,
+  "fermentability": 1,
+  "color": 1,
+  "price": 4,
+  "effects": {
+   "fruity": 0.06,
+   "acidity": 0.04
+  },
+  "typical": 500,
+  "aromas": [
+   "lemon",
+   "citrus"
+  ],
+  "unlock": "research:sour_fruit",
+  "desc": "明亮的柑橘酸香，适合夏日小麦啤酒与古斯酸啤。"
+ },
+ {
+  "id": "orange",
+  "name": "Orange",
+  "nameZh": "鲜橙",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 40,
+  "fermentability": 1,
+  "color": 2,
+  "price": 4,
+  "effects": {
+   "fruity": 0.025,
+   "sweetness": 0.003
+  },
+  "typical": 1500,
+  "aromas": [
+   "orange",
+   "citrus"
+  ],
+  "unlock": "start",
+  "desc": "新鲜橙肉与果汁，带圆润甜橙香。"
+ },
+ {
+  "id": "lychee",
+  "name": "Lychee",
+  "nameZh": "荔枝",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 55,
+  "fermentability": 1,
+  "color": 1,
+  "price": 9,
+  "effects": {
+   "fruity": 0.02,
+   "sweetness": 0.004
+  },
+  "typical": 2000,
+  "aromas": [
+   "lychee",
+   "floral"
+  ],
+  "unlock": "region:china",
+  "desc": "带玫瑰般花香的岭南佳果，与小麦啤酒和淡色拉格十分相配。"
+ },
+ {
+  "id": "dragonfruit",
+  "name": "Dragon Fruit",
+  "nameZh": "红心火龙果",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 35,
+  "fermentability": 1,
+  "color": 15,
+  "price": 7,
+  "effects": {
+   "fruity": 0.015,
+   "sweetness": 0.003
+  },
+  "typical": 2000,
+  "aromas": [
+   "dragonfruit",
+   "melon"
+  ],
+  "unlock": "region:china",
+  "desc": "味道清淡，却能把啤酒染成惊艳的洋红色。"
+ },
+ {
+  "id": "coconut",
+  "name": "Toasted Coconut",
+  "nameZh": "烤椰丝",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 10,
+  "fermentability": 0.5,
+  "color": 4,
+  "price": 9,
+  "effects": {
+   "fruity": 0.06,
+   "sweetness": 0.02,
+   "body": 0.02
+  },
+  "typical": 500,
+  "aromas": [
+   "coconut",
+   "nut"
+  ],
+  "unlock": "region:caribbean",
+  "desc": "烘烤过的椰丝带坚果与奶油香，常用于甜品世涛与热带 IPA。"
+ },
+ {
+  "id": "pumpkin",
+  "name": "Pumpkin",
+  "nameZh": "南瓜",
+  "category": "other",
+  "stage": "mash",
+  "potential": 40,
+  "fermentability": 0.9,
+  "color": 10,
+  "price": 3,
+  "effects": {
+   "body": 0.005,
+   "sweetness": 0.005,
+   "malt": 0.005
+  },
+  "typical": 2000,
+  "aromas": [
+   "earthy",
+   "grain"
+  ],
+  "unlock": "research:belgian_spice",
+  "desc": "烤南瓜放入糖化，风味温和，真正的“南瓜派”感主要来自香料。"
+ },
+ {
+  "id": "blackcurrant",
+  "name": "Blackcurrant",
+  "nameZh": "黑加仑",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 45,
+  "fermentability": 1,
+  "color": 12,
+  "price": 10,
+  "effects": {
+   "fruity": 0.02,
+   "acidity": 0.006
+  },
+  "typical": 2000,
+  "aromas": [
+   "berry",
+   "dark_fruit"
+  ],
+  "unlock": "research:sour_fruit",
+  "desc": "浓郁的深色莓果，酸度与单宁感明显。"
+ },
+ {
+  "id": "guava",
+  "name": "Guava",
+  "nameZh": "番石榴",
+  "category": "fruit",
+  "stage": "secondary",
+  "potential": 45,
+  "fermentability": 1,
+  "color": 4,
+  "price": 8,
+  "effects": {
+   "fruity": 0.02,
+   "sweetness": 0.003
+  },
+  "typical": 2000,
+  "aromas": [
+   "tropical",
+   "strawberry"
+  ],
+  "unlock": "region:caribbean",
+  "desc": "粉红番石榴带热带水果与草莓般香气，常用于果味酸啤。"
+ },
+ {
+  "id": "coriander",
+  "name": "Coriander Seed",
+  "nameZh": "芫荽籽",
+  "category": "spice",
+  "stage": "boil",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 20,
+  "effects": {
+   "spicy": 2.2,
+   "fruity": 0.5
+  },
+  "typical": 15,
+  "aromas": [
+   "coriander",
+   "citrus",
+   "spicy"
+  ],
+  "unlock": "start",
+  "desc": "比利时白啤的标志香料，碾碎后煮沸末期加入，带柑橘与花香辛味。"
+ },
+ {
+  "id": "orange_peel",
+  "name": "Bitter Orange Peel",
+  "nameZh": "苦橙皮",
+  "category": "spice",
+  "stage": "boil",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 18,
+  "effects": {
+   "fruity": 1.1,
+   "spicy": 0.4,
+   "bitterness": 0.2
+  },
+  "typical": 30,
+  "aromas": [
+   "orange",
+   "citrus"
+  ],
+  "unlock": "start",
+  "desc": "库拉索苦橙皮，煮沸末期加入，带橙皮香与轻微苦味。"
+ },
+ {
+  "id": "lemon_peel",
+  "name": "Lemon Peel",
+  "nameZh": "柠檬皮",
+  "category": "spice",
+  "stage": "boil",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 15,
+  "effects": {
+   "fruity": 1.6,
+   "acidity": 0.2,
+   "bitterness": 0.2
+  },
+  "typical": 20,
+  "aromas": [
+   "lemon",
+   "citrus"
+  ],
+  "unlock": "start",
+  "desc": "新鲜柠檬皮屑，只取黄色外皮以免白瓤带来苦涩。"
+ },
+ {
+  "id": "cinnamon",
+  "name": "Cinnamon",
+  "nameZh": "肉桂",
+  "category": "spice",
+  "stage": "boil",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 25,
+  "effects": {
+   "spicy": 3.6,
+   "sweetness": 0.4
+  },
+  "typical": 10,
+  "aromas": [
+   "cinnamon",
+   "spicy"
+  ],
+  "unlock": "start",
+  "desc": "温暖甜美的香料，适合冬季啤酒与南瓜艾尔。"
+ },
+ {
+  "id": "clove",
+  "name": "Clove",
+  "nameZh": "丁香",
+  "category": "spice",
+  "stage": "boil",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 30,
+  "effects": {
+   "spicy": 12
+  },
+  "typical": 3,
+  "aromas": [
+   "clove",
+   "spicy"
+  ],
+  "unlock": "research:belgian_spice",
+  "desc": "极强烈的香料，几克就能盖过一切，务必谨慎用量。"
+ },
+ {
+  "id": "nutmeg",
+  "name": "Nutmeg",
+  "nameZh": "肉豆蔻",
+  "category": "spice",
+  "stage": "boil",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 35,
+  "effects": {
+   "spicy": 7
+  },
+  "typical": 5,
+  "aromas": [
+   "nutmeg",
+   "spicy"
+  ],
+  "unlock": "research:belgian_spice",
+  "desc": "带木质与甜香的香料，节日啤酒常用。"
+ },
+ {
+  "id": "black_pepper",
+  "name": "Black Pepper",
+  "nameZh": "黑胡椒",
+  "category": "spice",
+  "stage": "boil",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 20,
+  "effects": {
+   "spicy": 3.6
+  },
+  "typical": 10,
+  "aromas": [
+   "pepper",
+   "spicy"
+  ],
+  "unlock": "research:belgian_spice",
+  "desc": "现磨黑胡椒能强化塞森的辛辣感。"
+ },
+ {
+  "id": "ginger",
+  "name": "Fresh Ginger",
+  "nameZh": "鲜姜",
+  "category": "spice",
+  "stage": "boil",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 6,
+  "effects": {
+   "spicy": 0.6,
+   "fruity": 0.1
+  },
+  "typical": 60,
+  "aromas": [
+   "ginger",
+   "spicy"
+  ],
+  "unlock": "start",
+  "desc": "带清新辛辣与柠檬感，切片煮沸末期加入。"
+ },
+ {
+  "id": "chili",
+  "name": "Chili Pepper",
+  "nameZh": "辣椒",
+  "category": "spice",
+  "stage": "secondary",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 15,
+  "effects": {
+   "spicy": 1.2
+  },
+  "typical": 30,
+  "aromas": [
+   "chili",
+   "spicy"
+  ],
+  "unlock": "region:mexico",
+  "desc": "辣椒在二次发酵中浸泡，带来灼热感与青椒或果香。"
+ },
+ {
+  "id": "star_anise",
+  "name": "Star Anise",
+  "nameZh": "八角",
+  "category": "spice",
+  "stage": "boil",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 25,
+  "effects": {
+   "spicy": 7,
+   "sweetness": 1
+  },
+  "typical": 5,
+  "aromas": [
+   "spicy",
+   "herbal"
+  ],
+  "unlock": "research:belgian_spice",
+  "desc": "带甘草般的甜辛香，少量为深色啤酒增添异国风情。"
+ },
+ {
+  "id": "cardamom",
+  "name": "Cardamom",
+  "nameZh": "小豆蔻",
+  "category": "spice",
+  "stage": "boil",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 60,
+  "effects": {
+   "spicy": 4,
+   "fruity": 1
+  },
+  "typical": 8,
+  "aromas": [
+   "spicy",
+   "herbal",
+   "citrus"
+  ],
+  "unlock": "research:belgian_spice",
+  "desc": "带清凉的柑橘与桉叶香，北欧圣诞啤酒常用。"
+ },
+ {
+  "id": "sichuan_pepper",
+  "name": "Sichuan Pepper",
+  "nameZh": "花椒",
+  "category": "spice",
+  "stage": "boil",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 40,
+  "effects": {
+   "spicy": 4.5,
+   "fruity": 1
+  },
+  "typical": 8,
+  "aromas": [
+   "pepper",
+   "citrus",
+   "spicy"
+  ],
+  "unlock": "region:china",
+  "desc": "带柑橘香与独特的麻感，为啤酒带来鲜明的川味个性。"
+ },
+ {
+  "id": "juniper",
+  "name": "Juniper Branches & Berries",
+  "nameZh": "杜松枝与杜松子",
+  "category": "herb",
+  "stage": "mash",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 20,
+  "effects": {
+   "spicy": 0.6,
+   "fruity": 0.2,
+   "wood": 0.1
+  },
+  "typical": 50,
+  "aromas": [
+   "juniper",
+   "pine",
+   "wood"
+  ],
+  "unlock": "research:history_herbs",
+  "desc": "芬兰萨赫蒂用杜松枝过滤麦汁，带来树脂与森林气息。"
+ },
+ {
+  "id": "gruit_herbs",
+  "name": "Gruit Herbs",
+  "nameZh": "格鲁特草药",
+  "category": "herb",
+  "stage": "boil",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 40,
+  "effects": {
+   "spicy": 1,
+   "bitterness": 1
+  },
+  "typical": 30,
+  "aromas": [
+   "herbal",
+   "earthy"
+  ],
+  "unlock": "research:history_herbs",
+  "desc": "西洋蓍草、香杨梅等草药的混合，中世纪啤酒在酒花普及前用它来平衡甜味。"
+ },
+ {
+  "id": "heather",
+  "name": "Heather Tips",
+  "nameZh": "石楠花",
+  "category": "herb",
+  "stage": "boil",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 30,
+  "effects": {
+   "spicy": 0.3,
+   "fruity": 0.2,
+   "sweetness": 0.1
+  },
+  "typical": 100,
+  "aromas": [
+   "floral",
+   "honey",
+   "herbal"
+  ],
+  "unlock": "research:history_herbs",
+  "desc": "苏格兰古老的酿酒草本，带蜂蜜般花香。"
+ },
+ {
+  "id": "spruce_tips",
+  "name": "Spruce Tips",
+  "nameZh": "云杉嫩芽",
+  "category": "herb",
+  "stage": "boil",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 25,
+  "effects": {
+   "spicy": 0.2,
+   "hopAroma": 0.15,
+   "wood": 0.05
+  },
+  "typical": 150,
+  "aromas": [
+   "pine",
+   "citrus",
+   "resin"
+  ],
+  "unlock": "research:history_herbs",
+  "desc": "春天采摘的云杉嫩芽，带清新的松针与柑橘香，北美殖民时期就用它酿酒。"
+ },
+ {
+  "id": "mint",
+  "name": "Fresh Mint",
+  "nameZh": "鲜薄荷",
+  "category": "herb",
+  "stage": "secondary",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 15,
+  "effects": {
+   "spicy": 1.6,
+   "hopAroma": 0.4
+  },
+  "typical": 20,
+  "aromas": [
+   "mint",
+   "herbal"
+  ],
+  "unlock": "research:history_herbs",
+  "desc": "清凉的草本香气，适合与巧克力世涛或小麦啤酒搭配。"
+ },
+ {
+  "id": "coffee_beans",
+  "name": "Coffee Beans",
+  "nameZh": "咖啡豆",
+  "category": "coffee",
+  "stage": "secondary",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 25,
+  "effects": {
+   "roast": 0.3,
+   "bitterness": 0.05
+  },
+  "typical": 120,
+  "aromas": [
+   "coffee",
+   "roast"
+  ],
+  "unlock": "start",
+  "desc": "粗磨咖啡豆冷浸于成品啤酒中，带来新鲜咖啡香而不过度苦涩。"
+ },
+ {
+  "id": "cacao_nibs",
+  "name": "Cacao Nibs",
+  "nameZh": "可可碎",
+  "category": "cacao",
+  "stage": "secondary",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 20,
+  "effects": {
+   "roast": 0.22,
+   "bitterness": 0.03
+  },
+  "typical": 150,
+  "aromas": [
+   "chocolate",
+   "roast"
+  ],
+  "unlock": "start",
+  "desc": "烘烤可可豆碎粒，浸泡后带干净的黑巧克力香。"
+ },
+ {
+  "id": "cocoa_powder",
+  "name": "Cocoa Powder",
+  "nameZh": "可可粉",
+  "category": "cacao",
+  "stage": "boil",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 200,
+  "price": 12,
+  "effects": {
+   "roast": 0.55,
+   "body": 0.05,
+   "bitterness": 0.05
+  },
+  "typical": 60,
+  "aromas": [
+   "chocolate"
+  ],
+  "unlock": "research:malt_dark",
+  "desc": "煮沸末期加入，巧克力味浓郁，但会让酒液更浑浊。"
+ },
+ {
+  "id": "vanilla_bean",
+  "name": "Vanilla Bean",
+  "nameZh": "香草荚",
+  "category": "vanilla",
+  "stage": "secondary",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 300,
+  "effects": {
+   "sweetness": 3.6,
+   "wood": 1.0
+  },
+  "typical": 10,
+  "aromas": [
+   "vanilla",
+   "cream"
+  ],
+  "unlock": "research:malt_adjunct",
+  "desc": "剖开刮籽后浸泡，带来奶油般的甜香，甜品世涛与桶陈啤酒的好伙伴。"
+ },
+ {
+  "id": "lactose",
+  "name": "Lactose",
+  "nameZh": "乳糖",
+  "category": "dairy",
+  "stage": "boil",
+  "potential": 300,
+  "fermentability": 0,
+  "color": 0,
+  "price": 6,
+  "effects": {
+   "sweetness": 0.07,
+   "body": 0.04
+  },
+  "typical": 500,
+  "aromas": [
+   "cream"
+  ],
+  "unlock": "research:malt_adjunct",
+  "desc": "酵母无法发酵的乳糖，为牛奶世涛与奶昔 IPA 留下甜感与顺滑酒体。"
+ },
+ {
+  "id": "sea_salt",
+  "name": "Sea Salt",
+  "nameZh": "海盐",
+  "category": "salt",
+  "stage": "boil",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 3,
+  "effects": {
+   "body": 0.9
+  },
+  "typical": 15,
+  "aromas": [
+   "salt"
+  ],
+  "unlock": "research:sour_salt",
+  "desc": "德国古斯酸啤的传统原料，少量盐能让口感更圆润饱满。"
+ },
+ {
+  "id": "honey",
+  "name": "Honey",
+  "nameZh": "蜂蜜",
+  "category": "sugar",
+  "stage": "boil",
+  "potential": 290,
+  "fermentability": 0.95,
+  "color": 3,
+  "price": 8,
+  "effects": {
+   "sweetness": 0.008,
+   "fruity": 0.01,
+   "body": -0.01
+  },
+  "typical": 1000,
+  "aromas": [
+   "honey",
+   "floral"
+  ],
+  "unlock": "start",
+  "desc": "几乎完全发酵，留下淡淡花蜜香。建议在发酵后期加入以保留香气。"
+ },
+ {
+  "id": "maple_syrup",
+  "name": "Maple Syrup",
+  "nameZh": "枫糖浆",
+  "category": "sugar",
+  "stage": "boil",
+  "potential": 260,
+  "fermentability": 0.95,
+  "color": 30,
+  "price": 12,
+  "effects": {
+   "caramel": 0.01,
+   "sweetness": 0.008,
+   "body": -0.008
+  },
+  "typical": 1000,
+  "aromas": [
+   "maple",
+   "caramel"
+  ],
+  "unlock": "region:canada",
+  "desc": "加拿大特产，发酵后留下若隐若现的枫木焦糖香。"
+ },
+ {
+  "id": "candi_sugar_light",
+  "name": "Light Candi Sugar",
+  "nameZh": "浅色比利时冰糖",
+  "category": "sugar",
+  "stage": "boil",
+  "potential": 370,
+  "fermentability": 1,
+  "color": 1,
+  "price": 6,
+  "effects": {
+   "body": -0.02,
+   "alcohol": 0.02
+  },
+  "typical": 500,
+  "aromas": [
+   "honey"
+  ],
+  "unlock": "research:belgian_abbey",
+  "desc": "比利时三料与金色艾尔的秘诀：提高酒精度的同时让酒体更干爽易饮。"
+ },
+ {
+  "id": "candi_syrup_dark",
+  "name": "Dark Candi Syrup",
+  "nameZh": "深色比利时糖浆",
+  "category": "sugar",
+  "stage": "boil",
+  "potential": 320,
+  "fermentability": 1,
+  "color": 80,
+  "price": 8,
+  "effects": {
+   "caramel": 0.06,
+   "fruity": 0.05,
+   "body": -0.01
+  },
+  "typical": 500,
+  "aromas": [
+   "raisin",
+   "dark_fruit",
+   "caramel"
+  ],
+  "unlock": "research:belgian_abbey",
+  "desc": "深色焦糖化糖浆，带葡萄干、无花果与焦糖味，双料与四料的核心。"
+ },
+ {
+  "id": "table_sugar",
+  "name": "Table Sugar",
+  "nameZh": "白砂糖",
+  "category": "sugar",
+  "stage": "boil",
+  "potential": 384,
+  "fermentability": 1,
+  "color": 0,
+  "price": 2,
+  "effects": {
+   "body": -0.02,
+   "alcohol": 0.01
+  },
+  "typical": 500,
+  "aromas": [],
+  "unlock": "start",
+  "desc": "完全可发酵的蔗糖，提高酒精度而不增加酒体，让啤酒更干。"
+ },
+ {
+  "id": "molasses",
+  "name": "Molasses",
+  "nameZh": "糖蜜",
+  "category": "sugar",
+  "stage": "boil",
+  "potential": 300,
+  "fermentability": 0.85,
+  "color": 80,
+  "price": 4,
+  "effects": {
+   "caramel": 0.1,
+   "roast": 0.03,
+   "sweetness": 0.03
+  },
+  "typical": 300,
+  "aromas": [
+   "molasses",
+   "caramel"
+  ],
+  "unlock": "region:caribbean",
+  "desc": "甘蔗制糖的副产品，带浓重的焦糖与矿物感，加勒比热带世涛常用。"
+ },
+ {
+  "id": "brown_sugar",
+  "name": "Brown Sugar",
+  "nameZh": "红糖",
+  "category": "sugar",
+  "stage": "boil",
+  "potential": 375,
+  "fermentability": 0.95,
+  "color": 15,
+  "price": 3,
+  "effects": {
+   "caramel": 0.03,
+   "body": -0.015
+  },
+  "typical": 500,
+  "aromas": [
+   "caramel",
+   "molasses"
+  ],
+  "unlock": "start",
+  "desc": "含少量糖蜜的蔗糖，带淡淡焦糖香，适合英式艾尔与深色啤酒。"
+ },
+ {
+  "id": "green_tea",
+  "name": "Green Tea",
+  "nameZh": "绿茶",
+  "category": "tea",
+  "stage": "secondary",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 40,
+  "effects": {
+   "hopAroma": 0.5,
+   "bitterness": 0.15
+  },
+  "typical": 60,
+  "aromas": [
+   "tea",
+   "grassy"
+  ],
+  "unlock": "region:china",
+  "desc": "冷泡绿茶带清新草本与豆香，可替代部分干投酒花。"
+ },
+ {
+  "id": "jasmine_tea",
+  "name": "Jasmine Tea",
+  "nameZh": "茉莉花茶",
+  "category": "tea",
+  "stage": "secondary",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 50,
+  "effects": {
+   "hopAroma": 0.6,
+   "bitterness": 0.1
+  },
+  "typical": 50,
+  "aromas": [
+   "tea",
+   "floral"
+  ],
+  "unlock": "region:china",
+  "desc": "茉莉花窨制的绿茶，为淡色啤酒带来优雅花香。"
+ },
+ {
+  "id": "black_tea",
+  "name": "Black Tea",
+  "nameZh": "红茶",
+  "category": "tea",
+  "stage": "boil",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 2,
+  "price": 30,
+  "effects": {
+   "bitterness": 0.5,
+   "wood": 0.2,
+   "roast": 0.1
+  },
+  "typical": 60,
+  "aromas": [
+   "tea",
+   "wood"
+  ],
+  "unlock": "region:uk",
+  "desc": "红茶单宁带来收敛感与木质香，适合英式艾尔与棕色啤酒。"
+ },
+ {
+  "id": "oak_chips",
+  "name": "Oak Chips",
+  "nameZh": "橡木片",
+  "category": "other",
+  "stage": "secondary",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 0,
+  "price": 15,
+  "effects": {
+   "wood": 0.6
+  },
+  "typical": 60,
+  "aromas": [
+   "oak",
+   "vanilla",
+   "wood"
+  ],
+  "unlock": "start",
+  "desc": "烘烤橡木片浸泡于啤酒中，用更短时间模拟木桶陈酿的风味。"
+ },
+ {
+  "id": "hazelnut",
+  "name": "Toasted Hazelnut",
+  "nameZh": "烤榛子",
+  "category": "nut",
+  "stage": "secondary",
+  "potential": 0,
+  "fermentability": 0,
+  "color": 5,
+  "price": 20,
+  "effects": {
+   "malt": 0.1,
+   "sweetness": 0.05,
+   "body": 0.02
+  },
+  "typical": 300,
+  "aromas": [
+   "nut",
+   "toast"
+  ],
+  "unlock": "research:malt_adjunct",
+  "desc": "烘烤后的榛子带浓郁坚果香，适合棕色艾尔与甜品世涛。"
+ },
+ {
+  "id": "marshmallow",
+  "name": "Marshmallow",
+  "nameZh": "棉花糖",
+  "category": "other",
+  "stage": "secondary",
+  "potential": 280,
+  "fermentability": 0.8,
+  "color": 0,
+  "price": 10,
+  "effects": {
+   "sweetness": 0.1,
+   "body": 0.03
+  },
+  "typical": 300,
+  "aromas": [
+   "vanilla",
+   "cream"
+  ],
+  "unlock": "research:malt_adjunct",
+  "desc": "“甜品啤酒”潮流的产物，带来柔软的香草糖果甜感。"
+ },
+ {
+  "id": "maltodextrin",
+  "name": "Maltodextrin",
+  "nameZh": "麦芽糊精",
+  "category": "other",
+  "stage": "boil",
+  "potential": 330,
+  "fermentability": 0.05,
+  "color": 0,
+  "price": 6,
+  "effects": {
+   "body": 0.12,
+   "sweetness": 0.02
+  },
+  "typical": 250,
+  "aromas": [],
+  "unlock": "research:malt_adjunct",
+  "desc": "几乎不可发酵的糊精粉末，能提升酒体与泡沫，几乎不影响风味。"
+ },
+ {
+  "id": "rye_bread",
+  "name": "Dark Rye Bread",
+  "nameZh": "黑麦面包",
+  "category": "other",
+  "stage": "mash",
+  "potential": 200,
+  "fermentability": 0.8,
+  "color": 40,
+  "price": 4,
+  "effects": {
+   "malt": 0.015,
+   "roast": 0.005,
+   "acidity": 0.003
+  },
+  "typical": 2000,
+  "aromas": [
+   "bread",
+   "rye",
+   "toast"
+  ],
+  "unlock": "region:baltic",
+  "desc": "烤干的黑麦面包，是东欧传统饮品格瓦斯（Kvass）的主要原料。"
+ }
+]

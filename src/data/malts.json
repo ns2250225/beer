@@ -1,0 +1,632 @@
+[
+  {
+    "id": "pilsner_malt",
+    "name": "Pilsner Malt",
+    "nameZh": "皮尔森麦芽",
+    "category": "base",
+    "origin": "germany",
+    "color": 1.7,
+    "potential": 308,
+    "fermentability": 1,
+    "maxShare": 1,
+    "price": 1.9,
+    "flavor": {
+      "malt": 0.22,
+      "sweetness": 0.05
+    },
+    "aromas": [
+      "grain",
+      "bread"
+    ],
+    "unlock": "start",
+    "desc": "色泽最浅的基础麦芽，带清爽的谷物与蜂蜜感。适合拉格与比利时淡色艾尔，需充分煮沸以去除 DMS。"
+  },
+  {
+    "id": "pale_malt",
+    "name": "Pale Ale Malt",
+    "nameZh": "淡色艾尔麦芽",
+    "category": "base",
+    "origin": "usa",
+    "color": 3,
+    "potential": 306,
+    "fermentability": 1,
+    "maxShare": 1,
+    "price": 1.8,
+    "flavor": {
+      "malt": 0.28,
+      "sweetness": 0.04
+    },
+    "aromas": [
+      "grain",
+      "bread"
+    ],
+    "unlock": "start",
+    "desc": "美式艾尔的万能基础麦芽，糖化力强。比皮尔森麦芽略深，带干净的面包香。"
+  },
+  {
+    "id": "maris_otter",
+    "name": "Maris Otter",
+    "nameZh": "玛丽斯·奥特麦芽",
+    "category": "base",
+    "origin": "uk",
+    "color": 3.5,
+    "potential": 304,
+    "fermentability": 1,
+    "maxShare": 1,
+    "price": 2.6,
+    "flavor": {
+      "malt": 0.38,
+      "sweetness": 0.05,
+      "body": 0.05
+    },
+    "aromas": [
+      "biscuit",
+      "bread"
+    ],
+    "unlock": "start",
+    "desc": "英国传奇冬大麦品种，地板发芽，饼干香浓郁。英式苦啤与波特的灵魂。"
+  },
+  {
+    "id": "vienna_malt",
+    "name": "Vienna Malt",
+    "nameZh": "维也纳麦芽",
+    "category": "base",
+    "origin": "austria",
+    "color": 3.5,
+    "potential": 300,
+    "fermentability": 1,
+    "maxShare": 1,
+    "price": 2.1,
+    "flavor": {
+      "malt": 0.35,
+      "sweetness": 0.06,
+      "caramel": 0.02
+    },
+    "aromas": [
+      "toast",
+      "bread"
+    ],
+    "unlock": "start",
+    "desc": "烘干温度稍高的基础麦芽，带烤面包与淡淡坚果香。维也纳拉格与三月节啤酒的主角。"
+  },
+  {
+    "id": "munich_malt",
+    "name": "Munich Malt",
+    "nameZh": "慕尼黑麦芽",
+    "category": "base",
+    "origin": "germany",
+    "color": 9,
+    "potential": 298,
+    "fermentability": 0.95,
+    "maxShare": 1,
+    "price": 2.2,
+    "flavor": {
+      "malt": 0.45,
+      "caramel": 0.05
+    },
+    "aromas": [
+      "bread",
+      "toast"
+    ],
+    "unlock": "start",
+    "desc": "高温烘干的浓郁麦芽，带面包皮香气，常占博克与深色拉格的大半麦芽。"
+  },
+  {
+    "id": "dark_munich",
+    "name": "Dark Munich Malt",
+    "nameZh": "深色慕尼黑麦芽",
+    "category": "base",
+    "origin": "germany",
+    "color": 20,
+    "potential": 295,
+    "fermentability": 0.93,
+    "maxShare": 0.8,
+    "price": 2.5,
+    "flavor": {
+      "malt": 0.6,
+      "caramel": 0.12,
+      "sweetness": 0.05
+    },
+    "aromas": [
+      "toast",
+      "bread",
+      "caramel"
+    ],
+    "unlock": "research:malt_specialty",
+    "desc": "比普通慕尼黑更深，带明显烤面包皮与微焦糖感。适合双料博克与德式黑啤。"
+  },
+  {
+    "id": "crystal_40",
+    "name": "Crystal 40L",
+    "nameZh": "40L 焦糖麦芽",
+    "category": "caramel",
+    "origin": "usa",
+    "color": 40,
+    "potential": 280,
+    "fermentability": 0.55,
+    "maxShare": 0.25,
+    "price": 2.6,
+    "flavor": {
+      "caramel": 1.1,
+      "sweetness": 0.4,
+      "body": 0.2
+    },
+    "aromas": [
+      "caramel",
+      "honey"
+    ],
+    "unlock": "start",
+    "desc": "中浅色焦糖麦芽，带甜焦糖与蜂蜜香。少量即可增加酒体与琥珀色。"
+  },
+  {
+    "id": "crystal_60",
+    "name": "Crystal 60L",
+    "nameZh": "60L 焦糖麦芽",
+    "category": "caramel",
+    "origin": "usa",
+    "color": 60,
+    "potential": 280,
+    "fermentability": 0.5,
+    "maxShare": 0.25,
+    "price": 2.7,
+    "flavor": {
+      "caramel": 1.6,
+      "sweetness": 0.5,
+      "body": 0.25
+    },
+    "aromas": [
+      "caramel",
+      "toffee"
+    ],
+    "unlock": "start",
+    "desc": "最常用的焦糖麦芽，带饱满太妃与焦糖风味。琥珀艾尔与红色艾尔的标配。"
+  },
+  {
+    "id": "crystal_120",
+    "name": "Crystal 120L",
+    "nameZh": "120L 焦糖麦芽",
+    "category": "caramel",
+    "origin": "usa",
+    "color": 120,
+    "potential": 275,
+    "fermentability": 0.45,
+    "maxShare": 0.15,
+    "price": 2.9,
+    "flavor": {
+      "caramel": 2,
+      "sweetness": 0.4,
+      "body": 0.25,
+      "roast": 0.2
+    },
+    "aromas": [
+      "toffee",
+      "raisin",
+      "dark_fruit"
+    ],
+    "unlock": "research:malt_specialty",
+    "desc": "深色焦糖麦芽，带焦糖化糖浆、葡萄干与李子干味。用量过多会显得腻口。"
+  },
+  {
+    "id": "caramunich",
+    "name": "CaraMunich",
+    "nameZh": "慕尼黑焦糖麦芽",
+    "category": "caramel",
+    "origin": "germany",
+    "color": 56,
+    "potential": 282,
+    "fermentability": 0.55,
+    "maxShare": 0.2,
+    "price": 3,
+    "flavor": {
+      "caramel": 1.4,
+      "malt": 0.25,
+      "sweetness": 0.4,
+      "body": 0.2
+    },
+    "aromas": [
+      "caramel",
+      "toast"
+    ],
+    "unlock": "region:germany",
+    "desc": "德国风格焦糖麦芽，焦糖中带麦芽面包感。常用于博克与琥珀拉格。"
+  },
+  {
+    "id": "carapils",
+    "name": "Carapils",
+    "nameZh": "卡拉皮尔斯麦芽",
+    "category": "caramel",
+    "origin": "germany",
+    "color": 1.5,
+    "potential": 272,
+    "fermentability": 0.3,
+    "maxShare": 0.15,
+    "price": 2.6,
+    "flavor": {
+      "body": 0.8,
+      "sweetness": 0.1
+    },
+    "aromas": [
+      "grain"
+    ],
+    "unlock": "start",
+    "desc": "几乎不带颜色的糊精麦芽，主要提升酒体与泡沫稳定性，风味很淡。"
+  },
+  {
+    "id": "biscuit_malt",
+    "name": "Biscuit Malt",
+    "nameZh": "饼干麦芽",
+    "category": "specialty",
+    "origin": "belgium",
+    "color": 25,
+    "potential": 280,
+    "fermentability": 0.8,
+    "maxShare": 0.15,
+    "price": 3.2,
+    "flavor": {
+      "malt": 1.2,
+      "roast": 0.15
+    },
+    "aromas": [
+      "biscuit",
+      "toast",
+      "nut"
+    ],
+    "unlock": "research:malt_specialty",
+    "desc": "烘焙型特种麦芽，带浓郁饼干、苏打饼与坚果香。为英式与比利时艾尔增添烘焙层次。"
+  },
+  {
+    "id": "aromatic_malt",
+    "name": "Aromatic Malt",
+    "nameZh": "芳香麦芽",
+    "category": "specialty",
+    "origin": "belgium",
+    "color": 20,
+    "potential": 290,
+    "fermentability": 0.9,
+    "maxShare": 0.15,
+    "price": 3,
+    "flavor": {
+      "malt": 1.3,
+      "sweetness": 0.1
+    },
+    "aromas": [
+      "bread",
+      "honey"
+    ],
+    "unlock": "research:malt_specialty",
+    "desc": "强化版慕尼黑麦芽，麦芽香极其浓郁。少量即可让修道院啤酒更饱满。"
+  },
+  {
+    "id": "special_b",
+    "name": "Special B",
+    "nameZh": "特种 B 麦芽",
+    "category": "caramel",
+    "origin": "belgium",
+    "color": 140,
+    "potential": 272,
+    "fermentability": 0.45,
+    "maxShare": 0.1,
+    "price": 3.8,
+    "flavor": {
+      "caramel": 2.2,
+      "sweetness": 0.5,
+      "roast": 0.3,
+      "body": 0.2
+    },
+    "aromas": [
+      "raisin",
+      "dark_fruit",
+      "fig"
+    ],
+    "unlock": "region:belgium",
+    "desc": "比利时独有的深色焦糖麦芽，带葡萄干、无花果与糖浆风味。四料与深色修道院啤酒的秘密武器。"
+  },
+  {
+    "id": "honey_malt",
+    "name": "Honey Malt",
+    "nameZh": "蜂蜜麦芽",
+    "category": "specialty",
+    "origin": "canada",
+    "color": 25,
+    "potential": 280,
+    "fermentability": 0.7,
+    "maxShare": 0.1,
+    "price": 3.5,
+    "flavor": {
+      "sweetness": 1.2,
+      "malt": 0.6
+    },
+    "aromas": [
+      "honey",
+      "bread"
+    ],
+    "unlock": "research:malt_specialty",
+    "desc": "在缺氧环境下“焖”制的麦芽，带强烈蜂蜜甜感，其实不含蜂蜜。"
+  },
+  {
+    "id": "chocolate_malt",
+    "name": "Chocolate Malt",
+    "nameZh": "巧克力麦芽",
+    "category": "roast",
+    "origin": "uk",
+    "color": 350,
+    "potential": 255,
+    "fermentability": 0.7,
+    "maxShare": 0.12,
+    "price": 3.3,
+    "flavor": {
+      "roast": 3.5
+    },
+    "aromas": [
+      "chocolate",
+      "coffee",
+      "roast"
+    ],
+    "unlock": "research:malt_dark",
+    "desc": "深度烘烤麦芽，带黑巧克力与咖啡风味。波特啤酒的核心，比黑麦芽更圆润。"
+  },
+  {
+    "id": "black_malt",
+    "name": "Black Patent Malt",
+    "nameZh": "黑色专利麦芽",
+    "category": "roast",
+    "origin": "uk",
+    "color": 500,
+    "potential": 250,
+    "fermentability": 0.7,
+    "maxShare": 0.08,
+    "price": 3.4,
+    "flavor": {
+      "roast": 4.2
+    },
+    "aromas": [
+      "roast",
+      "coffee"
+    ],
+    "unlock": "research:malt_dark",
+    "desc": "几乎烤焦的麦芽，带尖锐的焦苦味。少量用于调色，过量会有烟灰感。"
+  },
+  {
+    "id": "roasted_barley",
+    "name": "Roasted Barley",
+    "nameZh": "烘烤大麦",
+    "category": "roast",
+    "origin": "ireland",
+    "color": 500,
+    "potential": 250,
+    "fermentability": 0.7,
+    "maxShare": 0.12,
+    "price": 3.2,
+    "flavor": {
+      "roast": 4.5
+    },
+    "aromas": [
+      "coffee",
+      "roast"
+    ],
+    "unlock": "research:malt_dark",
+    "desc": "未发芽直接烘烤的大麦，带干涩的意式浓缩咖啡味。爱尔兰世涛的标志。"
+  },
+  {
+    "id": "wheat_malt",
+    "name": "Wheat Malt",
+    "nameZh": "小麦麦芽",
+    "category": "wheat",
+    "origin": "germany",
+    "color": 2,
+    "potential": 315,
+    "fermentability": 1,
+    "maxShare": 0.7,
+    "price": 2.2,
+    "flavor": {
+      "body": 0.2,
+      "haze": 0.35,
+      "malt": 0.15
+    },
+    "aromas": [
+      "bread",
+      "grain"
+    ],
+    "unlock": "start",
+    "desc": "蛋白质含量高，带来柔滑口感、绵密泡沫与浑浊外观。德式小麦啤酒至少一半用它。"
+  },
+  {
+    "id": "dark_wheat_malt",
+    "name": "Dark Wheat Malt",
+    "nameZh": "深色小麦麦芽",
+    "category": "wheat",
+    "origin": "germany",
+    "color": 8,
+    "potential": 310,
+    "fermentability": 0.95,
+    "maxShare": 0.7,
+    "price": 2.6,
+    "flavor": {
+      "body": 0.25,
+      "haze": 0.3,
+      "malt": 0.35,
+      "caramel": 0.03
+    },
+    "aromas": [
+      "bread",
+      "toast"
+    ],
+    "unlock": "research:malt_wheat_rye",
+    "desc": "烘干温度更高的小麦麦芽，带面包皮香。深色小麦啤酒与小麦博克的好搭档。"
+  },
+  {
+    "id": "rye_malt",
+    "name": "Rye Malt",
+    "nameZh": "黑麦麦芽",
+    "category": "rye",
+    "origin": "germany",
+    "color": 3.5,
+    "potential": 290,
+    "fermentability": 0.95,
+    "maxShare": 0.5,
+    "price": 2.8,
+    "flavor": {
+      "malt": 0.3,
+      "body": 0.3
+    },
+    "aromas": [
+      "rye",
+      "spicy",
+      "bread"
+    ],
+    "unlock": "research:malt_wheat_rye",
+    "desc": "带独特辛辣与泥土感，口感油润。没有谷壳，用量高时容易糖化卡槽。"
+  },
+  {
+    "id": "flaked_oats",
+    "name": "Flaked Oats",
+    "nameZh": "燕麦片",
+    "category": "oat",
+    "origin": "uk",
+    "color": 1,
+    "potential": 280,
+    "fermentability": 0.95,
+    "maxShare": 0.35,
+    "price": 2,
+    "flavor": {
+      "body": 0.9,
+      "haze": 0.8
+    },
+    "aromas": [
+      "grain",
+      "cream"
+    ],
+    "unlock": "research:malt_adjunct",
+    "desc": "富含 β-葡聚糖，带来丝滑如奶油的口感与浑浊外观。浑浊 IPA 与燕麦世涛必备。"
+  },
+  {
+    "id": "flaked_rice",
+    "name": "Flaked Rice",
+    "nameZh": "大米片",
+    "category": "rice",
+    "origin": "japan",
+    "color": 1,
+    "potential": 290,
+    "fermentability": 0.95,
+    "maxShare": 0.4,
+    "price": 1.8,
+    "flavor": {
+      "body": -0.3
+    },
+    "aromas": [
+      "rice"
+    ],
+    "unlock": "research:malt_adjunct",
+    "desc": "几乎无风味的辅料，让酒体更轻、更干爽。日式与美式淡色拉格的常客。"
+  },
+  {
+    "id": "flaked_corn",
+    "name": "Flaked Corn",
+    "nameZh": "玉米片",
+    "category": "corn",
+    "origin": "usa",
+    "color": 1,
+    "potential": 285,
+    "fermentability": 0.95,
+    "maxShare": 0.4,
+    "price": 1.7,
+    "flavor": {
+      "body": -0.15,
+      "sweetness": 0.1
+    },
+    "aromas": [
+      "corn"
+    ],
+    "unlock": "research:malt_adjunct",
+    "desc": "稀释酒体并带来淡淡甜玉米味。美式拉格与奶油艾尔的传统辅料。"
+  },
+  {
+    "id": "beech_smoked_malt",
+    "name": "Beech Smoked Malt",
+    "nameZh": "山毛榉烟熏麦芽",
+    "category": "smoked",
+    "origin": "germany",
+    "color": 3,
+    "potential": 300,
+    "fermentability": 1,
+    "maxShare": 1,
+    "price": 3.5,
+    "flavor": {
+      "smoke": 0.45,
+      "malt": 0.2
+    },
+    "aromas": [
+      "smoke",
+      "bacon"
+    ],
+    "unlock": "research:malt_smoked",
+    "desc": "用山毛榉木烟熏的麦芽，带培根与篝火香。班贝格烟熏啤酒可以 100% 使用。"
+  },
+  {
+    "id": "oak_smoked_wheat",
+    "name": "Oak Smoked Wheat",
+    "nameZh": "橡木烟熏小麦",
+    "category": "smoked",
+    "origin": "poland",
+    "color": 4,
+    "potential": 305,
+    "fermentability": 1,
+    "maxShare": 1,
+    "price": 3.6,
+    "flavor": {
+      "smoke": 0.35,
+      "haze": 0.25,
+      "body": 0.15
+    },
+    "aromas": [
+      "smoke",
+      "wood"
+    ],
+    "unlock": "research:malt_smoked",
+    "desc": "用橡木烟熏的小麦麦芽，烟熏感较柔和。波兰传统啤酒 Grodziskie 的唯一麦芽。"
+  },
+  {
+    "id": "acidulated_malt",
+    "name": "Acidulated Malt",
+    "nameZh": "酸化麦芽",
+    "category": "specialty",
+    "origin": "germany",
+    "color": 2,
+    "potential": 280,
+    "fermentability": 1,
+    "maxShare": 0.1,
+    "price": 3,
+    "flavor": {
+      "acidity": 1
+    },
+    "aromas": [
+      "lactic",
+      "grain"
+    ],
+    "unlock": "research:malt_specialty",
+    "desc": "表面覆有乳酸菌产生的乳酸，用于降低糖化 pH，符合德国纯酿法的调酸方式。"
+  },
+  {
+    "id": "brown_malt",
+    "name": "Brown Malt",
+    "nameZh": "棕色麦芽",
+    "category": "roast",
+    "origin": "uk",
+    "color": 65,
+    "potential": 265,
+    "fermentability": 0.75,
+    "maxShare": 0.15,
+    "price": 3.3,
+    "flavor": {
+      "roast": 1.5,
+      "malt": 0.6
+    },
+    "aromas": [
+      "toast",
+      "coffee",
+      "nut"
+    ],
+    "unlock": "research:malt_dark",
+    "desc": "英国传统的中度烘烤麦芽，带干燥的烤面包与咖啡香。历史波特的主角。"
+  }
+]

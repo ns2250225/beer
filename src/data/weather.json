@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sunny",
+    "nameZh": "晴",
+    "icon": "☀️",
+    "traffic": 1.1,
+    "family": { "lager": 1.1, "wheat": 1.1, "paleAle": 1.1 },
+    "season": [4, 4, 4, 3]
+  },
+  {
+    "id": "cloudy",
+    "nameZh": "阴",
+    "icon": "☁️",
+    "traffic": 1.0,
+    "family": {},
+    "season": [3, 2, 3, 3]
+  },
+  {
+    "id": "rain",
+    "nameZh": "雨",
+    "icon": "🌧️",
+    "traffic": 0.8,
+    "family": { "stout": 1.25, "porter": 1.2, "scottishIrish": 1.1 },
+    "season": [3, 2, 2, 1]
+  },
+  {
+    "id": "storm",
+    "nameZh": "雷雨",
+    "icon": "⛈️",
+    "traffic": 0.6,
+    "family": { "stout": 1.2, "strongAle": 1.15 },
+    "season": [1, 2, 0.5, 0]
+  },
+  {
+    "id": "snow",
+    "nameZh": "雪",
+    "icon": "❄️",
+    "traffic": 0.75,
+    "family": { "stout": 1.3, "strongAle": 1.3, "spice": 1.3, "wood": 1.2 },
+    "season": [0.2, 0, 0.3, 3]
+  },
+  {
+    "id": "hot",
+    "nameZh": "高温",
+    "icon": "🥵",
+    "traffic": 1.15,
+    "family": { "lager": 1.4, "sour": 1.3, "wheat": 1.2, "fruit": 1.2, "stout": 0.8 },
+    "season": [0.5, 4, 1, 0]
+  },
+  {
+    "id": "cold",
+    "nameZh": "寒潮",
+    "icon": "🥶",
+    "traffic": 0.85,
+    "family": { "stout": 1.35, "strongAle": 1.35, "porter": 1.2, "lager": 0.85 },
+    "season": [0.5, 0, 1, 3]
+  }
+]

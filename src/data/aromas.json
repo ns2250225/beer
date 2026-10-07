@@ -1,0 +1,422 @@
+[
+ {
+  "id": "citrus",
+  "zh": "柑橘",
+  "emoji": "🍊"
+ },
+ {
+  "id": "grapefruit",
+  "zh": "西柚",
+  "emoji": "🍊"
+ },
+ {
+  "id": "lemon",
+  "zh": "柠檬",
+  "emoji": "🍋"
+ },
+ {
+  "id": "orange",
+  "zh": "橙皮",
+  "emoji": "🍊"
+ },
+ {
+  "id": "lime",
+  "zh": "青柠",
+  "emoji": "🍋"
+ },
+ {
+  "id": "yuzu",
+  "zh": "柚子",
+  "emoji": "🍋"
+ },
+ {
+  "id": "tropical",
+  "zh": "热带水果",
+  "emoji": "🍍"
+ },
+ {
+  "id": "mango",
+  "zh": "芒果",
+  "emoji": "🥭"
+ },
+ {
+  "id": "passionfruit",
+  "zh": "百香果",
+  "emoji": "🟣"
+ },
+ {
+  "id": "pineapple",
+  "zh": "菠萝",
+  "emoji": "🍍"
+ },
+ {
+  "id": "peach",
+  "zh": "桃",
+  "emoji": "🍑"
+ },
+ {
+  "id": "apricot",
+  "zh": "杏",
+  "emoji": "🍑"
+ },
+ {
+  "id": "lychee",
+  "zh": "荔枝",
+  "emoji": "🍈"
+ },
+ {
+  "id": "coconut",
+  "zh": "椰子",
+  "emoji": "🥥"
+ },
+ {
+  "id": "dragonfruit",
+  "zh": "火龙果",
+  "emoji": "🐉"
+ },
+ {
+  "id": "watermelon",
+  "zh": "西瓜",
+  "emoji": "🍉"
+ },
+ {
+  "id": "melon",
+  "zh": "甜瓜",
+  "emoji": "🍈"
+ },
+ {
+  "id": "pine",
+  "zh": "松针",
+  "emoji": "🌲"
+ },
+ {
+  "id": "resin",
+  "zh": "树脂",
+  "emoji": "🌲"
+ },
+ {
+  "id": "floral",
+  "zh": "花香",
+  "emoji": "🌸"
+ },
+ {
+  "id": "rose",
+  "zh": "玫瑰",
+  "emoji": "🌹"
+ },
+ {
+  "id": "herbal",
+  "zh": "草本",
+  "emoji": "🌿"
+ },
+ {
+  "id": "grassy",
+  "zh": "青草",
+  "emoji": "🌱"
+ },
+ {
+  "id": "mint",
+  "zh": "薄荷",
+  "emoji": "🌿"
+ },
+ {
+  "id": "spicy",
+  "zh": "辛香",
+  "emoji": "🌶️"
+ },
+ {
+  "id": "pepper",
+  "zh": "胡椒",
+  "emoji": "🌶️"
+ },
+ {
+  "id": "clove",
+  "zh": "丁香",
+  "emoji": "🍂"
+ },
+ {
+  "id": "banana",
+  "zh": "香蕉",
+  "emoji": "🍌"
+ },
+ {
+  "id": "bubblegum",
+  "zh": "泡泡糖",
+  "emoji": "🍬"
+ },
+ {
+  "id": "pear",
+  "zh": "梨",
+  "emoji": "🍐"
+ },
+ {
+  "id": "apple",
+  "zh": "青苹果",
+  "emoji": "🍏"
+ },
+ {
+  "id": "grape",
+  "zh": "葡萄",
+  "emoji": "🍇"
+ },
+ {
+  "id": "wine",
+  "zh": "白葡萄酒",
+  "emoji": "🍷"
+ },
+ {
+  "id": "berry",
+  "zh": "莓果",
+  "emoji": "🫐"
+ },
+ {
+  "id": "blueberry",
+  "zh": "蓝莓",
+  "emoji": "🫐"
+ },
+ {
+  "id": "raspberry",
+  "zh": "覆盆子",
+  "emoji": "🍓"
+ },
+ {
+  "id": "strawberry",
+  "zh": "草莓",
+  "emoji": "🍓"
+ },
+ {
+  "id": "cherry",
+  "zh": "樱桃",
+  "emoji": "🍒"
+ },
+ {
+  "id": "plum",
+  "zh": "李子",
+  "emoji": "🟣"
+ },
+ {
+  "id": "raisin",
+  "zh": "葡萄干",
+  "emoji": "🍇"
+ },
+ {
+  "id": "fig",
+  "zh": "无花果",
+  "emoji": "🟤"
+ },
+ {
+  "id": "bread",
+  "zh": "面包",
+  "emoji": "🍞"
+ },
+ {
+  "id": "biscuit",
+  "zh": "饼干",
+  "emoji": "🍪"
+ },
+ {
+  "id": "toast",
+  "zh": "烤面包",
+  "emoji": "🍞"
+ },
+ {
+  "id": "grain",
+  "zh": "谷物",
+  "emoji": "🌾"
+ },
+ {
+  "id": "honey",
+  "zh": "蜂蜜",
+  "emoji": "🍯"
+ },
+ {
+  "id": "caramel",
+  "zh": "焦糖",
+  "emoji": "🍮"
+ },
+ {
+  "id": "toffee",
+  "zh": "太妃糖",
+  "emoji": "🍬"
+ },
+ {
+  "id": "chocolate",
+  "zh": "巧克力",
+  "emoji": "🍫"
+ },
+ {
+  "id": "coffee",
+  "zh": "咖啡",
+  "emoji": "☕"
+ },
+ {
+  "id": "roast",
+  "zh": "烘烤",
+  "emoji": "🔥"
+ },
+ {
+  "id": "smoke",
+  "zh": "烟熏",
+  "emoji": "💨"
+ },
+ {
+  "id": "bacon",
+  "zh": "培根",
+  "emoji": "🥓"
+ },
+ {
+  "id": "wood",
+  "zh": "木质",
+  "emoji": "🪵"
+ },
+ {
+  "id": "oak",
+  "zh": "橡木",
+  "emoji": "🪵"
+ },
+ {
+  "id": "vanilla",
+  "zh": "香草",
+  "emoji": "🍦"
+ },
+ {
+  "id": "bourbon",
+  "zh": "波本",
+  "emoji": "🥃"
+ },
+ {
+  "id": "whisky",
+  "zh": "威士忌",
+  "emoji": "🥃"
+ },
+ {
+  "id": "rum",
+  "zh": "朗姆",
+  "emoji": "🥃"
+ },
+ {
+  "id": "redwine",
+  "zh": "红酒",
+  "emoji": "🍷"
+ },
+ {
+  "id": "sherry",
+  "zh": "雪莉",
+  "emoji": "🍷"
+ },
+ {
+  "id": "barnyard",
+  "zh": "谷仓",
+  "emoji": "🐴"
+ },
+ {
+  "id": "leather",
+  "zh": "皮革",
+  "emoji": "👞"
+ },
+ {
+  "id": "funk",
+  "zh": "野趣",
+  "emoji": "🧀"
+ },
+ {
+  "id": "lactic",
+  "zh": "乳酸",
+  "emoji": "🥛"
+ },
+ {
+  "id": "vinegar",
+  "zh": "醋酸",
+  "emoji": "🫙"
+ },
+ {
+  "id": "salt",
+  "zh": "海盐",
+  "emoji": "🧂"
+ },
+ {
+  "id": "coriander",
+  "zh": "芫荽籽",
+  "emoji": "🌿"
+ },
+ {
+  "id": "ginger",
+  "zh": "生姜",
+  "emoji": "🫚"
+ },
+ {
+  "id": "cinnamon",
+  "zh": "肉桂",
+  "emoji": "🟤"
+ },
+ {
+  "id": "nutmeg",
+  "zh": "肉豆蔻",
+  "emoji": "🟤"
+ },
+ {
+  "id": "nut",
+  "zh": "坚果",
+  "emoji": "🥜"
+ },
+ {
+  "id": "tea",
+  "zh": "茶香",
+  "emoji": "🍵"
+ },
+ {
+  "id": "maple",
+  "zh": "枫糖",
+  "emoji": "🍁"
+ },
+ {
+  "id": "chili",
+  "zh": "辣椒",
+  "emoji": "🌶️"
+ },
+ {
+  "id": "cream",
+  "zh": "奶油",
+  "emoji": "🥛"
+ },
+ {
+  "id": "juniper",
+  "zh": "杜松",
+  "emoji": "🌲"
+ },
+ {
+  "id": "rye",
+  "zh": "黑麦辛香",
+  "emoji": "🌾"
+ },
+ {
+  "id": "earthy",
+  "zh": "泥土",
+  "emoji": "🍄"
+ },
+ {
+  "id": "corn",
+  "zh": "玉米",
+  "emoji": "🌽"
+ },
+ {
+  "id": "rice",
+  "zh": "米香",
+  "emoji": "🍚"
+ },
+ {
+  "id": "warming",
+  "zh": "酒精温热",
+  "emoji": "🔥"
+ },
+ {
+  "id": "molasses",
+  "zh": "糖蜜",
+  "emoji": "🍯"
+ },
+ {
+  "id": "dark_fruit",
+  "zh": "深色水果",
+  "emoji": "🍇"
+ }
+]

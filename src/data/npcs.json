@@ -1,0 +1,252 @@
+[
+  {
+    "id": "old_brewer",
+    "nameZh": "老酿酒师",
+    "role": "mentor",
+    "minRep": 1,
+    "chance": 0.25,
+    "greeting": [
+      "小子，酒吧开起来了？让我尝尝你的手艺。",
+      "酿酒没有捷径，只有一锅又一锅。",
+      "温度、时间、耐心——记住这三样就够你用十年。",
+      "我年轻时也把麦汁煮糊过，别怕失败。"
+    ],
+    "gifts": ["quest:q_mentor_first", "clue:california_common", "heard:kentucky_common", "heard:pre_prohibition_lager", "ingredient:hallertau_mittelfruh"],
+    "appearance": { "hair": "#e8e0d0", "skin": "#eac39b", "shirt": "#6b4f3a", "hat": "cap" }
+  },
+  {
+    "id": "belgian_brewer",
+    "nameZh": "比利时酿酒师",
+    "role": "brewer",
+    "minRep": 3,
+    "region": "belgium",
+    "chance": 0.12,
+    "greeting": [
+      "Santé！在比利时，每款啤酒都有自己的杯子。",
+      "酵母才是主角，麦芽和酒花只是配角。",
+      "修道士们酿酒，是为了熬过漫长的斋戒。",
+      "你尝过真正的 Gueuze 吗？那是时间的味道。"
+    ],
+    "gifts": ["quest:q_belgian_tripel", "quest:q_belgian_saison", "ingredient:candi_syrup_dark", "ingredient:special_b", "clue:gueuze", "heard:oud_bruin"],
+    "appearance": { "hair": "#6b4226", "skin": "#f6d7b0", "shirt": "#8b1e3f", "hat": "beret" }
+  },
+  {
+    "id": "german_braumeister",
+    "nameZh": "德国酿酒大师",
+    "role": "brewer",
+    "minRep": 2,
+    "region": "germany",
+    "chance": 0.12,
+    "greeting": [
+      "Prost！水、麦芽、酒花、酵母，不需要别的。",
+      "拉格要低温、要耐心，急不得。",
+      "好的 Helles 就像白衬衫——简单，但骗不了人。",
+      "你的泡沫……嗯，还需要练习。"
+    ],
+    "gifts": ["quest:q_german_helles", "quest:q_german_doppelbock", "ingredient:hallertau_mittelfruh", "ingredient:beech_smoked_malt", "clue:steinbier", "heard:dampfbier", "heard:roggenbier"],
+    "appearance": { "hair": "#d4a656", "skin": "#f6d7b0", "shirt": "#2e5e3a", "hat": "cap" }
+  },
+  {
+    "id": "czech_sladek",
+    "nameZh": "捷克酿酒师",
+    "role": "brewer",
+    "minRep": 2,
+    "region": "czech",
+    "chance": 0.1,
+    "greeting": [
+      "Na zdraví！世界上第一杯金色拉格来自皮尔森。",
+      "萨兹酒花，软水，三次煮出——这是我们的骄傲。",
+      "捷克人喝啤酒比喝水还多，这不是玩笑。",
+      "一杯好拉格，泡沫要厚得能放硬币。"
+    ],
+    "gifts": ["quest:q_czech_lager", "ingredient:saaz", "clue:czech_dark_lager", "heard:czech_amber_lager"],
+    "appearance": { "hair": "#3b2a20", "skin": "#eac39b", "shirt": "#e8e8e8", "hat": "cap" }
+  },
+  {
+    "id": "british_publican",
+    "nameZh": "英国酒馆老板",
+    "role": "brewer",
+    "minRep": 2,
+    "region": "uk",
+    "chance": 0.12,
+    "greeting": [
+      "Cheers, mate！来一品脱桶装苦啤？",
+      "真正的艾尔要在酒窖温度喝，不能冰。",
+      "波特啤酒当年可是伦敦码头工人的口粮。",
+      "下雨天、壁炉、一杯苦啤，人生圆满。"
+    ],
+    "gifts": ["quest:q_british_bitter", "clue:historical_porter", "heard:old_ale", "heard:dark_mild"],
+    "appearance": { "hair": "#a0522d", "skin": "#f6d7b0", "shirt": "#2b2d42", "hat": "tophat" }
+  },
+  {
+    "id": "us_hophead_brewer",
+    "nameZh": "美国酒花狂人",
+    "role": "brewer",
+    "minRep": 2,
+    "region": "usa",
+    "chance": 0.12,
+    "greeting": [
+      "Dude！你的干投量还不够大胆！",
+      "酒花就是要多，多，再多！",
+      "西海岸要苦要清，东海岸要浑要多汁。",
+      "有没有冷冻的新鲜酒花？我闻着味来的。"
+    ],
+    "gifts": ["quest:q_us_hazy", "ingredient:galaxy", "clue:cold_ipa", "heard:brut_ipa", "heard:west_coast_pilsner"],
+    "appearance": { "hair": "#1b1b1f", "skin": "#d9a477", "shirt": "#5cb85c", "hat": "bandana" }
+  },
+  {
+    "id": "nz_hop_farmer",
+    "nameZh": "新西兰酒花农",
+    "role": "supplier",
+    "minRep": 3,
+    "region": "nz",
+    "chance": 0.08,
+    "greeting": [
+      "Kia ora！南半球的酒花，带着葡萄和百香果的香气。",
+      "我们的酒花田在世界的另一头，季节正好和你们相反。",
+      "尝尝 Nelson Sauvin，它像长白苏维翁葡萄酒。",
+      "新鲜酒花要趁早用，香气可不等人。"
+    ],
+    "gifts": ["quest:q_nz_pilsner", "ingredient:nelson_sauvin", "ingredient:galaxy", "clue:nz_pilsner"],
+    "appearance": { "hair": "#d4a656", "skin": "#c08457", "shirt": "#20b2aa", "hat": "cap" }
+  },
+  {
+    "id": "japanese_brewer",
+    "nameZh": "日本酿酒师",
+    "role": "brewer",
+    "minRep": 3,
+    "region": "japan",
+    "chance": 0.08,
+    "greeting": [
+      "いらっしゃい！大米能让啤酒变得像清酒一样干净。",
+      "精致，是一种态度。",
+      "Sorachi Ace 原本是日本培育的，带着柠檬与莳萝的香气。",
+      "柚子加进啤酒里，有冬天的味道。"
+    ],
+    "gifts": ["quest:q_japan_rice", "ingredient:sorachi_ace", "ingredient:yuzu", "clue:rice_lager"],
+    "appearance": { "hair": "#1b1b1f", "skin": "#f6d7b0", "shirt": "#e8e8e8", "hat": "bandana" }
+  },
+  {
+    "id": "chinese_tea_master",
+    "nameZh": "茶艺师",
+    "role": "brewer",
+    "minRep": 3,
+    "region": "china",
+    "chance": 0.08,
+    "greeting": [
+      "茶与酒，都是时间的艺术。",
+      "茉莉花茶入酒，香气会更加轻盈。",
+      "泡茶讲究水温，酿酒也一样。",
+      "来，先喝杯茶，再聊啤酒。"
+    ],
+    "gifts": ["quest:q_tea_beer", "ingredient:jasmine_tea", "clue:tea_beer"],
+    "appearance": { "hair": "#1b1b1f", "skin": "#eac39b", "shirt": "#2e5e3a" }
+  },
+  {
+    "id": "nordic_farmer",
+    "nameZh": "北欧农夫",
+    "role": "brewer",
+    "minRep": 4,
+    "region": "nordic",
+    "chance": 0.07,
+    "greeting": [
+      "Skål！我家的酵母已经传了三百年。",
+      "Kveik 酵母不怕热，四十度照样欢快发酵。",
+      "Sahti 不用煮沸，用杜松枝过滤，这是祖辈的做法。",
+      "峡湾的冬天很长，啤酒是最好的伙伴。"
+    ],
+    "gifts": ["quest:q_sahti", "ingredient:voss_kveik", "ingredient:juniper", "clue:sahti", "clue:kveik_ale"],
+    "appearance": { "hair": "#e8d27a", "skin": "#f6d7b0", "shirt": "#b23a48", "hat": "hood" }
+  },
+  {
+    "id": "polish_historian",
+    "nameZh": "波兰历史学家",
+    "role": "traveler",
+    "minRep": 4,
+    "region": "poland",
+    "chance": 0.06,
+    "greeting": [
+      "你听说过“波兰香槟”吗？它几乎从历史上消失了。",
+      "古籍里记载着许多失传的酿法。",
+      "橡木熏过的小麦，轻盈得像空气。",
+      "每一款失传的啤酒，都是一段被遗忘的故事。"
+    ],
+    "gifts": ["clue:grodziskie", "ingredient:oak_smoked_wheat", "heard:lichtenhainer", "heard:kvass_historical"],
+    "appearance": { "hair": "#8a8a8a", "skin": "#f6d7b0", "shirt": "#4b5563", "hat": "beret" }
+  },
+  {
+    "id": "traveler",
+    "nameZh": "旅行者",
+    "role": "traveler",
+    "minRep": 2,
+    "chance": 0.12,
+    "greeting": [
+      "我刚从地球另一边回来，背包里全是啤酒故事。",
+      "你知道加勒比海也有世涛吗？",
+      "每到一座城，我只做一件事：找最好的酒吧。",
+      "下一站去哪儿？也许就是你推荐的地方。"
+    ],
+    "gifts": ["quest:q_traveler_stout", "heard:tropical_stout", "heard:mexican_lager", "heard:australian_sparkling_ale", "heard:baltic_porter", "heard:italian_grape_ale"],
+    "appearance": { "hair": "#6b4226", "skin": "#c08457", "shirt": "#f0ad4e", "hat": "cap" }
+  },
+  {
+    "id": "collector",
+    "nameZh": "啤酒收藏家",
+    "role": "collector",
+    "minRep": 4,
+    "chance": 0.08,
+    "greeting": [
+      "我的酒窖里有一瓶 1998 年的 Gueuze。",
+      "木桶陈酿的世涛，越放越迷人。",
+      "好酒值得等待，也值得高价。",
+      "你有什么值得收藏的东西吗？"
+    ],
+    "gifts": ["quest:q_collector_wood", "quest:q_collector_quad", "ingredient:lambic_blend", "clue:barrel_aged_barleywine", "heard:eisbock"],
+    "appearance": { "hair": "#3b2a20", "skin": "#eac39b", "shirt": "#6f42c1", "hat": "tophat" }
+  },
+  {
+    "id": "judge",
+    "nameZh": "啤酒评审",
+    "role": "judge",
+    "minRep": 4,
+    "chance": 0.08,
+    "greeting": [
+      "我只喝，不说话。打分表会说话。",
+      "风格准确、无缺陷——这是最低要求。",
+      "上一家酒吧的 IPA 有黄油味，零分。",
+      "让我看看你有没有资格参加比赛。"
+    ],
+    "gifts": ["quest:q_judge_ipa", "quest:q_judge_pils", "heard:czech_premium_pale_lager"],
+    "appearance": { "hair": "#2b2b2b", "skin": "#d9a477", "shirt": "#2c3e50" }
+  },
+  {
+    "id": "supplier",
+    "nameZh": "原料商",
+    "role": "supplier",
+    "minRep": 2,
+    "chance": 0.15,
+    "greeting": [
+      "老板，新到一批原料，要不要看看？",
+      "这批麦芽可是刚从欧洲运来的。",
+      "熟客价！多买多送！",
+      "酵母要冷链，酒花要真空，我都给你包好了。"
+    ],
+    "gifts": ["quest:q_supplier_sour", "ingredient:special_b", "ingredient:saaz", "ingredient:brett_brux", "heard:gose"],
+    "appearance": { "hair": "#4a3020", "skin": "#c08457", "shirt": "#8b5a2b", "hat": "cap" }
+  },
+  {
+    "id": "mystery",
+    "nameZh": "神秘客人",
+    "role": "mystery",
+    "minRep": 5,
+    "chance": 0.05,
+    "greeting": [
+      "……这里的酒，有旧时代的影子。",
+      "有些啤酒，比你的城市还要古老。",
+      "石头、烟、草药……你能找回它们吗？",
+      "我还会再来的。如果你酿出了我要的味道。"
+    ],
+    "gifts": ["quest:q_mystery_grodziskie", "quest:q_mystery_lichtenhainer", "clue:gruit", "clue:steinbier", "clue:lichtenhainer", "clue:grodziskie", "heard:sahti"],
+    "appearance": { "hair": "#111111", "skin": "#b89a80", "shirt": "#1b1b2f", "hat": "hood" }
+  }
+]

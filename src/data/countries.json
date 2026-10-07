@@ -1,0 +1,22 @@
+[
+  { "id": "usa", "nameZh": "美国", "flag": "🇺🇸", "x": 22.8, "y": 27.7, "minRep": 1, "cost": 0, "start": true, "npc": "us_hophead_brewer", "desc": "精酿革命的发源地。C 系酒花的柑橘与松针，IPA、美式淡色艾尔和各种疯狂实验。" },
+  { "id": "uk", "nameZh": "英国", "flag": "🇬🇧", "x": 49.7, "y": 17.7, "minRep": 1, "cost": 0, "start": true, "npc": "british_publican", "desc": "艾尔的故乡。Maris Otter 麦芽、East Kent Goldings 酒花，苦啤、波特和大麦酒。" },
+  { "id": "germany", "nameZh": "德国", "flag": "🇩🇪", "x": 52.8, "y": 18.5, "minRep": 1, "cost": 0, "start": true, "npc": "german_braumeister", "desc": "《纯净法》的国度。贵族酒花、比尔森麦芽与慕尼黑麦芽，拉格、小麦啤和烟熏啤酒。" },
+  { "id": "canada", "nameZh": "加拿大", "flag": "🇨🇦", "x": 22.2, "y": 14.6, "minRep": 2, "cost": 1200, "desc": "寒冷北国的酿造传统。枫糖浆入酒，清爽奶油艾尔与浓郁冬季啤酒。" },
+  { "id": "mexico", "nameZh": "墨西哥", "flag": "🇲🇽", "x": 21.7, "y": 40, "minRep": 2, "cost": 1500, "desc": "玉米辅料的清爽拉格，配一片青柠。还有辣椒啤酒的热情。" },
+  { "id": "caribbean", "nameZh": "加勒比", "flag": "🇯🇲", "x": 28.6, "y": 43.8, "minRep": 3, "cost": 2500, "desc": "热带世涛的天堂：甜美、浓郁、带朗姆与水果香。椰子和蔗糖是这里的宝藏。" },
+  { "id": "scotland", "nameZh": "苏格兰", "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "x": 48.9, "y": 13.8, "minRep": 2, "cost": 1500, "desc": "麦芽为王的国度。苏格兰艾尔、Wee Heavy，以及威士忌木桶。" },
+  { "id": "ireland", "nameZh": "爱尔兰", "flag": "🇮🇪", "x": 47.8, "y": 16.9, "minRep": 2, "cost": 1200, "desc": "干世涛与爱尔兰红艾尔。烘烤大麦和氮气泡沫的绵密传说。" },
+  { "id": "austria", "nameZh": "奥地利", "flag": "🇦🇹", "x": 53.9, "y": 21.2, "minRep": 2, "cost": 1500, "desc": "维也纳拉格的故乡。维也纳麦芽带来琥珀色与烤面包香。" },
+  { "id": "czech", "nameZh": "捷克", "flag": "🇨🇿", "x": 54.2, "y": 19.2, "minRep": 2, "cost": 1800, "npc": "czech_sladek", "desc": "金色拉格诞生地皮尔森。萨兹酒花、超软水与煮出糖化。" },
+  { "id": "poland", "nameZh": "波兰", "flag": "🇵🇱", "x": 55.3, "y": 17.7, "minRep": 4, "cost": 3500, "npc": "polish_historian", "desc": "“波兰香槟” Grodziskie 的故乡。橡木烟熏小麦与几乎失传的古老配方。" },
+  { "id": "belgium", "nameZh": "比利时", "flag": "🇧🇪", "x": 51.3, "y": 18.6, "minRep": 3, "cost": 3000, "npc": "belgian_brewer", "desc": "啤酒的修道院。比利时酵母、坎迪糖、自然发酵 Lambic，Dubbel、Tripel、Saison。" },
+  { "id": "france", "nameZh": "法国", "flag": "🇫🇷", "x": 50.6, "y": 21.9, "minRep": 3, "cost": 2500, "desc": "北部农舍的窖藏啤酒 Bière de Garde，以及葡萄酒桶带来的优雅。" },
+  { "id": "italy", "nameZh": "意大利", "flag": "🇮🇹", "x": 53.5, "y": 24.8, "minRep": 4, "cost": 3500, "desc": "葡萄与啤酒的跨界：意式葡萄艾尔，以及优雅干投的意式皮尔森。" },
+  { "id": "nordic", "nameZh": "北欧", "flag": "🇳🇴", "x": 52.8, "y": 10.8, "minRep": 4, "cost": 4500, "npc": "nordic_farmer", "desc": "传了几百年的 Kveik 酵母、杜松枝与不煮沸的 Sahti。农夫们的古老智慧。" },
+  { "id": "baltic", "nameZh": "波罗的海", "flag": "🇪🇪", "x": 56.9, "y": 12.7, "minRep": 5, "cost": 5000, "desc": "波罗的海波特：用拉格酵母低温发酵的浓烈黑啤。还有面包发酵的古老饮品。" },
+  { "id": "australia", "nameZh": "澳大利亚", "flag": "🇦🇺", "x": 87.2, "y": 76.9, "minRep": 3, "cost": 3000, "desc": "Galaxy 酒花的热带水果炸弹，以及瓶中二次发酵的澳式起泡艾尔。" },
+  { "id": "nz", "nameZh": "新西兰", "flag": "🇳🇿", "x": 97.8, "y": 88.5, "minRep": 3, "cost": 3500, "npc": "nz_hop_farmer", "desc": "南半球酒花宝库：Nelson Sauvin 的白葡萄香、Motueka 的青柠。新西兰皮尔森的家。" },
+  { "id": "japan", "nameZh": "日本", "flag": "🇯🇵", "x": 88.3, "y": 30, "minRep": 5, "cost": 6000, "npc": "japanese_brewer", "desc": "精致的大米拉格、Sorachi Ace 酒花与柚子。干净到极致的酿造哲学。" },
+  { "id": "china", "nameZh": "中国", "flag": "🇨🇳", "x": 79.2, "y": 30.8, "minRep": 6, "cost": 8000, "npc": "chinese_tea_master", "desc": "茶与酒的千年文化。茉莉花茶、桂花、花椒——东方风味的精酿新篇章。" }
+]

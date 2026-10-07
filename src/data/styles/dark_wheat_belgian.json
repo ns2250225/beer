@@ -1,0 +1,5366 @@
+[
+ {
+  "id": "weissbier",
+  "name": "Weissbier",
+  "nameZh": "德式小麦啤酒",
+  "family": "wheat",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Bavaria",
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.3,
+   "max": 5.6
+  },
+  "ibu": {
+   "min": 8,
+   "max": 15
+  },
+  "color": {
+   "min": 2,
+   "max": 6
+  },
+  "bitterness": 1.2,
+  "sweetness": 1.7,
+  "body": 2.5,
+  "malt": 1.9,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 2.8,
+  "spicy": 2.6,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.3,
+  "haze": 3.7,
+  "tags": [
+   "小麦",
+   "香蕉",
+   "丁香",
+   "Bavarian"
+  ],
+  "ingredients": [
+   "wheat_malt",
+   "pilsner_malt",
+   "hallertau_mittelfruh",
+   "hefeweizen_yeast",
+   "weizen_banana"
+  ],
+  "relatedStyles": [
+   "hefeweizen",
+   "kristallweizen",
+   "dunkles_weissbier"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "weizen"
+    ],
+    "hint": "需要专门的小麦啤酒酵母（香蕉与丁香）。"
+   },
+   {
+    "type": "maltShare",
+    "category": "wheat",
+    "min": 0.5,
+    "hint": "小麦麦芽至少占一半。"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "filtered"
+    ],
+    "soft": true,
+    "hint": "传统上不过滤，保留酵母。"
+   }
+  ],
+  "aromas": [
+   "banana",
+   "clove",
+   "bread",
+   "bubblegum"
+  ],
+  "glass": "weizen",
+  "servingTemp": 6,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "这种啤酒来自巴伐利亚。",
+   "一半以上的谷物是小麦。",
+   "酵母会带来香蕉与丁香的气味。",
+   "倒进高高的弧形杯里，泡沫像奶油一样厚。"
+  ],
+  "description": "巴伐利亚的传统小麦啤酒，曾是王室垄断的特权饮品。以超过一半的小麦麦芽酿成，专用酵母带来香蕉酯与丁香酚香，气泡活泼、口感柔软。",
+  "example": {
+   "malts": [
+    {
+     "id": "wheat_malt",
+     "kg": 2.9
+    },
+    {
+     "id": "pilsner_malt",
+     "kg": 2
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 28,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "hefeweizen_yeast",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 90,
+   "fermentTemp": 19,
+   "fermentDays": 7,
+   "maturationDays": 7,
+   "carbonation": 3.6,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "hefeweizen",
+  "name": "Hefeweizen",
+  "nameZh": "酵母小麦啤酒",
+  "family": "wheat",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Bavaria",
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.3,
+   "max": 5.6
+  },
+  "ibu": {
+   "min": 8,
+   "max": 15
+  },
+  "color": {
+   "min": 2,
+   "max": 6
+  },
+  "bitterness": 1.2,
+  "sweetness": 1.9,
+  "body": 2.7,
+  "malt": 1.9,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 3.2,
+  "spicy": 1.9,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.2,
+  "haze": 3.7,
+  "tags": [
+   "小麦",
+   "带酵母",
+   "浑浊",
+   "香蕉"
+  ],
+  "ingredients": [
+   "wheat_malt",
+   "pilsner_malt",
+   "hallertau_mittelfruh",
+   "weizen_banana",
+   "hefeweizen_yeast"
+  ],
+  "relatedStyles": [
+   "weissbier",
+   "kristallweizen",
+   "witbier"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "weizen"
+    ],
+    "hint": "需要小麦啤酒酵母。"
+   },
+   {
+    "type": "maltShare",
+    "category": "wheat",
+    "min": 0.5,
+    "hint": "小麦麦芽至少占一半。"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "filtered"
+    ],
+    "hint": "不能过滤，酵母要留在酒里。"
+   }
+  ],
+  "aromas": [
+   "banana",
+   "clove",
+   "bread",
+   "bubblegum"
+  ],
+  "glass": "weizen",
+  "servingTemp": 6,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "\"Hefe\" 在德语里就是酵母。",
+   "酒液必须保持浑浊，绝不过滤。",
+   "大部分谷物是小麦。",
+   "喝起来有香蕉和一丝丁香。"
+  ],
+  "description": "Hefe 意为“酵母”，强调瓶中保留酵母、不经过滤的浑浊小麦啤酒。香蕉酯香更饱满，口感蓬松柔顺，倒酒时常把瓶底酵母摇匀一起倒入。",
+  "example": {
+   "malts": [
+    {
+     "id": "wheat_malt",
+     "kg": 3
+    },
+    {
+     "id": "pilsner_malt",
+     "kg": 1.9
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 28,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "weizen_banana",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 90,
+   "fermentTemp": 20,
+   "fermentDays": 7,
+   "maturationDays": 7,
+   "carbonation": 3.6,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "kristallweizen",
+  "name": "Kristallweizen",
+  "nameZh": "清亮小麦啤酒",
+  "family": "wheat",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Bavaria",
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.3,
+   "max": 5.6
+  },
+  "ibu": {
+   "min": 8,
+   "max": 15
+  },
+  "color": {
+   "min": 2,
+   "max": 5
+  },
+  "bitterness": 1.2,
+  "sweetness": 1.7,
+  "body": 2.6,
+  "malt": 1.9,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 2.8,
+  "spicy": 2.6,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.3,
+  "haze": 0.6,
+  "tags": [
+   "小麦",
+   "过滤",
+   "清亮",
+   "香蕉"
+  ],
+  "ingredients": [
+   "wheat_malt",
+   "pilsner_malt",
+   "hallertau_mittelfruh",
+   "hefeweizen_yeast"
+  ],
+  "relatedStyles": [
+   "weissbier",
+   "hefeweizen"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "weizen"
+    ],
+    "hint": "需要小麦啤酒酵母。"
+   },
+   {
+    "type": "maltShare",
+    "category": "wheat",
+    "min": 0.5,
+    "hint": "小麦麦芽至少占一半。"
+   },
+   {
+    "type": "process",
+    "in": [
+     "filtered"
+    ],
+    "hint": "必须过滤到清亮。"
+   }
+  ],
+  "aromas": [
+   "banana",
+   "clove",
+   "bread",
+   "grain"
+  ],
+  "glass": "weizen",
+  "servingTemp": 6,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它和酵母小麦啤酒是同一家族。",
+   "酒液像水晶一样透亮。",
+   "酿酒师会把酵母过滤掉。",
+   "香蕉与丁香仍在，只是更干净。"
+  ],
+  "description": "把小麦啤酒过滤得晶莹剔透的版本，“Kristall”即水晶。保留了香蕉与丁香的酵母风味，但口感更清爽利落，常配一片柠檬饮用。",
+  "example": {
+   "malts": [
+    {
+     "id": "wheat_malt",
+     "kg": 2.9
+    },
+    {
+     "id": "pilsner_malt",
+     "kg": 2
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 28,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "hefeweizen_yeast",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 90,
+   "fermentTemp": 19,
+   "fermentDays": 7,
+   "maturationDays": 7,
+   "carbonation": 3.4,
+   "processes": [
+    "filtered"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "dunkles_weissbier",
+  "name": "Dunkles Weissbier",
+  "nameZh": "深色小麦啤酒",
+  "family": "wheat",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Bavaria",
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.3,
+   "max": 5.6
+  },
+  "ibu": {
+   "min": 10,
+   "max": 18
+  },
+  "color": {
+   "min": 14,
+   "max": 23
+  },
+  "bitterness": 1.3,
+  "sweetness": 2.4,
+  "body": 3.3,
+  "malt": 4,
+  "caramel": 1.3,
+  "roast": 0.5,
+  "hopAroma": 0.1,
+  "fruity": 2.8,
+  "spicy": 2.6,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 3.3,
+  "tags": [
+   "小麦",
+   "深色",
+   "面包",
+   "香蕉"
+  ],
+  "ingredients": [
+   "dark_wheat_malt",
+   "munich_malt",
+   "caramunich",
+   "chocolate_malt",
+   "hefeweizen_yeast",
+   "hallertau_mittelfruh"
+  ],
+  "relatedStyles": [
+   "weissbier",
+   "weizenbock",
+   "munich_dunkel"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "weizen"
+    ],
+    "hint": "需要小麦啤酒酵母。"
+   },
+   {
+    "type": "maltShare",
+    "category": "wheat",
+    "min": 0.5,
+    "hint": "小麦（可用深色小麦麦芽）至少占一半。"
+   }
+  ],
+  "aromas": [
+   "banana",
+   "clove",
+   "bread",
+   "caramel"
+  ],
+  "glass": "weizen",
+  "servingTemp": 7,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它是小麦啤酒的深色兄弟。",
+   "颜色像栗子或红铜。",
+   "烤面包与焦糖香和香蕉交织。",
+   "深色小麦麦芽和慕尼黑麦芽是关键。"
+  ],
+  "description": "在巴伐利亚小麦啤酒中加入深色小麦与慕尼黑麦芽酿成，色泽琥珀至深棕。面包皮、焦糖与香蕉丁香相互交织，比浅色版本更圆润饱满。",
+  "example": {
+   "malts": [
+    {
+     "id": "dark_wheat_malt",
+     "kg": 2.8
+    },
+    {
+     "id": "munich_malt",
+     "kg": 1.7
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.3
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.07
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 32,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "hefeweizen_yeast",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 75,
+   "fermentTemp": 19,
+   "fermentDays": 7,
+   "maturationDays": 10,
+   "carbonation": 3.4,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "weizenbock",
+  "name": "Weizenbock",
+  "nameZh": "小麦博克",
+  "family": "wheat",
+  "alsoIn": [
+   "german",
+   "strongAle"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Bavaria",
+  "fermentation": "ale",
+  "abv": {
+   "min": 6.5,
+   "max": 9
+  },
+  "ibu": {
+   "min": 15,
+   "max": 30
+  },
+  "color": {
+   "min": 6,
+   "max": 25
+  },
+  "bitterness": 1.7,
+  "sweetness": 3.7,
+  "body": 4.3,
+  "malt": 4.2,
+  "caramel": 1.3,
+  "roast": 0,
+  "hopAroma": 0.2,
+  "fruity": 2.4,
+  "spicy": 2.5,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 1.3,
+  "haze": 3.6,
+  "tags": [
+   "小麦",
+   "烈性",
+   "李子干",
+   "香蕉"
+  ],
+  "ingredients": [
+   "wheat_malt",
+   "dark_wheat_malt",
+   "munich_malt",
+   "caramunich",
+   "hefeweizen_yeast",
+   "hallertau_mittelfruh"
+  ],
+  "relatedStyles": [
+   "dunkles_weissbier",
+   "weissbier",
+   "doppelbock"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "weizen"
+    ],
+    "hint": "需要小麦啤酒酵母。"
+   },
+   {
+    "type": "maltShare",
+    "category": "wheat",
+    "min": 0.5,
+    "hint": "小麦麦芽至少占一半。"
+   }
+  ],
+  "aromas": [
+   "banana",
+   "plum",
+   "clove",
+   "caramel",
+   "warming"
+  ],
+  "glass": "weizen",
+  "servingTemp": 9,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "这是小麦啤酒里的烈性版本。",
+   "酒精带来温暖感。",
+   "香蕉之外还有李子干与焦糖。",
+   "用的仍是小麦啤酒酵母，只是麦汁浓很多。"
+  ],
+  "description": "小麦啤酒与博克的结合，1907 年由慕尼黑的酒厂推出。高浓度麦汁带来李子干、焦糖与面包香，配合香蕉丁香酵母与明显的酒精温热感。",
+  "example": {
+   "malts": [
+    {
+     "id": "wheat_malt",
+     "kg": 2.4
+    },
+    {
+     "id": "dark_wheat_malt",
+     "kg": 2
+    },
+    {
+     "id": "munich_malt",
+     "kg": 2.4
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.35
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 15,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 15,
+     "use": "boil",
+     "time": 20
+    }
+   ],
+   "yeast": "hefeweizen_yeast",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 18,
+   "fermentDays": 10,
+   "maturationDays": 21,
+   "carbonation": 3.2,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "american_wheat",
+  "name": "American Wheat Beer",
+  "nameZh": "美式小麦啤酒",
+  "family": "wheat",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "American",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 4,
+   "max": 5.5
+  },
+  "ibu": {
+   "min": 15,
+   "max": 30
+  },
+  "color": {
+   "min": 3,
+   "max": 6
+  },
+  "bitterness": 2.2,
+  "sweetness": 1.3,
+  "body": 2.3,
+  "malt": 2.3,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 1.6,
+  "fruity": 0.8,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.1,
+  "haze": 2.4,
+  "tags": [
+   "小麦",
+   "清爽",
+   "美式酒花",
+   "干净发酵"
+  ],
+  "ingredients": [
+   "wheat_malt",
+   "pale_malt",
+   "cascade",
+   "citra",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "weissbier",
+   "american_pale_ale",
+   "cream_ale"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "ale"
+    ],
+    "hint": "用干净的艾尔酵母，不要小麦啤酒酵母。"
+   },
+   {
+    "type": "maltShare",
+    "category": "wheat",
+    "min": 0.3,
+    "hint": "小麦约占三到五成。"
+   }
+  ],
+  "aromas": [
+   "citrus",
+   "grain",
+   "bread",
+   "floral"
+  ],
+  "glass": "shaker",
+  "servingTemp": 5,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它用小麦，却没有香蕉和丁香。",
+   "发酵非常干净。",
+   "美国酒花带来一点柑橘香。",
+   "常在夏天的露台上喝到。"
+  ],
+  "description": "美国精酿运动中诞生的小麦啤酒，用干净的美式艾尔酵母代替巴伐利亚酵母，没有香蕉丁香。面包般的小麦底色配上柑橘酒花，清爽易饮。",
+  "example": {
+   "malts": [
+    {
+     "id": "wheat_malt",
+     "kg": 2
+    },
+    {
+     "id": "pale_malt",
+     "kg": 2.5
+    }
+   ],
+   "hops": [
+    {
+     "id": "cascade",
+     "grams": 25,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "cascade",
+     "grams": 25,
+     "use": "boil",
+     "time": 10
+    },
+    {
+     "id": "citra",
+     "grams": 15,
+     "use": "whirlpool"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 60,
+   "fermentTemp": 18,
+   "fermentDays": 7,
+   "maturationDays": 7,
+   "carbonation": 2.7,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "witbier",
+  "name": "Belgian Witbier",
+  "nameZh": "比利时白啤",
+  "family": "wheat",
+  "alsoIn": [
+   "belgian",
+   "spice"
+  ],
+  "group": "Belgian",
+  "country": [
+   "belgium"
+  ],
+  "region": "Hoegaarden",
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "ibu": {
+   "min": 8,
+   "max": 20
+  },
+  "color": {
+   "min": 2,
+   "max": 4
+  },
+  "bitterness": 1.3,
+  "sweetness": 1.8,
+  "body": 3.4,
+  "malt": 2,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 3.5,
+  "spicy": 3.7,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.1,
+  "haze": 3.6,
+  "tags": [
+   "小麦",
+   "芫荽",
+   "橙皮",
+   "浑浊"
+  ],
+  "ingredients": [
+   "wheat_malt",
+   "pilsner_malt",
+   "flaked_oats",
+   "coriander",
+   "orange_peel",
+   "witbier_yeast"
+  ],
+  "relatedStyles": [
+   "hefeweizen",
+   "saison",
+   "grisette"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "belgian"
+    ],
+    "hint": "需要比利时风格的酵母。"
+   },
+   {
+    "type": "adjunct",
+    "in": [
+     "coriander"
+    ],
+    "hint": "加入芫荽籽。"
+   },
+   {
+    "type": "adjunct",
+    "in": [
+     "orange_peel",
+     "lemon_peel"
+    ],
+    "hint": "加入柑橘果皮。"
+   },
+   {
+    "type": "maltShare",
+    "category": "wheat",
+    "min": 0.3,
+    "soft": true,
+    "hint": "小麦约占一半。"
+   }
+  ],
+  "aromas": [
+   "orange",
+   "coriander",
+   "spicy",
+   "bread"
+  ],
+  "glass": "tulip",
+  "servingTemp": 5,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它来自比利时的小镇 Hoegaarden。",
+   "颜色乳白、像月光一样浑浊。",
+   "煮沸时加入了一种种子香料。",
+   "还有一种柑橘的果皮。"
+  ],
+  "description": "起源于比利时 Hoegaarden 的白啤，二十世纪六十年代由 Pierre Celis 复兴。以小麦和燕麦带来乳白浑浊，芫荽籽与苦橙皮赋予清新的柑橘香料气息。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 2.3
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 2
+    },
+    {
+     "id": "flaked_oats",
+     "kg": 0.4
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 25,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "witbier_yeast",
+   "water": "soft",
+   "adjuncts": [
+    {
+     "id": "coriander",
+     "grams": 15,
+     "stage": "boil"
+    },
+    {
+     "id": "orange_peel",
+     "grams": 25,
+     "stage": "boil"
+    }
+   ],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 20,
+   "fermentDays": 7,
+   "maturationDays": 7,
+   "carbonation": 2.8,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "english_porter",
+  "name": "English Porter",
+  "nameZh": "英式波特",
+  "family": "porter",
+  "alsoIn": [
+   "british"
+  ],
+  "group": "British",
+  "country": [
+   "uk"
+  ],
+  "region": "London",
+  "fermentation": "ale",
+  "abv": {
+   "min": 4,
+   "max": 5.4
+  },
+  "ibu": {
+   "min": 18,
+   "max": 35
+  },
+  "color": {
+   "min": 20,
+   "max": 30
+  },
+  "bitterness": 1.8,
+  "sweetness": 3.2,
+  "body": 3,
+  "malt": 3.5,
+  "caramel": 1.2,
+  "roast": 3.5,
+  "hopAroma": 0.3,
+  "fruity": 1.2,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.3,
+  "tags": [
+   "伦敦",
+   "巧克力",
+   "太妃",
+   "温和烘烤"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "brown_malt",
+   "crystal_60",
+   "chocolate_malt",
+   "east_kent_goldings",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "american_porter",
+   "irish_stout",
+   "historical_porter"
+  ],
+  "requirements": [
+   {
+    "type": "malt",
+    "in": [
+     "brown_malt",
+     "chocolate_malt"
+    ],
+    "minShare": 0.05,
+    "hint": "用棕色或巧克力麦芽获得柔和的烘烤。"
+   },
+   {
+    "type": "yeastType",
+    "in": [
+     "ale"
+    ],
+    "hint": "英式艾尔酵母。"
+   }
+  ],
+  "aromas": [
+   "chocolate",
+   "toffee",
+   "caramel",
+   "bread"
+  ],
+  "glass": "nonic",
+  "servingTemp": 11,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它诞生于十八世纪伦敦的码头。",
+   "颜色是深棕色，带一点红光。",
+   "巧克力与太妃糖，而不是焦苦咖啡。",
+   "棕色麦芽是老传统。"
+  ],
+  "description": "十八世纪伦敦搬运工最爱的深色艾尔，波特之名由此而来。棕色与巧克力麦芽带来温和的可可、太妃与面包香，烘烤感比世涛柔和。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 3.6
+    },
+    {
+     "id": "brown_malt",
+     "kg": 0.4
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.35
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.28
+    }
+   ],
+   "hops": [
+    {
+     "id": "fuggle",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 20,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "english_ale",
+   "water": "dark",
+   "adjuncts": [],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 7,
+   "maturationDays": 10,
+   "carbonation": 2.1,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "american_porter",
+  "name": "American Porter",
+  "nameZh": "美式波特",
+  "family": "porter",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "American",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.8,
+   "max": 6.2
+  },
+  "ibu": {
+   "min": 25,
+   "max": 45
+  },
+  "color": {
+   "min": 22,
+   "max": 35
+  },
+  "bitterness": 2.9,
+  "sweetness": 2.3,
+  "body": 2.1,
+  "malt": 2.4,
+  "caramel": 1.4,
+  "roast": 3.1,
+  "hopAroma": 1.9,
+  "fruity": 0.7,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.8,
+  "tags": [
+   "美式",
+   "巧克力",
+   "酒花",
+   "烘烤"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_60",
+   "chocolate_malt",
+   "cascade",
+   "centennial",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "robust_porter",
+   "english_porter",
+   "american_stout"
+  ],
+  "requirements": [
+   {
+    "type": "malt",
+    "in": [
+     "chocolate_malt",
+     "black_malt",
+     "brown_malt"
+    ],
+    "minShare": 0.05,
+    "hint": "需要巧克力等烘烤麦芽。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "usa"
+    ],
+    "minShare": 0.6,
+    "soft": true,
+    "hint": "使用美国酒花。"
+   }
+  ],
+  "aromas": [
+   "chocolate",
+   "coffee",
+   "citrus",
+   "caramel"
+  ],
+  "glass": "shaker",
+  "servingTemp": 10,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它是英式波特漂洋过海后的样子。",
+   "巧克力麦芽之上能闻到美国酒花。",
+   "比英式的更苦一些。",
+   "发酵干净，没有太多酯香。"
+  ],
+  "description": "美国精酿酒厂重新诠释的波特：更高的酒精与苦度，用美国酒花在巧克力与焦糖之上添一抹柑橘松针。干净的美式酵母让麦芽层次清晰。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.4
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.4
+    }
+   ],
+   "hops": [
+    {
+     "id": "centennial",
+     "grams": 25,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "cascade",
+     "grams": 30,
+     "use": "boil",
+     "time": 10
+    },
+    {
+     "id": "cascade",
+     "grams": 30,
+     "use": "whirlpool"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "dark",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 60,
+   "fermentTemp": 18,
+   "fermentDays": 7,
+   "maturationDays": 10,
+   "carbonation": 2.3,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "robust_porter",
+  "name": "Robust Porter",
+  "nameZh": "浓烈波特",
+  "family": "porter",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "American",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 6,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 35,
+   "max": 60
+  },
+  "color": {
+   "min": 28,
+   "max": 42
+  },
+  "bitterness": 3.1,
+  "sweetness": 3.5,
+  "body": 2.9,
+  "malt": 3.1,
+  "caramel": 1.5,
+  "roast": 3.9,
+  "hopAroma": 0.5,
+  "fruity": 0.5,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.8,
+  "haze": 0.8,
+  "tags": [
+   "浓烈",
+   "黑麦芽",
+   "烘烤",
+   "苦"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "munich_malt",
+   "crystal_60",
+   "chocolate_malt",
+   "black_malt",
+   "chinook"
+  ],
+  "relatedStyles": [
+   "american_porter",
+   "american_stout",
+   "baltic_porter"
+  ],
+  "requirements": [
+   {
+    "type": "malt",
+    "in": [
+     "black_malt"
+    ],
+    "minShare": 0.02,
+    "hint": "加一点黑麦芽带来锐利的焦苦。"
+   },
+   {
+    "type": "malt",
+    "in": [
+     "chocolate_malt"
+    ],
+    "minShare": 0.04,
+    "soft": true,
+    "hint": "巧克力麦芽是骨架。"
+   }
+  ],
+  "aromas": [
+   "roast",
+   "chocolate",
+   "coffee",
+   "caramel"
+  ],
+  "glass": "nonic",
+  "servingTemp": 11,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它比普通波特更强壮。",
+   "一点点黑麦芽带来焦苦的边缘。",
+   "颜色几乎是黑色。",
+   "苦度明显，酒精也更高。"
+  ],
+  "description": "强壮型的波特，用更多烘烤麦芽和少量黑麦芽带出焦苦锐利的边缘。酒体饱满，巧克力、咖啡与焦糖层层叠加，苦度扎实。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.8
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.6
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.45
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.4
+    },
+    {
+     "id": "black_malt",
+     "kg": 0.15
+    }
+   ],
+   "hops": [
+    {
+     "id": "chinook",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "centennial",
+     "grams": 25,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "dark",
+   "adjuncts": [],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 18,
+   "fermentDays": 8,
+   "maturationDays": 14,
+   "carbonation": 2.3,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "baltic_porter",
+  "name": "Baltic Porter",
+  "nameZh": "波罗的海波特",
+  "family": "porter",
+  "alsoIn": [
+   "lager"
+  ],
+  "group": "Baltic",
+  "country": [
+   "baltic",
+   "poland"
+  ],
+  "fermentation": "lager",
+  "abv": {
+   "min": 6.5,
+   "max": 9.5
+  },
+  "ibu": {
+   "min": 20,
+   "max": 40
+  },
+  "color": {
+   "min": 17,
+   "max": 30
+  },
+  "bitterness": 1.6,
+  "sweetness": 3.7,
+  "body": 3.1,
+  "malt": 4.7,
+  "caramel": 1.6,
+  "roast": 1.9,
+  "hopAroma": 0.2,
+  "fruity": 0.1,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 1.6,
+  "haze": 0.4,
+  "tags": [
+   "底层发酵",
+   "烈性",
+   "李子干",
+   "甘草"
+  ],
+  "ingredients": [
+   "munich_malt",
+   "pale_malt",
+   "caramunich",
+   "chocolate_malt",
+   "german_lager",
+   "perle"
+  ],
+  "relatedStyles": [
+   "english_porter",
+   "imperial_stout",
+   "doppelbock"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "使用拉格酵母。"
+   },
+   {
+    "type": "process",
+    "in": [
+     "lagering"
+    ],
+    "hint": "需要长时间低温熟成。"
+   }
+  ],
+  "aromas": [
+   "dark_fruit",
+   "chocolate",
+   "caramel",
+   "warming"
+  ],
+  "glass": "snifter",
+  "servingTemp": 10,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "它来自寒冷的波罗的海沿岸。",
+   "虽是波特，却用拉格酵母低温发酵。",
+   "酒精度很高，口感却很顺滑。",
+   "要在低温下熟成很久。"
+  ],
+  "description": "英国烈性波特出口到波罗的海诸国后，被当地酒厂改用拉格酵母低温酿造的版本。顺滑无酯，焦糖、李子干与黑巧克力交织，酒精温暖却不扎口。",
+  "example": {
+   "malts": [
+    {
+     "id": "munich_malt",
+     "kg": 3.2
+    },
+    {
+     "id": "pale_malt",
+     "kg": 3.6
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.5
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.3
+    }
+   ],
+   "hops": [
+    {
+     "id": "perle",
+     "grams": 25,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 15,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "german_lager",
+   "water": "dark",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 11,
+   "fermentDays": 18,
+   "maturationDays": 60,
+   "carbonation": 2.4,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "historical_porter",
+  "name": "Historical Porter",
+  "nameZh": "古法波特",
+  "family": "porter",
+  "alsoIn": [
+   "historical"
+  ],
+  "group": "Historical",
+  "country": [
+   "uk"
+  ],
+  "region": "London",
+  "fermentation": "ale",
+  "abv": {
+   "min": 5,
+   "max": 7
+  },
+  "ibu": {
+   "min": 30,
+   "max": 55
+  },
+  "color": {
+   "min": 20,
+   "max": 35
+  },
+  "bitterness": 2.6,
+  "sweetness": 2.9,
+  "body": 2.6,
+  "malt": 3.6,
+  "caramel": 0,
+  "roast": 3.7,
+  "hopAroma": 0.2,
+  "fruity": 1.2,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.3,
+  "tags": [
+   "十八世纪",
+   "棕色麦芽",
+   "大桶陈放",
+   "复古"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "brown_malt",
+   "black_malt",
+   "east_kent_goldings",
+   "fuggle",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "english_porter",
+   "pre_prohibition_porter",
+   "smoked_porter"
+  ],
+  "requirements": [
+   {
+    "type": "malt",
+    "in": [
+     "brown_malt"
+    ],
+    "minShare": 0.12,
+    "hint": "棕色麦芽要占相当大的比例。"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "uk"
+    ],
+    "minShare": 0.7,
+    "soft": true,
+    "hint": "使用英国酒花。"
+   }
+  ],
+  "aromas": [
+   "toast",
+   "roast",
+   "smoke",
+   "earthy"
+  ],
+  "glass": "nonic",
+  "servingTemp": 12,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它重现了工业革命时期伦敦的配方。",
+   "大量使用一种木柴烘干的棕色麦芽。",
+   "苦度比现代波特高。",
+   "那时候的酒要在大木槽里放很久。"
+  ],
+  "description": "按照十八、十九世纪伦敦酒厂档案复原的波特，大量使用棕色麦芽，带来干燥的烤面包与淡淡烟火感。酒花苦度高，酒体偏干，透着旧时代的粗犷。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.3
+    },
+    {
+     "id": "brown_malt",
+     "kg": 0.85
+    },
+    {
+     "id": "black_malt",
+     "kg": 0.12
+    }
+   ],
+   "hops": [
+    {
+     "id": "fuggle",
+     "grams": 45,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 30,
+     "use": "boil",
+     "time": 30
+    }
+   ],
+   "yeast": "english_ale",
+   "water": "dark",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 19,
+   "fermentDays": 8,
+   "maturationDays": 28,
+   "carbonation": 2,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "irish_stout",
+  "name": "Irish Stout",
+  "nameZh": "爱尔兰世涛",
+  "family": "stout",
+  "alsoIn": [
+   "scottishIrish"
+  ],
+  "group": "Irish",
+  "country": [
+   "ireland"
+  ],
+  "region": "Dublin",
+  "fermentation": "ale",
+  "abv": {
+   "min": 3.8,
+   "max": 5
+  },
+  "ibu": {
+   "min": 25,
+   "max": 45
+  },
+  "color": {
+   "min": 25,
+   "max": 40
+  },
+  "bitterness": 2.3,
+  "sweetness": 1.5,
+  "body": 2.3,
+  "malt": 2.2,
+  "caramel": 0,
+  "roast": 4.2,
+  "hopAroma": 0.1,
+  "fruity": 0.8,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 1.2,
+  "tags": [
+   "干爽",
+   "烘烤大麦",
+   "酒体轻",
+   "奶油泡沫"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "roasted_barley",
+   "flaked_oats",
+   "east_kent_goldings",
+   "irish_ale"
+  ],
+  "relatedStyles": [
+   "irish_extra_stout",
+   "oatmeal_stout",
+   "english_porter"
+  ],
+  "requirements": [
+   {
+    "type": "malt",
+    "in": [
+     "roasted_barley"
+    ],
+    "minShare": 0.07,
+    "hint": "烘烤大麦是爱尔兰世涛的灵魂。"
+   },
+   {
+    "type": "carbonation",
+    "max": 2.3,
+    "soft": true,
+    "hint": "碳酸要低，口感更绵柔。"
+   }
+  ],
+  "aromas": [
+   "roast",
+   "coffee",
+   "grain",
+   "chocolate"
+  ],
+  "glass": "nonic",
+  "servingTemp": 7,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它来自都柏林。",
+   "几乎是黑色的，泡沫却雪白。",
+   "烘烤大麦带来咖啡般的干苦。",
+   "酒精不高，口感意外地轻。"
+  ],
+  "description": "都柏林的国民啤酒，以未发芽的烘烤大麦带来咖啡般的干燥焦苦。酒体轻、酒精低，配合低碳酸或氮气打出的绵密白色泡沫。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 3.3
+    },
+    {
+     "id": "flaked_oats",
+     "kg": 0.3
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.4
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 45,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "irish_ale",
+   "water": "dark",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 7,
+   "maturationDays": 7,
+   "carbonation": 1.9,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "irish_extra_stout",
+  "name": "Irish Extra Stout",
+  "nameZh": "爱尔兰加强世涛",
+  "family": "stout",
+  "alsoIn": [
+   "scottishIrish"
+  ],
+  "group": "Irish",
+  "country": [
+   "ireland"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5.5,
+   "max": 6.5
+  },
+  "ibu": {
+   "min": 35,
+   "max": 50
+  },
+  "color": {
+   "min": 30,
+   "max": 45
+  },
+  "bitterness": 2.7,
+  "sweetness": 2.7,
+  "body": 2.4,
+  "malt": 2.9,
+  "caramel": 0,
+  "roast": 4.9,
+  "hopAroma": 0.1,
+  "fruity": 0.8,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.3,
+  "haze": 0.6,
+  "tags": [
+   "烘烤大麦",
+   "加强",
+   "黑巧克力",
+   "干爽"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "roasted_barley",
+   "chocolate_malt",
+   "east_kent_goldings",
+   "irish_ale"
+  ],
+  "relatedStyles": [
+   "irish_stout",
+   "foreign_extra_stout",
+   "american_stout"
+  ],
+  "requirements": [
+   {
+    "type": "malt",
+    "in": [
+     "roasted_barley"
+    ],
+    "minShare": 0.07,
+    "hint": "烘烤大麦是爱尔兰世涛的灵魂。"
+   }
+  ],
+  "aromas": [
+   "roast",
+   "coffee",
+   "chocolate",
+   "grain"
+  ],
+  "glass": "nonic",
+  "servingTemp": 9,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它是爱尔兰世涛的加强版。",
+   "酒体比普通版更饱满。",
+   "烘烤大麦仍是主角，还多了黑巧克力。",
+   "酒精略高，但没有出口版那么烈。"
+  ],
+  "description": "比日常爱尔兰世涛更浓郁的版本，酒精与酒体都更充足。烘烤大麦的咖啡焦苦之外还有黑巧克力，收口依然干爽。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 5
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.45
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.1
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 70,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "irish_ale",
+   "water": "dark",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 8,
+   "maturationDays": 10,
+   "carbonation": 2.1,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "sweet_stout",
+  "name": "Sweet Stout",
+  "nameZh": "甜世涛",
+  "family": "stout",
+  "alsoIn": [
+   "british"
+  ],
+  "group": "British",
+  "country": [
+   "uk"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 4,
+   "max": 6
+  },
+  "ibu": {
+   "min": 20,
+   "max": 40
+  },
+  "color": {
+   "min": 30,
+   "max": 45
+  },
+  "bitterness": 1.7,
+  "sweetness": 5,
+  "body": 5,
+  "malt": 3.3,
+  "caramel": 1.8,
+  "roast": 4.6,
+  "hopAroma": 0.1,
+  "fruity": 1.2,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.3,
+  "tags": [
+   "甜",
+   "焦糖",
+   "奶油",
+   "低苦"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_60",
+   "chocolate_malt",
+   "roasted_barley",
+   "maltodextrin",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "milk_stout",
+   "oatmeal_stout",
+   "tropical_stout"
+  ],
+  "requirements": [
+   {
+    "type": "maltShare",
+    "category": "caramel",
+    "min": 0.08,
+    "hint": "焦糖麦芽要多一些。"
+   },
+   {
+    "type": "noAdjunctCategory",
+    "in": [
+     "dairy"
+    ],
+    "soft": true,
+    "hint": "甜味来自麦芽而非乳糖。"
+   }
+  ],
+  "aromas": [
+   "chocolate",
+   "caramel",
+   "toffee",
+   "roast"
+  ],
+  "glass": "nonic",
+  "servingTemp": 10,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它是世涛里最甜的一类。",
+   "高温糖化留下很多残糖。",
+   "焦糖与巧克力像甜点一样。",
+   "苦味被甜味压得很低。"
+  ],
+  "description": "英国传统的甜型世涛，靠高温糖化、焦糖麦芽和不可发酵的糊精留下丰富残糖。口感像加奶咖啡和巧克力酱，烘烤感圆润，苦度低。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 3.9
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.5
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.4
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.15
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 42,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "english_ale",
+   "water": "dark",
+   "adjuncts": [
+    {
+     "id": "maltodextrin",
+     "grams": 250,
+     "stage": "boil"
+    }
+   ],
+   "mashTemp": 69,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 7,
+   "maturationDays": 10,
+   "carbonation": 2.1,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "milk_stout",
+  "name": "Milk Stout",
+  "nameZh": "牛奶世涛",
+  "family": "stout",
+  "alsoIn": [
+   "british"
+  ],
+  "group": "British",
+  "country": [
+   "uk"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 4,
+   "max": 6
+  },
+  "ibu": {
+   "min": 20,
+   "max": 40
+  },
+  "color": {
+   "min": 30,
+   "max": 45
+  },
+  "bitterness": 1.6,
+  "sweetness": 5,
+  "body": 4.6,
+  "malt": 3.4,
+  "caramel": 1.1,
+  "roast": 4.6,
+  "hopAroma": 0.1,
+  "fruity": 1.2,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.3,
+  "tags": [
+   "乳糖",
+   "甜",
+   "奶油",
+   "咖啡牛奶"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_60",
+   "chocolate_malt",
+   "roasted_barley",
+   "lactose",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "sweet_stout",
+   "oatmeal_stout",
+   "pastry_stout"
+  ],
+  "requirements": [
+   {
+    "type": "adjunct",
+    "in": [
+     "lactose"
+    ],
+    "hint": "加入乳糖。"
+   }
+  ],
+  "aromas": [
+   "chocolate",
+   "cream",
+   "coffee",
+   "caramel"
+  ],
+  "glass": "nonic",
+  "servingTemp": 10,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "以前人们把它当作营养品。",
+   "里面加了一种酵母吃不掉的糖。",
+   "这种糖来自牛奶。",
+   "喝起来像一杯拿铁。"
+  ],
+  "description": "二十世纪初英国曾作为“滋补品”销售的世涛，加入酵母无法发酵的乳糖。甜润、奶油感十足，像咖啡拿铁配黑巧克力。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 3.8
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.3
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.4
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.12
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 42,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "english_ale",
+   "water": "dark",
+   "adjuncts": [
+    {
+     "id": "lactose",
+     "grams": 450,
+     "stage": "boil"
+    }
+   ],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 7,
+   "maturationDays": 10,
+   "carbonation": 2.1,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "oatmeal_stout",
+  "name": "Oatmeal Stout",
+  "nameZh": "燕麦世涛",
+  "family": "stout",
+  "alsoIn": [
+   "british"
+  ],
+  "group": "British",
+  "country": [
+   "uk"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.2,
+   "max": 6
+  },
+  "ibu": {
+   "min": 25,
+   "max": 40
+  },
+  "color": {
+   "min": 22,
+   "max": 40
+  },
+  "bitterness": 2.1,
+  "sweetness": 3.2,
+  "body": 4.1,
+  "malt": 2.9,
+  "caramel": 0.9,
+  "roast": 4.1,
+  "hopAroma": 0.1,
+  "fruity": 1.2,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 1.3,
+  "tags": [
+   "燕麦",
+   "丝滑",
+   "巧克力",
+   "咖啡"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "flaked_oats",
+   "chocolate_malt",
+   "roasted_barley",
+   "crystal_60",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "sweet_stout",
+   "irish_stout",
+   "milk_stout"
+  ],
+  "requirements": [
+   {
+    "type": "maltShare",
+    "category": "oat",
+    "min": 0.08,
+    "hint": "燕麦至少占一成左右。"
+   }
+  ],
+  "aromas": [
+   "chocolate",
+   "coffee",
+   "grain",
+   "bread"
+  ],
+  "glass": "nonic",
+  "servingTemp": 10,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它的口感像丝绸一样顺滑。",
+   "早餐谷物也能进酒里。",
+   "燕麦带来饱满的酒体。",
+   "烘烤味适中，像加奶咖啡。"
+  ],
+  "description": "加入燕麦片酿造的世涛，十九世纪末同样被视为营养饮品。燕麦带来丝滑饱满的口感，巧克力与咖啡香温和，甜苦平衡。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 3.6
+    },
+    {
+     "id": "flaked_oats",
+     "kg": 0.6
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.25
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.35
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.15
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 48,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "english_ale",
+   "water": "dark",
+   "adjuncts": [],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 7,
+   "maturationDays": 10,
+   "carbonation": 2.1,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "american_stout",
+  "name": "American Stout",
+  "nameZh": "美式世涛",
+  "family": "stout",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "American",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5,
+   "max": 7
+  },
+  "ibu": {
+   "min": 35,
+   "max": 75
+  },
+  "color": {
+   "min": 35,
+   "max": 50
+  },
+  "bitterness": 3.1,
+  "sweetness": 2.8,
+  "body": 2.4,
+  "malt": 2.7,
+  "caramel": 1.1,
+  "roast": 5,
+  "hopAroma": 3.2,
+  "fruity": 0.9,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.6,
+  "haze": 1,
+  "tags": [
+   "美式酒花",
+   "烘烤",
+   "咖啡",
+   "苦"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_60",
+   "chocolate_malt",
+   "roasted_barley",
+   "black_malt",
+   "centennial",
+   "cascade"
+  ],
+  "relatedStyles": [
+   "american_porter",
+   "irish_extra_stout",
+   "coffee_stout"
+  ],
+  "requirements": [
+   {
+    "type": "hopOrigin",
+    "in": [
+     "usa"
+    ],
+    "minShare": 0.6,
+    "hint": "使用美国酒花。"
+   },
+   {
+    "type": "malt",
+    "in": [
+     "roasted_barley",
+     "black_malt",
+     "chocolate_malt"
+    ],
+    "minShare": 0.1,
+    "soft": true,
+    "hint": "烘烤麦芽要足够多。"
+   }
+  ],
+  "aromas": [
+   "roast",
+   "coffee",
+   "citrus",
+   "pine"
+  ],
+  "glass": "shaker",
+  "servingTemp": 9,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它是黑色的，却闻得到柑橘和松针。",
+   "烘烤与酒花都很强烈。",
+   "用的是美国酒花。",
+   "苦度比英式世涛高得多。"
+  ],
+  "description": "美国精酿版的世涛，浓重的咖啡与黑巧克力烘烤之上叠加大量美国酒花的柑橘与松脂。酒体中等偏饱满，收口苦而干。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.8
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.35
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.35
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.25
+    },
+    {
+     "id": "black_malt",
+     "kg": 0.12
+    }
+   ],
+   "hops": [
+    {
+     "id": "centennial",
+     "grams": 35,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "cascade",
+     "grams": 30,
+     "use": "boil",
+     "time": 10
+    },
+    {
+     "id": "centennial",
+     "grams": 30,
+     "use": "whirlpool"
+    },
+    {
+     "id": "cascade",
+     "grams": 40,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "dark",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 60,
+   "fermentTemp": 18,
+   "fermentDays": 8,
+   "maturationDays": 10,
+   "carbonation": 2.3,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "foreign_extra_stout",
+  "name": "Foreign Extra Stout",
+  "nameZh": "外销加强世涛",
+  "family": "stout",
+  "group": "Export",
+  "country": [
+   "ireland"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 6.3,
+   "max": 8
+  },
+  "ibu": {
+   "min": 50,
+   "max": 70
+  },
+  "color": {
+   "min": 35,
+   "max": 50
+  },
+  "bitterness": 3.4,
+  "sweetness": 3.6,
+  "body": 3,
+  "malt": 3.1,
+  "caramel": 0.9,
+  "roast": 5,
+  "hopAroma": 0.5,
+  "fruity": 0.8,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 1,
+  "haze": 0.6,
+  "tags": [
+   "出口",
+   "烘烤",
+   "高苦",
+   "酒精温热"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "roasted_barley",
+   "crystal_60",
+   "black_malt",
+   "target",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "irish_extra_stout",
+   "tropical_stout",
+   "imperial_stout"
+  ],
+  "requirements": [
+   {
+    "type": "malt",
+    "in": [
+     "roasted_barley"
+    ],
+    "minShare": 0.07,
+    "hint": "烘烤大麦是传统骨架。",
+    "soft": true
+   }
+  ],
+  "aromas": [
+   "roast",
+   "coffee",
+   "dark_fruit",
+   "chocolate"
+  ],
+  "glass": "tulip",
+  "servingTemp": 10,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它是为了远洋出口而酿的。",
+   "更多酒精和酒花才能经得起长途航行。",
+   "烘烤大麦依然是主角。",
+   "苦味强劲、收口干。"
+  ],
+  "description": "爱尔兰与英国酒厂为热带殖民地和远洋航线酿造的出口世涛，靠更高的酒精与酒花苦度保存。焦苦咖啡、黑巧克力与一丝深色果味，干而有力。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 5.8
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.3
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.55
+    },
+    {
+     "id": "black_malt",
+     "kg": 0.1
+    }
+   ],
+   "hops": [
+    {
+     "id": "target",
+     "grams": 50,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 30,
+     "use": "boil",
+     "time": 20
+    }
+   ],
+   "yeast": "irish_ale",
+   "water": "dark",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 9,
+   "maturationDays": 14,
+   "carbonation": 2.3,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "tropical_stout",
+  "name": "Tropical Stout",
+  "nameZh": "热带世涛",
+  "family": "stout",
+  "group": "Export",
+  "country": [
+   "caribbean"
+  ],
+  "region": "Jamaica / Sri Lanka",
+  "fermentation": "ale",
+  "abv": {
+   "min": 5.5,
+   "max": 8
+  },
+  "ibu": {
+   "min": 30,
+   "max": 50
+  },
+  "color": {
+   "min": 30,
+   "max": 45
+  },
+  "bitterness": 2.4,
+  "sweetness": 4.7,
+  "body": 3.1,
+  "malt": 3,
+  "caramel": 3.5,
+  "roast": 5,
+  "hopAroma": 0,
+  "fruity": 1.5,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.7,
+  "haze": 0.3,
+  "tags": [
+   "甜",
+   "果香",
+   "糖蜜",
+   "热带"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_120",
+   "chocolate_malt",
+   "black_malt",
+   "molasses",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "foreign_extra_stout",
+   "sweet_stout",
+   "imperial_stout"
+  ],
+  "requirements": [
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "sugar"
+    ],
+    "min": 5,
+    "hint": "加入糖蜜或红糖等糖类。"
+   }
+  ],
+  "aromas": [
+   "molasses",
+   "dark_fruit",
+   "chocolate",
+   "caramel"
+  ],
+  "glass": "tulip",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它在加勒比海和斯里兰卡的炎热港口里流行。",
+   "比出口世涛更甜、更果香。",
+   "常用糖蜜或蔗糖补充糖分。",
+   "温暖发酵带出果香酯。"
+  ],
+  "description": "在加勒比海、西非与南亚热带地区酿造的出口型世涛，甜度高、苦度低。糖蜜与焦糖带来朗姆般的甜感，温暖发酵产生明显的果香酯。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.8
+    },
+    {
+     "id": "crystal_120",
+     "kg": 0.35
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.35
+    },
+    {
+     "id": "black_malt",
+     "kg": 0.18
+    }
+   ],
+   "hops": [
+    {
+     "id": "target",
+     "grams": 35,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "english_ale",
+   "water": "dark",
+   "adjuncts": [
+    {
+     "id": "molasses",
+     "grams": 300,
+     "stage": "boil"
+    },
+    {
+     "id": "brown_sugar",
+     "grams": 300,
+     "stage": "boil"
+    }
+   ],
+   "mashTemp": 68,
+   "boilTime": 60,
+   "fermentTemp": 21,
+   "fermentDays": 8,
+   "maturationDays": 14,
+   "carbonation": 2.4,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "imperial_stout",
+  "name": "Imperial Stout",
+  "nameZh": "帝国世涛",
+  "family": "stout",
+  "alsoIn": [
+   "strongAle"
+  ],
+  "group": "Imperial",
+  "country": [
+   "uk",
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 8,
+   "max": 10
+  },
+  "ibu": {
+   "min": 50,
+   "max": 80
+  },
+  "color": {
+   "min": 35,
+   "max": 60
+  },
+  "bitterness": 3.1,
+  "sweetness": 4.6,
+  "body": 3.8,
+  "malt": 3.5,
+  "caramel": 1.4,
+  "roast": 5,
+  "hopAroma": 0.5,
+  "fruity": 0.4,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 2,
+  "haze": 0.8,
+  "tags": [
+   "烈性",
+   "浓郁",
+   "黑巧克力",
+   "陈放"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_120",
+   "chocolate_malt",
+   "roasted_barley",
+   "black_malt",
+   "magnum",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "russian_imperial_stout",
+   "barrel_aged_stout",
+   "baltic_porter"
+  ],
+  "requirements": [
+   {
+    "type": "malt",
+    "in": [
+     "roasted_barley",
+     "black_malt",
+     "chocolate_malt"
+    ],
+    "minShare": 0.08,
+    "soft": true,
+    "hint": "足量的烘烤麦芽。"
+   }
+  ],
+  "aromas": [
+   "chocolate",
+   "roast",
+   "coffee",
+   "dark_fruit",
+   "warming"
+  ],
+  "glass": "snifter",
+  "servingTemp": 12,
+  "freshness": "aging",
+  "discovery": "open",
+  "clues": [
+   "这是世涛中的重量级。",
+   "酒精度很高，适合慢慢啜饮。",
+   "黑巧克力、咖啡和深色水果层层叠加。",
+   "放上一两年会更好喝。"
+  ],
+  "description": "最浓郁的世涛类型之一，酒体厚重、酒精温热。黑巧克力、浓缩咖啡、焦糖与深色水果层层展开，适合在小杯中慢慢品饮，也耐得住陈放。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 7.2
+    },
+    {
+     "id": "crystal_120",
+     "kg": 0.4
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.45
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.35
+    },
+    {
+     "id": "black_malt",
+     "kg": 0.12
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 48,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 30,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "dark",
+   "adjuncts": [],
+   "mashTemp": 67,
+   "boilTime": 90,
+   "fermentTemp": 18,
+   "fermentDays": 14,
+   "maturationDays": 45,
+   "carbonation": 2,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "russian_imperial_stout",
+  "name": "Russian Imperial Stout",
+  "nameZh": "俄罗斯帝国世涛",
+  "family": "stout",
+  "alsoIn": [
+   "strongAle"
+  ],
+  "group": "Imperial",
+  "country": [
+   "uk"
+  ],
+  "region": "London → St. Petersburg",
+  "fermentation": "ale",
+  "abv": {
+   "min": 10,
+   "max": 13
+  },
+  "ibu": {
+   "min": 60,
+   "max": 100
+  },
+  "color": {
+   "min": 40,
+   "max": 80
+  },
+  "bitterness": 3.4,
+  "sweetness": 5,
+  "body": 4.5,
+  "malt": 3.8,
+  "caramel": 1.4,
+  "roast": 5,
+  "hopAroma": 0.4,
+  "fruity": 0.4,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 3.1,
+  "haze": 0.8,
+  "tags": [
+   "沙皇",
+   "极烈",
+   "焦苦",
+   "陈放"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_120",
+   "chocolate_malt",
+   "roasted_barley",
+   "black_malt",
+   "warrior",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "imperial_stout",
+   "barrel_aged_stout",
+   "baltic_porter"
+  ],
+  "requirements": [
+   {
+    "type": "malt",
+    "in": [
+     "roasted_barley",
+     "black_malt"
+    ],
+    "minShare": 0.08,
+    "hint": "需要大量烘烤大麦或黑麦芽。"
+   }
+  ],
+  "aromas": [
+   "roast",
+   "coffee",
+   "dark_fruit",
+   "chocolate",
+   "warming"
+  ],
+  "glass": "snifter",
+  "servingTemp": 13,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "据说它是为俄国宫廷酿造的。",
+   "要经得起穿越波罗的海的寒冷航程。",
+   "酒精度超过 10%。",
+   "焦苦、厚重，苦度极高。"
+  ],
+  "description": "十八世纪伦敦酒厂为俄国宫廷酿造的极烈世涛，传说深受叶卡捷琳娜大帝喜爱。酒精超过 10%，焦苦烘烤、浓缩咖啡与黑醋栗般的深色果味浓烈而厚重。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 8.4
+    },
+    {
+     "id": "crystal_120",
+     "kg": 0.45
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.5
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.65
+    },
+    {
+     "id": "black_malt",
+     "kg": 0.3
+    }
+   ],
+   "hops": [
+    {
+     "id": "warrior",
+     "grams": 60,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "target",
+     "grams": 30,
+     "use": "boil",
+     "time": 20
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "dark",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 18,
+   "fermentDays": 16,
+   "maturationDays": 60,
+   "carbonation": 1.9,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "coffee_stout",
+  "name": "Coffee Stout",
+  "nameZh": "咖啡世涛",
+  "family": "stout",
+  "alsoIn": [
+   "spice"
+  ],
+  "group": "Flavored",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5,
+   "max": 8
+  },
+  "ibu": {
+   "min": 30,
+   "max": 55
+  },
+  "color": {
+   "min": 30,
+   "max": 45
+  },
+  "bitterness": 2.8,
+  "sweetness": 2.9,
+  "body": 2.5,
+  "malt": 2.6,
+  "caramel": 1.1,
+  "roast": 5,
+  "hopAroma": 0.3,
+  "fruity": 0.4,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.4,
+  "haze": 0.8,
+  "tags": [
+   "咖啡豆",
+   "浓缩咖啡",
+   "烘烤",
+   "早餐"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "chocolate_malt",
+   "roasted_barley",
+   "coffee_beans",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "american_stout",
+   "chocolate_stout",
+   "imperial_stout"
+  ],
+  "requirements": [
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "coffee"
+    ],
+    "min": 3,
+    "hint": "需要加入足量咖啡豆。"
+   }
+  ],
+  "aromas": [
+   "coffee",
+   "roast",
+   "chocolate",
+   "caramel"
+  ],
+  "glass": "tulip",
+  "servingTemp": 10,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它闻起来像一杯刚做好的手冲。",
+   "真正的咖啡被放进了酒里。",
+   "最好在发酵后冷泡加入。",
+   "新鲜的时候咖啡香最浓。"
+  ],
+  "description": "在世涛中加入咖啡豆冷浸的美式风格，与当地烘焙坊合作是精酿酒厂的常见玩法。烘烤麦芽与新鲜咖啡相互放大，浓缩咖啡香气扑鼻。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.6
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.35
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.4
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.25
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 20,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 20,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "dark",
+   "adjuncts": [
+    {
+     "id": "coffee_beans",
+     "grams": 150,
+     "stage": "secondary"
+    }
+   ],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 18,
+   "fermentDays": 8,
+   "maturationDays": 14,
+   "carbonation": 2.2,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "chocolate_stout",
+  "name": "Chocolate Stout",
+  "nameZh": "巧克力世涛",
+  "family": "stout",
+  "alsoIn": [
+   "spice"
+  ],
+  "group": "Flavored",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5,
+   "max": 8
+  },
+  "ibu": {
+   "min": 25,
+   "max": 50
+  },
+  "color": {
+   "min": 30,
+   "max": 45
+  },
+  "bitterness": 2.7,
+  "sweetness": 3,
+  "body": 2.5,
+  "malt": 2.6,
+  "caramel": 1.3,
+  "roast": 5,
+  "hopAroma": 0.3,
+  "fruity": 0.4,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.4,
+  "haze": 0.8,
+  "tags": [
+   "可可",
+   "巧克力",
+   "甜点",
+   "丝滑"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "chocolate_malt",
+   "crystal_60",
+   "cacao_nibs",
+   "cocoa_powder",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "coffee_stout",
+   "pastry_stout",
+   "milk_stout"
+  ],
+  "requirements": [
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "cacao"
+    ],
+    "min": 3,
+    "hint": "需要加入可可碎粒或可可粉。"
+   }
+  ],
+  "aromas": [
+   "chocolate",
+   "roast",
+   "caramel",
+   "vanilla"
+  ],
+  "glass": "tulip",
+  "servingTemp": 10,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它的名字直接告诉你主角是什么。",
+   "光靠巧克力麦芽还不够。",
+   "要加入真正的可可。",
+   "可可碎粒最好在发酵后浸泡。"
+  ],
+  "description": "除了巧克力麦芽，还加入可可碎粒或可可粉强化巧克力风味的世涛。黑巧克力与可可脂的香气浓郁，烘烤柔和，像液体布朗尼。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.6
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.4
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.5
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.1
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 20,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 20,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "dark",
+   "adjuncts": [
+    {
+     "id": "cacao_nibs",
+     "grams": 150,
+     "stage": "secondary"
+    }
+   ],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 18,
+   "fermentDays": 8,
+   "maturationDays": 14,
+   "carbonation": 2.2,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "vanilla_stout",
+  "name": "Vanilla Stout",
+  "nameZh": "香草世涛",
+  "family": "stout",
+  "alsoIn": [
+   "spice"
+  ],
+  "group": "Flavored",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5,
+   "max": 8
+  },
+  "ibu": {
+   "min": 25,
+   "max": 50
+  },
+  "color": {
+   "min": 30,
+   "max": 45
+  },
+  "bitterness": 2.2,
+  "sweetness": 4.8,
+  "body": 2.5,
+  "malt": 2.6,
+  "caramel": 1.1,
+  "roast": 5,
+  "hopAroma": 0.3,
+  "fruity": 0.4,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0.5,
+  "alcohol": 0.4,
+  "haze": 0.8,
+  "tags": [
+   "香草荚",
+   "甜",
+   "奶油",
+   "烘烤"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "chocolate_malt",
+   "crystal_60",
+   "vanilla_bean",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "pastry_stout",
+   "chocolate_stout",
+   "milk_stout"
+  ],
+  "requirements": [
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "vanilla"
+    ],
+    "hint": "加入香草荚。"
+   },
+   {
+    "type": "noAdjunctCategory",
+    "in": [
+     "dairy"
+    ],
+    "soft": true,
+    "hint": "不需要乳糖，让香草自己说话。"
+   }
+  ],
+  "aromas": [
+   "vanilla",
+   "chocolate",
+   "roast",
+   "cream"
+  ],
+  "glass": "tulip",
+  "servingTemp": 10,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它闻起来像冰淇淋。",
+   "一种来自兰花的豆荚。",
+   "剖开浸泡在熟成的酒里。",
+   "甜感来自香料，而不是糖。"
+  ],
+  "description": "以香草荚浸泡的世涛，香草的甜美与烘烤麦芽的咖啡巧克力香相得益彰。口感圆润带奶油感，像一杯黑巧克力香草拿铁。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.6
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.35
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.4
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.25
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 20,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 20,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "dark",
+   "adjuncts": [
+    {
+     "id": "vanilla_bean",
+     "grams": 10,
+     "stage": "secondary"
+    }
+   ],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 18,
+   "fermentDays": 8,
+   "maturationDays": 14,
+   "carbonation": 2.2,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "coconut_stout",
+  "name": "Coconut Stout",
+  "nameZh": "椰子世涛",
+  "family": "stout",
+  "alsoIn": [
+   "experimental"
+  ],
+  "group": "Flavored",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5,
+   "max": 9
+  },
+  "ibu": {
+   "min": 25,
+   "max": 50
+  },
+  "color": {
+   "min": 30,
+   "max": 45
+  },
+  "bitterness": 2.3,
+  "sweetness": 3.5,
+  "body": 3.7,
+  "malt": 2.6,
+  "caramel": 1,
+  "roast": 4.6,
+  "hopAroma": 0.3,
+  "fruity": 1.9,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.5,
+  "haze": 1.3,
+  "tags": [
+   "烤椰子",
+   "热带",
+   "甜点",
+   "烘烤"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "chocolate_malt",
+   "flaked_oats",
+   "coconut",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "vanilla_stout",
+   "pastry_stout",
+   "tropical_stout"
+  ],
+  "requirements": [
+   {
+    "type": "adjunct",
+    "in": [
+     "coconut"
+    ],
+    "hint": "加入烤椰子。"
+   }
+  ],
+  "aromas": [
+   "coconut",
+   "chocolate",
+   "roast",
+   "vanilla"
+  ],
+  "glass": "tulip",
+  "servingTemp": 10,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它让人想起海岛上的椰子糖。",
+   "一种热带果实被烤香后放进了酒里。",
+   "它和巧克力是绝配。",
+   "在二次发酵阶段浸泡。"
+  ],
+  "description": "加入烘烤椰丝浸泡的世涛，椰子的坚果甜香与黑巧克力烘烤交融，像一块椰子巧克力棒。常与燕麦搭配获得更顺滑的口感。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.6
+    },
+    {
+     "id": "flaked_oats",
+     "kg": 0.4
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.3
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.4
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.2
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 20,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 20,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "dark",
+   "adjuncts": [
+    {
+     "id": "coconut",
+     "grams": 500,
+     "stage": "secondary"
+    }
+   ],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 18,
+   "fermentDays": 8,
+   "maturationDays": 14,
+   "carbonation": 2.2,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "pastry_stout",
+  "name": "Pastry Stout",
+  "nameZh": "甜点世涛",
+  "family": "stout",
+  "alsoIn": [
+   "experimental"
+  ],
+  "group": "Flavored",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 9,
+   "max": 14
+  },
+  "ibu": {
+   "min": 30,
+   "max": 60
+  },
+  "color": {
+   "min": 35,
+   "max": 60
+  },
+  "bitterness": 1.6,
+  "sweetness": 5,
+  "body": 5,
+  "malt": 3.8,
+  "caramel": 1.4,
+  "roast": 5,
+  "hopAroma": 0,
+  "fruity": 0.4,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0.8,
+  "alcohol": 2.5,
+  "haze": 1.3,
+  "tags": [
+   "甜点",
+   "香草",
+   "乳糖",
+   "浓稠"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "flaked_oats",
+   "chocolate_malt",
+   "lactose",
+   "vanilla_bean",
+   "cacao_nibs",
+   "maple_syrup"
+  ],
+  "relatedStyles": [
+   "imperial_stout",
+   "vanilla_stout",
+   "milk_stout"
+  ],
+  "requirements": [
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "vanilla"
+    ],
+    "hint": "香草是甜点世涛的标配。"
+   },
+   {
+    "type": "adjunct",
+    "in": [
+     "lactose",
+     "marshmallow",
+     "maple_syrup"
+    ],
+    "hint": "加入乳糖、棉花糖或枫糖浆等甜点原料。"
+   }
+  ],
+  "aromas": [
+   "vanilla",
+   "chocolate",
+   "cream",
+   "maple",
+   "warming"
+  ],
+  "glass": "snifter",
+  "servingTemp": 12,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它像一块液体蛋糕。",
+   "基酒是一款很烈的帝国世涛。",
+   "香草几乎是必需品。",
+   "还要加乳糖、棉花糖或枫糖这样的甜点原料。"
+  ],
+  "description": "近年美国精酿圈流行的极甜帝国世涛，模仿蛋糕、甜甜圈等甜点，大量使用香草、乳糖、可可、枫糖等辅料。浓稠甜腻，适合小杯分享。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 7.8
+    },
+    {
+     "id": "flaked_oats",
+     "kg": 0.6
+    },
+    {
+     "id": "crystal_120",
+     "kg": 0.4
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.55
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.3
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 35,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "dark",
+   "adjuncts": [
+    {
+     "id": "lactose",
+     "grams": 500,
+     "stage": "boil"
+    },
+    {
+     "id": "vanilla_bean",
+     "grams": 15,
+     "stage": "secondary"
+    },
+    {
+     "id": "cacao_nibs",
+     "grams": 100,
+     "stage": "secondary"
+    }
+   ],
+   "mashTemp": 68,
+   "boilTime": 90,
+   "fermentTemp": 18,
+   "fermentDays": 14,
+   "maturationDays": 30,
+   "carbonation": 2,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "belgian_single",
+  "name": "Belgian Single (Enkel)",
+  "nameZh": "比利时修道院单料",
+  "family": "belgian",
+  "group": "Abbey / Trappist",
+  "country": [
+   "belgium"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.8,
+   "max": 6
+  },
+  "ibu": {
+   "min": 25,
+   "max": 45
+  },
+  "color": {
+   "min": 3,
+   "max": 5
+  },
+  "bitterness": 2.1,
+  "sweetness": 1.5,
+  "body": 1.5,
+  "malt": 2.4,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 1,
+  "fruity": 2.3,
+  "spicy": 1.6,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.8,
+  "tags": [
+   "修道院",
+   "修士日常",
+   "干爽",
+   "酒花"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "saaz",
+   "hallertau_mittelfruh",
+   "abbey_ale"
+  ],
+  "relatedStyles": [
+   "belgian_blond_ale",
+   "belgian_tripel",
+   "belgian_pale_ale"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "belgian"
+    ],
+    "hint": "使用比利时修道院酵母。"
+   },
+   {
+    "type": "noAdjunctCategory",
+    "in": [
+     "spice"
+    ],
+    "soft": true,
+    "hint": "辛香来自酵母，不用香料。"
+   }
+  ],
+  "aromas": [
+   "pear",
+   "spicy",
+   "floral",
+   "grain"
+  ],
+  "glass": "chalice",
+  "servingTemp": 6,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "这是修士们自己日常喝的酒。",
+   "颜色浅金，酒精不高。",
+   "比利时酵母带来梨子和胡椒香。",
+   "酒花的苦味比你想的更明显。"
+  ],
+  "description": "特拉普派修道院里修士们自己饮用的“修士啤酒”，过去很少对外销售。浅金色、干爽，比利时酵母的果香辛香与贵族酒花的草本苦味相互支撑。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 4.4
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 40,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "saaz",
+     "grams": 30,
+     "use": "boil",
+     "time": 15
+    },
+    {
+     "id": "saaz",
+     "grams": 25,
+     "use": "boil",
+     "time": 5
+    }
+   ],
+   "yeast": "abbey_ale",
+   "water": "soft",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 90,
+   "fermentTemp": 20,
+   "fermentDays": 10,
+   "maturationDays": 10,
+   "carbonation": 2.8,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "belgian_pale_ale",
+  "name": "Belgian Pale Ale",
+  "nameZh": "比利时淡色艾尔",
+  "family": "belgian",
+  "alsoIn": [
+   "paleAle"
+  ],
+  "group": "Pale",
+  "country": [
+   "belgium"
+  ],
+  "region": "Antwerp",
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.8,
+   "max": 5.8
+  },
+  "ibu": {
+   "min": 20,
+   "max": 30
+  },
+  "color": {
+   "min": 8,
+   "max": 14
+  },
+  "bitterness": 2,
+  "sweetness": 2.2,
+  "body": 1.9,
+  "malt": 3.3,
+  "caramel": 1,
+  "roast": 0.1,
+  "hopAroma": 0.5,
+  "fruity": 2,
+  "spicy": 1.4,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.8,
+  "tags": [
+   "琥珀",
+   "饼干",
+   "温和",
+   "比利时酵母"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "munich_malt",
+   "biscuit_malt",
+   "caramunich",
+   "east_kent_goldings",
+   "abbey_ale"
+  ],
+  "relatedStyles": [
+   "belgian_single",
+   "belgian_blond_ale",
+   "best_bitter"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "belgian"
+    ],
+    "hint": "使用比利时酵母。"
+   },
+   {
+    "type": "noAdjunctCategory",
+    "in": [
+     "sugar",
+     "spice"
+    ],
+    "soft": true,
+    "hint": "不需要糖和香料。"
+   }
+  ],
+  "aromas": [
+   "biscuit",
+   "bread",
+   "pear",
+   "caramel"
+  ],
+  "glass": "tulip",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "安特卫普人的日常啤酒。",
+   "颜色是铜色到琥珀色。",
+   "饼干和面包香比酵母更显眼。",
+   "受到英国苦啤的影响。"
+  ],
+  "description": "二战后在安特卫普一带流行的日常艾尔，受英式苦啤影响。琥珀色、饼干与烤面包香突出，比利时酵母的梨子与淡淡辛香点到为止。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 3.3
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.7
+    },
+    {
+     "id": "biscuit_malt",
+     "kg": 0.3
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.3
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 35,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "saaz",
+     "grams": 20,
+     "use": "boil",
+     "time": 10
+    }
+   ],
+   "yeast": "abbey_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 75,
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 10,
+   "carbonation": 2.6,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "belgian_blond_ale",
+  "name": "Belgian Blond Ale",
+  "nameZh": "比利时金色艾尔",
+  "family": "belgian",
+  "alsoIn": [
+   "paleAle"
+  ],
+  "group": "Abbey / Trappist",
+  "country": [
+   "belgium"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 6,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 15,
+   "max": 30
+  },
+  "color": {
+   "min": 4,
+   "max": 7
+  },
+  "bitterness": 1.4,
+  "sweetness": 2.1,
+  "body": 1.5,
+  "malt": 3.7,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0.4,
+  "fruity": 2.3,
+  "spicy": 1.5,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 1.3,
+  "haze": 0.8,
+  "tags": [
+   "修道院",
+   "金色",
+   "蜂蜜",
+   "微甜"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "aromatic_malt",
+   "candi_sugar_light",
+   "saaz",
+   "abbey_ale"
+  ],
+  "relatedStyles": [
+   "belgian_single",
+   "belgian_tripel",
+   "belgian_golden_strong"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "belgian"
+    ],
+    "hint": "使用比利时修道院酵母。"
+   },
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "sugar"
+    ],
+    "min": 10,
+    "soft": true,
+    "hint": "加入少量浅色糖。"
+   }
+  ],
+  "aromas": [
+   "honey",
+   "pear",
+   "spicy",
+   "bread"
+  ],
+  "glass": "chalice",
+  "servingTemp": 7,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它是修道院啤酒里的金色入门款。",
+   "比三料温和、比单料更有劲。",
+   "一点浅色糖让它不那么厚重。",
+   "带着蜂蜜和梨子的柔和甜香。"
+  ],
+  "description": "修道院风格的金色艾尔，常被视为三料的温和版本。皮尔森麦芽的蜂蜜面包香配合比利时酵母果香，少量浅色糖让酒体轻盈而微甜。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 4.8
+    },
+    {
+     "id": "aromatic_malt",
+     "kg": 0.3
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 35,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "saaz",
+     "grams": 15,
+     "use": "boil",
+     "time": 10
+    }
+   ],
+   "yeast": "abbey_ale",
+   "water": "soft",
+   "adjuncts": [
+    {
+     "id": "candi_sugar_light",
+     "grams": 400,
+     "stage": "boil"
+    }
+   ],
+   "mashTemp": 65,
+   "boilTime": 90,
+   "fermentTemp": 20,
+   "fermentDays": 10,
+   "maturationDays": 14,
+   "carbonation": 2.8,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "belgian_dubbel",
+  "name": "Belgian Dubbel",
+  "nameZh": "比利时双料",
+  "family": "belgian",
+  "group": "Abbey / Trappist",
+  "country": [
+   "belgium"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 6,
+   "max": 7.6
+  },
+  "ibu": {
+   "min": 15,
+   "max": 25
+  },
+  "color": {
+   "min": 10,
+   "max": 17
+  },
+  "bitterness": 1.7,
+  "sweetness": 2.8,
+  "body": 2,
+  "malt": 2.9,
+  "caramel": 2.7,
+  "roast": 0.1,
+  "hopAroma": 0.3,
+  "fruity": 3.4,
+  "spicy": 1.5,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.9,
+  "haze": 0.8,
+  "tags": [
+   "修道院",
+   "深色糖浆",
+   "葡萄干",
+   "焦糖"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "munich_malt",
+   "special_b",
+   "caramunich",
+   "candi_syrup_dark",
+   "abbey_ale"
+  ],
+  "relatedStyles": [
+   "belgian_dark_strong",
+   "belgian_tripel",
+   "belgian_quadrupel"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "belgian"
+    ],
+    "hint": "使用比利时修道院酵母。"
+   },
+   {
+    "type": "adjunct",
+    "in": [
+     "candi_syrup_dark"
+    ],
+    "hint": "加入深色坎迪糖浆。"
+   }
+  ],
+  "aromas": [
+   "raisin",
+   "caramel",
+   "dark_fruit",
+   "spicy"
+  ],
+  "glass": "chalice",
+  "servingTemp": 10,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它源于特拉普派修道院。",
+   "颜色是红褐色。",
+   "葡萄干和焦糖的香气来自深色糖浆。",
+   "比三料颜色深，但酒精较低。"
+  ],
+  "description": "十九世纪威斯特麦尔修道院首创的深色修道院啤酒。深色坎迪糖浆与 Special B 带来葡萄干、李子与焦糖风味，比利时酵母的果香与丁香辛香贯穿其中。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 4.4
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.6
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.2
+    },
+    {
+     "id": "special_b",
+     "kg": 0.12
+    }
+   ],
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 40,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "tettnang",
+     "grams": 15,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "abbey_ale",
+   "water": "balanced",
+   "adjuncts": [
+    {
+     "id": "candi_syrup_dark",
+     "grams": 450,
+     "stage": "boil"
+    }
+   ],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 20,
+   "fermentDays": 10,
+   "maturationDays": 21,
+   "carbonation": 2.6,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "belgian_tripel",
+  "name": "Belgian Tripel",
+  "nameZh": "比利时三料",
+  "family": "belgian",
+  "alsoIn": [
+   "strongAle"
+  ],
+  "group": "Abbey / Trappist",
+  "country": [
+   "belgium"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 7.5,
+   "max": 9.5
+  },
+  "ibu": {
+   "min": 20,
+   "max": 40
+  },
+  "color": {
+   "min": 4,
+   "max": 7
+  },
+  "bitterness": 2.4,
+  "sweetness": 1.7,
+  "body": 0.9,
+  "malt": 3.4,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0.4,
+  "fruity": 2.5,
+  "spicy": 1.2,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 3.4,
+  "haze": 0.9,
+  "tags": [
+   "修道院",
+   "金色",
+   "烈而干",
+   "辛香"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "candi_sugar_light",
+   "saaz",
+   "hallertau_mittelfruh",
+   "trappist_high_gravity",
+   "abbey_ale"
+  ],
+  "relatedStyles": [
+   "belgian_golden_strong",
+   "belgian_blond_ale",
+   "belgian_dubbel"
+  ],
+  "requirements": [
+   {
+    "type": "yeast",
+    "in": [
+     "trappist_high_gravity",
+     "abbey_ale"
+    ],
+    "hint": "使用修道院（特拉普派）酵母。"
+   },
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "sugar"
+    ],
+    "min": 25,
+    "hint": "加入大量浅色糖。"
+   }
+  ],
+  "aromas": [
+   "spicy",
+   "pear",
+   "honey",
+   "warming",
+   "clove"
+  ],
+  "glass": "chalice",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它是修道院啤酒里的金色烈酒。",
+   "颜色浅金，酒精却很高。",
+   "大量浅色糖让它出奇地干爽。",
+   "修道院酵母的胡椒辛香很明显。"
+  ],
+  "description": "1934 年由威斯特麦尔修道院定型的金色烈性艾尔。大量浅色糖让高酒精的酒体保持干爽，修道院酵母带来胡椒、丁香与成熟梨子香，余味带酒花苦。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 6
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 25,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "saaz",
+     "grams": 30,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "trappist_high_gravity",
+   "water": "soft",
+   "adjuncts": [
+    {
+     "id": "candi_sugar_light",
+     "grams": 900,
+     "stage": "boil"
+    }
+   ],
+   "mashTemp": 64,
+   "boilTime": 90,
+   "fermentTemp": 21,
+   "fermentDays": 14,
+   "maturationDays": 30,
+   "carbonation": 3,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "belgian_golden_strong",
+  "name": "Belgian Golden Strong Ale",
+  "nameZh": "比利时烈性金色艾尔",
+  "family": "belgian",
+  "alsoIn": [
+   "strongAle"
+  ],
+  "group": "Strong",
+  "country": [
+   "belgium"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 7.5,
+   "max": 10.5
+  },
+  "ibu": {
+   "min": 22,
+   "max": 35
+  },
+  "color": {
+   "min": 3,
+   "max": 5
+  },
+  "bitterness": 2.2,
+  "sweetness": 1.2,
+  "body": 0.3,
+  "malt": 3.3,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0.4,
+  "fruity": 1.5,
+  "spicy": 1,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 3,
+  "haze": 1,
+  "tags": [
+   "金色",
+   "烈性",
+   "果香",
+   "高碳酸"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "candi_sugar_light",
+   "table_sugar",
+   "saaz",
+   "belgian_golden"
+  ],
+  "relatedStyles": [
+   "belgian_tripel",
+   "belgian_blond_ale",
+   "belgian_single"
+  ],
+  "requirements": [
+   {
+    "type": "yeast",
+    "in": [
+     "belgian_golden"
+    ],
+    "hint": "使用比利时金色艾尔酵母。"
+   },
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "sugar"
+    ],
+    "min": 25,
+    "hint": "加入大量浅色糖。"
+   }
+  ],
+  "aromas": [
+   "pear",
+   "apple",
+   "floral",
+   "warming",
+   "spicy"
+  ],
+  "glass": "tulip",
+  "servingTemp": 7,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "有一款名字叫“魔鬼”的啤酒属于这一类。",
+   "颜色非常浅，泡沫像蛋白霜。",
+   "比三料更果香、更少丁香。",
+   "要用专门的金色艾尔酵母。"
+  ],
+  "description": "以比利时“魔鬼”啤酒为代表的金色烈性艾尔。颜色极浅、酒体极干、气泡丰富，梨子与苹果般的果香胜过辛香，危险地易饮。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 5.6
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 22,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "saaz",
+     "grams": 30,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "belgian_golden",
+   "water": "soft",
+   "adjuncts": [
+    {
+     "id": "table_sugar",
+     "grams": 1000,
+     "stage": "boil"
+    }
+   ],
+   "mashTemp": 64,
+   "boilTime": 90,
+   "fermentTemp": 19,
+   "fermentDays": 14,
+   "maturationDays": 30,
+   "carbonation": 3.4,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "belgian_dark_strong",
+  "name": "Belgian Dark Strong Ale",
+  "nameZh": "比利时烈性深色艾尔",
+  "family": "belgian",
+  "alsoIn": [
+   "strongAle"
+  ],
+  "group": "Strong",
+  "country": [
+   "belgium"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 8,
+   "max": 10
+  },
+  "ibu": {
+   "min": 20,
+   "max": 35
+  },
+  "color": {
+   "min": 12,
+   "max": 22
+  },
+  "bitterness": 2,
+  "sweetness": 3.6,
+  "body": 2.5,
+  "malt": 3.5,
+  "caramel": 4,
+  "roast": 0.2,
+  "hopAroma": 0.2,
+  "fruity": 3.6,
+  "spicy": 1.1,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 2.2,
+  "haze": 0.9,
+  "tags": [
+   "深色",
+   "烈性",
+   "无花果",
+   "陈放"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "munich_malt",
+   "special_b",
+   "caramunich",
+   "candi_syrup_dark",
+   "trappist_high_gravity"
+  ],
+  "relatedStyles": [
+   "belgian_quadrupel",
+   "belgian_dubbel",
+   "english_barleywine"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "belgian"
+    ],
+    "hint": "使用比利时高浓度酵母。"
+   },
+   {
+    "type": "adjunct",
+    "in": [
+     "candi_syrup_dark"
+    ],
+    "hint": "加入深色坎迪糖浆。"
+   }
+  ],
+  "aromas": [
+   "dark_fruit",
+   "raisin",
+   "caramel",
+   "warming",
+   "spicy"
+  ],
+  "glass": "chalice",
+  "servingTemp": 12,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "它像加强版的双料。",
+   "颜色深红褐色，酒精很高。",
+   "无花果、葡萄干和焦糖在杯中翻滚。",
+   "深色糖浆和高浓度酵母缺一不可。"
+  ],
+  "description": "比利时修道院与世俗酒厂酿造的深色烈性艾尔，比双料更浓更烈。深色糖浆与焦糖麦芽带来无花果、葡萄干与红糖，酒精温暖但不辛辣，适合陈放。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 5.6
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.9
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.35
+    },
+    {
+     "id": "special_b",
+     "kg": 0.25
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 22,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "tettnang",
+     "grams": 15,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "trappist_high_gravity",
+   "water": "balanced",
+   "adjuncts": [
+    {
+     "id": "candi_syrup_dark",
+     "grams": 600,
+     "stage": "boil"
+    }
+   ],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 20,
+   "fermentDays": 14,
+   "maturationDays": 45,
+   "carbonation": 2.6,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "belgian_quadrupel",
+  "name": "Belgian Quadrupel",
+  "nameZh": "比利时四料",
+  "family": "belgian",
+  "alsoIn": [
+   "strongAle"
+  ],
+  "group": "Strong",
+  "country": [
+   "belgium"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 10,
+   "max": 13
+  },
+  "ibu": {
+   "min": 20,
+   "max": 40
+  },
+  "color": {
+   "min": 16,
+   "max": 30
+  },
+  "bitterness": 1.7,
+  "sweetness": 4.8,
+  "body": 3.2,
+  "malt": 4.1,
+  "caramel": 5,
+  "roast": 0.2,
+  "hopAroma": 0.2,
+  "fruity": 4.4,
+  "spicy": 1.1,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 3.7,
+  "haze": 0.9,
+  "tags": [
+   "修道院",
+   "极烈",
+   "葡萄干",
+   "红糖"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "munich_malt",
+   "special_b",
+   "candi_syrup_dark",
+   "trappist_high_gravity"
+  ],
+  "relatedStyles": [
+   "belgian_dark_strong",
+   "belgian_dubbel",
+   "english_barleywine"
+  ],
+  "requirements": [
+   {
+    "type": "yeast",
+    "in": [
+     "trappist_high_gravity"
+    ],
+    "hint": "需要耐高酒精的特拉普派酵母。"
+   },
+   {
+    "type": "adjunct",
+    "in": [
+     "candi_syrup_dark"
+    ],
+    "hint": "加入大量深色坎迪糖浆。"
+   }
+  ],
+  "aromas": [
+   "dark_fruit",
+   "raisin",
+   "caramel",
+   "warming",
+   "molasses"
+  ],
+  "glass": "chalice",
+  "servingTemp": 13,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "有人说世界上最好的啤酒就是这一类。",
+   "比烈性深色艾尔还要更烈。",
+   "酒精超过 10%，像波特酒一样厚重。",
+   "大量深色糖浆加上耐高酒精的修道院酵母。"
+  ],
+  "description": "修道院啤酒的巅峰之作，以圣西克斯图斯修道院的 12 号为典范。超过 10% 的酒精裹着葡萄干、李子、红糖与太妃，口感厚重如甜酒，可陈放多年。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 7
+    },
+    {
+     "id": "munich_malt",
+     "kg": 1.2
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.4
+    },
+    {
+     "id": "special_b",
+     "kg": 0.35
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 25,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 15,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "trappist_high_gravity",
+   "water": "balanced",
+   "adjuncts": [
+    {
+     "id": "candi_syrup_dark",
+     "grams": 900,
+     "stage": "boil"
+    }
+   ],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 20,
+   "fermentDays": 18,
+   "maturationDays": 60,
+   "carbonation": 2.5,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "saison",
+  "name": "Saison",
+  "nameZh": "赛松",
+  "family": "farmhouse",
+  "alsoIn": [
+   "belgian"
+  ],
+  "group": "Belgian / French",
+  "country": [
+   "belgium"
+  ],
+  "region": "Wallonia",
+  "fermentation": "ale",
+  "abv": {
+   "min": 5,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 20,
+   "max": 35
+  },
+  "color": {
+   "min": 4,
+   "max": 12
+  },
+  "bitterness": 2.1,
+  "sweetness": 0.3,
+  "body": 0.4,
+  "malt": 2.4,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0.7,
+  "fruity": 2.4,
+  "spicy": 2.5,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 1,
+  "haze": 1.5,
+  "tags": [
+   "农舍",
+   "极干",
+   "胡椒",
+   "高碳酸"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "wheat_malt",
+   "munich_malt",
+   "saaz",
+   "east_kent_goldings",
+   "saison_dupont"
+  ],
+  "relatedStyles": [
+   "grisette",
+   "biere_de_garde",
+   "witbier"
+  ],
+  "requirements": [
+   {
+    "type": "yeast",
+    "in": [
+     "saison_dupont",
+     "french_saison"
+    ],
+    "hint": "使用农舍（Saison）酵母。"
+   },
+   {
+    "type": "carbonation",
+    "min": 2.8,
+    "soft": true,
+    "hint": "碳酸要高。"
+   }
+  ],
+  "aromas": [
+   "pepper",
+   "spicy",
+   "lemon",
+   "pear",
+   "earthy"
+  ],
+  "glass": "tulip",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它来自比利时瓦隆地区的农场。",
+   "是给夏季收割的雇工喝的。",
+   "酵母喜欢很高的发酵温度。",
+   "口感极干，气泡丰沛，带胡椒香。"
+  ],
+  "description": "瓦隆地区农场在冬季酿造、夏季供给季节工饮用的农舍艾尔。高温发酵的赛松酵母几乎吃光所有糖分，带来胡椒、柠檬与土壤气息，干爽且气泡十足。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 4
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 0.5
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.3
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 35,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "saaz",
+     "grams": 30,
+     "use": "boil",
+     "time": 10
+    }
+   ],
+   "yeast": "saison_dupont",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 64,
+   "boilTime": 90,
+   "fermentTemp": 27,
+   "fermentDays": 12,
+   "maturationDays": 14,
+   "carbonation": 3.3,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "grisette",
+  "name": "Grisette",
+  "nameZh": "格里塞特",
+  "family": "farmhouse",
+  "alsoIn": [
+   "belgian"
+  ],
+  "group": "Belgian / French",
+  "country": [
+   "belgium"
+  ],
+  "region": "Hainaut",
+  "fermentation": "ale",
+  "abv": {
+   "min": 3.5,
+   "max": 5
+  },
+  "ibu": {
+   "min": 15,
+   "max": 30
+  },
+  "color": {
+   "min": 2.5,
+   "max": 5
+  },
+  "bitterness": 1.6,
+  "sweetness": 0.2,
+  "body": 0.7,
+  "malt": 1.8,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0.6,
+  "fruity": 1.9,
+  "spicy": 2,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 1.8,
+  "tags": [
+   "矿工",
+   "低酒精",
+   "小麦",
+   "清爽"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "wheat_malt",
+   "saaz",
+   "french_saison"
+  ],
+  "relatedStyles": [
+   "saison",
+   "witbier",
+   "belgian_single"
+  ],
+  "requirements": [
+   {
+    "type": "yeast",
+    "in": [
+     "saison_dupont",
+     "french_saison"
+    ],
+    "hint": "使用农舍（Saison）酵母。"
+   },
+   {
+    "type": "maltShare",
+    "category": "wheat",
+    "min": 0.12,
+    "hint": "加入一部分小麦。"
+   }
+  ],
+  "aromas": [
+   "lemon",
+   "spicy",
+   "grain",
+   "pepper"
+  ],
+  "glass": "tulip",
+  "servingTemp": 6,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它是比利时矿工下班后喝的酒。",
+   "名字来自矿工妻子穿的灰色裙子。",
+   "比赛松更轻、酒精更低。",
+   "谷物里有一部分是小麦。"
+  ],
+  "description": "比利时埃诺省矿区的低酒精农舍啤酒，名字据说源自为矿工送酒的女工所穿灰裙。加入小麦，清爽干燥，带柠檬与胡椒的酵母香。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 2.4
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 0.7
+    }
+   ],
+   "hops": [
+    {
+     "id": "saaz",
+     "grams": 35,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "saaz",
+     "grams": 25,
+     "use": "boil",
+     "time": 5
+    }
+   ],
+   "yeast": "french_saison",
+   "water": "soft",
+   "adjuncts": [],
+   "mashTemp": 64,
+   "boilTime": 90,
+   "fermentTemp": 22,
+   "fermentDays": 10,
+   "maturationDays": 7,
+   "carbonation": 3,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "biere_de_garde",
+  "name": "Bière de Garde",
+  "nameZh": "窖藏啤酒",
+  "family": "farmhouse",
+  "alsoIn": [
+   "belgian"
+  ],
+  "group": "Belgian / French",
+  "country": [
+   "france"
+  ],
+  "region": "Nord-Pas-de-Calais",
+  "fermentation": "ale",
+  "abv": {
+   "min": 6,
+   "max": 8.5
+  },
+  "ibu": {
+   "min": 18,
+   "max": 28
+  },
+  "color": {
+   "min": 6,
+   "max": 19
+  },
+  "bitterness": 2,
+  "sweetness": 3.2,
+  "body": 2.5,
+  "malt": 3.8,
+  "caramel": 1.1,
+  "roast": 0,
+  "hopAroma": 0.3,
+  "fruity": 1.1,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.7,
+  "haze": 0.6,
+  "tags": [
+   "法国北部",
+   "窖藏",
+   "麦芽",
+   "焦糖"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "munich_malt",
+   "vienna_malt",
+   "caramunich",
+   "strisselspalt",
+   "biere_de_garde_yeast"
+  ],
+  "relatedStyles": [
+   "saison",
+   "belgian_dubbel",
+   "marzen"
+  ],
+  "requirements": [
+   {
+    "type": "yeast",
+    "in": [
+     "biere_de_garde_yeast"
+    ],
+    "hint": "使用法式窖藏酵母。"
+   },
+   {
+    "type": "fermentTemp",
+    "max": 18,
+    "soft": true,
+    "hint": "较低温度发酵，酯香收敛。"
+   }
+  ],
+  "aromas": [
+   "toffee",
+   "caramel",
+   "bread",
+   "earthy"
+  ],
+  "glass": "tulip",
+  "servingTemp": 10,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它来自法国北部的农场。",
+   "名字的意思是“用来保存的啤酒”。",
+   "麦芽和焦糖香是主角，而不是酵母。",
+   "发酵后要在低温中存放很久。"
+  ],
+  "description": "法国北部农舍在春季酿造、存放至夏季饮用的“窖藏啤酒”。以麦芽为中心，带烤面包、太妃与淡淡土壤霉味，长时间冷藏使口感圆润干净。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 3
+    },
+    {
+     "id": "munich_malt",
+     "kg": 2
+    },
+    {
+     "id": "vienna_malt",
+     "kg": 0.8
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.3
+    }
+   ],
+   "hops": [
+    {
+     "id": "aramis",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "strisselspalt",
+     "grams": 20,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "biere_de_garde_yeast",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 17,
+   "fermentDays": 14,
+   "maturationDays": 35,
+   "carbonation": 2.6,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "kveik_ale",
+  "name": "Kveik Farmhouse Ale",
+  "nameZh": "挪威农舍艾尔",
+  "family": "farmhouse",
+  "group": "Nordic",
+  "country": [
+   "nordic"
+  ],
+  "region": "Western Norway",
+  "fermentation": "ale",
+  "abv": {
+   "min": 5,
+   "max": 8
+  },
+  "ibu": {
+   "min": 15,
+   "max": 35
+  },
+  "color": {
+   "min": 4,
+   "max": 12
+  },
+  "bitterness": 2,
+  "sweetness": 1.6,
+  "body": 1.6,
+  "malt": 3.2,
+  "caramel": 0.1,
+  "roast": 0,
+  "hopAroma": 0.5,
+  "fruity": 2.5,
+  "spicy": 1.5,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0.3,
+  "alcohol": 0.3,
+  "haze": 0.5,
+  "tags": [
+   "Kveik",
+   "高温发酵",
+   "杜松",
+   "橙子"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "munich_malt",
+   "voss_kveik",
+   "hornindal_kveik",
+   "juniper"
+  ],
+  "relatedStyles": [
+   "saison",
+   "sahti",
+   "american_pale_ale"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "kveik"
+    ],
+    "hint": "使用挪威 Kveik 酵母。"
+   },
+   {
+    "type": "fermentTemp",
+    "min": 28,
+    "soft": true,
+    "hint": "大胆用高温发酵。"
+   }
+  ],
+  "aromas": [
+   "orange",
+   "juniper",
+   "tropical",
+   "bread"
+  ],
+  "glass": "mug",
+  "servingTemp": 9,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它来自挪威西部的峡湾农场。",
+   "酵母在 30 多度的高温下飞快发酵。",
+   "世代相传的酵母被晒干保存在木环上。",
+   "农夫常用杜松枝过滤麦汁。"
+  ],
+  "description": "挪威西部农家世代传承的 Kveik 酵母酿造的农舍艾尔，能在 30℃ 以上高温中几天内完成发酵且不产生杂醇。橙皮般的酯香配合杜松枝的林木气息。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.4
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.5
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 35,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 20,
+     "use": "boil",
+     "time": 10
+    }
+   ],
+   "yeast": "voss_kveik",
+   "water": "balanced",
+   "adjuncts": [
+    {
+     "id": "juniper",
+     "grams": 50,
+     "stage": "mash"
+    }
+   ],
+   "mashTemp": 66,
+   "boilTime": 60,
+   "fermentTemp": 32,
+   "fermentDays": 4,
+   "maturationDays": 5,
+   "carbonation": 2.4,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ }
+]

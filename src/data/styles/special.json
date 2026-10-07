@@ -1,0 +1,5819 @@
+[
+ {
+  "id": "berliner_weisse",
+  "name": "Berliner Weisse",
+  "nameZh": "柏林白啤",
+  "family": "sour",
+  "alsoIn": [
+   "wheat",
+   "german"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Berlin",
+  "fermentation": "mixed",
+  "abv": {
+   "min": 2.8,
+   "max": 3.8
+  },
+  "ibu": {
+   "min": 3,
+   "max": 8
+  },
+  "color": {
+   "min": 2,
+   "max": 3.5
+  },
+  "bitterness": 0.3,
+  "sweetness": 0,
+  "body": 1.7,
+  "malt": 1.6,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0.2,
+  "fruity": 0.4,
+  "spicy": 0,
+  "acidity": 3.2,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 2.6,
+  "weights": {
+   "acidity": 1.5
+  },
+  "tags": [
+   "北方香槟",
+   "低酒精",
+   "清爽酸",
+   "小麦"
+  ],
+  "ingredients": [
+   "wheat_malt",
+   "pilsner_malt",
+   "hallertau_mittelfruh",
+   "lacto_plantarum",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "gose",
+   "kettle_sour",
+   "lichtenhainer",
+   "fruited_sour"
+  ],
+  "requirements": [
+   {
+    "type": "maltShare",
+    "category": "wheat",
+    "min": 0.4,
+    "hint": "麦芽里至少四成是小麦。"
+   },
+   {
+    "type": "carbonation",
+    "min": 3,
+    "soft": true,
+    "hint": "气泡要像香槟一样充沛。"
+   },
+   {
+    "type": "noAdjunctCategory",
+    "in": [
+     "salt"
+    ],
+    "soft": true,
+    "hint": "不加盐——加盐就成了它的邻居。"
+   }
+  ],
+  "aromas": [
+   "lactic",
+   "lemon",
+   "grain",
+   "bread"
+  ],
+  "glass": "weizen",
+  "servingTemp": 5,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "拿破仑的士兵称它为“北方的香槟”。",
+   "酒精度很低，却酸得清脆。",
+   "小麦占了麦芽的一半左右。",
+   "酸来自乳酸菌，常在煮沸前就先酸化麦汁。"
+  ],
+  "description": "柏林白啤是 19 世纪柏林最流行的啤酒，以小麦和乳酸菌酿成，酒精度不到 4%。酒体极轻、气泡细密，酸味清爽如柠檬，当地人常加入车叶草或覆盆子糖浆饮用。",
+  "example": {
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 12,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "adjuncts": [],
+   "water": "soft",
+   "mashTemp": 65,
+   "boilTime": 60,
+   "processes": [
+    "kettleSour"
+   ],
+   "malts": [
+    {
+     "id": "wheat_malt",
+     "kg": 1.5
+    },
+    {
+     "id": "pilsner_malt",
+     "kg": 1.4
+    }
+   ],
+   "yeast": "american_ale",
+   "fermentTemp": 19,
+   "fermentDays": 8,
+   "maturationDays": 7,
+   "carbonation": 3.4
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "gose",
+  "name": "Gose",
+  "nameZh": "古斯",
+  "family": "sour",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Leipzig / Goslar",
+  "fermentation": "mixed",
+  "abv": {
+   "min": 4,
+   "max": 5
+  },
+  "ibu": {
+   "min": 5,
+   "max": 12
+  },
+  "color": {
+   "min": 2.5,
+   "max": 4.5
+  },
+  "bitterness": 0.5,
+  "sweetness": 0.1,
+  "body": 2.8,
+  "malt": 1.9,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0.1,
+  "fruity": 0.8,
+  "spicy": 1.7,
+  "acidity": 3.2,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 2.6,
+  "weights": {
+   "acidity": 1.5
+  },
+  "tags": [
+   "咸酸",
+   "芫荽",
+   "小麦",
+   "莱比锡"
+  ],
+  "ingredients": [
+   "wheat_malt",
+   "pilsner_malt",
+   "sea_salt",
+   "coriander",
+   "hallertau_mittelfruh",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "berliner_weisse",
+   "kettle_sour",
+   "witbier"
+  ],
+  "requirements": [
+   {
+    "type": "adjunct",
+    "in": [
+     "sea_salt"
+    ],
+    "hint": "一撮海盐是它的灵魂。"
+   },
+   {
+    "type": "adjunct",
+    "in": [
+     "coriander"
+    ],
+    "hint": "还需要芫荽籽的香气。"
+   },
+   {
+    "type": "maltShare",
+    "category": "wheat",
+    "min": 0.35,
+    "soft": true,
+    "hint": "小麦占麦芽三成以上。"
+   }
+  ],
+  "aromas": [
+   "salt",
+   "coriander",
+   "lactic",
+   "lemon"
+  ],
+  "glass": "stange",
+  "servingTemp": 5,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它的名字来自戈斯拉尔小镇旁的一条河。",
+   "入口先酸，回味却带着一丝咸。",
+   "酿酒师会往锅里撒一种厨房里的白色晶体。",
+   "还有一种来自香菜的种子。"
+  ],
+  "description": "古斯起源于德国戈斯拉尔，后来在莱比锡发扬光大，曾几乎灭绝。它以小麦为底，加入海盐与芫荽籽，酸味柔和、咸味若隐若现，是夏日最解渴的啤酒之一。",
+  "example": {
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 15,
+     "use": "boil",
+     "time": 30
+    }
+   ],
+   "adjuncts": [
+    {
+     "id": "coriander",
+     "grams": 15
+    },
+    {
+     "id": "sea_salt",
+     "grams": 14
+    }
+   ],
+   "water": "soft",
+   "mashTemp": 65,
+   "boilTime": 60,
+   "processes": [
+    "kettleSour"
+   ],
+   "malts": [
+    {
+     "id": "wheat_malt",
+     "kg": 1.9
+    },
+    {
+     "id": "pilsner_malt",
+     "kg": 1.8
+    }
+   ],
+   "yeast": "american_ale",
+   "fermentTemp": 19,
+   "fermentDays": 8,
+   "maturationDays": 7,
+   "carbonation": 2.9
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "flanders_red",
+  "name": "Flanders Red Ale",
+  "nameZh": "佛兰德红色艾尔",
+  "family": "sour",
+  "alsoIn": [
+   "belgian"
+  ],
+  "group": "Flemish",
+  "country": [
+   "belgium"
+  ],
+  "region": "West Flanders",
+  "fermentation": "mixed",
+  "abv": {
+   "min": 5,
+   "max": 6.8
+  },
+  "ibu": {
+   "min": 8,
+   "max": 20
+  },
+  "color": {
+   "min": 10,
+   "max": 18
+  },
+  "bitterness": 1.1,
+  "sweetness": 0.7,
+  "body": 1.8,
+  "malt": 3.4,
+  "caramel": 1.9,
+  "roast": 0.1,
+  "hopAroma": 0,
+  "fruity": 1.6,
+  "spicy": 1,
+  "acidity": 3.5,
+  "funk": 3.3,
+  "smoke": 0,
+  "wood": 1.3,
+  "alcohol": 0.2,
+  "haze": 1.5,
+  "weights": {
+   "acidity": 1.5
+  },
+  "tags": [
+   "勃艮第",
+   "橡木大桶",
+   "红酒般",
+   "复杂酸"
+  ],
+  "ingredients": [
+   "vienna_malt",
+   "munich_malt",
+   "crystal_60",
+   "special_b",
+   "roeselare_blend",
+   "french_oak"
+  ],
+  "relatedStyles": [
+   "oud_bruin",
+   "barrel_aged_sour",
+   "mixed_fermentation_sour"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "mixed"
+    ],
+    "hint": "需要包含野生酵母与乳酸菌的混合菌群（如 Roeselare）。"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "coolship",
+     "kettleSour"
+    ],
+    "hint": "酸味要靠菌群慢慢养成，而不是冷却池或壶内酸化。"
+   },
+   {
+    "type": "barrel",
+    "in": [
+     "french_oak",
+     "american_oak"
+    ],
+    "minMonths": 6,
+    "soft": true,
+    "hint": "在巨大的橡木桶里陈放一年左右。"
+   }
+  ],
+  "aromas": [
+   "cherry",
+   "redwine",
+   "oak",
+   "lactic",
+   "plum"
+  ],
+  "glass": "tulip",
+  "servingTemp": 10,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "人们称它为“比利时的勃艮第”。",
+   "颜色像红宝石，喝起来像红酒和醋栗。",
+   "在巨大的橡木立桶里沉睡一年以上。",
+   "混合菌群慢慢把甜味变成酸味。"
+  ],
+  "description": "佛兰德红色艾尔产自比利时西佛兰德，以 Rodenbach 为代表，在巨型橡木立桶中陈放一到两年。它呈深红色，有樱桃、李子与红酒般的果酸，伴随橡木与轻微醋香，常被称作“比利时的勃艮第”。",
+  "example": {
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 20,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "adjuncts": [],
+   "water": "balanced",
+   "mashTemp": 67,
+   "boilTime": 90,
+   "processes": [],
+   "malts": [
+    {
+     "id": "vienna_malt",
+     "kg": 2.4
+    },
+    {
+     "id": "munich_malt",
+     "kg": 1.4
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 0.4
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.3
+    },
+    {
+     "id": "special_b",
+     "kg": 0.12
+    }
+   ],
+   "yeast": "roeselare_blend",
+   "fermentTemp": 20,
+   "fermentDays": 60,
+   "maturationDays": 240,
+   "carbonation": 2.4,
+   "barrel": {
+    "id": "french_oak",
+    "months": 12
+   }
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "oud_bruin",
+  "name": "Oud Bruin",
+  "nameZh": "老棕艾尔",
+  "family": "sour",
+  "alsoIn": [
+   "belgian"
+  ],
+  "group": "Flemish",
+  "country": [
+   "belgium"
+  ],
+  "region": "East Flanders",
+  "fermentation": "mixed",
+  "abv": {
+   "min": 4.5,
+   "max": 7
+  },
+  "ibu": {
+   "min": 12,
+   "max": 25
+  },
+  "color": {
+   "min": 15,
+   "max": 24
+  },
+  "bitterness": 1.4,
+  "sweetness": 0.8,
+  "body": 1.7,
+  "malt": 3.4,
+  "caramel": 2.4,
+  "roast": 0.7,
+  "hopAroma": 0,
+  "fruity": 1.6,
+  "spicy": 0.7,
+  "acidity": 3.5,
+  "funk": 3.3,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 1.2,
+  "weights": {
+   "acidity": 1.3
+  },
+  "tags": [
+   "佛兰德棕",
+   "焦糖",
+   "葡萄干",
+   "酸甜"
+  ],
+  "ingredients": [
+   "munich_malt",
+   "pale_malt",
+   "special_b",
+   "crystal_120",
+   "chocolate_malt",
+   "roeselare_blend"
+  ],
+  "relatedStyles": [
+   "flanders_red",
+   "british_brown_ale",
+   "mixed_fermentation_sour"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "mixed"
+    ],
+    "hint": "需要混合菌群长时间发酵。"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "coolship",
+     "kettleSour"
+    ],
+    "hint": "不使用冷却池或壶内酸化。"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "barrel"
+    ],
+    "soft": true,
+    "hint": "传统上在不锈钢罐中熟成，不进木桶。"
+   }
+  ],
+  "aromas": [
+   "raisin",
+   "caramel",
+   "cherry",
+   "lactic",
+   "dark_fruit"
+  ],
+  "glass": "tulip",
+  "servingTemp": 10,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "它来自东佛兰德的奥德纳尔德。",
+   "颜色是深棕色，带着葡萄干与焦糖的甜香。",
+   "酸味比它的红色邻居更柔和。",
+   "在罐中与混合菌群一起度过漫长的岁月，不靠橡木。"
+  ],
+  "description": "老棕艾尔又称佛兰德棕艾尔，诞生于比利时东佛兰德。它用较多焦糖与深色麦芽，在罐中与混合菌群长期熟成，口感是焦糖、葡萄干与梅子的甜，叠加柔和的乳酸酸度。",
+  "example": {
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 25,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "adjuncts": [],
+   "water": "balanced",
+   "mashTemp": 68,
+   "boilTime": 90,
+   "processes": [],
+   "malts": [
+    {
+     "id": "munich_malt",
+     "kg": 2.4
+    },
+    {
+     "id": "pale_malt",
+     "kg": 1.6
+    },
+    {
+     "id": "special_b",
+     "kg": 0.25
+    },
+    {
+     "id": "crystal_120",
+     "kg": 0.2
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.05
+    }
+   ],
+   "yeast": "roeselare_blend",
+   "fermentTemp": 20,
+   "fermentDays": 60,
+   "maturationDays": 180,
+   "carbonation": 2.4
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "kettle_sour",
+  "name": "Kettle Sour",
+  "nameZh": "壶内酸化啤酒",
+  "family": "sour",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "Modern",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "mixed",
+  "abv": {
+   "min": 3.5,
+   "max": 5.5
+  },
+  "ibu": {
+   "min": 4,
+   "max": 15
+  },
+  "color": {
+   "min": 2.5,
+   "max": 5
+  },
+  "bitterness": 0.6,
+  "sweetness": 0,
+  "body": 1.5,
+  "malt": 2.2,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0.1,
+  "fruity": 0.4,
+  "spicy": 0,
+  "acidity": 3.2,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 1.9,
+  "weights": {
+   "acidity": 1.5
+  },
+  "tags": [
+   "快速酸",
+   "干净",
+   "现代",
+   "入门酸啤"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "wheat_malt",
+   "lacto_plantarum",
+   "american_ale",
+   "cascade"
+  ],
+  "relatedStyles": [
+   "berliner_weisse",
+   "fruited_sour",
+   "sour_ipa",
+   "gose"
+  ],
+  "requirements": [
+   {
+    "type": "process",
+    "in": [
+     "kettleSour"
+    ],
+    "hint": "在煮沸前先用乳酸菌把麦汁酸化。"
+   },
+   {
+    "type": "noAdjunctCategory",
+    "in": [
+     "fruit"
+    ],
+    "soft": true,
+    "hint": "基础款不加水果。"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "dryHop"
+    ],
+    "soft": true,
+    "hint": "不需要大量干投。"
+   }
+  ],
+  "aromas": [
+   "lactic",
+   "lemon",
+   "grain",
+   "bread"
+  ],
+  "glass": "teku",
+  "servingTemp": 5,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它的酸只用了一两天，而不是一两年。",
+   "麦汁在煮锅里先被乳酸菌“咬”一口。",
+   "之后再煮沸，杀死细菌，干净利落。",
+   "美国精酿厂最常见的酸啤底子。"
+  ],
+  "description": "壶内酸化是美国精酿厂普及的快速酸啤工艺：麦汁先接种乳酸菌一两天，再煮沸并用普通酵母发酵。成品酸味干净、清爽，是各种水果酸啤与酸 IPA 的基础。",
+  "example": {
+   "hops": [
+    {
+     "id": "cascade",
+     "grams": 10,
+     "use": "boil",
+     "time": 30
+    }
+   ],
+   "adjuncts": [],
+   "water": "balanced",
+   "mashTemp": 65,
+   "boilTime": 60,
+   "processes": [
+    "kettleSour"
+   ],
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 2.5
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 1.1
+    }
+   ],
+   "yeast": "american_ale",
+   "fermentTemp": 19,
+   "fermentDays": 7,
+   "maturationDays": 5,
+   "carbonation": 2.7
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "fruited_sour",
+  "name": "Fruited Sour",
+  "nameZh": "水果酸啤",
+  "family": "sour",
+  "alsoIn": [
+   "fruit"
+  ],
+  "group": "Modern",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "mixed",
+  "abv": {
+   "min": 4,
+   "max": 6.5
+  },
+  "ibu": {
+   "min": 3,
+   "max": 12
+  },
+  "color": {
+   "min": 3,
+   "max": 12
+  },
+  "bitterness": 0.5,
+  "sweetness": 0,
+  "body": 1.6,
+  "malt": 2.3,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0.1,
+  "fruity": 2.6,
+  "spicy": 0,
+  "acidity": 3.8,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 1.9,
+  "weights": {
+   "acidity": 1.5,
+   "fruity": 1.3
+  },
+  "tags": [
+   "水果",
+   "酸",
+   "果汁感",
+   "色彩鲜艳"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "wheat_malt",
+   "raspberry",
+   "passionfruit",
+   "cherry",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "kettle_sour",
+   "smoothie_sour",
+   "fruit_lambic",
+   "fruit_beer"
+  ],
+  "requirements": [
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "fruit"
+    ],
+    "min": 50,
+    "hint": "每升至少 50 克水果。"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "coolship"
+    ],
+    "hint": "酸味来自现代快速酸化或培养菌，不靠冷却池。"
+   },
+   {
+    "type": "noAdjunctCategory",
+    "in": [
+     "dairy"
+    ],
+    "soft": true,
+    "hint": "不加乳糖，保持清爽。"
+   }
+  ],
+  "aromas": [
+   "raspberry",
+   "lactic",
+   "berry",
+   "passionfruit"
+  ],
+  "glass": "teku",
+  "servingTemp": 5,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它的颜色常常和水果一样鲜艳。",
+   "先有一杯干净的酸啤底子。",
+   "然后在发酵后期加入大量水果。",
+   "每升里要有半个拳头那么多的果肉。"
+  ],
+  "description": "水果酸啤是美国精酿酒吧的明星：以壶内酸化的酸啤为基础，在发酵后加入大量覆盆子、百香果、樱桃等水果。颜色鲜艳、果汁感强，酸甜平衡，入口即懂。",
+  "example": {
+   "hops": [
+    {
+     "id": "cascade",
+     "grams": 10,
+     "use": "boil",
+     "time": 30
+    }
+   ],
+   "adjuncts": [
+    {
+     "id": "raspberry",
+     "grams": 2000,
+     "stage": "secondary"
+    },
+    {
+     "id": "passionfruit",
+     "grams": 300,
+     "stage": "secondary"
+    }
+   ],
+   "water": "balanced",
+   "mashTemp": 65,
+   "boilTime": 60,
+   "processes": [
+    "kettleSour"
+   ],
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 2.4
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 1.1
+    }
+   ],
+   "yeast": "american_ale",
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 7,
+   "carbonation": 2.7
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "smoothie_sour",
+  "name": "Smoothie Sour",
+  "nameZh": "思慕雪酸啤",
+  "family": "sour",
+  "alsoIn": [
+   "experimental",
+   "fruit"
+  ],
+  "group": "Modern",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "mixed",
+  "abv": {
+   "min": 4.5,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 0,
+   "max": 10
+  },
+  "color": {
+   "min": 3,
+   "max": 15
+  },
+  "bitterness": 0.4,
+  "sweetness": 5,
+  "body": 5,
+  "malt": 2.5,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 4.2,
+  "spicy": 0,
+  "acidity": 3.5,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0.3,
+  "alcohol": 0.2,
+  "haze": 3.5,
+  "weights": {
+   "sweetness": 1.3,
+   "fruity": 1.3
+  },
+  "tags": [
+   "果泥",
+   "乳糖",
+   "浓稠",
+   "甜酸"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "flaked_oats",
+   "mango",
+   "lactose",
+   "vanilla_bean",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "fruited_sour",
+   "milkshake_ipa",
+   "kettle_sour"
+  ],
+  "requirements": [
+   {
+    "type": "adjunct",
+    "in": [
+     "lactose"
+    ],
+    "hint": "需要乳糖带来奶昔般的甜和厚。"
+   },
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "fruit"
+    ],
+    "min": 100,
+    "hint": "水果多到像果泥：每升 100 克以上。"
+   },
+   {
+    "type": "process",
+    "in": [
+     "kettleSour"
+    ],
+    "soft": true,
+    "hint": "底子是一杯壶内酸化酸啤。"
+   }
+  ],
+  "aromas": [
+   "mango",
+   "cream",
+   "lactic",
+   "vanilla",
+   "tropical"
+  ],
+  "glass": "teku",
+  "servingTemp": 6,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它浓稠得几乎需要用勺子。",
+   "倒进杯里像一杯果昔。",
+   "除了堆成山的果泥，还有一种牛奶里的糖。",
+   "酸味被甜和厚包裹起来。"
+  ],
+  "description": "思慕雪酸啤是近年社交媒体上爆红的极端风格：在酸啤基底里加入惊人分量的果泥、乳糖，甚至香草与燕麦。口感浓稠甜美，像一杯带酒精的水果奶昔。",
+  "example": {
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 5,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "adjuncts": [
+    {
+     "id": "mango",
+     "grams": 3000,
+     "stage": "secondary"
+    },
+    {
+     "id": "passionfruit",
+     "grams": 400,
+     "stage": "secondary"
+    },
+    {
+     "id": "lactose",
+     "grams": 1000
+    },
+    {
+     "id": "vanilla_bean",
+     "grams": 6,
+     "stage": "secondary"
+    }
+   ],
+   "water": "balanced",
+   "mashTemp": 68,
+   "boilTime": 60,
+   "processes": [
+    "kettleSour"
+   ],
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 2.6
+    },
+    {
+     "id": "flaked_oats",
+     "kg": 0.8
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 0.6
+    }
+   ],
+   "yeast": "american_ale",
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 7,
+   "carbonation": 2.4
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "lambic",
+  "name": "Lambic",
+  "nameZh": "兰比克",
+  "family": "wild",
+  "alsoIn": [
+   "sour",
+   "belgian"
+  ],
+  "group": "Lambic",
+  "country": [
+   "belgium"
+  ],
+  "region": "Pajottenland / Senne Valley",
+  "fermentation": "wild",
+  "abv": {
+   "min": 5,
+   "max": 6.5
+  },
+  "ibu": {
+   "min": 0,
+   "max": 10
+  },
+  "color": {
+   "min": 3,
+   "max": 7
+  },
+  "bitterness": 0.7,
+  "sweetness": 0,
+  "body": 1.6,
+  "malt": 2.1,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 1.5,
+  "spicy": 0.7,
+  "acidity": 5,
+  "funk": 5,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.5,
+  "haze": 2.6,
+  "tags": [
+   "自然发酵",
+   "冷却池",
+   "无气泡",
+   "谷仓"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "wheat_malt",
+   "spontaneous_culture",
+   "hallertau_mittelfruh"
+  ],
+  "relatedStyles": [
+   "gueuze",
+   "fruit_lambic",
+   "american_wild_ale"
+  ],
+  "requirements": [
+   {
+    "type": "process",
+    "in": [
+     "coolship"
+    ],
+    "hint": "麦汁要在敞口冷却池里过夜，迎接空气中的野生菌。"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "blend"
+    ],
+    "hint": "单一批次，不做多年份勾兑。"
+   },
+   {
+    "type": "noAdjunctCategory",
+    "in": [
+     "fruit"
+    ],
+    "hint": "纯粹的兰比克不加水果。"
+   }
+  ],
+  "aromas": [
+   "barnyard",
+   "lactic",
+   "funk",
+   "lemon",
+   "wood"
+  ],
+  "glass": "tulip",
+  "servingTemp": 12,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "它只在布鲁塞尔西南的山谷里诞生。",
+   "酿酒师不放酵母，而是打开屋顶的窗。",
+   "麦汁在一个又宽又浅的铜池里过夜。",
+   "常常几乎没有气泡，用陈年酒花酿造。"
+  ],
+  "description": "兰比克是世界上最古老的啤酒之一，只在布鲁塞尔周边的塞纳河谷酿造。麦汁在冷却池中敞口过夜，由空气中的野生酵母与细菌自然接种，再在橡木桶中陈放一到三年，酸、野、干，近乎无气泡。",
+  "example": {
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 15,
+     "use": "boil",
+     "time": 90
+    }
+   ],
+   "adjuncts": [],
+   "water": "soft",
+   "mashTemp": 64,
+   "boilTime": 90,
+   "processes": [
+    "coolship"
+   ],
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 2.7
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 1.5
+    }
+   ],
+   "yeast": "spontaneous_culture",
+   "fermentTemp": 18,
+   "fermentDays": 120,
+   "maturationDays": 300,
+   "carbonation": 1.5
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "gueuze",
+  "name": "Gueuze",
+  "nameZh": "贵兹",
+  "family": "wild",
+  "alsoIn": [
+   "sour",
+   "belgian"
+  ],
+  "group": "Lambic",
+  "country": [
+   "belgium"
+  ],
+  "region": "Pajottenland / Senne Valley",
+  "fermentation": "wild",
+  "abv": {
+   "min": 5,
+   "max": 8
+  },
+  "ibu": {
+   "min": 0,
+   "max": 10
+  },
+  "color": {
+   "min": 3,
+   "max": 7
+  },
+  "bitterness": 0.7,
+  "sweetness": 0,
+  "body": 0.7,
+  "malt": 2.1,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 1.5,
+  "spicy": 0.7,
+  "acidity": 5,
+  "funk": 5,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.5,
+  "haze": 2.6,
+  "tags": [
+   "勾兑",
+   "布鲁塞尔香槟",
+   "自然发酵",
+   "陈年"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "wheat_malt",
+   "spontaneous_culture",
+   "hallertau_mittelfruh"
+  ],
+  "relatedStyles": [
+   "lambic",
+   "fruit_lambic",
+   "american_wild_ale"
+  ],
+  "requirements": [
+   {
+    "type": "process",
+    "in": [
+     "coolship"
+    ],
+    "hint": "基酒必须是冷却池自然接种的兰比克。"
+   },
+   {
+    "type": "process",
+    "in": [
+     "blend"
+    ],
+    "hint": "把一年、两年、三年的兰比克勾兑在一起。"
+   },
+   {
+    "type": "carbonation",
+    "min": 2.8,
+    "soft": true,
+    "hint": "瓶中二次发酵，气泡丰沛。"
+   }
+  ],
+  "aromas": [
+   "barnyard",
+   "lactic",
+   "lemon",
+   "funk",
+   "apple"
+  ],
+  "glass": "tulip",
+  "servingTemp": 10,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "人们叫它“布鲁塞尔的香槟”。",
+   "它不是一桶酒，而是好几个年份的结合。",
+   "年轻的那部分提供甜分，让瓶中再次发酵。",
+   "它的每一滴都曾在冷却池里过夜。"
+  ],
+  "description": "贵兹由一年、两年与三年的兰比克勾兑而成，年轻兰比克中的残糖在瓶中再次发酵，带来香槟般的细密气泡。它酸爽、干冽，充满柠檬、青苹果、皮革与谷仓气息，可窖藏数十年。",
+  "example": {
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 15,
+     "use": "boil",
+     "time": 90
+    }
+   ],
+   "adjuncts": [],
+   "water": "soft",
+   "mashTemp": 64,
+   "boilTime": 90,
+   "processes": [
+    "coolship",
+    "blend"
+   ],
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 2.7
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 1.5
+    }
+   ],
+   "yeast": "spontaneous_culture",
+   "fermentTemp": 18,
+   "fermentDays": 120,
+   "maturationDays": 600,
+   "carbonation": 3.3
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "fruit_lambic",
+  "name": "Fruit Lambic (Kriek/Framboise)",
+  "nameZh": "水果兰比克",
+  "family": "wild",
+  "alsoIn": [
+   "sour",
+   "fruit",
+   "belgian"
+  ],
+  "group": "Lambic",
+  "country": [
+   "belgium"
+  ],
+  "region": "Pajottenland / Senne Valley",
+  "fermentation": "wild",
+  "abv": {
+   "min": 5,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 0,
+   "max": 10
+  },
+  "color": {
+   "min": 3,
+   "max": 20
+  },
+  "bitterness": 0.7,
+  "sweetness": 0,
+  "body": 1.3,
+  "malt": 2.4,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 5,
+  "spicy": 0.7,
+  "acidity": 5,
+  "funk": 5,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 1.3,
+  "haze": 2.6,
+  "weights": {
+   "fruity": 1.3
+  },
+  "tags": [
+   "樱桃",
+   "覆盆子",
+   "自然发酵",
+   "Kriek"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "wheat_malt",
+   "spontaneous_culture",
+   "cherry",
+   "raspberry"
+  ],
+  "relatedStyles": [
+   "lambic",
+   "gueuze",
+   "fruited_sour",
+   "fruit_beer"
+  ],
+  "requirements": [
+   {
+    "type": "process",
+    "in": [
+     "coolship"
+    ],
+    "hint": "底子是冷却池自然接种的兰比克。"
+   },
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "fruit"
+    ],
+    "min": 100,
+    "hint": "整颗水果浸泡：每升 100 克以上，樱桃或覆盆子最经典。"
+   }
+  ],
+  "aromas": [
+   "cherry",
+   "raspberry",
+   "barnyard",
+   "lactic",
+   "nut"
+  ],
+  "glass": "tulip",
+  "servingTemp": 8,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "它的颜色像红宝石或粉红色的晚霞。",
+   "整颗酸樱桃被丢进了正在陈放的酒里。",
+   "水果的糖被野生菌吃光，只留下香与酸。",
+   "在此之前，它和贵兹的兄弟一样在冷却池里过夜。"
+  ],
+  "description": "把整颗酸樱桃（Kriek）或覆盆子（Framboise）浸入陈年兰比克中再次发酵，就得到水果兰比克。水果的糖分被吃干净，留下鲜明的果香与杏仁般的果核味，配合野性的酸与谷仓气息。",
+  "example": {
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 15,
+     "use": "boil",
+     "time": 90
+    }
+   ],
+   "adjuncts": [
+    {
+     "id": "cherry",
+     "grams": 5000,
+     "stage": "secondary"
+    }
+   ],
+   "water": "soft",
+   "mashTemp": 64,
+   "boilTime": 90,
+   "processes": [
+    "coolship"
+   ],
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 2.7
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 1.5
+    }
+   ],
+   "yeast": "spontaneous_culture",
+   "fermentTemp": 18,
+   "fermentDays": 120,
+   "maturationDays": 300,
+   "carbonation": 2.8
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "american_wild_ale",
+  "name": "American Wild Ale",
+  "nameZh": "美式野菌艾尔",
+  "family": "wild",
+  "alsoIn": [
+   "sour",
+   "american"
+  ],
+  "group": "American Wild",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "mixed",
+  "abv": {
+   "min": 5.5,
+   "max": 8
+  },
+  "ibu": {
+   "min": 8,
+   "max": 25
+  },
+  "color": {
+   "min": 4,
+   "max": 12
+  },
+  "bitterness": 1.9,
+  "sweetness": 0.7,
+  "body": 1.7,
+  "malt": 2.6,
+  "caramel": 0.6,
+  "roast": 0,
+  "hopAroma": 0.5,
+  "fruity": 1.6,
+  "spicy": 0.7,
+  "acidity": 3.5,
+  "funk": 4.4,
+  "smoke": 0,
+  "wood": 1.3,
+  "alcohol": 0.3,
+  "haze": 1.7,
+  "tags": [
+   "布雷特",
+   "橡木桶",
+   "野趣",
+   "美式创新"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "wheat_malt",
+   "crystal_40",
+   "lambic_blend",
+   "brett_brux",
+   "american_oak"
+  ],
+  "relatedStyles": [
+   "mixed_fermentation_sour",
+   "brett_beer",
+   "barrel_aged_sour",
+   "lambic"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "brett",
+     "mixed"
+    ],
+    "hint": "需要布雷特酵母或混合菌群。"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "coolship",
+     "kettleSour"
+    ],
+    "hint": "不用冷却池，也不走壶内酸化的捷径。"
+   },
+   {
+    "type": "barrel",
+    "in": [
+     "american_oak",
+     "french_oak"
+    ],
+    "minMonths": 3,
+    "soft": true,
+    "hint": "在橡木桶里陈放数月。"
+   }
+  ],
+  "aromas": [
+   "funk",
+   "barnyard",
+   "oak",
+   "lactic",
+   "citrus"
+  ],
+  "glass": "tulip",
+  "servingTemp": 10,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "美国酿酒师向比利时致敬，却不肯照抄。",
+   "它在橡木桶里和野生酵母共处数月。",
+   "比兰比克多一些酒花，比佛兰德更明亮。",
+   "谷仓与皮革的气息之下，是酸和橡木。"
+  ],
+  "description": "美式野菌艾尔是美国精酿运动对比利时野菌传统的再创造：使用布雷特酵母与混合菌群，常在橡木桶中陈放，酒花与水果的使用也更大胆。风味谷仓般野性、酸度中等、带橡木与柑橘香。",
+  "example": {
+   "hops": [
+    {
+     "id": "centennial",
+     "grams": 15,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "amarillo",
+     "grams": 25,
+     "use": "whirlpool"
+    }
+   ],
+   "adjuncts": [],
+   "water": "balanced",
+   "mashTemp": 67,
+   "boilTime": 60,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 3.8
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 0.7
+    },
+    {
+     "id": "crystal_40",
+     "kg": 0.2
+    }
+   ],
+   "yeast": "lambic_blend",
+   "fermentTemp": 20,
+   "fermentDays": 45,
+   "maturationDays": 150,
+   "carbonation": 2.6,
+   "barrel": {
+    "id": "american_oak",
+    "months": 6
+   }
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "brett_beer",
+  "name": "Brett Beer",
+  "nameZh": "布雷特啤酒",
+  "family": "wild",
+  "group": "American Wild",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "wild",
+  "abv": {
+   "min": 4.5,
+   "max": 7
+  },
+  "ibu": {
+   "min": 15,
+   "max": 35
+  },
+  "color": {
+   "min": 3,
+   "max": 8
+  },
+  "bitterness": 2.4,
+  "sweetness": 0.1,
+  "body": 1.2,
+  "malt": 2.5,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 1.6,
+  "fruity": 1.4,
+  "spicy": 1.1,
+  "acidity": 0.5,
+  "funk": 4.4,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.3,
+  "haze": 1.8,
+  "weights": {
+   "funk": 1.3
+  },
+  "tags": [
+   "布雷特",
+   "野趣",
+   "干爽",
+   "热带水果"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "wheat_malt",
+   "brett_brux",
+   "brett_clausenii",
+   "amarillo",
+   "cascade"
+  ],
+  "relatedStyles": [
+   "brett_ipa",
+   "american_wild_ale",
+   "saison"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "brett"
+    ],
+    "hint": "全部由布雷特酵母发酵。"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "coolship",
+     "kettleSour"
+    ],
+    "hint": "不需要刻意酸化。"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "dryHop"
+    ],
+    "soft": true,
+    "hint": "酒花只作陪衬，不需要大量干投。"
+   }
+  ],
+  "aromas": [
+   "funk",
+   "pineapple",
+   "leather",
+   "barnyard"
+  ],
+  "glass": "tulip",
+  "servingTemp": 9,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它几乎不酸，却很“野”。",
+   "只用了一种曾被视为污染的酵母。",
+   "菠萝、皮革和马厩的气味交织在一起。",
+   "酒体干得像风吹过的稻草。"
+  ],
+  "description": "布雷特啤酒完全由布雷特酒香酵母发酵，酸度很低，却带有菠萝、热带水果、皮革与谷仓的复杂气息。酒体极干，是野菌啤酒中最“干净”的入门款。",
+  "example": {
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 12,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "amarillo",
+     "grams": 20,
+     "use": "boil",
+     "time": 10
+    },
+    {
+     "id": "cascade",
+     "grams": 25,
+     "use": "whirlpool"
+    }
+   ],
+   "adjuncts": [],
+   "water": "balanced",
+   "mashTemp": 66,
+   "boilTime": 60,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 3.6
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 0.5
+    },
+    {
+     "id": "carapils",
+     "kg": 0.2
+    }
+   ],
+   "yeast": "brett_brux",
+   "fermentTemp": 21,
+   "fermentDays": 30,
+   "maturationDays": 30,
+   "carbonation": 2.8
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "mixed_fermentation_sour",
+  "name": "Mixed Fermentation Sour",
+  "nameZh": "混合发酵酸啤",
+  "family": "wild",
+  "alsoIn": [
+   "sour"
+  ],
+  "group": "American Wild",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "mixed",
+  "abv": {
+   "min": 4.5,
+   "max": 7
+  },
+  "ibu": {
+   "min": 5,
+   "max": 18
+  },
+  "color": {
+   "min": 3,
+   "max": 7
+  },
+  "bitterness": 1.1,
+  "sweetness": 0,
+  "body": 2,
+  "malt": 2,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 1.3,
+  "spicy": 0.7,
+  "acidity": 3.5,
+  "funk": 4.4,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.2,
+  "haze": 2.5,
+  "weights": {
+   "acidity": 1.3
+  },
+  "tags": [
+   "混合菌群",
+   "复杂酸",
+   "野趣",
+   "耐心"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "wheat_malt",
+   "flaked_oats",
+   "lambic_blend",
+   "pediococcus",
+   "brett_clausenii"
+  ],
+  "relatedStyles": [
+   "american_wild_ale",
+   "flanders_red",
+   "lambic",
+   "kettle_sour"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "mixed",
+     "pedio"
+    ],
+    "hint": "酵母、布雷特与乳酸菌一起发酵。"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "coolship",
+     "kettleSour"
+    ],
+    "hint": "既不靠冷却池，也不走壶内酸化的捷径。"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "barrel"
+    ],
+    "soft": true,
+    "hint": "在罐中熟成即可，不进木桶。"
+   }
+  ],
+  "aromas": [
+   "lactic",
+   "funk",
+   "lemon",
+   "barnyard",
+   "apricot"
+  ],
+  "glass": "teku",
+  "servingTemp": 8,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "它的酸是用几个月时间慢慢养出来的。",
+   "一群不同的微生物在同一个罐里合作。",
+   "颜色很浅，但香气层次很多。",
+   "不在冷却池过夜，也不靠快速酸化。"
+  ],
+  "description": "混合发酵酸啤使用酿酒酵母、布雷特与乳酸菌、片球菌组成的菌群，在罐中慢慢发酵数月。酸味比壶内酸化更圆润复杂，带有柠檬、杏子与淡淡的谷仓气息。",
+  "example": {
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 25,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "adjuncts": [],
+   "water": "soft",
+   "mashTemp": 67,
+   "boilTime": 90,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 3
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 0.9
+    },
+    {
+     "id": "flaked_oats",
+     "kg": 0.3
+    }
+   ],
+   "yeast": "lambic_blend",
+   "fermentTemp": 20,
+   "fermentDays": 60,
+   "maturationDays": 120,
+   "carbonation": 2.7
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "fruit_beer",
+  "name": "Fruit Beer",
+  "nameZh": "水果啤酒",
+  "family": "fruit",
+  "group": "Fruit",
+  "country": [
+   "belgium",
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 4,
+   "max": 6.5
+  },
+  "ibu": {
+   "min": 8,
+   "max": 25
+  },
+  "color": {
+   "min": 3,
+   "max": 15
+  },
+  "bitterness": 1.2,
+  "sweetness": 1.1,
+  "body": 1.7,
+  "malt": 2.5,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 1.9,
+  "spicy": 0,
+  "acidity": 0.4,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 1.7,
+  "weights": {
+   "fruity": 1.3
+  },
+  "tags": [
+   "水果",
+   "清爽",
+   "果香",
+   "不酸"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "wheat_malt",
+   "raspberry",
+   "cherry",
+   "peach",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "fruited_sour",
+   "fruit_lambic",
+   "fruit_ipa",
+   "american_wheat"
+  ],
+  "requirements": [
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "fruit"
+    ],
+    "min": 40,
+    "hint": "每升至少 40 克水果。"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "kettleSour",
+     "coolship"
+    ],
+    "hint": "不做酸化——让水果本身说话。"
+   },
+   {
+    "type": "yeastType",
+    "in": [
+     "ale",
+     "lager",
+     "weizen",
+     "belgian",
+     "kveik"
+    ],
+    "soft": true,
+    "hint": "用普通酵母发酵，不用野菌。"
+   }
+  ],
+  "aromas": [
+   "raspberry",
+   "berry",
+   "bread",
+   "peach"
+  ],
+  "glass": "tulip",
+  "servingTemp": 6,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它不酸，却满是果香。",
+   "基底只是一杯清爽的淡色啤酒。",
+   "发酵后期加入了大量新鲜水果。"
+  ],
+  "description": "水果啤酒是在普通啤酒中加入水果的风格总称，不追求酸度，重在让新鲜水果的香气与啤酒的麦芽平衡。覆盆子、樱桃、桃子都是常见选择，清爽易饮。",
+  "example": {
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 25,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "adjuncts": [
+    {
+     "id": "raspberry",
+     "grams": 1800,
+     "stage": "secondary"
+    }
+   ],
+   "water": "balanced",
+   "mashTemp": 66,
+   "boilTime": 60,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 3
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 1
+    }
+   ],
+   "yeast": "american_ale",
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 7,
+   "carbonation": 2.6
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "italian_grape_ale",
+  "name": "Italian Grape Ale",
+  "nameZh": "意大利葡萄艾尔",
+  "family": "fruit",
+  "alsoIn": [
+   "experimental"
+  ],
+  "group": "Fruit",
+  "country": [
+   "italy"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 6,
+   "max": 9
+  },
+  "ibu": {
+   "min": 8,
+   "max": 25
+  },
+  "color": {
+   "min": 3,
+   "max": 12
+  },
+  "bitterness": 1,
+  "sweetness": 0.8,
+  "body": 1.1,
+  "malt": 2.8,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 3.5,
+  "spicy": 1,
+  "acidity": 0.4,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 1.2,
+  "haze": 1,
+  "tags": [
+   "葡萄汁",
+   "酒啤之间",
+   "意大利",
+   "优雅"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "vienna_malt",
+   "grape_must",
+   "belgian_golden",
+   "saaz"
+  ],
+  "relatedStyles": [
+   "fruit_beer",
+   "belgian_golden_strong",
+   "barrel_aged_sour"
+  ],
+  "requirements": [
+   {
+    "type": "adjunct",
+    "in": [
+     "grape_must"
+    ],
+    "hint": "需要加入葡萄汁（葡萄醪）。"
+   },
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "fruit"
+    ],
+    "min": 100,
+    "soft": true,
+    "hint": "葡萄醪的分量不少：每升 100 克以上。"
+   }
+  ],
+  "aromas": [
+   "grape",
+   "wine",
+   "pear",
+   "floral"
+  ],
+  "glass": "tulip",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它站在啤酒与葡萄酒的中间。",
+   "来自一个以葡萄园闻名的南欧国家。",
+   "酿酒师把刚压榨的葡萄汁倒进了麦汁里。",
+   "酒精度比一般啤酒高一些，香气像白葡萄酒。"
+  ],
+  "description": "意大利葡萄艾尔是意大利精酿的标志：在麦汁中加入当地葡萄品种的葡萄醪一起发酵，带来白葡萄酒或红酒般的果香与微酸。它优雅干爽，介于啤酒与起泡酒之间。",
+  "example": {
+   "hops": [
+    {
+     "id": "saaz",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "adjuncts": [
+    {
+     "id": "grape_must",
+     "grams": 4000,
+     "stage": "fermentation"
+    }
+   ],
+   "water": "soft",
+   "mashTemp": 65,
+   "boilTime": 90,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 3.6
+    },
+    {
+     "id": "vienna_malt",
+     "kg": 0.4
+    }
+   ],
+   "yeast": "belgian_golden",
+   "fermentTemp": 19,
+   "fermentDays": 14,
+   "maturationDays": 21,
+   "carbonation": 2.8
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "spice_beer",
+  "name": "Spice / Herb Beer",
+  "nameZh": "香料啤酒",
+  "family": "spice",
+  "group": "Spice",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.5,
+   "max": 6.5
+  },
+  "ibu": {
+   "min": 12,
+   "max": 30
+  },
+  "color": {
+   "min": 4,
+   "max": 14
+  },
+  "bitterness": 1.7,
+  "sweetness": 1.7,
+  "body": 1.5,
+  "malt": 2.5,
+  "caramel": 0.8,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 1,
+  "spicy": 3,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.8,
+  "weights": {
+   "spicy": 1.3
+  },
+  "tags": [
+   "香料",
+   "姜",
+   "豆蔻",
+   "创意"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_40",
+   "ginger",
+   "cardamom",
+   "cinnamon",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "winter_seasonal",
+   "pumpkin_spice_beer",
+   "witbier",
+   "gruit"
+  ],
+  "requirements": [
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "spice",
+     "herb"
+    ],
+    "min": 1.5,
+    "hint": "香料或草本每升至少 1.5 克。"
+   },
+   {
+    "type": "yeastType",
+    "in": [
+     "ale",
+     "lager",
+     "kveik"
+    ],
+    "hint": "用干净的酵母，让香料成为主角。"
+   }
+  ],
+  "aromas": [
+   "ginger",
+   "spicy",
+   "bread",
+   "caramel"
+  ],
+  "glass": "tulip",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它的香气来自厨房的调料架。",
+   "酵母很干净，不抢香料的风头。",
+   "姜和豆蔻是不错的开始。"
+  ],
+  "description": "香料/草本啤酒是在啤酒中加入香料或草本植物的开放风格。好的香料啤酒讲究平衡：香料清晰可辨，又不会压过麦芽与酒花，姜、豆蔻、肉桂都是常见选择。",
+  "example": {
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "adjuncts": [
+    {
+     "id": "ginger",
+     "grams": 60
+    },
+    {
+     "id": "cardamom",
+     "grams": 6
+    }
+   ],
+   "water": "balanced",
+   "mashTemp": 66,
+   "boilTime": 60,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 3.8
+    },
+    {
+     "id": "crystal_40",
+     "kg": 0.3
+    }
+   ],
+   "yeast": "american_ale",
+   "fermentTemp": 19,
+   "fermentDays": 8,
+   "maturationDays": 7,
+   "carbonation": 2.5
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "winter_seasonal",
+  "name": "Winter Seasonal Beer",
+  "nameZh": "冬季香料啤酒",
+  "family": "spice",
+  "group": "Seasonal",
+  "country": [
+   "uk",
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 6,
+   "max": 8.5
+  },
+  "ibu": {
+   "min": 15,
+   "max": 35
+  },
+  "color": {
+   "min": 14,
+   "max": 30
+  },
+  "bitterness": 1.4,
+  "sweetness": 5,
+  "body": 4.3,
+  "malt": 4.3,
+  "caramel": 2.3,
+  "roast": 0.6,
+  "hopAroma": 0.1,
+  "fruity": 2.3,
+  "spicy": 2.9,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.6,
+  "haze": 0.3,
+  "tags": [
+   "圣诞",
+   "肉桂",
+   "温暖",
+   "焦糖"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_60",
+   "crystal_120",
+   "cinnamon",
+   "nutmeg",
+   "orange_peel",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "spice_beer",
+   "pumpkin_spice_beer",
+   "old_ale",
+   "english_barleywine"
+  ],
+  "requirements": [
+   {
+    "type": "adjunct",
+    "in": [
+     "cinnamon",
+     "nutmeg",
+     "clove",
+     "star_anise"
+    ],
+    "hint": "需要肉桂、肉豆蔻、丁香或八角这类“节日香料”。"
+   },
+   {
+    "type": "maltShare",
+    "category": "caramel",
+    "min": 0.08,
+    "soft": true,
+    "hint": "焦糖麦芽要多一些，带来太妃糖般的甜。"
+   }
+  ],
+  "aromas": [
+   "cinnamon",
+   "nutmeg",
+   "caramel",
+   "orange",
+   "warming"
+  ],
+  "glass": "snifter",
+  "servingTemp": 12,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它只在一年中最冷的时候出现。",
+   "喝起来像一块香料蛋糕。",
+   "颜色深红，带着太妃糖和温暖的酒精。",
+   "肉桂与肉豆蔻在杯中跳舞。"
+  ],
+  "description": "冬季香料啤酒是欧美酒厂在圣诞季推出的节日啤酒，酒体饱满、酒精温暖，加入肉桂、肉豆蔻、橙皮等节日香料，伴随焦糖与太妃糖的甜美，适合在壁炉边慢慢品尝。",
+  "example": {
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 35,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "adjuncts": [
+    {
+     "id": "cinnamon",
+     "grams": 8
+    },
+    {
+     "id": "nutmeg",
+     "grams": 3
+    },
+    {
+     "id": "orange_peel",
+     "grams": 20
+    }
+   ],
+   "water": "dark",
+   "mashTemp": 68,
+   "boilTime": 60,
+   "processes": [],
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 6
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.5
+    },
+    {
+     "id": "crystal_120",
+     "kg": 0.2
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.08
+    }
+   ],
+   "yeast": "english_ale",
+   "fermentTemp": 19,
+   "fermentDays": 12,
+   "maturationDays": 21,
+   "carbonation": 2.2
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "pumpkin_spice_beer",
+  "name": "Pumpkin Spice Beer",
+  "nameZh": "南瓜香料啤酒",
+  "family": "spice",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "Seasonal",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 12,
+   "max": 30
+  },
+  "color": {
+   "min": 8,
+   "max": 20
+  },
+  "bitterness": 1.5,
+  "sweetness": 3.2,
+  "body": 2.6,
+  "malt": 3.5,
+  "caramel": 1.6,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 0.4,
+  "spicy": 2.7,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.1,
+  "haze": 0.8,
+  "tags": [
+   "南瓜派",
+   "秋天",
+   "肉桂",
+   "万圣节"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "munich_malt",
+   "crystal_60",
+   "pumpkin",
+   "cinnamon",
+   "nutmeg",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "winter_seasonal",
+   "spice_beer",
+   "american_amber_ale"
+  ],
+  "requirements": [
+   {
+    "type": "adjunct",
+    "in": [
+     "pumpkin"
+    ],
+    "hint": "糖化时加入烤过的南瓜。"
+   },
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "spice"
+    ],
+    "min": 0.3,
+    "hint": "再来一点南瓜派香料。"
+   }
+  ],
+  "aromas": [
+   "cinnamon",
+   "nutmeg",
+   "caramel",
+   "bread"
+  ],
+  "glass": "tulip",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它属于秋天和万圣节。",
+   "喝起来像一块南瓜派。",
+   "一种橙色的大瓜被放进了糖化锅。"
+  ],
+  "description": "南瓜香料啤酒是美国秋季的季节限定：在糖化时加入烤南瓜，再用肉桂、肉豆蔻、丁香调味，重现南瓜派的风味。琥珀色、麦芽甜润，香料温暖。",
+  "example": {
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "adjuncts": [
+    {
+     "id": "pumpkin",
+     "grams": 2000,
+     "stage": "mash"
+    },
+    {
+     "id": "cinnamon",
+     "grams": 6
+    },
+    {
+     "id": "nutmeg",
+     "grams": 3
+    },
+    {
+     "id": "clove",
+     "grams": 1
+    }
+   ],
+   "water": "balanced",
+   "mashTemp": 67,
+   "boilTime": 60,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 3.6
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.6
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.4
+    }
+   ],
+   "yeast": "american_ale",
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 10,
+   "carbonation": 2.4
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "honey_beer",
+  "name": "Honey Beer",
+  "nameZh": "蜂蜜啤酒",
+  "family": "spice",
+  "group": "Sugar",
+  "country": [
+   "uk"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 12,
+   "max": 28
+  },
+  "color": {
+   "min": 4,
+   "max": 12
+  },
+  "bitterness": 1.6,
+  "sweetness": 3.3,
+  "body": 1.7,
+  "malt": 4.3,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0.4,
+  "fruity": 1.8,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.4,
+  "haze": 0.3,
+  "tags": [
+   "蜂蜜",
+   "花香",
+   "金色",
+   "柔和"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "maris_otter",
+   "honey_malt",
+   "honey",
+   "english_ale",
+   "east_kent_goldings"
+  ],
+  "relatedStyles": [
+   "british_golden_ale",
+   "spice_beer",
+   "winter_seasonal"
+  ],
+  "requirements": [
+   {
+    "type": "adjunct",
+    "in": [
+     "honey"
+    ],
+    "hint": "需要真正的蜂蜜。"
+   },
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "sugar"
+    ],
+    "min": 40,
+    "hint": "蜂蜜的分量不少：糖类每升 40 克以上。"
+   }
+  ],
+  "aromas": [
+   "honey",
+   "floral",
+   "bread",
+   "apple"
+  ],
+  "glass": "nonic",
+  "servingTemp": 9,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "一种来自蜂巢的金色原料。",
+   "它让酒更干，却留下花香。",
+   "颜色是温暖的金黄。"
+  ],
+  "description": "蜂蜜啤酒在麦汁中加入大量蜂蜜，蜂蜜几乎完全发酵，让酒体更轻、酒精更高，却留下花香与蜂蜜的香甜气息。英国许多传统酒厂都有自己的蜂蜜金色艾尔。",
+  "example": {
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 15,
+     "use": "boil",
+     "time": 10
+    }
+   ],
+   "adjuncts": [
+    {
+     "id": "honey",
+     "grams": 1200
+    }
+   ],
+   "water": "balanced",
+   "mashTemp": 66,
+   "boilTime": 60,
+   "processes": [],
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 3.4
+    },
+    {
+     "id": "honey_malt",
+     "kg": 0.2
+    }
+   ],
+   "yeast": "english_ale",
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 10,
+   "carbonation": 2.3
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "chili_beer",
+  "name": "Chili Beer",
+  "nameZh": "辣椒啤酒",
+  "family": "spice",
+  "alsoIn": [
+   "experimental"
+  ],
+  "group": "Spice",
+  "country": [
+   "mexico",
+   "usa"
+  ],
+  "fermentation": "lager",
+  "abv": {
+   "min": 4,
+   "max": 6
+  },
+  "ibu": {
+   "min": 8,
+   "max": 20
+  },
+  "color": {
+   "min": 2.5,
+   "max": 6
+  },
+  "bitterness": 1.3,
+  "sweetness": 1.3,
+  "body": 1,
+  "malt": 1.9,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 0.2,
+  "spicy": 1.8,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.4,
+  "weights": {
+   "spicy": 1.3
+  },
+  "tags": [
+   "辣椒",
+   "辛辣",
+   "墨西哥",
+   "清爽"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "flaked_corn",
+   "chili",
+   "mexican_lager_yeast",
+   "hallertau_mittelfruh"
+  ],
+  "relatedStyles": [
+   "mexican_lager",
+   "spice_beer",
+   "experimental_beer"
+  ],
+  "requirements": [
+   {
+    "type": "adjunct",
+    "in": [
+     "chili"
+    ],
+    "hint": "需要辣椒——在发酵后浸泡最能保留青椒香。"
+   }
+  ],
+  "aromas": [
+   "chili",
+   "pepper",
+   "corn",
+   "grain"
+  ],
+  "glass": "pilsner",
+  "servingTemp": 4,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "喝下去后，喉咙里慢慢升起一团火。",
+   "底子是一杯来自墨西哥的清爽拉格。",
+   "有一种红色或绿色的果实被泡进了酒里。"
+  ],
+  "description": "辣椒啤酒常以清爽的墨西哥式拉格为底，在后发酵时浸泡辣椒，带来青椒香与逐渐升起的辣感。冰镇饮用时清凉与灼热交替，是配墨西哥菜的绝佳选择。",
+  "example": {
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "adjuncts": [
+    {
+     "id": "chili",
+     "grams": 30,
+     "stage": "secondary"
+    }
+   ],
+   "water": "lager",
+   "mashTemp": 65,
+   "boilTime": 90,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 3.3
+    },
+    {
+     "id": "flaked_corn",
+     "kg": 0.8
+    }
+   ],
+   "yeast": "mexican_lager_yeast",
+   "fermentTemp": 12,
+   "fermentDays": 14,
+   "maturationDays": 21,
+   "carbonation": 2.7
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "tea_beer",
+  "name": "Tea Beer",
+  "nameZh": "茶啤",
+  "family": "spice",
+  "alsoIn": [
+   "experimental"
+  ],
+  "group": "Herb & Tea",
+  "country": [
+   "china"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 4,
+   "max": 6
+  },
+  "ibu": {
+   "min": 10,
+   "max": 25
+  },
+  "color": {
+   "min": 3,
+   "max": 8
+  },
+  "bitterness": 2.1,
+  "sweetness": 1.1,
+  "body": 1.7,
+  "malt": 2.7,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 2.3,
+  "fruity": 0.4,
+  "spicy": 0.1,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 1.3,
+  "weights": {
+   "hopAroma": 1.2
+  },
+  "tags": [
+   "茉莉花茶",
+   "绿茶",
+   "东方",
+   "清香"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "wheat_malt",
+   "jasmine_tea",
+   "green_tea",
+   "qingdao_dahua",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "spice_beer",
+   "experimental_beer",
+   "american_wheat"
+  ],
+  "requirements": [
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "tea"
+    ],
+    "min": 1.5,
+    "hint": "茶叶每升至少 1.5 克。"
+   },
+   {
+    "type": "noAdjunctCategory",
+    "in": [
+     "fruit"
+    ],
+    "soft": true,
+    "hint": "让茶香独自出场，不加水果。"
+   }
+  ],
+  "aromas": [
+   "tea",
+   "floral",
+   "bread",
+   "herbal"
+  ],
+  "glass": "teku",
+  "servingTemp": 7,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它来自一个以茶闻名的国度。",
+   "香气不是来自酒花，却很像花香。",
+   "发酵结束后，酿酒师泡了一壶“冷泡茶”进去。",
+   "茉莉花是最好的搭档。"
+  ],
+  "description": "茶啤是中国精酿的代表风格之一：在淡色小麦艾尔中冷泡茉莉花茶或绿茶，茶多酚带来轻微的涩与干，茉莉花香与酒花相映成趣，清新雅致。",
+  "example": {
+   "hops": [
+    {
+     "id": "qingdao_dahua",
+     "grams": 25,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "qingdao_dahua",
+     "grams": 20,
+     "use": "whirlpool"
+    }
+   ],
+   "adjuncts": [
+    {
+     "id": "jasmine_tea",
+     "grams": 50,
+     "stage": "secondary"
+    }
+   ],
+   "water": "soft",
+   "mashTemp": 66,
+   "boilTime": 60,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 3.3
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 0.6
+    }
+   ],
+   "yeast": "american_ale",
+   "fermentTemp": 19,
+   "fermentDays": 8,
+   "maturationDays": 5,
+   "carbonation": 2.6
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "rauchbier",
+  "name": "Rauchbier",
+  "nameZh": "班贝格烟熏啤酒",
+  "family": "smoke",
+  "alsoIn": [
+   "german",
+   "lager"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Bamberg",
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.8,
+   "max": 6
+  },
+  "ibu": {
+   "min": 20,
+   "max": 30
+  },
+  "color": {
+   "min": 12,
+   "max": 22
+  },
+  "bitterness": 1.8,
+  "sweetness": 2,
+  "body": 2,
+  "malt": 3.7,
+  "caramel": 1.8,
+  "roast": 0,
+  "hopAroma": 0.1,
+  "fruity": 0.1,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 2.7,
+  "wood": 0,
+  "alcohol": 0.1,
+  "haze": 0.4,
+  "weights": {
+   "smoke": 2
+  },
+  "tags": [
+   "山毛榉烟熏",
+   "班贝格",
+   "培根",
+   "琥珀"
+  ],
+  "ingredients": [
+   "beech_smoked_malt",
+   "munich_malt",
+   "caramunich",
+   "german_lager",
+   "hallertau_mittelfruh"
+  ],
+  "relatedStyles": [
+   "smoked_beer",
+   "marzen",
+   "smoked_porter",
+   "grodziskie"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "用拉格酵母低温发酵并长时间窖藏。"
+   },
+   {
+    "type": "malt",
+    "in": [
+     "beech_smoked_malt"
+    ],
+    "minShare": 0.4,
+    "hint": "山毛榉烟熏麦芽占四成以上。"
+   }
+  ],
+  "aromas": [
+   "smoke",
+   "bacon",
+   "bread",
+   "toast",
+   "caramel"
+  ],
+  "glass": "mug",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它来自德国弗兰肯的一座古城。",
+   "第一口像在吃培根。",
+   "麦芽在山毛榉木的烟中烘干。",
+   "底子是一杯琥珀色的三月啤酒。"
+  ],
+  "description": "班贝格烟熏啤酒是弗兰肯地区班贝格的骄傲，使用山毛榉木烟熏的麦芽，以拉格方式酿造成琥珀色的三月啤酒。烟熏味浓郁如培根与火腿，背后是饱满的面包与焦糖麦芽香。",
+  "example": {
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 45,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "adjuncts": [],
+   "water": "balanced",
+   "mashTemp": 66,
+   "boilTime": 90,
+   "processes": [
+    "decoction"
+   ],
+   "malts": [
+    {
+     "id": "beech_smoked_malt",
+     "kg": 2.7
+    },
+    {
+     "id": "munich_malt",
+     "kg": 1.7
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.45
+    }
+   ],
+   "yeast": "german_lager",
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 35,
+   "carbonation": 2.5
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "smoked_porter",
+  "name": "Smoked Porter",
+  "nameZh": "烟熏波特",
+  "family": "smoke",
+  "alsoIn": [
+   "porter"
+  ],
+  "group": "Smoked Dark",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5,
+   "max": 7
+  },
+  "ibu": {
+   "min": 20,
+   "max": 40
+  },
+  "color": {
+   "min": 22,
+   "max": 40
+  },
+  "bitterness": 2.5,
+  "sweetness": 2.4,
+  "body": 2.2,
+  "malt": 2.4,
+  "caramel": 1.2,
+  "roast": 3,
+  "hopAroma": 0.5,
+  "fruity": 0.5,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 1,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.8,
+  "weights": {
+   "smoke": 1.5
+  },
+  "tags": [
+   "烟熏",
+   "巧克力",
+   "篝火",
+   "深色"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "beech_smoked_malt",
+   "chocolate_malt",
+   "crystal_60",
+   "black_malt",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "american_porter",
+   "rauchbier",
+   "smoked_beer"
+  ],
+  "requirements": [
+   {
+    "type": "maltShare",
+    "category": "smoked",
+    "min": 0.12,
+    "hint": "烟熏麦芽占一成以上。"
+   },
+   {
+    "type": "maltShare",
+    "category": "roast",
+    "min": 0.05,
+    "hint": "还要有巧克力或黑麦芽带来的深色烘烤。"
+   }
+  ],
+  "aromas": [
+   "smoke",
+   "chocolate",
+   "roast",
+   "coffee"
+  ],
+  "glass": "nonic",
+  "servingTemp": 11,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它像篝火边的一杯热可可。",
+   "颜色接近黑色。",
+   "一部分麦芽在木烟中烘干。"
+  ],
+  "description": "烟熏波特把烟熏麦芽带入美式波特，1988 年由阿拉斯加酿酒厂发扬光大。巧克力与咖啡般的烘烤味里交织着篝火般的烟熏，适合配烤肉与烟熏三文鱼。",
+  "example": {
+   "hops": [
+    {
+     "id": "centennial",
+     "grams": 25,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "cascade",
+     "grams": 15,
+     "use": "boil",
+     "time": 10
+    }
+   ],
+   "adjuncts": [],
+   "water": "dark",
+   "mashTemp": 67,
+   "boilTime": 60,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 3.2
+    },
+    {
+     "id": "beech_smoked_malt",
+     "kg": 1
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.35
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.3
+    },
+    {
+     "id": "black_malt",
+     "kg": 0.08
+    }
+   ],
+   "yeast": "american_ale",
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 10,
+   "carbonation": 2.3
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "smoked_beer",
+  "name": "Classic Smoked Beer",
+  "nameZh": "经典烟熏艾尔",
+  "family": "smoke",
+  "group": "Smoked Ale",
+  "country": [
+   "germany"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.5,
+   "max": 6.5
+  },
+  "ibu": {
+   "min": 18,
+   "max": 35
+  },
+  "color": {
+   "min": 6,
+   "max": 16
+  },
+  "bitterness": 1.9,
+  "sweetness": 2,
+  "body": 1.9,
+  "malt": 2.7,
+  "caramel": 0.7,
+  "roast": 0,
+  "hopAroma": 0.2,
+  "fruity": 0.7,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 1.4,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.7,
+  "weights": {
+   "smoke": 1.5
+  },
+  "tags": [
+   "烟熏",
+   "艾尔",
+   "琥珀",
+   "篝火"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "beech_smoked_malt",
+   "munich_malt",
+   "crystal_40",
+   "altbier_yeast"
+  ],
+  "relatedStyles": [
+   "rauchbier",
+   "smoked_porter",
+   "altbier"
+  ],
+  "requirements": [
+   {
+    "type": "malt",
+    "in": [
+     "beech_smoked_malt"
+    ],
+    "minShare": 0.2,
+    "hint": "山毛榉烟熏麦芽两成以上。"
+   },
+   {
+    "type": "yeastType",
+    "in": [
+     "ale",
+     "kveik"
+    ],
+    "hint": "用艾尔酵母上面发酵，而不是拉格。"
+   },
+   {
+    "type": "maltShare",
+    "category": "roast",
+    "max": 0.03,
+    "soft": true,
+    "hint": "不需要深色烘烤麦芽。"
+   }
+  ],
+  "aromas": [
+   "smoke",
+   "bread",
+   "caramel",
+   "toast"
+  ],
+  "glass": "tulip",
+  "servingTemp": 9,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它借用了班贝格的烟熏麦芽。",
+   "却用上面发酵的艾尔酵母酿造。",
+   "颜色是琥珀或铜色。"
+  ],
+  "description": "经典烟熏艾尔把烟熏麦芽用于各种艾尔底子，例如烟熏老啤酒或烟熏淡色艾尔。烟熏味与麦芽、焦糖保持平衡，比班贝格烟熏拉格更圆润，带一点艾尔的果香。",
+  "example": {
+   "hops": [
+    {
+     "id": "perle",
+     "grams": 20,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 15,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "adjuncts": [],
+   "water": "balanced",
+   "mashTemp": 66,
+   "boilTime": 60,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 2.5
+    },
+    {
+     "id": "beech_smoked_malt",
+     "kg": 1.4
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.5
+    },
+    {
+     "id": "crystal_40",
+     "kg": 0.25
+    }
+   ],
+   "yeast": "altbier_yeast",
+   "fermentTemp": 17,
+   "fermentDays": 12,
+   "maturationDays": 10,
+   "carbonation": 2.4
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "wood_aged_beer",
+  "name": "Wood-aged Beer",
+  "nameZh": "橡木桶陈酿啤酒",
+  "family": "wood",
+  "group": "Oak",
+  "country": [
+   "uk",
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5.5,
+   "max": 8.5
+  },
+  "ibu": {
+   "min": 20,
+   "max": 45
+  },
+  "color": {
+   "min": 8,
+   "max": 20
+  },
+  "bitterness": 2,
+  "sweetness": 4.7,
+  "body": 3.8,
+  "malt": 4.8,
+  "caramel": 1.3,
+  "roast": 0.1,
+  "hopAroma": 0.2,
+  "fruity": 1.2,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 1,
+  "alcohol": 0.6,
+  "haze": 0.3,
+  "weights": {
+   "wood": 1.5
+  },
+  "tags": [
+   "橡木",
+   "香草",
+   "陈酿",
+   "麦芽"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_60",
+   "biscuit_malt",
+   "english_ale",
+   "american_oak",
+   "french_oak"
+  ],
+  "relatedStyles": [
+   "barrel_aged_barleywine",
+   "old_ale",
+   "british_strong_ale"
+  ],
+  "requirements": [
+   {
+    "type": "barrel",
+    "in": [
+     "american_oak",
+     "french_oak"
+    ],
+    "minMonths": 2,
+    "hint": "在没有装过烈酒的橡木桶里陈放两个月以上。"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "kettleSour",
+     "coolship"
+    ],
+    "soft": true,
+    "hint": "这是干净的木桶啤酒，不是酸啤。"
+   }
+  ],
+  "aromas": [
+   "oak",
+   "vanilla",
+   "caramel",
+   "toffee",
+   "wood"
+  ],
+  "glass": "snifter",
+  "servingTemp": 12,
+  "freshness": "aging",
+  "discovery": "open",
+  "clues": [
+   "它在木头里住了几个月。",
+   "木头里并没有装过威士忌或葡萄酒。",
+   "香草与椰子般的气息来自橡木本身。",
+   "底子是一杯麦芽饱满的英式强艾尔。"
+  ],
+  "description": "橡木桶陈酿啤酒在未装过烈酒的新橡木桶中熟成，橡木为啤酒带来香草、椰子、太妃糖与木质单宁。传统英国艾尔曾全部用木桶储运，如今这是一种追求圆润与复杂的手法。",
+  "example": {
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 50,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "fuggle",
+     "grams": 20,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "adjuncts": [],
+   "water": "balanced",
+   "mashTemp": 67,
+   "boilTime": 60,
+   "processes": [],
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 5.8
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.4
+    },
+    {
+     "id": "biscuit_malt",
+     "kg": 0.2
+    }
+   ],
+   "yeast": "english_ale",
+   "fermentTemp": 19,
+   "fermentDays": 12,
+   "maturationDays": 30,
+   "carbonation": 2.2,
+   "barrel": {
+    "id": "american_oak",
+    "months": 4
+   }
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "barrel_aged_stout",
+  "name": "Bourbon Barrel Aged Imperial Stout",
+  "nameZh": "波本桶帝国世涛",
+  "family": "wood",
+  "alsoIn": [
+   "stout"
+  ],
+  "group": "Spirit Barrel",
+  "country": [
+   "usa"
+  ],
+  "region": "Chicago",
+  "fermentation": "ale",
+  "abv": {
+   "min": 9.5,
+   "max": 14
+  },
+  "ibu": {
+   "min": 45,
+   "max": 80
+  },
+  "color": {
+   "min": 40,
+   "max": 80
+  },
+  "bitterness": 2.5,
+  "sweetness": 5,
+  "body": 5,
+  "malt": 5,
+  "caramel": 1.6,
+  "roast": 5,
+  "hopAroma": 0.1,
+  "fruity": 0.4,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 1.8,
+  "alcohol": 3.5,
+  "haze": 0.8,
+  "weights": {
+   "wood": 1.3
+  },
+  "tags": [
+   "波本桶",
+   "帝国世涛",
+   "巧克力",
+   "香草",
+   "陈年"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "roasted_barley",
+   "chocolate_malt",
+   "crystal_120",
+   "american_ale",
+   "bourbon_barrel"
+  ],
+  "relatedStyles": [
+   "imperial_stout",
+   "barrel_aged_barleywine",
+   "pastry_stout"
+  ],
+  "requirements": [
+   {
+    "type": "barrel",
+    "in": [
+     "bourbon_barrel"
+    ],
+    "minMonths": 6,
+    "hint": "在波本威士忌桶里陈放六个月以上（一年更好）。"
+   },
+   {
+    "type": "maltShare",
+    "category": "roast",
+    "min": 0.08,
+    "hint": "底子是一杯深黑的帝国世涛。"
+   }
+  ],
+  "aromas": [
+   "bourbon",
+   "vanilla",
+   "chocolate",
+   "coffee",
+   "oak"
+  ],
+  "glass": "snifter",
+  "servingTemp": 14,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "它的底子是能量最强的黑色啤酒。",
+   "然后在肯塔基的烈酒桶里睡了一年。",
+   "香草、椰子与波本的甜，包裹着巧克力和咖啡。",
+   "酒精很高，适合慢慢啜饮。"
+  ],
+  "description": "1992 年芝加哥的 Goose Island 把帝国世涛装进刚倒空的波本桶，开创了这一传奇风格。一年的木桶陈酿为浓黑的世涛带来香草、椰子、焦糖与波本酒的温暖，口感厚重绵长，可陈放多年。",
+  "example": {
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 45,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 30,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "adjuncts": [],
+   "water": "dark",
+   "mashTemp": 68,
+   "boilTime": 90,
+   "processes": [],
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 8.4
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.5
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.5
+    },
+    {
+     "id": "crystal_120",
+     "kg": 0.4
+    },
+    {
+     "id": "black_malt",
+     "kg": 0.15
+    }
+   ],
+   "yeast": "american_ale",
+   "fermentTemp": 18,
+   "fermentDays": 21,
+   "maturationDays": 30,
+   "carbonation": 2,
+   "barrel": {
+    "id": "bourbon_barrel",
+    "months": 12
+   }
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "barrel_aged_barleywine",
+  "name": "Barrel Aged Barleywine",
+  "nameZh": "桶陈大麦酒",
+  "family": "wood",
+  "alsoIn": [
+   "strongAle"
+  ],
+  "group": "Spirit Barrel",
+  "country": [
+   "usa",
+   "uk"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 9.5,
+   "max": 14
+  },
+  "ibu": {
+   "min": 40,
+   "max": 80
+  },
+  "color": {
+   "min": 12,
+   "max": 26
+  },
+  "bitterness": 2.6,
+  "sweetness": 5,
+  "body": 4.7,
+  "malt": 5,
+  "caramel": 2.1,
+  "roast": 0.1,
+  "hopAroma": 0.1,
+  "fruity": 0.5,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 1.7,
+  "alcohol": 3.4,
+  "haze": 0.8,
+  "weights": {
+   "wood": 1.3
+  },
+  "tags": [
+   "大麦酒",
+   "烈酒桶",
+   "太妃糖",
+   "陈年"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_60",
+   "crystal_120",
+   "american_ale",
+   "bourbon_barrel",
+   "whisky_barrel"
+  ],
+  "relatedStyles": [
+   "american_barleywine",
+   "english_barleywine",
+   "barrel_aged_stout",
+   "wood_aged_beer"
+  ],
+  "requirements": [
+   {
+    "type": "barrel",
+    "in": [
+     "bourbon_barrel",
+     "whisky_barrel",
+     "rum_barrel",
+     "sherry_barrel"
+    ],
+    "minMonths": 6,
+    "hint": "在烈酒桶里陈放半年以上。"
+   },
+   {
+    "type": "maltShare",
+    "category": "roast",
+    "max": 0.02,
+    "hint": "底子是琥珀色的大麦酒，不用烘烤麦芽。"
+   }
+  ],
+  "aromas": [
+   "toffee",
+   "bourbon",
+   "caramel",
+   "oak",
+   "dark_fruit"
+  ],
+  "glass": "snifter",
+  "servingTemp": 14,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "它的底子被称为“啤酒中的葡萄酒”。",
+   "颜色是琥珀到红铜色，没有咖啡味。",
+   "在装过烈酒的木桶里度过了大半年。",
+   "太妃糖、无花果与木桶香草层层叠叠。"
+  ],
+  "description": "桶陈大麦酒把高酒精的大麦酒放进波本、威士忌或朗姆酒桶中陈酿，太妃糖、焦糖与干果的麦芽甜感叠加木桶的香草、椰子与烈酒温热，是最适合窖藏的啤酒之一。",
+  "example": {
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 40,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "centennial",
+     "grams": 30,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "adjuncts": [],
+   "water": "balanced",
+   "mashTemp": 67,
+   "boilTime": 90,
+   "processes": [],
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 8.8
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.5
+    },
+    {
+     "id": "crystal_120",
+     "kg": 0.15
+    }
+   ],
+   "yeast": "american_ale",
+   "fermentTemp": 18,
+   "fermentDays": 21,
+   "maturationDays": 30,
+   "carbonation": 2,
+   "barrel": {
+    "id": "bourbon_barrel",
+    "months": 10
+   }
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "barrel_aged_sour",
+  "name": "Wine Barrel Sour",
+  "nameZh": "红酒桶酸啤",
+  "family": "wood",
+  "alsoIn": [
+   "sour",
+   "wild"
+  ],
+  "group": "Wine Barrel",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "mixed",
+  "abv": {
+   "min": 5.5,
+   "max": 8
+  },
+  "ibu": {
+   "min": 5,
+   "max": 18
+  },
+  "color": {
+   "min": 3,
+   "max": 9
+  },
+  "bitterness": 1,
+  "sweetness": 0,
+  "body": 2,
+  "malt": 2.3,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 2.2,
+  "spicy": 0.7,
+  "acidity": 3.9,
+  "funk": 3.3,
+  "smoke": 0,
+  "wood": 1.3,
+  "alcohol": 0.5,
+  "haze": 2.2,
+  "weights": {
+   "acidity": 1.3
+  },
+  "tags": [
+   "红酒桶",
+   "酸",
+   "橡木",
+   "葡萄"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "wheat_malt",
+   "roeselare_blend",
+   "wine_barrel",
+   "brett_brux"
+  ],
+  "relatedStyles": [
+   "flanders_red",
+   "american_wild_ale",
+   "italian_grape_ale"
+  ],
+  "requirements": [
+   {
+    "type": "barrel",
+    "in": [
+     "wine_barrel"
+    ],
+    "minMonths": 6,
+    "hint": "在葡萄酒桶里陈放半年以上。"
+   },
+   {
+    "type": "yeastType",
+    "in": [
+     "mixed",
+     "brett",
+     "pedio",
+     "lacto"
+    ],
+    "hint": "桶里要有野生酵母或乳酸菌在工作。"
+   }
+  ],
+  "aromas": [
+   "redwine",
+   "oak",
+   "lactic",
+   "funk",
+   "grape"
+  ],
+  "glass": "tulip",
+  "servingTemp": 10,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "它的木桶上一任主人是葡萄酒。",
+   "野生菌在桶壁的缝隙里安了家。",
+   "酸、木头与葡萄的单宁交织在一起。"
+  ],
+  "description": "红酒桶酸啤把淡色基酒与混合菌群一起放入用过的葡萄酒桶中长期陈放，木桶带来单宁与残留的葡萄酒香，菌群则带来酸与野趣，成品复杂优雅，近似一杯野性的白葡萄酒。",
+  "example": {
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 25,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "adjuncts": [],
+   "water": "soft",
+   "mashTemp": 67,
+   "boilTime": 90,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 3.6
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 0.9
+    },
+    {
+     "id": "flaked_oats",
+     "kg": 0.2
+    }
+   ],
+   "yeast": "roeselare_blend",
+   "fermentTemp": 20,
+   "fermentDays": 60,
+   "maturationDays": 120,
+   "carbonation": 2.6,
+   "barrel": {
+    "id": "wine_barrel",
+    "months": 12
+   }
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "grodziskie",
+  "name": "Grodziskie",
+  "nameZh": "格罗日斯克烟熏小麦",
+  "family": "historical",
+  "alsoIn": [
+   "smoke",
+   "wheat"
+  ],
+  "group": "Smoked",
+  "country": [
+   "poland"
+  ],
+  "region": "Grodzisk Wielkopolski",
+  "fermentation": "ale",
+  "abv": {
+   "min": 2.5,
+   "max": 3.5
+  },
+  "ibu": {
+   "min": 18,
+   "max": 35
+  },
+  "color": {
+   "min": 2,
+   "max": 5
+  },
+  "bitterness": 1.9,
+  "sweetness": 0.7,
+  "body": 2.4,
+  "malt": 0,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0.3,
+  "fruity": 0.9,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 2.7,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 2.8,
+  "weights": {
+   "smoke": 1.3
+  },
+  "tags": [
+   "波兰香槟",
+   "橡木烟熏小麦",
+   "低酒精",
+   "高碳酸"
+  ],
+  "ingredients": [
+   "oak_smoked_wheat",
+   "saaz",
+   "english_ale",
+   "kolsch_yeast"
+  ],
+  "relatedStyles": [
+   "rauchbier",
+   "berliner_weisse",
+   "lichtenhainer"
+  ],
+  "requirements": [
+   {
+    "type": "malt",
+    "in": [
+     "oak_smoked_wheat"
+    ],
+    "minShare": 0.7,
+    "hint": "几乎全部使用橡木烟熏的小麦芽。"
+   },
+   {
+    "type": "carbonation",
+    "min": 3.2,
+    "hint": "高碳酸，气泡像香槟。"
+   }
+  ],
+  "aromas": [
+   "smoke",
+   "grain",
+   "herbal",
+   "wood"
+  ],
+  "glass": "pilsner",
+  "servingTemp": 7,
+  "freshness": "fresh",
+  "discovery": "hidden",
+  "clues": [
+   "这种啤酒来自烟熏麦芽传统。",
+   "颜色非常浅。",
+   "酒体轻盈。",
+   "它来自波兰。"
+  ],
+  "description": "格罗日斯克啤酒诞生于波兰西部的格罗日斯克，曾被誉为“波兰香槟”，在 1993 年停产后由爱好者复兴。它几乎全部使用橡木烟熏小麦芽，酒精度很低、颜色极浅、气泡丰沛，烟熏与草本酒花清新交织。",
+  "example": {
+   "hops": [
+    {
+     "id": "saaz",
+     "grams": 40,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "saaz",
+     "grams": 20,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "adjuncts": [],
+   "water": "soft",
+   "mashTemp": 66,
+   "boilTime": 60,
+   "processes": [],
+   "malts": [
+    {
+     "id": "oak_smoked_wheat",
+     "kg": 2.8
+    }
+   ],
+   "yeast": "english_ale",
+   "fermentTemp": 17,
+   "fermentDays": 7,
+   "maturationDays": 10,
+   "carbonation": 3.6
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "sahti",
+  "name": "Sahti",
+  "nameZh": "萨赫蒂",
+  "family": "historical",
+  "alsoIn": [
+   "farmhouse"
+  ],
+  "group": "Nordic",
+  "country": [
+   "nordic"
+  ],
+  "region": "Finland",
+  "fermentation": "ale",
+  "abv": {
+   "min": 7,
+   "max": 11
+  },
+  "ibu": {
+   "min": 0,
+   "max": 10
+  },
+  "color": {
+   "min": 4,
+   "max": 22
+  },
+  "bitterness": 0,
+  "sweetness": 5,
+  "body": 4.8,
+  "malt": 4.2,
+  "caramel": 0.1,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 3.6,
+  "spicy": 4,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0.4,
+  "alcohol": 1.4,
+  "haze": 2.2,
+  "tags": [
+   "杜松",
+   "不煮沸",
+   "芬兰",
+   "面包酵母"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "rye_malt",
+   "munich_malt",
+   "juniper",
+   "sahti_bakers_yeast",
+   "voss_kveik"
+  ],
+  "relatedStyles": [
+   "kveik_ale",
+   "gruit",
+   "kvass_historical"
+  ],
+  "requirements": [
+   {
+    "type": "adjunct",
+    "in": [
+     "juniper"
+    ],
+    "hint": "用杜松枝铺在过滤槽里，过滤麦汁。"
+   },
+   {
+    "type": "process",
+    "in": [
+     "noBoil"
+    ],
+    "hint": "麦汁不煮沸。"
+   },
+   {
+    "type": "yeast",
+    "in": [
+     "sahti_bakers_yeast",
+     "voss_kveik",
+     "hornindal_kveik"
+    ],
+    "hint": "使用面包酵母或北欧农家酵母。"
+   }
+  ],
+  "aromas": [
+   "juniper",
+   "banana",
+   "bread",
+   "rye"
+  ],
+  "glass": "mug",
+  "servingTemp": 10,
+  "freshness": "fresh",
+  "discovery": "hidden",
+  "clues": [
+   "北方森林里的农夫会在桑拿后喝它。",
+   "麦汁从未沸腾过。",
+   "过滤它的不是筛网，而是一种针叶树的枝条。",
+   "发酵它的是烤面包用的酵母。"
+  ],
+  "description": "萨赫蒂是芬兰的古老农家啤酒，传统上在木槽（kuurna）中用杜松枝过滤麦汁，麦汁不煮沸，再用面包酵母发酵。它浑浊、甜润、酒精度高，带着香蕉、杜松与黑麦面包的气息。",
+  "example": {
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 10,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "adjuncts": [
+    {
+     "id": "juniper",
+     "grams": 80,
+     "stage": "mash"
+    }
+   ],
+   "water": "balanced",
+   "mashTemp": 68,
+   "boilTime": 0,
+   "processes": [
+    "noBoil"
+   ],
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 6.2
+    },
+    {
+     "id": "rye_malt",
+     "kg": 1.2
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.6
+    }
+   ],
+   "yeast": "sahti_bakers_yeast",
+   "fermentTemp": 25,
+   "fermentDays": 7,
+   "maturationDays": 14,
+   "carbonation": 1.6
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "kvass_historical",
+  "name": "Kvass-like Historical Beer",
+  "nameZh": "格瓦斯式古酿",
+  "family": "historical",
+  "group": "Baltic",
+  "country": [
+   "baltic"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 0.5,
+   "max": 2.5
+  },
+  "ibu": {
+   "min": 0,
+   "max": 10
+  },
+  "color": {
+   "min": 10,
+   "max": 30
+  },
+  "bitterness": 0.2,
+  "sweetness": 0.2,
+  "body": 2.1,
+  "malt": 3,
+  "caramel": 0,
+  "roast": 0.4,
+  "hopAroma": 0,
+  "fruity": 1.8,
+  "spicy": 1.3,
+  "acidity": 0.2,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 1.2,
+  "tags": [
+   "黑麦面包",
+   "低酒精",
+   "东欧",
+   "日常饮料"
+  ],
+  "ingredients": [
+   "rye_bread",
+   "rye_malt",
+   "pale_malt",
+   "sahti_bakers_yeast"
+  ],
+  "relatedStyles": [
+   "sahti",
+   "roggenbier",
+   "berliner_weisse"
+  ],
+  "requirements": [
+   {
+    "type": "adjunct",
+    "in": [
+     "rye_bread"
+    ],
+    "hint": "把烤得焦香的黑麦面包放进糖化锅。"
+   },
+   {
+    "type": "maltShare",
+    "category": "rye",
+    "min": 0.2,
+    "soft": true,
+    "hint": "再加一些黑麦芽。"
+   }
+  ],
+  "aromas": [
+   "bread",
+   "rye",
+   "toast",
+   "grain"
+  ],
+  "glass": "mug",
+  "servingTemp": 6,
+  "freshness": "fresh",
+  "discovery": "hidden",
+  "clues": [
+   "在东方的大草原上，孩子们也会喝它。",
+   "酒精度低得几乎尝不出来。",
+   "它的主要原料原本是放在餐桌上的。",
+   "一种黑色的、酸酸的面包。"
+  ],
+  "description": "格瓦斯是东欧与波罗的海地区流传千年的日常饮料，用烤黑麦面包浸泡发酵而成，酒精度通常不到 2%。它带有黑面包的焦香、淡淡的酸与甜，是夏日街头的解暑饮品。",
+  "example": {
+   "hops": [
+    {
+     "id": "saaz",
+     "grams": 5,
+     "use": "boil",
+     "time": 30
+    }
+   ],
+   "adjuncts": [
+    {
+     "id": "rye_bread",
+     "grams": 1600,
+     "stage": "mash"
+    }
+   ],
+   "water": "balanced",
+   "mashTemp": 66,
+   "boilTime": 30,
+   "processes": [],
+   "malts": [
+    {
+     "id": "rye_malt",
+     "kg": 0.3
+    },
+    {
+     "id": "pale_malt",
+     "kg": 0.3
+    }
+   ],
+   "yeast": "sahti_bakers_yeast",
+   "fermentTemp": 22,
+   "fermentDays": 5,
+   "maturationDays": 3,
+   "carbonation": 2.6
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "kentucky_common",
+  "name": "Kentucky Common",
+  "nameZh": "肯塔基普通啤酒",
+  "family": "historical",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "American",
+  "country": [
+   "usa"
+  ],
+  "region": "Louisville",
+  "fermentation": "ale",
+  "abv": {
+   "min": 4,
+   "max": 5.5
+  },
+  "ibu": {
+   "min": 15,
+   "max": 30
+  },
+  "color": {
+   "min": 11,
+   "max": 20
+  },
+  "bitterness": 1.6,
+  "sweetness": 1.9,
+  "body": 1.2,
+  "malt": 1.9,
+  "caramel": 0.9,
+  "roast": 0.7,
+  "hopAroma": 0.3,
+  "fruity": 0.5,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.8,
+  "tags": [
+   "玉米",
+   "深琥珀",
+   "快速出酒",
+   "路易斯维尔"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "flaked_corn",
+   "crystal_60",
+   "black_malt",
+   "american_ale",
+   "cascade"
+  ],
+  "relatedStyles": [
+   "pre_prohibition_porter",
+   "california_common",
+   "american_amber_ale"
+  ],
+  "requirements": [
+   {
+    "type": "maltShare",
+    "category": "corn",
+    "min": 0.15,
+    "hint": "麦芽里要有一成半以上的玉米。"
+   },
+   {
+    "type": "maltShare",
+    "category": "roast",
+    "min": 0.01,
+    "hint": "加一点点黑麦芽调出深色。"
+   },
+   {
+    "type": "yeastType",
+    "in": [
+     "ale"
+    ],
+    "hint": "艾尔酵母，几天就能出酒。"
+   }
+  ],
+  "aromas": [
+   "corn",
+   "bread",
+   "caramel",
+   "toast"
+  ],
+  "glass": "nonic",
+  "servingTemp": 8,
+  "freshness": "fresh",
+  "discovery": "hidden",
+  "clues": [
+   "它是一座赛马之城的酒馆啤酒。",
+   "用了大量本地种植的金黄色谷物。",
+   "颜色却是深琥珀色。",
+   "从酿造到上桌只要一周左右。"
+  ],
+  "description": "肯塔基普通啤酒是 19 世纪末至禁酒令前路易斯维尔最流行的酒馆啤酒，用玉米与少量深色麦芽酿造，发酵后很快就装桶出售。它呈深琥珀色，口感清爽带谷物甜，几乎没有烘烤味。",
+  "example": {
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "cascade",
+     "grams": 10,
+     "use": "boil",
+     "time": 10
+    }
+   ],
+   "adjuncts": [],
+   "water": "balanced",
+   "mashTemp": 66,
+   "boilTime": 60,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 2.9
+    },
+    {
+     "id": "flaked_corn",
+     "kg": 0.9
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.25
+    },
+    {
+     "id": "black_malt",
+     "kg": 0.07
+    }
+   ],
+   "yeast": "american_ale",
+   "fermentTemp": 19,
+   "fermentDays": 7,
+   "maturationDays": 3,
+   "carbonation": 2.5
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "pre_prohibition_lager",
+  "name": "Pre-Prohibition Lager",
+  "nameZh": "禁酒令前拉格",
+  "family": "historical",
+  "alsoIn": [
+   "lager",
+   "american"
+  ],
+  "group": "American",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.5,
+   "max": 6
+  },
+  "ibu": {
+   "min": 25,
+   "max": 40
+  },
+  "color": {
+   "min": 3,
+   "max": 6
+  },
+  "bitterness": 2.2,
+  "sweetness": 1.4,
+  "body": 1.1,
+  "malt": 1.9,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0.9,
+  "fruity": 0.1,
+  "spicy": 0.1,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.4,
+  "tags": [
+   "玉米",
+   "高苦度",
+   "德裔移民",
+   "金色"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "flaked_corn",
+   "german_lager",
+   "saaz",
+   "hallertau_mittelfruh",
+   "magnum"
+  ],
+  "relatedStyles": [
+   "american_lager",
+   "german_pils",
+   "czech_premium_pale_lager"
+  ],
+  "requirements": [
+   {
+    "type": "maltShare",
+    "category": "corn",
+    "min": 0.15,
+    "hint": "用两到三成玉米稀释美国六棱大麦的蛋白质。"
+   },
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "拉格酵母低温发酵。"
+   }
+  ],
+  "aromas": [
+   "corn",
+   "grain",
+   "spicy",
+   "herbal",
+   "floral"
+  ],
+  "glass": "pilsner",
+  "servingTemp": 5,
+  "freshness": "fresh",
+  "discovery": "hidden",
+  "clues": [
+   "它是德国移民在新大陆酿出的皮尔森。",
+   "在禁酒令之前，它比今天的美国拉格苦得多。",
+   "麦芽之外还有新大陆的金色谷物。",
+   "酒花香气比后来的同胞更鲜明。"
+  ],
+  "description": "禁酒令前拉格（经典美式皮尔森）是 19 世纪德国移民酿酒师在美国的创造：用玉米平衡本地六棱大麦的高蛋白，配以充足的酒花苦度。它比现代美式拉格更饱满、更苦，谷物甜与草本酒花平衡。",
+  "example": {
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 12,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "saaz",
+     "grams": 35,
+     "use": "boil",
+     "time": 20
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 20,
+     "use": "boil",
+     "time": 5
+    }
+   ],
+   "adjuncts": [],
+   "water": "lager",
+   "mashTemp": 65,
+   "boilTime": 90,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 3.4
+    },
+    {
+     "id": "flaked_corn",
+     "kg": 1
+    }
+   ],
+   "yeast": "german_lager",
+   "fermentTemp": 10,
+   "fermentDays": 14,
+   "maturationDays": 28,
+   "carbonation": 2.6
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "pre_prohibition_porter",
+  "name": "Pre-Prohibition Porter",
+  "nameZh": "禁酒令前波特",
+  "family": "historical",
+  "alsoIn": [
+   "porter",
+   "american"
+  ],
+  "group": "American",
+  "country": [
+   "usa"
+  ],
+  "region": "Pennsylvania",
+  "fermentation": "lager",
+  "abv": {
+   "min": 4.5,
+   "max": 6
+  },
+  "ibu": {
+   "min": 20,
+   "max": 35
+  },
+  "color": {
+   "min": 20,
+   "max": 35
+  },
+  "bitterness": 1.8,
+  "sweetness": 3,
+  "body": 1.9,
+  "malt": 1.7,
+  "caramel": 1.9,
+  "roast": 2.7,
+  "hopAroma": 0.3,
+  "fruity": 0.4,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.3,
+  "tags": [
+   "玉米",
+   "糖蜜",
+   "拉格波特",
+   "宾夕法尼亚"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "flaked_corn",
+   "black_malt",
+   "chocolate_malt",
+   "molasses",
+   "california_lager_yeast"
+  ],
+  "relatedStyles": [
+   "american_porter",
+   "baltic_porter",
+   "kentucky_common",
+   "historical_porter"
+  ],
+  "requirements": [
+   {
+    "type": "maltShare",
+    "category": "corn",
+    "min": 0.1,
+    "hint": "加入一成以上的玉米。"
+   },
+   {
+    "type": "maltShare",
+    "category": "roast",
+    "min": 0.04,
+    "hint": "需要黑麦芽带来深色。"
+   },
+   {
+    "type": "adjunct",
+    "in": [
+     "molasses"
+    ],
+    "soft": true,
+    "hint": "一点糖蜜是老配方的秘密。"
+   }
+  ],
+  "aromas": [
+   "molasses",
+   "chocolate",
+   "corn",
+   "roast"
+  ],
+  "glass": "nonic",
+  "servingTemp": 9,
+  "freshness": "normal",
+  "discovery": "hidden",
+  "clues": [
+   "它是英国黑啤在宾夕法尼亚的远房表亲。",
+   "德国移民用自己的酵母重新诠释了它。",
+   "金黄的谷物与深色的糖浆藏在配方里。",
+   "比起祖先，它更清爽、更干净。"
+  ],
+  "description": "禁酒令前波特是 19 世纪美国东部（尤其宾夕法尼亚）流行的波特，德国移民常以拉格酵母酿造，并使用玉米与糖蜜。它比英式波特更轻盈干净，带有温和的烘烤、焦糖与糖蜜香。",
+  "example": {
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 40,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 15,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "adjuncts": [
+    {
+     "id": "molasses",
+     "grams": 200
+    }
+   ],
+   "water": "dark",
+   "mashTemp": 66,
+   "boilTime": 90,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 3.4
+    },
+    {
+     "id": "flaked_corn",
+     "kg": 0.6
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.25
+    },
+    {
+     "id": "black_malt",
+     "kg": 0.15
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.12
+    }
+   ],
+   "yeast": "california_lager_yeast",
+   "fermentTemp": 15,
+   "fermentDays": 14,
+   "maturationDays": 21,
+   "carbonation": 2.3
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "lichtenhainer",
+  "name": "Lichtenhainer",
+  "nameZh": "利希滕海纳",
+  "family": "historical",
+  "alsoIn": [
+   "sour",
+   "smoke"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Thuringia",
+  "fermentation": "mixed",
+  "abv": {
+   "min": 3,
+   "max": 4.5
+  },
+  "ibu": {
+   "min": 3,
+   "max": 12
+  },
+  "color": {
+   "min": 3,
+   "max": 6
+  },
+  "bitterness": 0.5,
+  "sweetness": 0,
+  "body": 1.7,
+  "malt": 1.5,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0.1,
+  "fruity": 0.4,
+  "spicy": 0,
+  "acidity": 3.2,
+  "funk": 0,
+  "smoke": 2,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 2.4,
+  "weights": {
+   "smoke": 1.3,
+   "acidity": 1.3
+  },
+  "tags": [
+   "烟熏",
+   "酸",
+   "图林根",
+   "学生啤酒"
+  ],
+  "ingredients": [
+   "beech_smoked_malt",
+   "wheat_malt",
+   "lacto_plantarum",
+   "american_ale",
+   "hallertau_mittelfruh"
+  ],
+  "relatedStyles": [
+   "berliner_weisse",
+   "grodziskie",
+   "gose"
+  ],
+  "requirements": [
+   {
+    "type": "maltShare",
+    "category": "smoked",
+    "min": 0.3,
+    "hint": "烟熏麦芽三成以上。"
+   },
+   {
+    "type": "maltShare",
+    "category": "wheat",
+    "min": 0.25,
+    "hint": "还要有小麦芽。"
+   }
+  ],
+  "aromas": [
+   "smoke",
+   "lactic",
+   "lemon",
+   "grain"
+  ],
+  "glass": "stange",
+  "servingTemp": 6,
+  "freshness": "fresh",
+  "discovery": "hidden",
+  "clues": [
+   "它来自耶拿附近的一个小村庄。",
+   "大学生们曾经把它当作日常饮料。",
+   "一口下去，又酸又有篝火的味道。",
+   "小麦与烟熏麦芽各占一部分。"
+  ],
+  "description": "利希滕海纳是图林根地区耶拿附近的传统啤酒，曾是大学生的最爱，二战后一度消失。它以烟熏麦芽与小麦酿造，经过乳酸发酵，酸爽轻盈又带有篝火般的烟熏，独树一帜。",
+  "example": {
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 15,
+     "use": "boil",
+     "time": 30
+    }
+   ],
+   "adjuncts": [],
+   "water": "soft",
+   "mashTemp": 65,
+   "boilTime": 60,
+   "processes": [
+    "kettleSour"
+   ],
+   "malts": [
+    {
+     "id": "beech_smoked_malt",
+     "kg": 1.6
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 1.3
+    }
+   ],
+   "yeast": "american_ale",
+   "fermentTemp": 19,
+   "fermentDays": 8,
+   "maturationDays": 7,
+   "carbonation": 2.9
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "roggenbier",
+  "name": "Roggenbier",
+  "nameZh": "黑麦啤酒",
+  "family": "historical",
+  "alsoIn": [
+   "german",
+   "wheat"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Regensburg",
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.5,
+   "max": 6
+  },
+  "ibu": {
+   "min": 10,
+   "max": 20
+  },
+  "color": {
+   "min": 12,
+   "max": 19
+  },
+  "bitterness": 1,
+  "sweetness": 2.6,
+  "body": 3.6,
+  "malt": 3.4,
+  "caramel": 1.3,
+  "roast": 0.4,
+  "hopAroma": 0,
+  "fruity": 2.8,
+  "spicy": 2.6,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 1.6,
+  "tags": [
+   "黑麦",
+   "巴伐利亚",
+   "丁香",
+   "浑浊"
+  ],
+  "ingredients": [
+   "rye_malt",
+   "munich_malt",
+   "pilsner_malt",
+   "caramunich",
+   "hefeweizen_yeast"
+  ],
+  "relatedStyles": [
+   "weizenbock",
+   "dampfbier",
+   "kvass_historical"
+  ],
+  "requirements": [
+   {
+    "type": "maltShare",
+    "category": "rye",
+    "min": 0.5,
+    "hint": "黑麦芽要占到一半。"
+   },
+   {
+    "type": "yeastType",
+    "in": [
+     "weizen"
+    ],
+    "hint": "用巴伐利亚小麦啤酒酵母发酵。"
+   }
+  ],
+  "aromas": [
+   "rye",
+   "clove",
+   "banana",
+   "bread",
+   "spicy"
+  ],
+  "glass": "weizen",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "hidden",
+  "clues": [
+   "1516 年的纯酒令之后，它在巴伐利亚几乎消失。",
+   "它的谷物不是大麦也不是小麦。",
+   "香气却像一杯深色的小麦啤酒。",
+   "面包般的辛香来自黑麦，丁香来自酵母。"
+  ],
+  "description": "黑麦啤酒是巴伐利亚的古老风格，曾因纯酒令将黑麦留作面包原料而衰落，1988 年在雷根斯堡复兴。它使用一半黑麦芽与小麦啤酒酵母，呈深铜色，有黑麦面包的辛香、丁香与香蕉，口感黏稠顺滑。",
+  "example": {
+   "hops": [
+    {
+     "id": "tettnang",
+     "grams": 20,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "adjuncts": [],
+   "water": "balanced",
+   "mashTemp": 66,
+   "boilTime": 90,
+   "processes": [],
+   "malts": [
+    {
+     "id": "rye_malt",
+     "kg": 2.5
+    },
+    {
+     "id": "munich_malt",
+     "kg": 1.3
+    },
+    {
+     "id": "pilsner_malt",
+     "kg": 0.75
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.4
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.05
+    }
+   ],
+   "yeast": "hefeweizen_yeast",
+   "fermentTemp": 19,
+   "fermentDays": 8,
+   "maturationDays": 7,
+   "carbonation": 2.8
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "dampfbier",
+  "name": "Dampfbier",
+  "nameZh": "蒸汽啤酒（德式）",
+  "family": "historical",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "German",
+  "country": [
+   "germany"
+  ],
+  "region": "Bavarian Forest",
+  "fermentation": "ale",
+  "abv": {
+   "min": 4,
+   "max": 5.5
+  },
+  "ibu": {
+   "min": 12,
+   "max": 22
+  },
+  "color": {
+   "min": 8,
+   "max": 14
+  },
+  "bitterness": 1.4,
+  "sweetness": 2,
+  "body": 1.7,
+  "malt": 3,
+  "caramel": 1,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 3.6,
+  "spicy": 3,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 1.6,
+  "tags": [
+   "大麦",
+   "小麦酵母",
+   "巴伐利亚森林",
+   "农家"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "munich_malt",
+   "caramunich",
+   "hefeweizen_yeast",
+   "hallertau_mittelfruh"
+  ],
+  "relatedStyles": [
+   "roggenbier",
+   "weizenbock",
+   "altbier"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "weizen"
+    ],
+    "hint": "用小麦啤酒酵母在较高温度发酵。"
+   },
+   {
+    "type": "maltShare",
+    "category": "wheat",
+    "max": 0.05,
+    "hint": "却完全不用小麦——只用大麦麦芽。"
+   },
+   {
+    "type": "maltShare",
+    "category": "rye",
+    "max": 0.1,
+    "soft": true,
+    "hint": "也不用黑麦。"
+   }
+  ],
+  "aromas": [
+   "banana",
+   "clove",
+   "bread",
+   "toast"
+  ],
+  "glass": "mug",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "hidden",
+  "clues": [
+   "它是巴伐利亚森林里穷人的啤酒。",
+   "发酵时泡沫翻腾，像是锅里冒着蒸汽。",
+   "酵母属于小麦啤酒，谷物却只有大麦。",
+   "颜色是橙铜色。"
+  ],
+  "description": "德式蒸汽啤酒源于巴伐利亚森林，当时小麦被贵族垄断，农民只好用大麦配上小麦啤酒酵母酿造，发酵时泡沫翻滚如蒸汽而得名。它呈铜色，带有香蕉与丁香香气，麦芽饱满却干爽。",
+  "example": {
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "adjuncts": [],
+   "water": "balanced",
+   "mashTemp": 66,
+   "boilTime": 90,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 2.4
+    },
+    {
+     "id": "munich_malt",
+     "kg": 1.6
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.25
+    }
+   ],
+   "yeast": "hefeweizen_yeast",
+   "fermentTemp": 21,
+   "fermentDays": 7,
+   "maturationDays": 7,
+   "carbonation": 2.6
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "steinbier",
+  "name": "Steinbier",
+  "nameZh": "石头啤酒",
+  "family": "historical",
+  "alsoIn": [
+   "german"
+  ],
+  "group": "German",
+  "country": [
+   "germany",
+   "austria"
+  ],
+  "region": "Carinthia / Franconia",
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.5,
+   "max": 6
+  },
+  "ibu": {
+   "min": 15,
+   "max": 30
+  },
+  "color": {
+   "min": 8,
+   "max": 18
+  },
+  "bitterness": 1.5,
+  "sweetness": 2.2,
+  "body": 2.2,
+  "malt": 3.3,
+  "caramel": 2.1,
+  "roast": 0,
+  "hopAroma": 0.1,
+  "fruity": 0.7,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0.4,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.7,
+  "tags": [
+   "热石",
+   "焦糖化",
+   "微烟熏",
+   "古法"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "munich_malt",
+   "rye_malt",
+   "altbier_yeast",
+   "hallertau_mittelfruh"
+  ],
+  "relatedStyles": [
+   "dampfbier",
+   "smoked_beer",
+   "altbier"
+  ],
+  "requirements": [
+   {
+    "type": "process",
+    "in": [
+     "hotStone"
+    ],
+    "hint": "把烧得通红的石头丢进麦汁里煮沸。"
+   }
+  ],
+  "aromas": [
+   "caramel",
+   "smoke",
+   "toffee",
+   "bread"
+  ],
+  "glass": "mug",
+  "servingTemp": 9,
+  "freshness": "normal",
+  "discovery": "hidden",
+  "clues": [
+   "古时候的人没有金属锅，只有木桶。",
+   "他们用火把某样东西烧红。",
+   "麦汁在接触的一瞬间沸腾、焦糖化。",
+   "杯中留着淡淡的烟火气。"
+  ],
+  "description": "石头啤酒是一种古老的酿造方式：在没有金属锅的年代，人们把烧红的石头投入木槽中的麦汁使其沸腾。石头表面的糖分焦糖化，赋予啤酒太妃糖般的甜香和淡淡的烟熏，这些焦糖石头还会被放回发酵罐中。",
+  "example": {
+   "hops": [
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 35,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "adjuncts": [],
+   "water": "balanced",
+   "mashTemp": 66,
+   "boilTime": 60,
+   "processes": [
+    "hotStone"
+   ],
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 2.8
+    },
+    {
+     "id": "munich_malt",
+     "kg": 1.2
+    },
+    {
+     "id": "rye_malt",
+     "kg": 0.4
+    },
+    {
+     "id": "caramunich",
+     "kg": 0.25
+    }
+   ],
+   "yeast": "altbier_yeast",
+   "fermentTemp": 17,
+   "fermentDays": 10,
+   "maturationDays": 10,
+   "carbonation": 2.4
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "gruit",
+  "name": "Gruit Ale",
+  "nameZh": "格鲁特草本艾尔",
+  "family": "historical",
+  "alsoIn": [
+   "spice"
+  ],
+  "group": "Medieval",
+  "country": [
+   "belgium",
+   "germany"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.5,
+   "max": 7
+  },
+  "ibu": {
+   "min": 0,
+   "max": 8
+  },
+  "color": {
+   "min": 6,
+   "max": 16
+  },
+  "bitterness": 1.9,
+  "sweetness": 3.3,
+  "body": 2.4,
+  "malt": 3,
+  "caramel": 0.7,
+  "roast": 0,
+  "hopAroma": 0,
+  "fruity": 1.8,
+  "spicy": 2.9,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.3,
+  "tags": [
+   "中世纪",
+   "无酒花",
+   "草本",
+   "香杨梅"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "munich_malt",
+   "crystal_40",
+   "gruit_herbs",
+   "heather",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "sahti",
+   "spice_beer",
+   "kvass_historical"
+  ],
+  "requirements": [
+   {
+    "type": "adjunct",
+    "in": [
+     "gruit_herbs"
+    ],
+    "hint": "用香杨梅、蓍草、迷迭香等草本混合物代替酒花。"
+   }
+  ],
+  "aromas": [
+   "herbal",
+   "spicy",
+   "bread",
+   "earthy"
+  ],
+  "glass": "mug",
+  "servingTemp": 10,
+  "freshness": "normal",
+  "discovery": "hidden",
+  "clues": [
+   "在酒花统治世界之前，人们用别的东西给啤酒调味。",
+   "它的配方曾是教会与领主专卖的秘密。",
+   "杯中几乎没有酒花。",
+   "苦味来自一包草本植物。"
+  ],
+  "description": "格鲁特是中世纪欧洲在酒花普及前的主流啤酒，以香杨梅、蓍草、迷迭香等草本混合物调味与防腐，其配方由教会和领主垄断征税。它几乎不含酒花，带有草本、树脂与泥土般的苦与香。",
+  "example": {
+   "hops": [],
+   "adjuncts": [
+    {
+     "id": "gruit_herbs",
+     "grams": 40
+    },
+    {
+     "id": "heather",
+     "grams": 60
+    }
+   ],
+   "water": "balanced",
+   "mashTemp": 67,
+   "boilTime": 60,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4
+    },
+    {
+     "id": "munich_malt",
+     "kg": 0.6
+    },
+    {
+     "id": "crystal_40",
+     "kg": 0.25
+    }
+   ],
+   "yeast": "english_ale",
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 10,
+   "carbonation": 2.3
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "experimental_beer",
+  "name": "Experimental Beer",
+  "nameZh": "实验啤酒",
+  "family": "experimental",
+  "group": "Anything Goes",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 3,
+   "max": 12
+  },
+  "ibu": {
+   "min": 0,
+   "max": 80
+  },
+  "color": {
+   "min": 2,
+   "max": 40
+  },
+  "bitterness": 1.8,
+  "sweetness": 1.3,
+  "body": 1.7,
+  "malt": 2.8,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 4.2,
+  "fruity": 2.6,
+  "spicy": 1.1,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 1.5,
+  "weights": {
+   "body": 0.5,
+   "sweetness": 0.5,
+   "bitterness": 0.5,
+   "acidity": 0.5,
+   "roast": 0.5,
+   "hopAroma": 0.5,
+   "malt": 0.5,
+   "caramel": 0.5,
+   "fruity": 0.5,
+   "spicy": 0.5,
+   "funk": 0.5,
+   "smoke": 0.5,
+   "wood": 0.5,
+   "alcohol": 0.5,
+   "haze": 0.5
+  },
+  "tags": [
+   "跨界",
+   "混搭",
+   "实验酒花",
+   "不拘一格"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "hbc_630",
+   "hbc_1019",
+   "jasmine_tea",
+   "sichuan_pepper",
+   "mint",
+   "lychee"
+  ],
+  "relatedStyles": [
+   "tea_beer",
+   "spice_beer",
+   "experimental_ipa"
+  ],
+  "requirements": [
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "tea",
+     "herb"
+    ],
+    "min": 0.5,
+    "hint": "至少要有一种茶或草本。"
+   },
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "fruit",
+     "spice",
+     "cacao",
+     "coffee",
+     "vanilla",
+     "nut"
+    ],
+    "min": 0.3,
+    "hint": "再大胆混搭另一类风味：水果、香料、可可、咖啡……"
+   }
+  ],
+  "aromas": [
+   "tea",
+   "lychee",
+   "pepper",
+   "tropical",
+   "floral"
+  ],
+  "glass": "teku",
+  "servingTemp": 8,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它不属于任何一本风格指南。",
+   "酿酒师把茶柜和香料柜都打开了。",
+   "实验室里最新育种的酒花也许能派上用场。"
+  ],
+  "description": "实验啤酒是不属于任何传统风格的“自由创作”：茶叶、草本、香料、水果与最新育种的实验酒花随意混搭。它没有标准答案，唯一的规则是好喝——以及敢想。",
+  "example": {
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 8,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hbc_630",
+     "grams": 30,
+     "use": "whirlpool"
+    },
+    {
+     "id": "hbc_630",
+     "grams": 40,
+     "use": "dryHop"
+    }
+   ],
+   "adjuncts": [
+    {
+     "id": "jasmine_tea",
+     "grams": 30,
+     "stage": "secondary"
+    },
+    {
+     "id": "sichuan_pepper",
+     "grams": 5
+    },
+    {
+     "id": "lychee",
+     "grams": 800,
+     "stage": "secondary"
+    }
+   ],
+   "water": "soft",
+   "mashTemp": 66,
+   "boilTime": 60,
+   "processes": [],
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 3.5
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 0.5
+    }
+   ],
+   "yeast": "american_ale",
+   "fermentTemp": 19,
+   "fermentDays": 8,
+   "maturationDays": 5,
+   "carbonation": 2.6
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "sour_ipa",
+  "name": "Sour IPA",
+  "nameZh": "酸 IPA",
+  "family": "experimental",
+  "alsoIn": [
+   "ipa",
+   "sour"
+  ],
+  "group": "Hybrid",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "mixed",
+  "abv": {
+   "min": 5,
+   "max": 7
+  },
+  "ibu": {
+   "min": 15,
+   "max": 40
+  },
+  "color": {
+   "min": 3,
+   "max": 7
+  },
+  "bitterness": 1.7,
+  "sweetness": 0.8,
+  "body": 2.8,
+  "malt": 2.8,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 4.7,
+  "fruity": 1.9,
+  "spicy": 0,
+  "acidity": 3.2,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.3,
+  "haze": 2.7,
+  "weights": {
+   "acidity": 1.3,
+   "hopAroma": 1.3
+  },
+  "tags": [
+   "酸",
+   "干投",
+   "热带水果",
+   "跨界"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "wheat_malt",
+   "flaked_oats",
+   "citra",
+   "mosaic",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "kettle_sour",
+   "hazy_ipa",
+   "fruited_sour",
+   "brut_ipa"
+  ],
+  "requirements": [
+   {
+    "type": "process",
+    "in": [
+     "kettleSour"
+    ],
+    "hint": "先把麦汁酸化。"
+   },
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "hint": "再像 IPA 一样大量干投酒花。"
+   }
+  ],
+  "aromas": [
+   "passionfruit",
+   "citrus",
+   "lactic",
+   "tropical",
+   "mango"
+  ],
+  "glass": "teku",
+  "servingTemp": 6,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它是两个流行风格的混血儿。",
+   "一边是乳酸的酸，一边是热带水果般的酒花香。",
+   "麦汁先酸化，发酵后再大量干投。"
+  ],
+  "description": "酸 IPA 把壶内酸化与 IPA 的大量干投结合：乳酸的明亮酸度放大了酒花的柑橘与热带水果香气，苦度被刻意压低，喝起来像一杯带酒花香的果汁。",
+  "example": {
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 10,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "citra",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "citra",
+     "grams": 60,
+     "use": "dryHop"
+    },
+    {
+     "id": "mosaic",
+     "grams": 60,
+     "use": "dryHop"
+    }
+   ],
+   "adjuncts": [],
+   "water": "soft",
+   "mashTemp": 66,
+   "boilTime": 60,
+   "processes": [
+    "kettleSour"
+   ],
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 3.8
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 0.7
+    },
+    {
+     "id": "flaked_oats",
+     "kg": 0.4
+    }
+   ],
+   "yeast": "american_ale",
+   "fermentTemp": 19,
+   "fermentDays": 8,
+   "maturationDays": 5,
+   "carbonation": 2.6
+  },
+  "dbVersion": "2026.1"
+ }
+]

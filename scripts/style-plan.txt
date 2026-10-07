@@ -1,0 +1,154 @@
+# id | English name | family | alsoIn | primary country
+american_light_lager | American Light Lager | lager | american | usa
+american_lager | American Lager | lager | american | usa
+international_pale_lager | International Pale Lager | lager | | usa
+international_amber_lager | International Amber Lager | lager | | usa
+international_dark_lager | International Dark Lager | lager | | usa
+czech_pale_lager | Czech Pale Lager | lager | czech | czech
+czech_premium_pale_lager | Czech Premium Pale Lager | lager | czech | czech
+czech_amber_lager | Czech Amber Lager | lager | czech | czech
+czech_dark_lager | Czech Dark Lager | lager | czech | czech
+munich_helles | Munich Helles | lager | german | germany
+german_pils | German Pils | lager | german | germany
+german_leichtbier | German Leichtbier | lager | german | germany
+helles_exportbier | Helles Exportbier | lager | german | germany
+marzen | Märzen | lager | german | germany
+festbier | Festbier | lager | german | germany
+kellerbier | Kellerbier | lager | german | germany
+munich_dunkel | Munich Dunkel | lager | german | germany
+schwarzbier | Schwarzbier | lager | german | germany
+vienna_lager | Vienna Lager | lager | | austria
+helles_bock | Helles Bock | lager | german | germany
+dunkles_bock | Dunkles Bock | lager | german | germany
+doppelbock | Doppelbock | lager | german,strongAle | germany
+eisbock | Eisbock | lager | german,strongAle | germany
+rice_lager | Rice Lager | lager | | japan
+italian_pilsner | Italian Pilsner | lager | | italy
+west_coast_pilsner | West Coast Pilsner | lager | american | usa
+mexican_lager | Mexican-style Lager | lager | | mexico
+nz_pilsner | New Zealand Pilsner | lager | | nz
+california_common | California Common | american | lager | usa
+ordinary_bitter | Ordinary Bitter | paleAle | british | uk
+best_bitter | Best Bitter | paleAle | british | uk
+strong_bitter | Strong Bitter | paleAle | british | uk
+british_golden_ale | British Golden Ale | paleAle | british | uk
+australian_sparkling_ale | Australian Sparkling Ale | paleAle | | australia
+american_pale_ale | American Pale Ale | paleAle | american | usa
+blonde_ale | Blonde Ale | paleAle | american | usa
+cream_ale | Cream Ale | paleAle | american | usa
+american_ipa | American IPA | ipa | american | usa
+english_ipa | English IPA | ipa | paleAle,british | uk
+double_ipa | Double IPA | ipa | american | usa
+imperial_ipa | Imperial IPA | ipa | strongAle | usa
+session_ipa | Session IPA | ipa | | usa
+hazy_ipa | Hazy IPA | ipa | american | usa
+neipa | NEIPA (New England IPA) | ipa | american | usa
+west_coast_ipa | West Coast IPA | ipa | american | usa
+black_ipa | Black IPA | ipa | | usa
+white_ipa | White IPA | ipa | | usa
+red_ipa | Red IPA | ipa | | usa
+brown_ipa | Brown IPA | ipa | | usa
+rye_ipa | Rye IPA | ipa | | usa
+belgian_ipa | Belgian IPA | ipa | belgian | belgium
+brut_ipa | Brut IPA | ipa | experimental | usa
+cold_ipa | Cold IPA | ipa | experimental | usa
+milkshake_ipa | Milkshake IPA | ipa | experimental | usa
+fruit_ipa | Fruit IPA | ipa | fruit | usa
+brett_ipa | Brett IPA | ipa | wild | usa
+experimental_ipa | Experimental IPA | ipa | experimental | usa
+weissbier | Weissbier | wheat | german | germany
+hefeweizen | Hefeweizen | wheat | german | germany
+kristallweizen | Kristallweizen | wheat | german | germany
+dunkles_weissbier | Dunkles Weissbier | wheat | german | germany
+weizenbock | Weizenbock | wheat | german,strongAle | germany
+american_wheat | American Wheat Beer | wheat | american | usa
+witbier | Belgian Witbier | wheat | belgian,spice | belgium
+english_porter | English Porter | porter | british | uk
+american_porter | American Porter | porter | american | usa
+baltic_porter | Baltic Porter | porter | lager | baltic
+robust_porter | Robust Porter | porter | american | usa
+historical_porter | Historical Porter | porter | historical | uk
+irish_stout | Irish Stout | stout | scottishIrish | ireland
+irish_extra_stout | Irish Extra Stout | stout | scottishIrish | ireland
+sweet_stout | Sweet Stout | stout | british | uk
+milk_stout | Milk Stout | stout | british | uk
+oatmeal_stout | Oatmeal Stout | stout | british | uk
+american_stout | American Stout | stout | american | usa
+foreign_extra_stout | Foreign Extra Stout | stout | | ireland
+tropical_stout | Tropical Stout | stout | | caribbean
+imperial_stout | Imperial Stout | stout | strongAle | uk
+russian_imperial_stout | Russian Imperial Stout | stout | strongAle | uk
+coffee_stout | Coffee Stout | stout | spice | usa
+chocolate_stout | Chocolate Stout | stout | spice | usa
+pastry_stout | Pastry Stout | stout | experimental | usa
+coconut_stout | Coconut Stout | stout | experimental | usa
+vanilla_stout | Vanilla Stout | stout | spice | usa
+belgian_pale_ale | Belgian Pale Ale | belgian | paleAle | belgium
+belgian_blond_ale | Belgian Blond Ale | belgian | paleAle | belgium
+belgian_single | Belgian Single (Enkel) | belgian | | belgium
+belgian_dubbel | Belgian Dubbel | belgian | | belgium
+belgian_tripel | Belgian Tripel | belgian | strongAle | belgium
+belgian_golden_strong | Belgian Golden Strong Ale | belgian | strongAle | belgium
+belgian_dark_strong | Belgian Dark Strong Ale | belgian | strongAle | belgium
+belgian_quadrupel | Belgian Quadrupel | belgian | strongAle | belgium
+saison | Saison | farmhouse | belgian | belgium
+biere_de_garde | Bière de Garde | farmhouse | belgian | france
+grisette | Grisette | farmhouse | belgian | belgium
+kveik_ale | Kveik Farmhouse Ale | farmhouse | | nordic
+berliner_weisse | Berliner Weisse | sour | wheat,german | germany
+gose | Gose | sour | german | germany
+flanders_red | Flanders Red Ale | sour | belgian | belgium
+oud_bruin | Oud Bruin | sour | belgian | belgium
+kettle_sour | Kettle Sour | sour | american | usa
+fruited_sour | Fruited Sour | sour | fruit | usa
+smoothie_sour | Smoothie Sour | sour | experimental,fruit | usa
+lambic | Lambic | wild | sour,belgian | belgium
+gueuze | Gueuze | wild | sour,belgian | belgium
+fruit_lambic | Fruit Lambic (Kriek/Framboise) | wild | sour,fruit,belgian | belgium
+american_wild_ale | American Wild Ale | wild | sour,american | usa
+brett_beer | Brett Beer | wild | | usa
+mixed_fermentation_sour | Mixed Fermentation Sour | wild | sour | usa
+english_barleywine | English Barleywine | strongAle | british | uk
+american_barleywine | American Barleywine | strongAle | american | usa
+old_ale | Old Ale | strongAle | british | uk
+british_strong_ale | British Strong Ale | strongAle | british | uk
+wheatwine | Wheatwine | strongAle | american | usa
+scottish_light | Scottish Light | scottishIrish | | scotland
+scottish_heavy | Scottish Heavy | scottishIrish | | scotland
+scottish_export | Scottish Export | scottishIrish | | scotland
+wee_heavy | Wee Heavy | scottishIrish | strongAle | scotland
+irish_red_ale | Irish Red Ale | scottishIrish | | ireland
+altbier | Altbier | german | | germany
+kolsch | Kölsch | german | | germany
+dark_mild | Dark Mild | british | | uk
+british_brown_ale | British Brown Ale | british | | uk
+american_amber_ale | American Amber Ale | american | | usa
+american_brown_ale | American Brown Ale | american | | usa
+fruit_beer | Fruit Beer | fruit | | belgium
+italian_grape_ale | Italian Grape Ale | fruit | experimental | italy
+spice_beer | Spice / Herb Beer | spice | | usa
+winter_seasonal | Winter Seasonal Beer | spice | | uk
+pumpkin_spice_beer | Pumpkin Spice Beer | spice | american | usa
+honey_beer | Honey Beer | spice | | uk
+chili_beer | Chili Beer | spice | experimental | mexico
+tea_beer | Tea Beer | spice | experimental | china
+rauchbier | Rauchbier | smoke | german,lager | germany
+smoked_porter | Smoked Porter | smoke | porter | usa
+smoked_beer | Classic Smoked Beer | smoke | | germany
+wood_aged_beer | Wood-aged Beer | wood | | uk
+barrel_aged_stout | Bourbon Barrel Aged Imperial Stout | wood | stout | usa
+barrel_aged_barleywine | Barrel Aged Barleywine | wood | strongAle | usa
+barrel_aged_sour | Wine Barrel Sour | wood | sour,wild | usa
+grodziskie | Grodziskie | historical | smoke,wheat | poland
+sahti | Sahti | historical | farmhouse | nordic
+kvass_historical | Kvass-like Historical Beer | historical | | baltic
+kentucky_common | Kentucky Common | historical | american | usa
+pre_prohibition_lager | Pre-Prohibition Lager | historical | lager,american | usa
+pre_prohibition_porter | Pre-Prohibition Porter | historical | porter,american | usa
+lichtenhainer | Lichtenhainer | historical | sour,smoke | germany
+roggenbier | Roggenbier | historical | german,wheat | germany
+dampfbier | Dampfbier | historical | german | germany
+steinbier | Steinbier | historical | german | germany
+gruit | Gruit Ale | historical | spice | belgium
+experimental_beer | Experimental Beer | experimental | | usa
+sour_ipa | Sour IPA | experimental | ipa,sour | usa

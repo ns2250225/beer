@@ -1,0 +1,6083 @@
+[
+ {
+  "id": "ordinary_bitter",
+  "name": "Ordinary Bitter",
+  "nameZh": "普通苦啤",
+  "family": "paleAle",
+  "alsoIn": [
+   "british"
+  ],
+  "group": "English Bitter",
+  "country": [
+   "uk"
+  ],
+  "region": "England",
+  "fermentation": "ale",
+  "abv": {
+   "min": 3,
+   "max": 3.9
+  },
+  "ibu": {
+   "min": 22,
+   "max": 35
+  },
+  "color": {
+   "min": 7,
+   "max": 14
+  },
+  "bitterness": 2.4,
+  "sweetness": 2.2,
+  "body": 2.5,
+  "malt": 3.2,
+  "caramel": 0.9,
+  "roast": 0,
+  "hopAroma": 0.3,
+  "fruity": 1.2,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.3,
+  "tags": [
+   "低酒精",
+   "Session",
+   "英式",
+   "桶装"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_60",
+   "fuggle",
+   "east_kent_goldings",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "best_bitter",
+   "strong_bitter",
+   "dark_mild"
+  ],
+  "requirements": [
+   {
+    "type": "hopOrigin",
+    "in": [
+     "uk"
+    ],
+    "minShare": 0.6,
+    "soft": true,
+    "hint": "用英国酒花，比如 Fuggle 或 East Kent Goldings"
+   },
+   {
+    "type": "yeast",
+    "in": [
+     "english_ale",
+     "london_ale_iii"
+    ],
+    "soft": true,
+    "hint": "英式艾尔酵母带来淡淡的果酯"
+   }
+  ],
+  "aromas": [
+   "biscuit",
+   "caramel",
+   "herbal",
+   "floral",
+   "earthy"
+  ],
+  "glass": "nonic",
+  "servingTemp": 11,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "这是英国酒馆里最日常的一杯。",
+   "酒精度很低，可以一杯接一杯。",
+   "苦味清晰，但麦芽饼干香托底。",
+   "琥珀色，带一点焦糖麦芽的颜色。"
+  ],
+  "description": "普通苦啤是英国酒馆文化的基石，传统上以桶装、低碳酸、略低于室温的方式供应。酒精度低，饼干与焦糖麦芽香衬托英式酒花的草本与泥土气息，苦而不烈。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 3.4
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.22
+    }
+   ],
+   "hops": [
+    {
+     "id": "fuggle",
+     "grams": 40,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 20,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "english_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 7,
+   "maturationDays": 5,
+   "carbonation": 1.8,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "best_bitter",
+  "name": "Best Bitter",
+  "nameZh": "特级苦啤",
+  "family": "paleAle",
+  "alsoIn": [
+   "british"
+  ],
+  "group": "English Bitter",
+  "country": [
+   "uk"
+  ],
+  "region": "England",
+  "fermentation": "ale",
+  "abv": {
+   "min": 3.8,
+   "max": 4.6
+  },
+  "ibu": {
+   "min": 25,
+   "max": 40
+  },
+  "color": {
+   "min": 8,
+   "max": 16
+  },
+  "bitterness": 2.5,
+  "sweetness": 2.8,
+  "body": 2.9,
+  "malt": 3.5,
+  "caramel": 1.1,
+  "roast": 0,
+  "hopAroma": 0.8,
+  "fruity": 1.2,
+  "spicy": 0.1,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.3,
+  "tags": [
+   "英式",
+   "桶装",
+   "平衡",
+   "饼干麦芽"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_60",
+   "east_kent_goldings",
+   "fuggle",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "ordinary_bitter",
+   "strong_bitter",
+   "english_ipa"
+  ],
+  "requirements": [
+   {
+    "type": "hopOrigin",
+    "in": [
+     "uk"
+    ],
+    "minShare": 0.6,
+    "soft": true,
+    "hint": "用英国酒花，比如 East Kent Goldings"
+   },
+   {
+    "type": "yeast",
+    "in": [
+     "english_ale",
+     "london_ale_iii"
+    ],
+    "soft": true,
+    "hint": "英式艾尔酵母带来淡淡的果酯"
+   }
+  ],
+  "aromas": [
+   "biscuit",
+   "caramel",
+   "floral",
+   "herbal",
+   "pear"
+  ],
+  "glass": "nonic",
+  "servingTemp": 11,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它是英国酒馆吧台上的“招牌”。",
+   "比普通苦啤稍强一些。",
+   "苦味与麦芽甜感平衡。",
+   "英国酒花的花香与泥土气息若隐若现。"
+  ],
+  "description": "特级苦啤是酒馆里比普通苦啤更“好一点”的那一款，麦芽更饱满、酒花更突出。焦糖与饼干麦芽、英式果酯与 Goldings 的花香草本彼此平衡。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 4.1
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.3
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 45,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "fuggle",
+     "grams": 20,
+     "use": "boil",
+     "time": 15
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 20,
+     "use": "boil",
+     "time": 5
+    }
+   ],
+   "yeast": "english_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 7,
+   "maturationDays": 5,
+   "carbonation": 1.9,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "strong_bitter",
+  "name": "Strong Bitter",
+  "nameZh": "浓烈苦啤",
+  "family": "paleAle",
+  "alsoIn": [
+   "british"
+  ],
+  "group": "English Bitter",
+  "country": [
+   "uk"
+  ],
+  "region": "England",
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.6,
+   "max": 6.2
+  },
+  "ibu": {
+   "min": 30,
+   "max": 50
+  },
+  "color": {
+   "min": 8,
+   "max": 18
+  },
+  "bitterness": 2.5,
+  "sweetness": 3.8,
+  "body": 3.4,
+  "malt": 4,
+  "caramel": 1.3,
+  "roast": 0,
+  "hopAroma": 0.9,
+  "fruity": 1.2,
+  "spicy": 0.1,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.1,
+  "haze": 0.3,
+  "tags": [
+   "ESB",
+   "英式",
+   "焦糖",
+   "饱满"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_60",
+   "crystal_40",
+   "east_kent_goldings",
+   "fuggle",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "best_bitter",
+   "english_ipa",
+   "british_strong_ale"
+  ],
+  "requirements": [
+   {
+    "type": "hopOrigin",
+    "in": [
+     "uk"
+    ],
+    "minShare": 0.6,
+    "soft": true,
+    "hint": "用英国酒花"
+   },
+   {
+    "type": "yeast",
+    "in": [
+     "english_ale",
+     "london_ale_iii"
+    ],
+    "soft": true,
+    "hint": "英式艾尔酵母带来淡淡的果酯"
+   }
+  ],
+  "aromas": [
+   "caramel",
+   "biscuit",
+   "toffee",
+   "floral",
+   "pear"
+  ],
+  "glass": "nonic",
+  "servingTemp": 11,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "人们也叫它 ESB。",
+   "是苦啤家族里最强壮的一员。",
+   "焦糖与太妃糖香更明显。",
+   "苦味依旧坚定，酒精度明显更高。"
+  ],
+  "description": "浓烈苦啤（常被称为 ESB）是苦啤中酒体最饱满、酒精度最高的一档。丰富的焦糖、太妃与饼干麦芽支撑起坚实的英式苦味，带有明显的英式酵母果香。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 5.1
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.4
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 50,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "fuggle",
+     "grams": 25,
+     "use": "boil",
+     "time": 15
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 25,
+     "use": "boil",
+     "time": 5
+    }
+   ],
+   "yeast": "english_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 8,
+   "maturationDays": 7,
+   "carbonation": 2,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "british_golden_ale",
+  "name": "British Golden Ale",
+  "nameZh": "英式金色艾尔",
+  "family": "paleAle",
+  "alsoIn": [
+   "british"
+  ],
+  "group": "English Pale",
+  "country": [
+   "uk"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 3.8,
+   "max": 5
+  },
+  "ibu": {
+   "min": 20,
+   "max": 45
+  },
+  "color": {
+   "min": 2,
+   "max": 6
+  },
+  "bitterness": 2.4,
+  "sweetness": 2,
+  "body": 2.3,
+  "malt": 3.8,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 1.1,
+  "fruity": 1.3,
+  "spicy": 0.1,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.3,
+  "tags": [
+   "金色",
+   "夏日",
+   "清爽",
+   "英式"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "pale_malt",
+   "east_kent_goldings",
+   "cascade",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "best_bitter",
+   "blonde_ale",
+   "american_pale_ale"
+  ],
+  "requirements": [
+   {
+    "type": "yeast",
+    "in": [
+     "english_ale",
+     "london_ale_iii"
+    ],
+    "soft": true,
+    "hint": "用英式艾尔酵母"
+   },
+   {
+    "type": "maltShare",
+    "category": "caramel",
+    "max": 0.03,
+    "soft": true,
+    "hint": "几乎不用焦糖麦芽，颜色金黄"
+   }
+  ],
+  "aromas": [
+   "biscuit",
+   "floral",
+   "lemon",
+   "pear",
+   "herbal"
+  ],
+  "glass": "nonic",
+  "servingTemp": 9,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它诞生于 1980 年代的英国，为了和拉格争夺年轻人。",
+   "颜色是金黄色的。",
+   "没有焦糖麦芽的甜，清爽易饮。",
+   "英式酵母带一点梨子般的果香。"
+  ],
+  "description": "英式金色艾尔是 1980 年代英国酒厂为对抗金黄拉格而推出的夏日艾尔。浅色麦芽带来饼干底味，酒花清新，有时用美式酒花增添柑橘感，整体清爽好喝。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 4.3
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 35,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 25,
+     "use": "boil",
+     "time": 10
+    },
+    {
+     "id": "cascade",
+     "grams": 20,
+     "use": "boil",
+     "time": 5
+    }
+   ],
+   "yeast": "english_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 7,
+   "maturationDays": 5,
+   "carbonation": 2.2,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "australian_sparkling_ale",
+  "name": "Australian Sparkling Ale",
+  "nameZh": "澳式气泡艾尔",
+  "family": "paleAle",
+  "group": "Australian",
+  "country": [
+   "australia"
+  ],
+  "region": "Adelaide",
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.5,
+   "max": 6
+  },
+  "ibu": {
+   "min": 20,
+   "max": 35
+  },
+  "color": {
+   "min": 4,
+   "max": 7
+  },
+  "bitterness": 2.3,
+  "sweetness": 2,
+  "body": 1.2,
+  "malt": 2.8,
+  "caramel": 0.4,
+  "roast": 0,
+  "hopAroma": 0.4,
+  "fruity": 1.2,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.2,
+  "haze": 0.3,
+  "tags": [
+   "高碳酸",
+   "瓶内二次发酵",
+   "澳洲",
+   "清爽"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_40",
+   "table_sugar",
+   "ella",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "american_pale_ale",
+   "british_golden_ale",
+   "blonde_ale"
+  ],
+  "requirements": [
+   {
+    "type": "carbonation",
+    "min": 2.8,
+    "hint": "气泡非常充足（≥2.8 vol）"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "australia"
+    ],
+    "minShare": 0.5,
+    "soft": true,
+    "hint": "使用澳洲本土酒花"
+   },
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "sugar"
+    ],
+    "soft": true,
+    "hint": "加一点糖让酒体更干"
+   }
+  ],
+  "aromas": [
+   "pear",
+   "apple",
+   "floral",
+   "grain",
+   "spicy"
+  ],
+  "glass": "shaker",
+  "servingTemp": 6,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它来自澳大利亚南部的阿德莱德。",
+   "气泡非常充沛，倒酒时会激起大量泡沫。",
+   "传统上在瓶内二次发酵，瓶底有酵母沉淀。",
+   "加一点糖，酒体干爽。"
+  ],
+  "description": "澳式气泡艾尔源自 19 世纪的阿德莱德，以瓶内二次发酵和极高的碳酸化闻名。酒体干爽，带有酵母的梨与苹果酯香和澳洲酒花的草本花香。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 3.8
+    },
+    {
+     "id": "crystal_40",
+     "kg": 0.15
+    }
+   ],
+   "hops": [
+    {
+     "id": "ella",
+     "grams": 12,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "ella",
+     "grams": 12,
+     "use": "boil",
+     "time": 10
+    }
+   ],
+   "yeast": "english_ale",
+   "water": "balanced",
+   "adjuncts": [
+    {
+     "id": "table_sugar",
+     "grams": 400
+    }
+   ],
+   "mashTemp": 65,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 8,
+   "maturationDays": 7,
+   "carbonation": 3,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "american_pale_ale",
+  "name": "American Pale Ale",
+  "nameZh": "美式淡色艾尔",
+  "family": "paleAle",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "American Pale",
+  "country": [
+   "usa"
+  ],
+  "region": "California",
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.5,
+   "max": 6.2
+  },
+  "ibu": {
+   "min": 18,
+   "max": 45
+  },
+  "color": {
+   "min": 4,
+   "max": 10
+  },
+  "bitterness": 1.7,
+  "sweetness": 1.5,
+  "body": 1.5,
+  "malt": 2.9,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 1.7,
+  "fruity": 0.7,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.9,
+  "tags": [
+   "入门",
+   "柑橘",
+   "美式酒花",
+   "精酿经典"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_40",
+   "cascade",
+   "centennial",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "american_ipa",
+   "blonde_ale",
+   "american_amber_ale"
+  ],
+  "requirements": [
+   {
+    "type": "hopOrigin",
+    "in": [
+     "usa"
+    ],
+    "minShare": 0.6,
+    "soft": true,
+    "hint": "使用美国酒花，比如 Cascade"
+   },
+   {
+    "type": "yeastType",
+    "in": [
+     "ale"
+    ],
+    "soft": true,
+    "hint": "用干净的美式艾尔酵母"
+   }
+  ],
+  "aromas": [
+   "citrus",
+   "grapefruit",
+   "floral",
+   "pine",
+   "bread"
+  ],
+  "glass": "shaker",
+  "servingTemp": 7,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它是美国精酿运动的起点。",
+   "颜色是浅金到浅琥珀色。",
+   "Cascade 酒花的柑橘与花香是它的名片。",
+   "麦芽简单干净，苦味适中。"
+  ],
+  "description": "美式淡色艾尔是美国精酿革命的代表作，1980 年代以 Cascade 酒花的西柚柑橘香征服了酒客。干净的美式酵母让浅色麦芽与酒花唱主角，苦味适中，易饮又有个性。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.5
+    }
+   ],
+   "hops": [
+    {
+     "id": "cascade",
+     "grams": 20,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "cascade",
+     "grams": 30,
+     "use": "boil",
+     "time": 5
+    },
+    {
+     "id": "cascade",
+     "grams": 30,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 3,
+   "carbonation": 2.4,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "blonde_ale",
+  "name": "Blonde Ale",
+  "nameZh": "金色艾尔",
+  "family": "paleAle",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "American Pale",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 3.8,
+   "max": 5
+  },
+  "ibu": {
+   "min": 12,
+   "max": 25
+  },
+  "color": {
+   "min": 3,
+   "max": 6
+  },
+  "bitterness": 1.6,
+  "sweetness": 1.2,
+  "body": 1.7,
+  "malt": 2.4,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0.5,
+  "fruity": 0.4,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.8,
+  "tags": [
+   "入门",
+   "清爽",
+   "低苦",
+   "易饮"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "carapils",
+   "wheat_malt",
+   "cascade",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "american_pale_ale",
+   "cream_ale",
+   "british_golden_ale"
+  ],
+  "requirements": [
+   {
+    "type": "malt",
+    "in": [
+     "carapils",
+     "wheat_malt",
+     "honey_malt"
+    ],
+    "minShare": 0.04,
+    "soft": true,
+    "hint": "加一点 Carapils 或小麦麦芽，让泡沫和酒体更圆润"
+   },
+   {
+    "type": "yeastType",
+    "in": [
+     "ale"
+    ],
+    "soft": true,
+    "hint": "用干净的艾尔酵母"
+   }
+  ],
+  "aromas": [
+   "bread",
+   "grain",
+   "honey",
+   "floral",
+   "citrus"
+  ],
+  "glass": "shaker",
+  "servingTemp": 5,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "这是给“精酿新人”的一杯。",
+   "颜色浅金，苦味很轻。",
+   "酒花只是点缀，麦芽面包香占主导。",
+   "一点 Carapils 或小麦让泡沫更持久。"
+  ],
+  "description": "金色艾尔是美国酒吧里最平易近人的精酿，常被当作从工业拉格过渡到精酿的“桥梁”。浅色麦芽带来面包与蜂蜜感，酒花轻柔，酒体干净清爽。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 3.6
+    },
+    {
+     "id": "carapils",
+     "kg": 0.25
+    }
+   ],
+   "hops": [
+    {
+     "id": "cascade",
+     "grams": 20,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "cascade",
+     "grams": 10,
+     "use": "boil",
+     "time": 10
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 60,
+   "fermentTemp": 18,
+   "fermentDays": 8,
+   "maturationDays": 4,
+   "carbonation": 2.5,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "cream_ale",
+  "name": "Cream Ale",
+  "nameZh": "奶油艾尔",
+  "family": "paleAle",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "American Pale",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.2,
+   "max": 5.6
+  },
+  "ibu": {
+   "min": 8,
+   "max": 20
+  },
+  "color": {
+   "min": 2.5,
+   "max": 5
+  },
+  "bitterness": 1.3,
+  "sweetness": 1.2,
+  "body": 0.8,
+  "malt": 2.1,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 0.4,
+  "fruity": 0.3,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.8,
+  "tags": [
+   "玉米",
+   "清淡",
+   "美式传统",
+   "草坪啤酒"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "pilsner_malt",
+   "flaked_corn",
+   "hallertau_mittelfruh",
+   "magnum",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "blonde_ale",
+   "american_lager",
+   "kentucky_common"
+  ],
+  "requirements": [
+   {
+    "type": "malt",
+    "in": [
+     "flaked_corn",
+     "flaked_rice"
+    ],
+    "minShare": 0.12,
+    "hint": "要加入玉米片（或大米）"
+   },
+   {
+    "type": "yeastType",
+    "in": [
+     "ale"
+    ],
+    "soft": true,
+    "hint": "虽然像拉格，但用艾尔酵母低温发酵"
+   }
+  ],
+  "aromas": [
+   "corn",
+   "grain",
+   "bread",
+   "floral",
+   "honey"
+  ],
+  "glass": "pilsner",
+  "servingTemp": 4,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它是美国人用艾尔酵母模仿拉格的产物。",
+   "名字里有奶油，但并没有奶。",
+   "加入了谷物辅料，带来淡淡的甜玉米味。",
+   "低温发酵，清爽干净。"
+  ],
+  "description": "奶油艾尔诞生于 19 世纪美国东北部，是艾尔酒厂为对抗德裔移民的拉格而发明的风格。加入玉米让酒体轻盈，低温发酵带来干净口感，几乎没有酯香。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 3.2
+    },
+    {
+     "id": "flaked_corn",
+     "kg": 0.8
+    }
+   ],
+   "hops": [
+    {
+     "id": "magnum",
+     "grams": 7,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hallertau_mittelfruh",
+     "grams": 15,
+     "use": "boil",
+     "time": 10
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 65,
+   "boilTime": 60,
+   "fermentTemp": 16,
+   "fermentDays": 10,
+   "maturationDays": 10,
+   "carbonation": 2.7,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "american_ipa",
+  "name": "American IPA",
+  "nameZh": "美式 IPA",
+  "family": "ipa",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "Classic",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5.5,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 40,
+   "max": 70
+  },
+  "color": {
+   "min": 5,
+   "max": 11
+  },
+  "bitterness": 3.6,
+  "sweetness": 2.4,
+  "body": 2,
+  "malt": 3.1,
+  "caramel": 0.7,
+  "roast": 0,
+  "hopAroma": 4.2,
+  "fruity": 1.1,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.7,
+  "haze": 1.3,
+  "tags": [
+   "酒花炸弹",
+   "柑橘",
+   "松针",
+   "苦"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_40",
+   "centennial",
+   "cascade",
+   "chinook",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "american_pale_ale",
+   "west_coast_ipa",
+   "double_ipa"
+  ],
+  "requirements": [
+   {
+    "type": "hopOrigin",
+    "in": [
+     "usa"
+    ],
+    "minShare": 0.6,
+    "soft": true,
+    "hint": "使用美国酒花"
+   },
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": true,
+    "hint": "晚投与干投大量酒花"
+   },
+   {
+    "type": "yeastType",
+    "in": [
+     "ale"
+    ],
+    "soft": true,
+    "hint": "使用干净的艾尔酵母"
+   }
+  ],
+  "aromas": [
+   "grapefruit",
+   "pine",
+   "citrus",
+   "floral",
+   "resin"
+  ],
+  "glass": "shaker",
+  "servingTemp": 7,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它是精酿啤酒世界里最受欢迎的风格之一。",
+   "酒花香气浓烈：西柚、松针、花香。",
+   "苦味鲜明，但有少量焦糖麦芽托底。",
+   "比美式淡色艾尔更强、更苦。"
+  ],
+  "description": "美式 IPA 把英国人的印度淡色艾尔交给了美国 C 系酒花，柑橘、西柚与松脂香气四溢。苦味坚定，少量焦糖麦芽提供平衡，是精酿酒吧里最常见的一杯。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 5.4
+    },
+    {
+     "id": "crystal_40",
+     "kg": 0.3
+    }
+   ],
+   "hops": [
+    {
+     "id": "chinook",
+     "grams": 25,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "centennial",
+     "grams": 30,
+     "use": "boil",
+     "time": 10
+    },
+    {
+     "id": "cascade",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "cascade",
+     "grams": 50,
+     "use": "dryHop"
+    },
+    {
+     "id": "centennial",
+     "grams": 40,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "ipa",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 5,
+   "carbonation": 2.5,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "english_ipa",
+  "name": "English IPA",
+  "nameZh": "英式 IPA",
+  "family": "ipa",
+  "alsoIn": [
+   "paleAle",
+   "british"
+  ],
+  "group": "Classic",
+  "country": [
+   "uk"
+  ],
+  "region": "Burton-on-Trent",
+  "fermentation": "ale",
+  "abv": {
+   "min": 5,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 40,
+   "max": 60
+  },
+  "color": {
+   "min": 6,
+   "max": 14
+  },
+  "bitterness": 2.9,
+  "sweetness": 3.2,
+  "body": 3.1,
+  "malt": 4.1,
+  "caramel": 0.6,
+  "roast": 0,
+  "hopAroma": 2.8,
+  "fruity": 1.2,
+  "spicy": 0.2,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.2,
+  "haze": 0.5,
+  "tags": [
+   "历史",
+   "英式酒花",
+   "伯顿",
+   "草本"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_40",
+   "east_kent_goldings",
+   "fuggle",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "strong_bitter",
+   "american_ipa",
+   "best_bitter"
+  ],
+  "requirements": [
+   {
+    "type": "hopOrigin",
+    "in": [
+     "uk"
+    ],
+    "minShare": 0.7,
+    "soft": false,
+    "hint": "酒花必须以英国品种为主"
+   },
+   {
+    "type": "yeast",
+    "in": [
+     "english_ale",
+     "london_ale_iii"
+    ],
+    "soft": true,
+    "hint": "英式艾尔酵母"
+   }
+  ],
+  "aromas": [
+   "biscuit",
+   "herbal",
+   "floral",
+   "earthy",
+   "caramel"
+  ],
+  "glass": "nonic",
+  "servingTemp": 10,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它的故事和远洋航行有关。",
+   "英国伯顿镇的硬水让它的苦味更干脆。",
+   "酒花香是泥土、草本与花香，而不是柑橘。",
+   "比苦啤更强、更苦。"
+  ],
+  "description": "英式 IPA 诞生于 18 世纪末，为了供应远在印度的英国人而加大了酒花与酒精。伯顿的硬水让苦味干脆，Goldings 与 Fuggle 带来草本、泥土与花香，麦芽饼干感坚实。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 5.2
+    },
+    {
+     "id": "crystal_40",
+     "kg": 0.25
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 60,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "fuggle",
+     "grams": 30,
+     "use": "boil",
+     "time": 15
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 40,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "english_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 7,
+   "carbonation": 2.2,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "double_ipa",
+  "name": "Double IPA",
+  "nameZh": "双倍 IPA",
+  "family": "ipa",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "Strong",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 7.5,
+   "max": 9.4
+  },
+  "ibu": {
+   "min": 60,
+   "max": 100
+  },
+  "color": {
+   "min": 5,
+   "max": 10
+  },
+  "bitterness": 4.2,
+  "sweetness": 2.5,
+  "body": 2,
+  "malt": 3.8,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 4.9,
+  "fruity": 1.7,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 2.4,
+  "haze": 1.6,
+  "tags": [
+   "DIPA",
+   "高酒花",
+   "高酒精",
+   "干爽"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "table_sugar",
+   "warrior",
+   "simcoe",
+   "citra",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "american_ipa",
+   "imperial_ipa",
+   "west_coast_ipa"
+  ],
+  "requirements": [
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": false,
+    "hint": "大量干投酒花"
+   },
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "sugar"
+    ],
+    "soft": true,
+    "hint": "加一点糖让高酒精的酒体保持干爽"
+   }
+  ],
+  "aromas": [
+   "tropical",
+   "pine",
+   "grapefruit",
+   "resin",
+   "citrus"
+  ],
+  "glass": "tulip",
+  "servingTemp": 8,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它把 IPA 的一切都加倍了。",
+   "酒精度很高，却出奇地干爽。",
+   "加入了一点糖来提高酒精、降低甜度。",
+   "干投的酒花多到惊人。"
+  ],
+  "description": "双倍 IPA 是美国西海岸酿酒师“把酒花加倍”的产物，用大量酒花与糖把酒精推到 8% 左右，同时保持干爽好喝。热带水果、松脂与西柚香气浓烈，苦味强劲却不粘腻。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 6.6
+    },
+    {
+     "id": "carapils",
+     "kg": 0.2
+    }
+   ],
+   "hops": [
+    {
+     "id": "warrior",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "simcoe",
+     "grams": 30,
+     "use": "boil",
+     "time": 10
+    },
+    {
+     "id": "citra",
+     "grams": 50,
+     "use": "whirlpool"
+    },
+    {
+     "id": "simcoe",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "citra",
+     "grams": 80,
+     "use": "dryHop"
+    },
+    {
+     "id": "simcoe",
+     "grams": 60,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "ipa",
+   "adjuncts": [
+    {
+     "id": "table_sugar",
+     "grams": 500
+    }
+   ],
+   "mashTemp": 65,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 12,
+   "maturationDays": 6,
+   "carbonation": 2.4,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "imperial_ipa",
+  "name": "Imperial IPA",
+  "nameZh": "帝国 IPA",
+  "family": "ipa",
+  "alsoIn": [
+   "strongAle"
+  ],
+  "group": "Strong",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 9.5,
+   "max": 12
+  },
+  "ibu": {
+   "min": 65,
+   "max": 110
+  },
+  "color": {
+   "min": 6,
+   "max": 14
+  },
+  "bitterness": 4.1,
+  "sweetness": 3.3,
+  "body": 2.3,
+  "malt": 4.1,
+  "caramel": 0.7,
+  "roast": 0,
+  "hopAroma": 4.8,
+  "fruity": 1.3,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 3.1,
+  "haze": 1.6,
+  "tags": [
+   "帝国",
+   "烈性",
+   "酒花",
+   "酒精温热"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_40",
+   "columbus",
+   "simcoe",
+   "centennial",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "double_ipa",
+   "american_barleywine",
+   "american_ipa"
+  ],
+  "requirements": [
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": false,
+    "hint": "大量干投酒花"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "usa"
+    ],
+    "minShare": 0.6,
+    "soft": true,
+    "hint": "使用美国酒花"
+   }
+  ],
+  "aromas": [
+   "resin",
+   "pine",
+   "tropical",
+   "caramel",
+   "warming"
+  ],
+  "glass": "snifter",
+  "servingTemp": 10,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它比双倍 IPA 还要更烈。",
+   "酒精度超过 9.5%，入口就能感到温热。",
+   "酒体更厚，带一点焦糖甜。",
+   "酒花和酒精在杯中较量，接近大麦酒却更“绿”。"
+  ],
+  "description": "帝国 IPA 是 IPA 家族中最烈的一支，酒精度逼近大麦酒，却保留着 IPA 的酒花灵魂。厚实的麦芽与温热酒精承托起松脂、热带水果与柑橘香，苦味凶猛。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 7.6
+    },
+    {
+     "id": "crystal_40",
+     "kg": 0.35
+    }
+   ],
+   "hops": [
+    {
+     "id": "columbus",
+     "grams": 40,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "simcoe",
+     "grams": 30,
+     "use": "boil",
+     "time": 15
+    },
+    {
+     "id": "centennial",
+     "grams": 60,
+     "use": "whirlpool"
+    },
+    {
+     "id": "simcoe",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "simcoe",
+     "grams": 70,
+     "use": "dryHop"
+    },
+    {
+     "id": "centennial",
+     "grams": 60,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "ipa",
+   "adjuncts": [
+    {
+     "id": "table_sugar",
+     "grams": 500
+    }
+   ],
+   "mashTemp": 65,
+   "boilTime": 60,
+   "fermentTemp": 18,
+   "fermentDays": 14,
+   "maturationDays": 10,
+   "carbonation": 2.3,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "session_ipa",
+  "name": "Session IPA",
+  "nameZh": "轻饮 IPA",
+  "family": "ipa",
+  "group": "Modern",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 3.5,
+   "max": 5
+  },
+  "ibu": {
+   "min": 35,
+   "max": 55
+  },
+  "color": {
+   "min": 3,
+   "max": 7
+  },
+  "bitterness": 3.2,
+  "sweetness": 1.3,
+  "body": 1.8,
+  "malt": 2.2,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 4.8,
+  "fruity": 1.9,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 1.5,
+  "tags": [
+   "低酒精",
+   "高酒花",
+   "清爽",
+   "畅饮"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "carapils",
+   "citra",
+   "mosaic",
+   "columbus",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "american_ipa",
+   "american_pale_ale",
+   "blonde_ale"
+  ],
+  "requirements": [
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": false,
+    "hint": "大量干投酒花"
+   }
+  ],
+  "aromas": [
+   "citrus",
+   "tropical",
+   "grapefruit",
+   "mango",
+   "floral"
+  ],
+  "glass": "shaker",
+  "servingTemp": 6,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它想让你在一个下午喝好几杯。",
+   "酒精度很低，却有 IPA 级别的酒花香。",
+   "酒体轻盈，苦味清爽。",
+   "诀窍是：少麦芽，多干投。"
+  ],
+  "description": "轻饮 IPA 是 2010 年代兴起的低酒精 IPA，用不到 5% 的酒精承载满满的热带水果与柑橘酒花香。酒体轻盈、苦味干脆，适合长时间畅饮。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 3.2
+    },
+    {
+     "id": "carapils",
+     "kg": 0.3
+    }
+   ],
+   "hops": [
+    {
+     "id": "columbus",
+     "grams": 12,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "citra",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "mosaic",
+     "grams": 30,
+     "use": "whirlpool"
+    },
+    {
+     "id": "citra",
+     "grams": 60,
+     "use": "dryHop"
+    },
+    {
+     "id": "mosaic",
+     "grams": 50,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "ipa",
+   "adjuncts": [],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 8,
+   "maturationDays": 4,
+   "carbonation": 2.6,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "hazy_ipa",
+  "name": "Hazy IPA",
+  "nameZh": "浑浊 IPA",
+  "family": "ipa",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "Modern",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5.5,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 20,
+   "max": 50
+  },
+  "color": {
+   "min": 3,
+   "max": 7
+  },
+  "bitterness": 2.5,
+  "sweetness": 2.2,
+  "body": 3.2,
+  "malt": 2.8,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 4.9,
+  "fruity": 2,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.7,
+  "haze": 2.9,
+  "tags": [
+   "浑浊",
+   "多汁",
+   "低苦",
+   "果汁感"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "flaked_oats",
+   "wheat_malt",
+   "citra",
+   "mosaic",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "neipa",
+   "american_ipa",
+   "milkshake_ipa"
+  ],
+  "requirements": [
+   {
+    "type": "malt",
+    "in": [
+     "flaked_oats",
+     "wheat_malt"
+    ],
+    "minShare": 0.15,
+    "hint": "加入燕麦或小麦（合计 ≥15%），让酒体丝滑浑浊"
+   },
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": false,
+    "hint": "大量晚投与干投酒花"
+   },
+   {
+    "type": "noProcess",
+    "in": [
+     "filtered"
+    ],
+    "hint": "不要过滤"
+   }
+  ],
+  "aromas": [
+   "tropical",
+   "mango",
+   "citrus",
+   "peach",
+   "pineapple"
+  ],
+  "glass": "teku",
+  "servingTemp": 7,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它看起来像一杯橙汁。",
+   "苦味很低，酒花香却极其浓郁。",
+   "燕麦或小麦让它浑浊而丝滑。",
+   "酒花几乎都在煮沸结束后才加入。"
+  ],
+  "description": "浑浊 IPA 是近年最火的 IPA 分支，用燕麦、小麦和大量晚投酒花打造出果汁般的外观与香气。苦味柔和，热带水果与柑橘香饱满，口感丝滑。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.6
+    },
+    {
+     "id": "flaked_oats",
+     "kg": 0.6
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 0.5
+    }
+   ],
+   "hops": [
+    {
+     "id": "citra",
+     "grams": 8,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "citra",
+     "grams": 60,
+     "use": "whirlpool"
+    },
+    {
+     "id": "mosaic",
+     "grams": 50,
+     "use": "whirlpool"
+    },
+    {
+     "id": "citra",
+     "grams": 90,
+     "use": "dryHop"
+    },
+    {
+     "id": "mosaic",
+     "grams": 70,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 3,
+   "carbonation": 2.3,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "neipa",
+  "name": "NEIPA (New England IPA)",
+  "nameZh": "新英格兰 IPA",
+  "family": "ipa",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "Modern",
+  "country": [
+   "usa"
+  ],
+  "region": "Vermont",
+  "fermentation": "ale",
+  "abv": {
+   "min": 6,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 20,
+   "max": 45
+  },
+  "color": {
+   "min": 3,
+   "max": 7
+  },
+  "bitterness": 1.8,
+  "sweetness": 3.3,
+  "body": 4.2,
+  "malt": 2.9,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 5,
+  "fruity": 3.6,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.8,
+  "haze": 3.8,
+  "tags": [
+   "浑浊",
+   "生物转化",
+   "佛蒙特",
+   "多汁"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "flaked_oats",
+   "wheat_malt",
+   "citra",
+   "galaxy",
+   "london_ale_iii",
+   "vermont_ale"
+  ],
+  "relatedStyles": [
+   "hazy_ipa",
+   "milkshake_ipa",
+   "fruit_ipa"
+  ],
+  "requirements": [
+   {
+    "type": "maltShare",
+    "category": "oat",
+    "min": 0.12,
+    "hint": "燕麦片至少 12%"
+   },
+   {
+    "type": "yeast",
+    "in": [
+     "london_ale_iii",
+     "vermont_ale"
+    ],
+    "hint": "需要能与酒花发生生物转化的低絮凝酵母"
+   },
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": false,
+    "hint": "发酵期间大量干投"
+   }
+  ],
+  "aromas": [
+   "mango",
+   "passionfruit",
+   "peach",
+   "tropical",
+   "citrus"
+  ],
+  "glass": "teku",
+  "servingTemp": 7,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它起源于美国佛蒙特州的小酒厂。",
+   "特殊酵母会与酒花“合作”，把香气变成果汁。",
+   "燕麦带来奶昔般的口感。",
+   "苦味很柔和，几乎不透光。"
+  ],
+  "description": "新英格兰 IPA 起源于佛蒙特州，以 The Alchemist 和 Hill Farmstead 为代表。低絮凝的英式酵母在发酵中与干投酒花发生生物转化，配合大量燕麦，呈现柔滑、多汁、几乎不苦的热带果汁感。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.9
+    },
+    {
+     "id": "flaked_oats",
+     "kg": 0.9
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 0.5
+    }
+   ],
+   "hops": [
+    {
+     "id": "citra",
+     "grams": 60,
+     "use": "whirlpool"
+    },
+    {
+     "id": "galaxy",
+     "grams": 50,
+     "use": "whirlpool"
+    },
+    {
+     "id": "citra",
+     "grams": 100,
+     "use": "dryHop"
+    },
+    {
+     "id": "galaxy",
+     "grams": 60,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "london_ale_iii",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 3,
+   "carbonation": 2.2,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "west_coast_ipa",
+  "name": "West Coast IPA",
+  "nameZh": "西海岸 IPA",
+  "family": "ipa",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "Classic",
+  "country": [
+   "usa"
+  ],
+  "region": "San Diego",
+  "fermentation": "ale",
+  "abv": {
+   "min": 6,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 55,
+   "max": 85
+  },
+  "color": {
+   "min": 4,
+   "max": 8
+  },
+  "bitterness": 4.5,
+  "sweetness": 1.6,
+  "body": 1.7,
+  "malt": 3.2,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 4.7,
+  "fruity": 1.2,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.9,
+  "haze": 1.5,
+  "tags": [
+   "干爽",
+   "清澈",
+   "松脂",
+   "高苦"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "carapils",
+   "warrior",
+   "simcoe",
+   "columbus",
+   "centennial",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "american_ipa",
+   "double_ipa",
+   "cold_ipa"
+  ],
+  "requirements": [
+   {
+    "type": "maltShare",
+    "category": "caramel",
+    "max": 0.04,
+    "hint": "几乎不用焦糖麦芽，酒体要干"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "usa"
+    ],
+    "minShare": 0.8,
+    "soft": false,
+    "hint": "酒花全部来自美国"
+   },
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": false,
+    "hint": "大量干投"
+   }
+  ],
+  "aromas": [
+   "pine",
+   "resin",
+   "grapefruit",
+   "citrus",
+   "tropical"
+  ],
+  "glass": "shaker",
+  "servingTemp": 6,
+  "freshness": "fresh",
+  "discovery": "open",
+  "clues": [
+   "它来自阳光充足的圣地亚哥。",
+   "颜色浅而清澈。",
+   "酒体非常干，苦味凌厉。",
+   "松脂与西柚的香气直冲鼻腔。"
+  ],
+  "description": "西海岸 IPA 是圣地亚哥等地酿酒师的骄傲：极干的酒体、清澈的金黄色、凌厉的苦味和松脂西柚香。几乎不用焦糖麦芽，让酒花毫无遮挡地登场。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 5.6
+    },
+    {
+     "id": "carapils",
+     "kg": 0.15
+    }
+   ],
+   "hops": [
+    {
+     "id": "warrior",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "columbus",
+     "grams": 20,
+     "use": "boil",
+     "time": 15
+    },
+    {
+     "id": "simcoe",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "centennial",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "simcoe",
+     "grams": 60,
+     "use": "dryHop"
+    },
+    {
+     "id": "centennial",
+     "grams": 50,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "ipa",
+   "adjuncts": [],
+   "mashTemp": 64,
+   "boilTime": 60,
+   "fermentTemp": 18,
+   "fermentDays": 10,
+   "maturationDays": 5,
+   "carbonation": 2.6,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "black_ipa",
+  "name": "Black IPA",
+  "nameZh": "黑色 IPA",
+  "family": "ipa",
+  "group": "Specialty",
+  "country": [
+   "usa"
+  ],
+  "region": "Pacific Northwest",
+  "fermentation": "ale",
+  "abv": {
+   "min": 5.5,
+   "max": 8
+  },
+  "ibu": {
+   "min": 50,
+   "max": 90
+  },
+  "color": {
+   "min": 25,
+   "max": 40
+  },
+  "bitterness": 3.6,
+  "sweetness": 2.3,
+  "body": 2.1,
+  "malt": 3,
+  "caramel": 0.5,
+  "roast": 2.1,
+  "hopAroma": 4.4,
+  "fruity": 1.3,
+  "spicy": 0.1,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.7,
+  "haze": 1.3,
+  "tags": [
+   "黑色",
+   "卡斯卡迪亚",
+   "酒花",
+   "轻烘烤"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "black_malt",
+   "chocolate_malt",
+   "crystal_40",
+   "chinook",
+   "simcoe",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "american_ipa",
+   "brown_ipa",
+   "american_stout"
+  ],
+  "requirements": [
+   {
+    "type": "maltShare",
+    "category": "roast",
+    "min": 0.035,
+    "hint": "加入少量深色烘焙麦芽（≥3.5%），只取颜色不取焦苦"
+   },
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": false,
+    "hint": "大量干投酒花"
+   }
+  ],
+  "aromas": [
+   "pine",
+   "roast",
+   "resin",
+   "chocolate",
+   "citrus"
+  ],
+  "glass": "shaker",
+  "servingTemp": 8,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它有时被叫作“卡斯卡迪亚深色艾尔”。",
+   "看起来像世涛。",
+   "喝起来却是一杯 IPA。",
+   "深色麦芽只带来颜色和一丝烘烤。"
+  ],
+  "description": "黑色 IPA 又称卡斯卡迪亚深色艾尔，来自美国太平洋西北地区。它像世涛一样漆黑，却以 IPA 的松脂柑橘香和凌厉苦味为主角，烘烤感只是背景。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 5.3
+    },
+    {
+     "id": "crystal_40",
+     "kg": 0.2
+    },
+    {
+     "id": "black_malt",
+     "kg": 0.25
+    }
+   ],
+   "hops": [
+    {
+     "id": "chinook",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "simcoe",
+     "grams": 25,
+     "use": "boil",
+     "time": 10
+    },
+    {
+     "id": "simcoe",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "simcoe",
+     "grams": 60,
+     "use": "dryHop"
+    },
+    {
+     "id": "chinook",
+     "grams": 30,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 5,
+   "carbonation": 2.4,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "white_ipa",
+  "name": "White IPA",
+  "nameZh": "白色 IPA",
+  "family": "ipa",
+  "group": "Specialty",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5.5,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 35,
+   "max": 60
+  },
+  "color": {
+   "min": 3,
+   "max": 7
+  },
+  "bitterness": 3,
+  "sweetness": 1.7,
+  "body": 2.6,
+  "malt": 2.1,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 3.7,
+  "fruity": 4.2,
+  "spicy": 3.6,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.4,
+  "haze": 3.2,
+  "tags": [
+   "小麦",
+   "比利时酵母",
+   "香料",
+   "混血"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "wheat_malt",
+   "witbier_yeast",
+   "coriander",
+   "orange_peel",
+   "citra",
+   "cascade"
+  ],
+  "relatedStyles": [
+   "belgian_ipa",
+   "witbier",
+   "hazy_ipa"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "belgian"
+    ],
+    "hint": "使用比利时白啤酵母"
+   },
+   {
+    "type": "maltShare",
+    "category": "wheat",
+    "min": 0.3,
+    "hint": "小麦麦芽至少 30%"
+   },
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "spice"
+    ],
+    "soft": true,
+    "hint": "加入芫荽籽和橙皮"
+   }
+  ],
+  "aromas": [
+   "orange",
+   "coriander",
+   "citrus",
+   "clove",
+   "banana"
+  ],
+  "glass": "tulip",
+  "servingTemp": 7,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它是比利时白啤和美式 IPA 的混血。",
+   "大量小麦让它呈现朦胧的白金色。",
+   "香料与酒花的柑橘香叠在一起。",
+   "酵母带来一点丁香和香蕉。"
+  ],
+  "description": "白色 IPA 是美式 IPA 与比利时白啤的结合：小麦、白啤酵母、芫荽与橙皮，再加上美式酒花。柑橘、香料与酵母酯香交织，酒体轻盈微浊。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 2.9
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 2.2
+    }
+   ],
+   "hops": [
+    {
+     "id": "citra",
+     "grams": 25,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "cascade",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "citra",
+     "grams": 50,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "witbier_yeast",
+   "water": "balanced",
+   "adjuncts": [
+    {
+     "id": "coriander",
+     "grams": 15
+    },
+    {
+     "id": "orange_peel",
+     "grams": 20
+    }
+   ],
+   "mashTemp": 65,
+   "boilTime": 75,
+   "fermentTemp": 20,
+   "fermentDays": 9,
+   "maturationDays": 4,
+   "carbonation": 2.7,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "red_ipa",
+  "name": "Red IPA",
+  "nameZh": "红色 IPA",
+  "family": "ipa",
+  "group": "Specialty",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5.5,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 45,
+   "max": 75
+  },
+  "color": {
+   "min": 11,
+   "max": 19
+  },
+  "bitterness": 3.4,
+  "sweetness": 2.9,
+  "body": 2.4,
+  "malt": 2.9,
+  "caramel": 2.2,
+  "roast": 0.1,
+  "hopAroma": 4,
+  "fruity": 1,
+  "spicy": 0.1,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.5,
+  "haze": 1.3,
+  "tags": [
+   "红色",
+   "焦糖",
+   "酒花",
+   "平衡"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_60",
+   "crystal_120",
+   "centennial",
+   "chinook",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "american_ipa",
+   "american_amber_ale",
+   "brown_ipa"
+  ],
+  "requirements": [
+   {
+    "type": "maltShare",
+    "category": "caramel",
+    "min": 0.08,
+    "hint": "焦糖麦芽至少 8%，带来红宝石色"
+   },
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": false,
+    "hint": "大量干投酒花"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "usa"
+    ],
+    "minShare": 0.6,
+    "soft": true,
+    "hint": "使用美国酒花"
+   }
+  ],
+  "aromas": [
+   "caramel",
+   "toffee",
+   "pine",
+   "grapefruit",
+   "citrus"
+  ],
+  "glass": "shaker",
+  "servingTemp": 8,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它的颜色像红宝石。",
+   "焦糖麦芽与美式酒花在杯中拉锯。",
+   "比琥珀艾尔苦得多。",
+   "太妃糖香下藏着松针与西柚。"
+  ],
+  "description": "红色 IPA 在美式 IPA 的基础上加入较多焦糖麦芽，呈现迷人的红宝石色。太妃与焦糖甜感和强烈的松脂柑橘酒花形成对抗，是麦芽派与酒花派的折中。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 5
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.35
+    },
+    {
+     "id": "crystal_120",
+     "kg": 0.25
+    }
+   ],
+   "hops": [
+    {
+     "id": "chinook",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "centennial",
+     "grams": 25,
+     "use": "boil",
+     "time": 10
+    },
+    {
+     "id": "centennial",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "centennial",
+     "grams": 50,
+     "use": "dryHop"
+    },
+    {
+     "id": "chinook",
+     "grams": 30,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 5,
+   "carbonation": 2.4,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "brown_ipa",
+  "name": "Brown IPA",
+  "nameZh": "棕色 IPA",
+  "family": "ipa",
+  "group": "Specialty",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5.5,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 40,
+   "max": 70
+  },
+  "color": {
+   "min": 18,
+   "max": 30
+  },
+  "bitterness": 2.9,
+  "sweetness": 2.9,
+  "body": 2.4,
+  "malt": 2.9,
+  "caramel": 1.3,
+  "roast": 1.3,
+  "hopAroma": 4.1,
+  "fruity": 1.1,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.5,
+  "haze": 1.3,
+  "tags": [
+   "棕色",
+   "巧克力",
+   "坚果",
+   "酒花"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_60",
+   "chocolate_malt",
+   "brown_malt",
+   "centennial",
+   "cascade",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "american_brown_ale",
+   "black_ipa",
+   "red_ipa"
+  ],
+  "requirements": [
+   {
+    "type": "maltShare",
+    "category": "roast",
+    "min": 0.01,
+    "max": 0.034,
+    "hint": "少量巧克力/棕色麦芽（1%~3.4%），不要黑到像世涛"
+   },
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": false,
+    "hint": "大量干投酒花"
+   }
+  ],
+  "aromas": [
+   "chocolate",
+   "nut",
+   "caramel",
+   "pine",
+   "citrus"
+  ],
+  "glass": "shaker",
+  "servingTemp": 8,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它像一杯酒花加倍的美式棕色艾尔。",
+   "颜色是深棕色，而不是漆黑。",
+   "巧克力与坚果香在背景里。",
+   "前景依然是美式酒花的柑橘松针。"
+  ],
+  "description": "棕色 IPA 由德州等地的酒厂推广，可以看作强化版的美式棕色艾尔。巧克力、坚果与焦糖麦芽打底，美式酒花带来柑橘与松针的香气和明显苦味。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 5
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.4
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.18
+    }
+   ],
+   "hops": [
+    {
+     "id": "centennial",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "cascade",
+     "grams": 30,
+     "use": "boil",
+     "time": 10
+    },
+    {
+     "id": "cascade",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "centennial",
+     "grams": 50,
+     "use": "dryHop"
+    },
+    {
+     "id": "cascade",
+     "grams": 30,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 5,
+   "carbonation": 2.4,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "rye_ipa",
+  "name": "Rye IPA",
+  "nameZh": "黑麦 IPA",
+  "family": "ipa",
+  "group": "Specialty",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5.5,
+   "max": 8
+  },
+  "ibu": {
+   "min": 50,
+   "max": 75
+  },
+  "color": {
+   "min": 6,
+   "max": 14
+  },
+  "bitterness": 4,
+  "sweetness": 2.2,
+  "body": 2.5,
+  "malt": 3.2,
+  "caramel": 0.5,
+  "roast": 0,
+  "hopAroma": 4.4,
+  "fruity": 1.2,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.7,
+  "haze": 1.3,
+  "tags": [
+   "黑麦",
+   "辛香",
+   "干爽",
+   "酒花"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "rye_malt",
+   "crystal_40",
+   "columbus",
+   "simcoe",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "american_ipa",
+   "west_coast_ipa",
+   "roggenbier"
+  ],
+  "requirements": [
+   {
+    "type": "maltShare",
+    "category": "rye",
+    "min": 0.12,
+    "hint": "黑麦麦芽至少 12%"
+   },
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": false,
+    "hint": "大量干投酒花"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "usa"
+    ],
+    "minShare": 0.6,
+    "soft": true,
+    "hint": "使用美国酒花"
+   },
+   {
+    "type": "yeastType",
+    "in": [
+     "ale"
+    ],
+    "soft": true,
+    "hint": "使用干净的艾尔酵母"
+   }
+  ],
+  "aromas": [
+   "rye",
+   "pine",
+   "spicy",
+   "grapefruit",
+   "pepper"
+  ],
+  "glass": "shaker",
+  "servingTemp": 8,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "一种来自面包房的谷物出现在了 IPA 里。",
+   "口感干脆，带一丝胡椒般的辛香。",
+   "酒体比普通 IPA 稍油润。",
+   "美式酒花依然是主角。"
+  ],
+  "description": "黑麦 IPA 在 IPA 中加入 15%~20% 的黑麦麦芽，带来胡椒般的辛香、干脆的余味和略显油润的口感。与松脂柑橘酒花搭配，层次更复杂。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.6
+    },
+    {
+     "id": "rye_malt",
+     "kg": 1
+    },
+    {
+     "id": "crystal_40",
+     "kg": 0.2
+    }
+   ],
+   "hops": [
+    {
+     "id": "columbus",
+     "grams": 25,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "simcoe",
+     "grams": 25,
+     "use": "boil",
+     "time": 10
+    },
+    {
+     "id": "simcoe",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "simcoe",
+     "grams": 60,
+     "use": "dryHop"
+    },
+    {
+     "id": "columbus",
+     "grams": 30,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "ipa",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 5,
+   "carbonation": 2.4,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "belgian_ipa",
+  "name": "Belgian IPA",
+  "nameZh": "比利时 IPA",
+  "family": "ipa",
+  "alsoIn": [
+   "belgian"
+  ],
+  "group": "Specialty",
+  "country": [
+   "belgium",
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 6.2,
+   "max": 9.5
+  },
+  "ibu": {
+   "min": 50,
+   "max": 100
+  },
+  "color": {
+   "min": 4,
+   "max": 15
+  },
+  "bitterness": 3.5,
+  "sweetness": 1.4,
+  "body": 1,
+  "malt": 3,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 4.1,
+  "fruity": 3,
+  "spicy": 1.2,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 2.5,
+  "haze": 1.5,
+  "tags": [
+   "比利时酵母",
+   "酯香",
+   "酚类",
+   "酒花"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "pale_malt",
+   "candi_sugar_light",
+   "belgian_golden",
+   "centennial",
+   "saaz",
+   "amarillo"
+  ],
+  "relatedStyles": [
+   "belgian_golden_strong",
+   "belgian_tripel",
+   "white_ipa"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "belgian"
+    ],
+    "hint": "使用比利时酵母"
+   },
+   {
+    "type": "maltShare",
+    "category": "wheat",
+    "max": 0.2,
+    "soft": true,
+    "hint": "不是白啤：小麦不要太多"
+   },
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": false,
+    "hint": "大量干投酒花"
+   }
+  ],
+  "aromas": [
+   "pear",
+   "clove",
+   "citrus",
+   "pine",
+   "pepper"
+  ],
+  "glass": "tulip",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "比利时酵母遇上了美式酒花。",
+   "梨子般的酯香和胡椒般的酚类。",
+   "加了糖，酒体干而强。",
+   "比三料更苦、更有酒花香。"
+  ],
+  "description": "比利时 IPA 由比利时与美国酿酒师在 2000 年代共同推动，用比利时酵母发酵高酒花的强艾尔。酯香与胡椒丁香般的酚类与柑橘松脂酒花交织，酒体干爽、酒精偏高。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 5.4
+    },
+    {
+     "id": "pale_malt",
+     "kg": 0.6
+    }
+   ],
+   "hops": [
+    {
+     "id": "centennial",
+     "grams": 50,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "saaz",
+     "grams": 30,
+     "use": "boil",
+     "time": 15
+    },
+    {
+     "id": "amarillo",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "amarillo",
+     "grams": 50,
+     "use": "dryHop"
+    },
+    {
+     "id": "centennial",
+     "grams": 30,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "belgian_golden",
+   "water": "balanced",
+   "adjuncts": [
+    {
+     "id": "candi_sugar_light",
+     "grams": 500
+    }
+   ],
+   "mashTemp": 65,
+   "boilTime": 90,
+   "fermentTemp": 21,
+   "fermentDays": 12,
+   "maturationDays": 10,
+   "carbonation": 2.8,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "brut_ipa",
+  "name": "Brut IPA",
+  "nameZh": "香槟 IPA",
+  "family": "ipa",
+  "alsoIn": [
+   "experimental"
+  ],
+  "group": "Modern",
+  "country": [
+   "usa"
+  ],
+  "region": "San Francisco",
+  "fermentation": "ale",
+  "abv": {
+   "min": 6,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 15,
+   "max": 35
+  },
+  "color": {
+   "min": 2,
+   "max": 4
+  },
+  "bitterness": 2.2,
+  "sweetness": 0.3,
+  "body": 0,
+  "malt": 1.9,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 4.7,
+  "fruity": 1.9,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.9,
+  "haze": 1.3,
+  "tags": [
+   "极干",
+   "香槟感",
+   "外加酶",
+   "高碳酸"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "flaked_rice",
+   "nelson_sauvin",
+   "citra",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "west_coast_ipa",
+   "cold_ipa",
+   "american_ipa"
+  ],
+  "requirements": [
+   {
+    "type": "process",
+    "in": [
+     "enzyme"
+    ],
+    "hint": "使用外加糖化酶，把残糖吃干净"
+   },
+   {
+    "type": "carbonation",
+    "min": 2.8,
+    "soft": true,
+    "hint": "像香槟一样高碳酸"
+   }
+  ],
+  "aromas": [
+   "grape",
+   "wine",
+   "tropical",
+   "citrus",
+   "floral"
+  ],
+  "glass": "tulip",
+  "servingTemp": 5,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它的名字借自香槟。",
+   "残糖几乎为零，非常干。",
+   "酿酒师在发酵中加入了一种酶。",
+   "气泡细密丰富，颜色极浅。"
+  ],
+  "description": "香槟 IPA 于 2017 年诞生于旧金山，酿酒师借助淀粉酶把几乎所有糖分转化为酒精。酒体干如香槟、颜色极浅、气泡丰富，酒花以白葡萄与热带水果香为主。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 4
+    },
+    {
+     "id": "flaked_rice",
+     "kg": 0.8
+    }
+   ],
+   "hops": [
+    {
+     "id": "citra",
+     "grams": 8,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "nelson_sauvin",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "citra",
+     "grams": 30,
+     "use": "whirlpool"
+    },
+    {
+     "id": "nelson_sauvin",
+     "grams": 50,
+     "use": "dryHop"
+    },
+    {
+     "id": "citra",
+     "grams": 40,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 63,
+   "boilTime": 90,
+   "fermentTemp": 18,
+   "fermentDays": 10,
+   "maturationDays": 4,
+   "carbonation": 3.2,
+   "processes": [
+    "enzyme"
+   ]
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "cold_ipa",
+  "name": "Cold IPA",
+  "nameZh": "冷 IPA",
+  "family": "ipa",
+  "alsoIn": [
+   "experimental"
+  ],
+  "group": "Modern",
+  "country": [
+   "usa"
+  ],
+  "region": "Oregon",
+  "fermentation": "ale",
+  "abv": {
+   "min": 6,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 35,
+   "max": 65
+  },
+  "color": {
+   "min": 2,
+   "max": 5
+  },
+  "bitterness": 3,
+  "sweetness": 2.1,
+  "body": 1.3,
+  "malt": 2.1,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 4.7,
+  "fruity": 1.9,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.7,
+  "haze": 1.1,
+  "tags": [
+   "拉格酵母",
+   "大米",
+   "清脆",
+   "干爽"
+  ],
+  "ingredients": [
+   "pilsner_malt",
+   "flaked_rice",
+   "flaked_corn",
+   "california_lager_yeast",
+   "citra",
+   "simcoe"
+  ],
+  "relatedStyles": [
+   "west_coast_ipa",
+   "brut_ipa",
+   "west_coast_pilsner"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "lager"
+    ],
+    "hint": "用拉格酵母在偏高温度发酵"
+   },
+   {
+    "type": "malt",
+    "in": [
+     "flaked_rice",
+     "flaked_corn"
+    ],
+    "minShare": 0.15,
+    "hint": "加入大米或玉米（≥15%）让酒体更脆"
+   },
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": false,
+    "hint": "大量干投酒花"
+   }
+  ],
+  "aromas": [
+   "citrus",
+   "pine",
+   "tropical",
+   "rice",
+   "grapefruit"
+  ],
+  "glass": "pilsner",
+  "servingTemp": 5,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它在 2018 年由俄勒冈的酿酒师命名。",
+   "用的是拉格酵母，却按艾尔的温度发酵。",
+   "大米或玉米让它异常清脆。",
+   "酒花香明亮，口感干脆冰爽。"
+  ],
+  "description": "冷 IPA 由俄勒冈 Wayfinder 酒厂命名：拉格酵母在偏暖温度下快速发酵，加入大米或玉米让酒体极为干脆。它像西海岸 IPA 一样清澈苦爽，酒花香却更干净明亮。",
+  "example": {
+   "malts": [
+    {
+     "id": "pilsner_malt",
+     "kg": 4.6
+    },
+    {
+     "id": "flaked_rice",
+     "kg": 1.1
+    }
+   ],
+   "hops": [
+    {
+     "id": "simcoe",
+     "grams": 20,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "citra",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "simcoe",
+     "grams": 30,
+     "use": "whirlpool"
+    },
+    {
+     "id": "citra",
+     "grams": 60,
+     "use": "dryHop"
+    },
+    {
+     "id": "simcoe",
+     "grams": 40,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "california_lager_yeast",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 64,
+   "boilTime": 75,
+   "fermentTemp": 16,
+   "fermentDays": 12,
+   "maturationDays": 10,
+   "carbonation": 2.7,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "milkshake_ipa",
+  "name": "Milkshake IPA",
+  "nameZh": "奶昔 IPA",
+  "family": "ipa",
+  "alsoIn": [
+   "experimental"
+  ],
+  "group": "Modern",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 6,
+   "max": 8
+  },
+  "ibu": {
+   "min": 15,
+   "max": 40
+  },
+  "color": {
+   "min": 3,
+   "max": 8
+  },
+  "bitterness": 1,
+  "sweetness": 5,
+  "body": 5,
+  "malt": 3,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 4.6,
+  "fruity": 3.4,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0.5,
+  "alcohol": 0.5,
+  "haze": 2.9,
+  "tags": [
+   "乳糖",
+   "香草",
+   "水果",
+   "甜点"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "flaked_oats",
+   "lactose",
+   "vanilla_bean",
+   "mango",
+   "citra",
+   "mosaic"
+  ],
+  "relatedStyles": [
+   "neipa",
+   "hazy_ipa",
+   "fruit_ipa"
+  ],
+  "requirements": [
+   {
+    "type": "adjunct",
+    "in": [
+     "lactose"
+    ],
+    "hint": "加入乳糖"
+   },
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "fruit",
+     "vanilla"
+    ],
+    "min": 0.4,
+    "hint": "加入水果或香草"
+   },
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": true,
+    "hint": "干投酒花"
+   }
+  ],
+  "aromas": [
+   "cream",
+   "vanilla",
+   "mango",
+   "tropical",
+   "peach"
+  ],
+  "glass": "teku",
+  "servingTemp": 7,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它喝起来像一杯水果奶昔。",
+   "加入了一种酵母无法发酵的糖。",
+   "香草或水果让它更像甜点。",
+   "浑浊、甜美、几乎不苦。"
+  ],
+  "description": "奶昔 IPA 在浑浊 IPA 的基础上加入乳糖、香草与大量水果，喝起来像一杯带酒花的奶昔。甜美顺滑、浑浊如果汁，是近年精酿圈争议最大的甜点式 IPA。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.4
+    },
+    {
+     "id": "flaked_oats",
+     "kg": 0.8
+    }
+   ],
+   "hops": [
+    {
+     "id": "citra",
+     "grams": 8,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "citra",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "citra",
+     "grams": 60,
+     "use": "dryHop"
+    },
+    {
+     "id": "mosaic",
+     "grams": 40,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "balanced",
+   "adjuncts": [
+    {
+     "id": "lactose",
+     "grams": 700
+    },
+    {
+     "id": "vanilla_bean",
+     "grams": 10,
+     "stage": "secondary"
+    },
+    {
+     "id": "mango",
+     "grams": 1500,
+     "stage": "secondary"
+    }
+   ],
+   "mashTemp": 68,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 4,
+   "carbonation": 2.3,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "fruit_ipa",
+  "name": "Fruit IPA",
+  "nameZh": "水果 IPA",
+  "family": "ipa",
+  "alsoIn": [
+   "fruit"
+  ],
+  "group": "Specialty",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5.5,
+   "max": 7.5
+  },
+  "ibu": {
+   "min": 35,
+   "max": 65
+  },
+  "color": {
+   "min": 4,
+   "max": 12
+  },
+  "bitterness": 2.9,
+  "sweetness": 2.3,
+  "body": 1.9,
+  "malt": 3.2,
+  "caramel": 0.5,
+  "roast": 0,
+  "hopAroma": 3.9,
+  "fruity": 4,
+  "spicy": 0,
+  "acidity": 0.2,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.9,
+  "haze": 1.4,
+  "tags": [
+   "水果",
+   "热带",
+   "酒花",
+   "果汁"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_40",
+   "mango",
+   "pineapple",
+   "passionfruit",
+   "citra",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "american_ipa",
+   "milkshake_ipa",
+   "hazy_ipa"
+  ],
+  "requirements": [
+   {
+    "type": "adjunctCategory",
+    "in": [
+     "fruit"
+    ],
+    "min": 30,
+    "hint": "加入大量真实水果（≥30 g/L）"
+   },
+   {
+    "type": "noAdjunctCategory",
+    "in": [
+     "dairy"
+    ],
+    "hint": "不加乳糖——那是奶昔 IPA"
+   },
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": true,
+    "hint": "干投酒花"
+   }
+  ],
+  "aromas": [
+   "mango",
+   "pineapple",
+   "passionfruit",
+   "grapefruit",
+   "tropical"
+  ],
+  "glass": "shaker",
+  "servingTemp": 7,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它是一杯加了真水果的 IPA。",
+   "水果放在发酵后期加入。",
+   "苦味仍然清晰，不像奶昔那样甜。",
+   "芒果、菠萝、百香果是常见搭档。"
+  ],
+  "description": "水果 IPA 在美式 IPA 中加入真实水果，让西柚、芒果、菠萝等果香与酒花的柑橘热带香互相放大。苦味依旧清晰，酒体比奶昔 IPA 干爽得多。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 5
+    },
+    {
+     "id": "crystal_40",
+     "kg": 0.2
+    }
+   ],
+   "hops": [
+    {
+     "id": "citra",
+     "grams": 25,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "citra",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "citra",
+     "grams": 50,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "balanced",
+   "adjuncts": [
+    {
+     "id": "mango",
+     "grams": 1500,
+     "stage": "secondary"
+    },
+    {
+     "id": "pineapple",
+     "grams": 800,
+     "stage": "secondary"
+    }
+   ],
+   "mashTemp": 66,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 5,
+   "carbonation": 2.5,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "brett_ipa",
+  "name": "Brett IPA",
+  "nameZh": "酒香酵母 IPA",
+  "family": "ipa",
+  "alsoIn": [
+   "wild"
+  ],
+  "group": "Specialty",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5.5,
+   "max": 8
+  },
+  "ibu": {
+   "min": 30,
+   "max": 60
+  },
+  "color": {
+   "min": 3,
+   "max": 8
+  },
+  "bitterness": 2.7,
+  "sweetness": 0.2,
+  "body": 1,
+  "malt": 2.9,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 4.2,
+  "fruity": 2.7,
+  "spicy": 0.4,
+  "acidity": 0.5,
+  "funk": 2.8,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.8,
+  "haze": 2,
+  "tags": [
+   "野菌",
+   "酒香酵母",
+   "热带",
+   "干爽"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "pilsner_malt",
+   "brett_clausenii",
+   "brett_brux",
+   "citra",
+   "mosaic"
+  ],
+  "relatedStyles": [
+   "american_ipa",
+   "american_wild_ale",
+   "hazy_ipa"
+  ],
+  "requirements": [
+   {
+    "type": "yeastType",
+    "in": [
+     "brett"
+    ],
+    "hint": "用酒香酵母（Brettanomyces）发酵"
+   },
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": true,
+    "hint": "干投酒花"
+   }
+  ],
+  "aromas": [
+   "funk",
+   "pineapple",
+   "tropical",
+   "barnyard",
+   "citrus"
+  ],
+  "glass": "teku",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它的酵母曾被认为是“污染”。",
+   "带着淡淡的谷仓与菠萝气息。",
+   "发酵时间比普通 IPA 长得多。",
+   "非常干，却几乎不酸。"
+  ],
+  "description": "酒香酵母 IPA 用 Brettanomyces 全程发酵 IPA，酵母带来菠萝、热带水果与淡淡的谷仓野趣。酒体极干，几乎不酸，与酒花的果香相得益彰。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.6
+    },
+    {
+     "id": "wheat_malt",
+     "kg": 0.4
+    }
+   ],
+   "hops": [
+    {
+     "id": "citra",
+     "grams": 15,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "citra",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "mosaic",
+     "grams": 30,
+     "use": "whirlpool"
+    },
+    {
+     "id": "mosaic",
+     "grams": 50,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "brett_clausenii",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 60,
+   "fermentTemp": 21,
+   "fermentDays": 30,
+   "maturationDays": 14,
+   "carbonation": 2.6,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "experimental_ipa",
+  "name": "Experimental IPA",
+  "nameZh": "实验 IPA",
+  "family": "ipa",
+  "alsoIn": [
+   "experimental"
+  ],
+  "group": "Specialty",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5.5,
+   "max": 8
+  },
+  "ibu": {
+   "min": 25,
+   "max": 70
+  },
+  "color": {
+   "min": 3,
+   "max": 10
+  },
+  "bitterness": 2.7,
+  "sweetness": 2,
+  "body": 2.8,
+  "malt": 2.8,
+  "caramel": 0,
+  "roast": 0,
+  "hopAroma": 4.6,
+  "fruity": 2.6,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.4,
+  "haze": 2.3,
+  "weights": {
+   "fruity": 1.5
+  },
+  "tags": [
+   "新酒花",
+   "实验",
+   "创新",
+   "前沿"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "flaked_oats",
+   "hbc_630",
+   "hbc_1019",
+   "sabro",
+   "strata",
+   "talus"
+  ],
+  "relatedStyles": [
+   "hazy_ipa",
+   "american_ipa",
+   "neipa"
+  ],
+  "requirements": [
+   {
+    "type": "process",
+    "in": [
+     "dryHop"
+    ],
+    "soft": false,
+    "hint": "大量干投新兴实验酒花"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "usa"
+    ],
+    "minShare": 0.8,
+    "soft": true,
+    "hint": "使用美国育种实验室的新品种酒花"
+   },
+   {
+    "type": "hop",
+    "in": [
+     "hbc_630",
+     "hbc_1019",
+     "sabro",
+     "strata",
+     "talus",
+     "nectaron"
+    ],
+    "hint": "需要一种新兴实验酒花"
+   }
+  ],
+  "aromas": [
+   "berry",
+   "tropical",
+   "coconut",
+   "citrus",
+   "grape"
+  ],
+  "glass": "teku",
+  "servingTemp": 7,
+  "freshness": "fresh",
+  "discovery": "clue",
+  "clues": [
+   "它是酿酒师的试验场。",
+   "用的酒花可能还没有正式的名字，只有一个编号。",
+   "莓果、热带水果甚至椰子般的香气。",
+   "没有固定规矩，香气越新奇越好。"
+  ],
+  "description": "实验 IPA 是酿酒师试用新兴酒花品种的舞台，常用 HBC 编号酒花、Sabro、Strata、Talus 等。香气可能出现莓果、椰子、热带水果甚至奶油感，每一批都不一样。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.8
+    },
+    {
+     "id": "flaked_oats",
+     "kg": 0.5
+    }
+   ],
+   "hops": [
+    {
+     "id": "hbc_1019",
+     "grams": 10,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "hbc_630",
+     "grams": 50,
+     "use": "whirlpool"
+    },
+    {
+     "id": "sabro",
+     "grams": 40,
+     "use": "whirlpool"
+    },
+    {
+     "id": "hbc_630",
+     "grams": 70,
+     "use": "dryHop"
+    },
+    {
+     "id": "strata",
+     "grams": 60,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 3,
+   "carbonation": 2.4,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "american_amber_ale",
+  "name": "American Amber Ale",
+  "nameZh": "美式琥珀艾尔",
+  "family": "american",
+  "group": "American Ale",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.5,
+   "max": 6.2
+  },
+  "ibu": {
+   "min": 22,
+   "max": 40
+  },
+  "color": {
+   "min": 10,
+   "max": 17
+  },
+  "bitterness": 1.9,
+  "sweetness": 2.8,
+  "body": 2.2,
+  "malt": 2.7,
+  "caramel": 1.7,
+  "roast": 0,
+  "hopAroma": 1.4,
+  "fruity": 0.7,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0.1,
+  "haze": 0.8,
+  "tags": [
+   "琥珀色",
+   "焦糖",
+   "平衡",
+   "美式酒花"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_60",
+   "crystal_40",
+   "cascade",
+   "centennial",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "american_pale_ale",
+   "red_ipa",
+   "irish_red_ale"
+  ],
+  "requirements": [
+   {
+    "type": "hopOrigin",
+    "in": [
+     "usa"
+    ],
+    "minShare": 0.6,
+    "soft": true,
+    "hint": "使用美国酒花"
+   },
+   {
+    "type": "maltShare",
+    "category": "caramel",
+    "min": 0.06,
+    "soft": true,
+    "hint": "焦糖麦芽带来琥珀色和太妃甜"
+   }
+  ],
+  "aromas": [
+   "caramel",
+   "toffee",
+   "citrus",
+   "floral",
+   "bread"
+  ],
+  "glass": "shaker",
+  "servingTemp": 8,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它的颜色像琥珀。",
+   "比美式淡色艾尔多了焦糖麦芽。",
+   "美式酒花的柑橘花香与太妃甜平衡。",
+   "加州和西北太平洋地区的老派精酿。"
+  ],
+  "description": "美式琥珀艾尔是美国西海岸的经典精酿，用焦糖麦芽打造琥珀色与太妃甜，再以 Cascade、Centennial 带来柑橘花香。麦芽与酒花平衡，易饮而有层次。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.4
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.35
+    },
+    {
+     "id": "crystal_40",
+     "kg": 0.2
+    }
+   ],
+   "hops": [
+    {
+     "id": "centennial",
+     "grams": 15,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "cascade",
+     "grams": 25,
+     "use": "boil",
+     "time": 10
+    },
+    {
+     "id": "cascade",
+     "grams": 20,
+     "use": "boil",
+     "time": 0
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 4,
+   "carbonation": 2.4,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "american_brown_ale",
+  "name": "American Brown Ale",
+  "nameZh": "美式棕色艾尔",
+  "family": "american",
+  "group": "American Ale",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.3,
+   "max": 6.2
+  },
+  "ibu": {
+   "min": 20,
+   "max": 40
+  },
+  "color": {
+   "min": 18,
+   "max": 30
+  },
+  "bitterness": 2.3,
+  "sweetness": 2.5,
+  "body": 2.1,
+  "malt": 2.6,
+  "caramel": 1.2,
+  "roast": 1.5,
+  "hopAroma": 1.4,
+  "fruity": 0.7,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.8,
+  "tags": [
+   "棕色",
+   "巧克力",
+   "焦糖",
+   "美式酒花"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_60",
+   "chocolate_malt",
+   "cascade",
+   "centennial",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "british_brown_ale",
+   "brown_ipa",
+   "american_porter"
+  ],
+  "requirements": [
+   {
+    "type": "hopOrigin",
+    "in": [
+     "usa"
+    ],
+    "minShare": 0.6,
+    "soft": true,
+    "hint": "使用美国酒花"
+   },
+   {
+    "type": "maltShare",
+    "category": "roast",
+    "min": 0.01,
+    "max": 0.06,
+    "soft": true,
+    "hint": "少量巧克力麦芽带来坚果与可可香"
+   }
+  ],
+  "aromas": [
+   "chocolate",
+   "caramel",
+   "nut",
+   "toffee",
+   "citrus"
+  ],
+  "glass": "nonic",
+  "servingTemp": 9,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它是英国棕色艾尔的美国表亲。",
+   "巧克力与焦糖麦芽带来坚果般的风味。",
+   "比英式版本更苦、更有酒花香。",
+   "颜色是深棕色。"
+  ],
+  "description": "美式棕色艾尔源自美国家酿者对英式棕色艾尔的改造，加入更多美式酒花。焦糖、巧克力与坚果麦芽香饱满，柑橘松针酒花与中等苦味让它更有活力。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4.3
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.35
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.2
+    }
+   ],
+   "hops": [
+    {
+     "id": "centennial",
+     "grams": 20,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "cascade",
+     "grams": 25,
+     "use": "boil",
+     "time": 10
+    },
+    {
+     "id": "cascade",
+     "grams": 20,
+     "use": "boil",
+     "time": 0
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 10,
+   "maturationDays": 5,
+   "carbonation": 2.3,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "dark_mild",
+  "name": "Dark Mild",
+  "nameZh": "深色淡味艾尔",
+  "family": "british",
+  "group": "Mild & Brown",
+  "country": [
+   "uk"
+  ],
+  "region": "Midlands",
+  "fermentation": "ale",
+  "abv": {
+   "min": 3,
+   "max": 3.9
+  },
+  "ibu": {
+   "min": 10,
+   "max": 25
+  },
+  "color": {
+   "min": 14,
+   "max": 25
+  },
+  "bitterness": 1.6,
+  "sweetness": 2.3,
+  "body": 2.6,
+  "malt": 2.9,
+  "caramel": 1,
+  "roast": 1.3,
+  "hopAroma": 0,
+  "fruity": 1.2,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.3,
+  "tags": [
+   "低酒精",
+   "深色",
+   "麦芽",
+   "矿工啤酒"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_60",
+   "chocolate_malt",
+   "fuggle",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "british_brown_ale",
+   "ordinary_bitter",
+   "scottish_light"
+  ],
+  "requirements": [
+   {
+    "type": "yeast",
+    "in": [
+     "english_ale",
+     "london_ale_iii"
+    ],
+    "soft": true,
+    "hint": "英式艾尔酵母带来果酯"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "uk"
+    ],
+    "minShare": 0.6,
+    "soft": true,
+    "hint": "使用英国酒花"
+   }
+  ],
+  "aromas": [
+   "caramel",
+   "chocolate",
+   "toffee",
+   "plum",
+   "nut"
+  ],
+  "glass": "nonic",
+  "servingTemp": 12,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "它曾是英国矿工和工人的日常啤酒。",
+   "酒精度很低，颜色却很深。",
+   "焦糖、巧克力与坚果香，苦味轻。",
+   "“淡味”说的是酒花，而不是颜色。"
+  ],
+  "description": "深色淡味艾尔是英格兰中部工业区的传统啤酒，曾是工人下班后的解渴之选。酒精度低、颜色深，焦糖、巧克力与坚果麦芽香柔和，酒花几乎隐身。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 3.1
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.25
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.15
+    }
+   ],
+   "hops": [
+    {
+     "id": "fuggle",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "english_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 68,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 7,
+   "maturationDays": 5,
+   "carbonation": 1.8,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "british_brown_ale",
+  "name": "British Brown Ale",
+  "nameZh": "英式棕色艾尔",
+  "family": "british",
+  "group": "Mild & Brown",
+  "country": [
+   "uk"
+  ],
+  "region": "Newcastle",
+  "fermentation": "ale",
+  "abv": {
+   "min": 4.2,
+   "max": 5.4
+  },
+  "ibu": {
+   "min": 18,
+   "max": 30
+  },
+  "color": {
+   "min": 12,
+   "max": 22
+  },
+  "bitterness": 1.7,
+  "sweetness": 3.2,
+  "body": 3,
+  "malt": 3.8,
+  "caramel": 1.1,
+  "roast": 1.3,
+  "hopAroma": 0.3,
+  "fruity": 1.2,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.3,
+  "tags": [
+   "棕色",
+   "坚果",
+   "太妃",
+   "英式"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_60",
+   "chocolate_malt",
+   "brown_malt",
+   "fuggle",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "american_brown_ale",
+   "dark_mild",
+   "english_porter"
+  ],
+  "requirements": [
+   {
+    "type": "hopOrigin",
+    "in": [
+     "uk"
+    ],
+    "minShare": 0.6,
+    "soft": true,
+    "hint": "使用英国酒花"
+   },
+   {
+    "type": "yeast",
+    "in": [
+     "english_ale",
+     "london_ale_iii"
+    ],
+    "soft": true,
+    "hint": "英式艾尔酵母"
+   }
+  ],
+  "aromas": [
+   "nut",
+   "toffee",
+   "caramel",
+   "chocolate",
+   "biscuit"
+  ],
+  "glass": "nonic",
+  "servingTemp": 11,
+  "freshness": "normal",
+  "discovery": "open",
+  "clues": [
+   "纽卡斯尔让它闻名世界。",
+   "坚果与太妃糖是它的关键词。",
+   "苦味温和，麦芽主导。",
+   "比深色淡味艾尔更强一些。"
+  ],
+  "description": "英式棕色艾尔以纽卡斯尔棕色艾尔最为知名，麦芽主导，带有坚果、太妃与淡淡巧克力香。英式酵母的果酯和温和的酒花让它圆润易饮。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 4.2
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.3
+    },
+    {
+     "id": "brown_malt",
+     "kg": 0.2
+    },
+    {
+     "id": "chocolate_malt",
+     "kg": 0.08
+    }
+   ],
+   "hops": [
+    {
+     "id": "fuggle",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "east_kent_goldings",
+     "grams": 15,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "english_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 8,
+   "maturationDays": 6,
+   "carbonation": 2,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "scottish_light",
+  "name": "Scottish Light",
+  "nameZh": "苏格兰淡艾尔",
+  "family": "scottishIrish",
+  "group": "Scottish",
+  "country": [
+   "scotland"
+  ],
+  "region": "60 Shilling",
+  "fermentation": "ale",
+  "abv": {
+   "min": 2.5,
+   "max": 3.3
+  },
+  "ibu": {
+   "min": 10,
+   "max": 20
+  },
+  "color": {
+   "min": 14,
+   "max": 22
+  },
+  "bitterness": 1.3,
+  "sweetness": 1.9,
+  "body": 2.3,
+  "malt": 2.7,
+  "caramel": 1.3,
+  "roast": 0.9,
+  "hopAroma": 0,
+  "fruity": 0.3,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.5,
+  "tags": [
+   "60 先令",
+   "低酒精",
+   "麦芽",
+   "低温发酵"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_60",
+   "roasted_barley",
+   "east_kent_goldings",
+   "scottish_ale"
+  ],
+  "relatedStyles": [
+   "scottish_heavy",
+   "dark_mild",
+   "scottish_export"
+  ],
+  "requirements": [
+   {
+    "type": "yeast",
+    "in": [
+     "scottish_ale"
+    ],
+    "soft": true,
+    "hint": "使用苏格兰艾尔酵母"
+   },
+   {
+    "type": "fermentTemp",
+    "max": 17,
+    "soft": true,
+    "hint": "低温发酵，酯香很少"
+   }
+  ],
+  "aromas": [
+   "caramel",
+   "toffee",
+   "grain",
+   "biscuit",
+   "roast"
+  ],
+  "glass": "nonic",
+  "servingTemp": 11,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它来自苏格兰。",
+   "以前按每桶的税额叫作“60 先令”。",
+   "酒精度很低，但麦芽味不弱。",
+   "凉爽的发酵让它几乎没有果香。"
+  ],
+  "description": "苏格兰淡艾尔即“60 先令”艾尔，名字来自 19 世纪按桶征税的价格。酒精度很低，却以焦糖与饼干麦芽为主，低温发酵让它干净少酯，酒花极少。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 2.7
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.3
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.08
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 20,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "scottish_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 68,
+   "boilTime": 60,
+   "fermentTemp": 15,
+   "fermentDays": 10,
+   "maturationDays": 7,
+   "carbonation": 1.8,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "scottish_heavy",
+  "name": "Scottish Heavy",
+  "nameZh": "苏格兰重艾尔",
+  "family": "scottishIrish",
+  "group": "Scottish",
+  "country": [
+   "scotland"
+  ],
+  "region": "70 Shilling",
+  "fermentation": "ale",
+  "abv": {
+   "min": 3.2,
+   "max": 3.9
+  },
+  "ibu": {
+   "min": 10,
+   "max": 20
+  },
+  "color": {
+   "min": 12,
+   "max": 20
+  },
+  "bitterness": 1.3,
+  "sweetness": 2.3,
+  "body": 2.5,
+  "malt": 3.1,
+  "caramel": 1.2,
+  "roast": 0.8,
+  "hopAroma": 0,
+  "fruity": 0.3,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.5,
+  "tags": [
+   "70 先令",
+   "焦糖",
+   "麦芽",
+   "苏格兰"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_60",
+   "roasted_barley",
+   "east_kent_goldings",
+   "scottish_ale"
+  ],
+  "relatedStyles": [
+   "scottish_light",
+   "scottish_export",
+   "irish_red_ale"
+  ],
+  "requirements": [
+   {
+    "type": "yeast",
+    "in": [
+     "scottish_ale"
+    ],
+    "soft": true,
+    "hint": "使用苏格兰艾尔酵母"
+   },
+   {
+    "type": "fermentTemp",
+    "max": 17,
+    "soft": true,
+    "hint": "低温发酵，酯香很少"
+   }
+  ],
+  "aromas": [
+   "caramel",
+   "toffee",
+   "biscuit",
+   "grain",
+   "roast"
+  ],
+  "glass": "nonic",
+  "servingTemp": 11,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它来自苏格兰，旧称“70 先令”。",
+   "焦糖麦芽主导，苦味很低。",
+   "比苏格兰淡艾尔稍强。",
+   "一点烘烤大麦带来干爽的收尾。"
+  ],
+  "description": "苏格兰重艾尔即“70 先令”，是苏格兰酒馆的日常麦芽艾尔。焦糖与太妃香明显，少量烘烤大麦带来干爽收尾，酒花与酯香都很克制。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 3.3
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.3
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.07
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 22,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "scottish_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 68,
+   "boilTime": 60,
+   "fermentTemp": 15,
+   "fermentDays": 10,
+   "maturationDays": 7,
+   "carbonation": 1.9,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "scottish_export",
+  "name": "Scottish Export",
+  "nameZh": "苏格兰出口艾尔",
+  "family": "scottishIrish",
+  "group": "Scottish",
+  "country": [
+   "scotland"
+  ],
+  "region": "80 Shilling",
+  "fermentation": "ale",
+  "abv": {
+   "min": 3.9,
+   "max": 6
+  },
+  "ibu": {
+   "min": 15,
+   "max": 30
+  },
+  "color": {
+   "min": 12,
+   "max": 20
+  },
+  "bitterness": 1.5,
+  "sweetness": 3.2,
+  "body": 3,
+  "malt": 3.7,
+  "caramel": 1.2,
+  "roast": 0.7,
+  "hopAroma": 0,
+  "fruity": 0.3,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.5,
+  "tags": [
+   "80 先令",
+   "焦糖",
+   "麦芽",
+   "苏格兰"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_60",
+   "roasted_barley",
+   "east_kent_goldings",
+   "scottish_ale"
+  ],
+  "relatedStyles": [
+   "scottish_heavy",
+   "wee_heavy",
+   "irish_red_ale"
+  ],
+  "requirements": [
+   {
+    "type": "yeast",
+    "in": [
+     "scottish_ale"
+    ],
+    "soft": true,
+    "hint": "使用苏格兰艾尔酵母"
+   },
+   {
+    "type": "fermentTemp",
+    "max": 17,
+    "soft": true,
+    "hint": "低温发酵，酯香很少"
+   }
+  ],
+  "aromas": [
+   "caramel",
+   "toffee",
+   "biscuit",
+   "roast",
+   "grain"
+  ],
+  "glass": "nonic",
+  "servingTemp": 11,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它是苏格兰“80 先令”艾尔。",
+   "比 70 先令更强、更饱满。",
+   "焦糖与太妃香浓郁。",
+   "一丝烘烤大麦让收尾干爽。"
+  ],
+  "description": "苏格兰出口艾尔即“80 先令”，是苏格兰先令系列里最强的日常款。焦糖、太妃与饼干麦芽饱满，低温发酵让口感干净，微量烘烤大麦平衡甜感。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 4.5
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.35
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.07
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "scottish_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 68,
+   "boilTime": 60,
+   "fermentTemp": 15,
+   "fermentDays": 10,
+   "maturationDays": 10,
+   "carbonation": 2,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "wee_heavy",
+  "name": "Wee Heavy",
+  "nameZh": "苏格兰烈性艾尔",
+  "family": "scottishIrish",
+  "alsoIn": [
+   "strongAle"
+  ],
+  "group": "Scottish",
+  "country": [
+   "scotland"
+  ],
+  "region": "Edinburgh",
+  "fermentation": "ale",
+  "abv": {
+   "min": 6.5,
+   "max": 10
+  },
+  "ibu": {
+   "min": 17,
+   "max": 35
+  },
+  "color": {
+   "min": 14,
+   "max": 25
+  },
+  "bitterness": 1.3,
+  "sweetness": 5,
+  "body": 4.9,
+  "malt": 5,
+  "caramel": 1.5,
+  "roast": 0.4,
+  "hopAroma": 0.1,
+  "fruity": 0.4,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 1.9,
+  "haze": 0.5,
+  "tags": [
+   "烈性",
+   "焦糖",
+   "麦芽",
+   "冬季"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_60",
+   "crystal_120",
+   "roasted_barley",
+   "east_kent_goldings",
+   "scottish_ale"
+  ],
+  "relatedStyles": [
+   "scottish_export",
+   "english_barleywine",
+   "old_ale"
+  ],
+  "requirements": [
+   {
+    "type": "yeast",
+    "in": [
+     "scottish_ale"
+    ],
+    "soft": true,
+    "hint": "使用苏格兰艾尔酵母"
+   },
+   {
+    "type": "fermentTemp",
+    "max": 17,
+    "soft": true,
+    "hint": "低温发酵"
+   }
+  ],
+  "aromas": [
+   "caramel",
+   "toffee",
+   "plum",
+   "warming",
+   "dark_fruit"
+  ],
+  "glass": "snifter",
+  "servingTemp": 13,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "它来自苏格兰，名字里的“wee”可一点也不小。",
+   "浓郁的焦糖与太妃，像液体糖果。",
+   "苦味很低，酒精温热。",
+   "适合冬夜慢慢啜饮。"
+  ],
+  "description": "苏格兰烈性艾尔（Wee Heavy）是苏格兰麦芽艾尔的最强形态，长时间煮沸让麦汁焦糖化。浓郁的焦糖、太妃与深色水果香伴随温热酒精，苦味很低。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 8.2
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.35
+    },
+    {
+     "id": "crystal_120",
+     "kg": 0.15
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.05
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 45,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "scottish_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 68,
+   "boilTime": 90,
+   "fermentTemp": 16,
+   "fermentDays": 14,
+   "maturationDays": 45,
+   "carbonation": 2,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "irish_red_ale",
+  "name": "Irish Red Ale",
+  "nameZh": "爱尔兰红色艾尔",
+  "family": "scottishIrish",
+  "group": "Irish",
+  "country": [
+   "ireland"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 3.8,
+   "max": 5
+  },
+  "ibu": {
+   "min": 18,
+   "max": 28
+  },
+  "color": {
+   "min": 9,
+   "max": 18
+  },
+  "bitterness": 1.6,
+  "sweetness": 2.5,
+  "body": 2,
+  "malt": 2.6,
+  "caramel": 1.3,
+  "roast": 0.7,
+  "hopAroma": 0,
+  "fruity": 0.7,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 0,
+  "haze": 0.6,
+  "tags": [
+   "红色",
+   "焦糖",
+   "干爽收尾",
+   "爱尔兰"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_60",
+   "crystal_120",
+   "roasted_barley",
+   "east_kent_goldings",
+   "irish_ale"
+  ],
+  "relatedStyles": [
+   "scottish_export",
+   "american_amber_ale",
+   "irish_stout"
+  ],
+  "requirements": [
+   {
+    "type": "malt",
+    "in": [
+     "roasted_barley"
+    ],
+    "minShare": 0.01,
+    "soft": true,
+    "hint": "少量烘烤大麦带来红色与干爽收尾"
+   },
+   {
+    "type": "yeast",
+    "in": [
+     "irish_ale"
+    ],
+    "soft": true,
+    "hint": "使用爱尔兰艾尔酵母"
+   }
+  ],
+  "aromas": [
+   "caramel",
+   "toffee",
+   "biscuit",
+   "roast",
+   "grain"
+  ],
+  "glass": "nonic",
+  "servingTemp": 9,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它来自爱尔兰。",
+   "颜色是带红光的琥珀色。",
+   "一小撮烘烤大麦让它变红、收尾干爽。",
+   "焦糖甜感克制，苦味温和。"
+  ],
+  "description": "爱尔兰红色艾尔是爱尔兰的传统麦芽艾尔，少量烘烤大麦赋予它红宝石色泽和干爽收尾。焦糖与太妃香适中，酒花低调，易饮而带一丝烘烤。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 4
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.25
+    },
+    {
+     "id": "crystal_120",
+     "kg": 0.08
+    },
+    {
+     "id": "roasted_barley",
+     "kg": 0.06
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 30,
+     "use": "boil",
+     "time": 60
+    }
+   ],
+   "yeast": "irish_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 60,
+   "fermentTemp": 18,
+   "fermentDays": 8,
+   "maturationDays": 6,
+   "carbonation": 2.3,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "english_barleywine",
+  "name": "English Barleywine",
+  "nameZh": "英式大麦酒",
+  "family": "strongAle",
+  "alsoIn": [
+   "british"
+  ],
+  "group": "Barleywine",
+  "country": [
+   "uk"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 8,
+   "max": 12
+  },
+  "ibu": {
+   "min": 35,
+   "max": 70
+  },
+  "color": {
+   "min": 8,
+   "max": 22
+  },
+  "bitterness": 2.3,
+  "sweetness": 5,
+  "body": 5,
+  "malt": 5,
+  "caramel": 1.2,
+  "roast": 0,
+  "hopAroma": 0.6,
+  "fruity": 1.1,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 2.3,
+  "haze": 0.3,
+  "tags": [
+   "大麦酒",
+   "陈年",
+   "太妃",
+   "深色水果"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_60",
+   "east_kent_goldings",
+   "fuggle",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "american_barleywine",
+   "old_ale",
+   "wee_heavy"
+  ],
+  "requirements": [
+   {
+    "type": "hopOrigin",
+    "in": [
+     "uk"
+    ],
+    "minShare": 0.6,
+    "soft": true,
+    "hint": "使用英国酒花"
+   },
+   {
+    "type": "yeast",
+    "in": [
+     "english_ale",
+     "london_ale_iii"
+    ],
+    "soft": true,
+    "hint": "英式艾尔酵母"
+   }
+  ],
+  "aromas": [
+   "toffee",
+   "caramel",
+   "dark_fruit",
+   "warming",
+   "sherry"
+  ],
+  "glass": "snifter",
+  "servingTemp": 13,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "它的名字里有“酒”，像葡萄酒一样适合陈年。",
+   "酒精度很高。",
+   "太妃、焦糖与深色水果香层层叠叠。",
+   "英国酒花只负责平衡，不抢风头。"
+  ],
+  "description": "英式大麦酒是英国酒厂的“旗舰”烈性艾尔，以浓郁的麦芽、太妃与深色水果香著称。酒精温热、口感厚实，随陈年会发展出雪莉般的复杂风味。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 9
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.45
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 90,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "fuggle",
+     "grams": 40,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "english_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 18,
+   "fermentDays": 21,
+   "maturationDays": 90,
+   "carbonation": 1.9,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "american_barleywine",
+  "name": "American Barleywine",
+  "nameZh": "美式大麦酒",
+  "family": "strongAle",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "Barleywine",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 8.5,
+   "max": 12
+  },
+  "ibu": {
+   "min": 60,
+   "max": 110
+  },
+  "color": {
+   "min": 9,
+   "max": 18
+  },
+  "bitterness": 3.5,
+  "sweetness": 4.3,
+  "body": 3.6,
+  "malt": 4,
+  "caramel": 1,
+  "roast": 0,
+  "hopAroma": 3,
+  "fruity": 0.8,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 2.6,
+  "haze": 1,
+  "tags": [
+   "大麦酒",
+   "酒花",
+   "烈性",
+   "陈年"
+  ],
+  "ingredients": [
+   "pale_malt",
+   "crystal_40",
+   "columbus",
+   "centennial",
+   "chinook",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "english_barleywine",
+   "imperial_ipa",
+   "wheatwine"
+  ],
+  "requirements": [
+   {
+    "type": "hopOrigin",
+    "in": [
+     "usa"
+    ],
+    "minShare": 0.6,
+    "soft": true,
+    "hint": "使用美国酒花"
+   },
+   {
+    "type": "yeastType",
+    "in": [
+     "ale"
+    ],
+    "soft": true,
+    "hint": "干净的美式艾尔酵母"
+   }
+  ],
+  "aromas": [
+   "caramel",
+   "pine",
+   "resin",
+   "citrus",
+   "warming"
+  ],
+  "glass": "snifter",
+  "servingTemp": 13,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "它是大麦酒的美国版本。",
+   "酒精很高，苦味更凶。",
+   "焦糖麦芽与松脂酒花对峙。",
+   "年轻时酒花奔放，陈年后渐趋圆润。"
+  ],
+  "description": "美式大麦酒在英式大麦酒的基础上加入大量美式酒花，苦味与酒花香明显更强。焦糖麦芽与温热酒精支撑起松脂柑橘香，适合陈年。",
+  "example": {
+   "malts": [
+    {
+     "id": "pale_malt",
+     "kg": 8.4
+    },
+    {
+     "id": "crystal_40",
+     "kg": 0.5
+    }
+   ],
+   "hops": [
+    {
+     "id": "columbus",
+     "grams": 45,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "chinook",
+     "grams": 25,
+     "use": "boil",
+     "time": 20
+    },
+    {
+     "id": "centennial",
+     "grams": 40,
+     "use": "boil",
+     "time": 5
+    },
+    {
+     "id": "centennial",
+     "grams": 40,
+     "use": "dryHop"
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 18,
+   "fermentDays": 21,
+   "maturationDays": 60,
+   "carbonation": 2.1,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "old_ale",
+  "name": "Old Ale",
+  "nameZh": "老艾尔",
+  "family": "strongAle",
+  "alsoIn": [
+   "british"
+  ],
+  "group": "English Strong",
+  "country": [
+   "uk"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 6,
+   "max": 9
+  },
+  "ibu": {
+   "min": 30,
+   "max": 60
+  },
+  "color": {
+   "min": 10,
+   "max": 22
+  },
+  "bitterness": 2.5,
+  "sweetness": 4.7,
+  "body": 3.8,
+  "malt": 4.7,
+  "caramel": 2.1,
+  "roast": 0,
+  "hopAroma": 0.4,
+  "fruity": 1.1,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 1.5,
+  "alcohol": 1.1,
+  "haze": 0.3,
+  "weights": {
+   "wood": 1.5
+  },
+  "tags": [
+   "陈年",
+   "桶陈",
+   "深色水果",
+   "糖蜜"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_60",
+   "brown_sugar",
+   "oak_chips",
+   "east_kent_goldings",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "english_barleywine",
+   "british_strong_ale",
+   "wee_heavy"
+  ],
+  "requirements": [
+   {
+    "type": "adjunct",
+    "in": [
+     "oak_chips"
+    ],
+    "soft": true,
+    "hint": "传统上在木质大桶中长期存放，加一点橡木片模拟"
+   },
+   {
+    "type": "hopOrigin",
+    "in": [
+     "uk"
+    ],
+    "minShare": 0.6,
+    "soft": true,
+    "hint": "使用英国酒花"
+   }
+  ],
+  "aromas": [
+   "dark_fruit",
+   "toffee",
+   "oak",
+   "molasses",
+   "sherry"
+  ],
+  "glass": "snifter",
+  "servingTemp": 12,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "它的名字说明了一切：需要时间。",
+   "传统上在大木桶里存放很久。",
+   "深色水果、糖蜜与一丝木香。",
+   "比普通英式艾尔强得多，但不及大麦酒。"
+  ],
+  "description": "老艾尔是英国传统的陈年艾尔，过去在大木桶中存放数月乃至数年后与新酒勾兑。深色水果、太妃、糖蜜与淡淡木香交织，酒体饱满温润。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 6
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.45
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 75,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "fuggle",
+     "grams": 25,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "english_ale",
+   "water": "balanced",
+   "adjuncts": [
+    {
+     "id": "brown_sugar",
+     "grams": 400
+    },
+    {
+     "id": "oak_chips",
+     "grams": 50,
+     "stage": "secondary"
+    }
+   ],
+   "mashTemp": 67,
+   "boilTime": 90,
+   "fermentTemp": 18,
+   "fermentDays": 14,
+   "maturationDays": 120,
+   "carbonation": 1.9,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "british_strong_ale",
+  "name": "British Strong Ale",
+  "nameZh": "英式烈性艾尔",
+  "family": "strongAle",
+  "alsoIn": [
+   "british"
+  ],
+  "group": "English Strong",
+  "country": [
+   "uk"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 5.8,
+   "max": 8
+  },
+  "ibu": {
+   "min": 30,
+   "max": 60
+  },
+  "color": {
+   "min": 8,
+   "max": 22
+  },
+  "bitterness": 2.4,
+  "sweetness": 4.7,
+  "body": 3.8,
+  "malt": 4.7,
+  "caramel": 1.8,
+  "roast": 0,
+  "hopAroma": 0.4,
+  "fruity": 1.2,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 1,
+  "haze": 0.3,
+  "tags": [
+   "烈性",
+   "太妃",
+   "饱满",
+   "英式"
+  ],
+  "ingredients": [
+   "maris_otter",
+   "crystal_60",
+   "brown_sugar",
+   "east_kent_goldings",
+   "fuggle",
+   "english_ale"
+  ],
+  "relatedStyles": [
+   "strong_bitter",
+   "old_ale",
+   "english_barleywine"
+  ],
+  "requirements": [
+   {
+    "type": "hopOrigin",
+    "in": [
+     "uk"
+    ],
+    "minShare": 0.6,
+    "soft": true,
+    "hint": "使用英国酒花"
+   },
+   {
+    "type": "yeast",
+    "in": [
+     "english_ale",
+     "london_ale_iii"
+    ],
+    "soft": true,
+    "hint": "英式艾尔酵母"
+   }
+  ],
+  "aromas": [
+   "toffee",
+   "caramel",
+   "dark_fruit",
+   "biscuit",
+   "warming"
+  ],
+  "glass": "tulip",
+  "servingTemp": 12,
+  "freshness": "normal",
+  "discovery": "clue",
+  "clues": [
+   "它介于浓烈苦啤与大麦酒之间。",
+   "麦芽饱满，太妃与焦糖香浓郁。",
+   "不需要长期陈放。",
+   "英式酵母带来深色水果般的酯香。"
+  ],
+  "description": "英式烈性艾尔是英国酒厂季节性或纪念性的强艾尔，比浓烈苦啤更强、比大麦酒更易饮。太妃、焦糖与深色水果香丰富，酒精温热，苦味平衡。",
+  "example": {
+   "malts": [
+    {
+     "id": "maris_otter",
+     "kg": 6.1
+    },
+    {
+     "id": "crystal_60",
+     "kg": 0.45
+    }
+   ],
+   "hops": [
+    {
+     "id": "east_kent_goldings",
+     "grams": 70,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "fuggle",
+     "grams": 25,
+     "use": "boil",
+     "time": 15
+    }
+   ],
+   "yeast": "english_ale",
+   "water": "balanced",
+   "adjuncts": [
+    {
+     "id": "brown_sugar",
+     "grams": 250
+    }
+   ],
+   "mashTemp": 67,
+   "boilTime": 60,
+   "fermentTemp": 19,
+   "fermentDays": 12,
+   "maturationDays": 21,
+   "carbonation": 2.1,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ },
+ {
+  "id": "wheatwine",
+  "name": "Wheatwine",
+  "nameZh": "小麦酒",
+  "family": "strongAle",
+  "alsoIn": [
+   "american"
+  ],
+  "group": "Barleywine",
+  "country": [
+   "usa"
+  ],
+  "fermentation": "ale",
+  "abv": {
+   "min": 8.5,
+   "max": 12
+  },
+  "ibu": {
+   "min": 30,
+   "max": 60
+  },
+  "color": {
+   "min": 6,
+   "max": 14
+  },
+  "bitterness": 2.7,
+  "sweetness": 3.7,
+  "body": 4.5,
+  "malt": 3,
+  "caramel": 0.6,
+  "roast": 0,
+  "hopAroma": 0.9,
+  "fruity": 0.5,
+  "spicy": 0,
+  "acidity": 0,
+  "funk": 0,
+  "smoke": 0,
+  "wood": 0,
+  "alcohol": 2.6,
+  "haze": 2.8,
+  "tags": [
+   "小麦",
+   "烈性",
+   "面包",
+   "陈年"
+  ],
+  "ingredients": [
+   "wheat_malt",
+   "pale_malt",
+   "crystal_40",
+   "centennial",
+   "cascade",
+   "american_ale"
+  ],
+  "relatedStyles": [
+   "american_barleywine",
+   "weizenbock",
+   "english_barleywine"
+  ],
+  "requirements": [
+   {
+    "type": "maltShare",
+    "category": "wheat",
+    "min": 0.45,
+    "hint": "小麦麦芽至少占 45%"
+   },
+   {
+    "type": "yeastType",
+    "in": [
+     "ale"
+    ],
+    "hint": "用干净的美式艾尔酵母——不是德式小麦酵母"
+   }
+  ],
+  "aromas": [
+   "bread",
+   "honey",
+   "caramel",
+   "citrus",
+   "warming"
+  ],
+  "glass": "snifter",
+  "servingTemp": 12,
+  "freshness": "aging",
+  "discovery": "clue",
+  "clues": [
+   "它是大麦酒的小麦兄弟。",
+   "一半以上的谷物是小麦。",
+   "面包、蜂蜜与焦糖香，酒精温热。",
+   "诞生于美国精酿圈。"
+  ],
+  "description": "小麦酒是美国精酿酒厂在 1980 年代末创造的风格，用一半以上的小麦麦芽酿造大麦酒强度的烈性艾尔。面包、蜂蜜与焦糖香柔和，口感比大麦酒更柔软圆润。",
+  "example": {
+   "malts": [
+    {
+     "id": "wheat_malt",
+     "kg": 4.8
+    },
+    {
+     "id": "pale_malt",
+     "kg": 3.5
+    },
+    {
+     "id": "crystal_40",
+     "kg": 0.3
+    }
+   ],
+   "hops": [
+    {
+     "id": "centennial",
+     "grams": 45,
+     "use": "boil",
+     "time": 60
+    },
+    {
+     "id": "cascade",
+     "grams": 30,
+     "use": "boil",
+     "time": 10
+    }
+   ],
+   "yeast": "american_ale",
+   "water": "balanced",
+   "adjuncts": [],
+   "mashTemp": 66,
+   "boilTime": 90,
+   "fermentTemp": 18,
+   "fermentDays": 21,
+   "maturationDays": 60,
+   "carbonation": 2.2,
+   "processes": []
+  },
+  "dbVersion": "2026.1"
+ }
+]

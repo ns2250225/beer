@@ -1,0 +1,72 @@
+[
+ {
+  "id": "shaker",
+  "nameZh": "美式品脱杯",
+  "price": 0,
+  "volume": 0.45,
+  "unlock": "start"
+ },
+ {
+  "id": "nonic",
+  "nameZh": "英式品脱杯",
+  "price": 60,
+  "volume": 0.5,
+  "unlock": "start"
+ },
+ {
+  "id": "mug",
+  "nameZh": "扎啤杯",
+  "price": 80,
+  "volume": 0.5,
+  "unlock": "start"
+ },
+ {
+  "id": "pilsner",
+  "nameZh": "皮尔森杯",
+  "price": 90,
+  "volume": 0.4,
+  "unlock": "start"
+ },
+ {
+  "id": "stange",
+  "nameZh": "柱杯",
+  "price": 90,
+  "volume": 0.2,
+  "unlock": "region:germany"
+ },
+ {
+  "id": "weizen",
+  "nameZh": "小麦杯",
+  "price": 100,
+  "volume": 0.5,
+  "unlock": "start"
+ },
+ {
+  "id": "tulip",
+  "nameZh": "郁金香杯",
+  "price": 140,
+  "volume": 0.33,
+  "unlock": "start"
+ },
+ {
+  "id": "snifter",
+  "nameZh": "白兰地杯",
+  "price": 160,
+  "volume": 0.25,
+  "unlock": "start"
+ },
+ {
+  "id": "chalice",
+  "nameZh": "圣杯",
+  "price": 180,
+  "volume": 0.33,
+  "unlock": "region:belgium"
+ },
+ {
+  "id": "teku",
+  "nameZh": "Teku 品鉴杯",
+  "price": 200,
+  "volume": 0.3,
+  "unlock": "rep:3"
+ }
+]
